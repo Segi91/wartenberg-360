@@ -127,7 +127,7 @@ async function main(){
  placeClick({target:{id:'',closest:()=>routeBtn}});
  const routesHtml=placesPage.elements['#content'].innerHTML;
  assert(routesHtml.includes('Sonnenweg der Poesie'),'Verified official hiking route absent');
- assert(!routesHtml.includes('Karten-Suche'),'Hiking routes without verified entry coordinates must not offer misleading map links');
+ assert(!routesHtml.includes('href="https://www.google.com/maps/search/'),'Hiking routes without verified entry coordinates must not offer misleading map links');
 
  const remaining=['events','waste','service','weather','settings'];
  for(const page of remaining){
