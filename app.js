@@ -7,7 +7,7 @@ let news=[{date:'2026-10-05',title:'Rathaus und Bauhof am 16. Oktober geschlosse
 let eventsUpdatedAt='2026-10-11',eventsStatus='Redaktionelle Vorschau';
 const newsSeed=news.slice();let newsUpdatedAt=null,newsSources=[],newsStatus='fallback',newsSource='Alle';
 const NEWS_TOPICS=['Alle Themen','Rathaus & Politik','Kultur & Musik','Gemeinschaft & Ehrenamt','Familie & Soziales','Natur & Umwelt','Verkehr & Bauen','Blaulicht','Sport','Vogelsberg'];
-let newsTopicFilter='Alle Themen',newsLimit=18,clubCategory='Alle',placeCategory='Alle',newsSort=read('newsSort','newest'),readerPreviousFocus=null;
+let newsTopicFilter='Alle Themen',newsLimit=18,clubCategory='Alle',placeCategory='Alle',eventCategory='Alle',newsSort=read('newsSort','newest'),readerPreviousFocus=null;
 
 let events=[['2026-10-15','2026-10-17','Kirmes in Angersbach','Angersbach','Kultur','Kirmesclub Angersbach'],['2026-10-24',null,'Liederabend zum 135-jährigen Bestehen des MGV','Landenhausen','Musik','MGV Landenhausen'],['2026-11-14',null,'Beutelchesessen','Landenhausen','Gemeinschaft','VdK Landenhausen'],['2026-11-21',null,'Jahresabschlussessen','Angersbach','Gemeinschaft','Obst- und Gartenbauverein Angersbach'],['2026-11-28',null,'Adventsfeier','Landenhausen','Gemeinschaft','VdK Landenhausen'],['2026-11-28',null,'Adventskranzwickeln','Landenhausen','Kultur','Obst- und Gartenbauverein Landenhausen'],['2026-12-04',null,'Weihnachtsfeier','Landenhausen','Gemeinschaft','Landfrauenverein Landenhausen'],['2026-12-12',null,'Weihnachtskonzert','Landenhausen','Musik','MGV und Musikverein Landenhausen']].map((a,i)=>({id:'e'+i,start:a[0],end:a[1]||a[0],title:a[2],location:a[3],category:a[4],organizer:a[5],source:sources.events}));
 const wasteTypes={Restmüll:{color:'#6c747b',bg:'#e9edf0',icon:'▣'},Bio:{color:'#836043',bg:'#f4e8db',icon:'♣'},'Gelbe Tonne':{color:'#ad8826',bg:'#faf0c5',icon:'▤'},Papier:{color:'#417bad',bg:'#dfedf9',icon:'▥'}};
@@ -22,7 +22,7 @@ if(!settings || typeof settings!=='object' || Array.isArray(settings)) settings=
 if(!Array.isArray(fav)) fav=[];
 if(!weatherCache || typeof weatherCache!=='object') weatherCache=null;
 function applyTheme(){document.body.classList.toggle('dark',settings.theme==='dark'||(settings.theme==='system'&&window.matchMedia?.('(prefers-color-scheme:dark)').matches))}applyTheme();
-function go(page){if(!pages.some(p=>p[0]===page))page='home';current=page;filter=page==='news'?'Wartenberg':'Alle';if(page==='clubs')clubCategory='Alle';if(page==='places')placeCategory='Alle';if(page==='news'){newsTopicFilter='Alle Themen';newsLimit=18;}search='';onlyFavorites=false;monthSelected=null;location.hash=page;render();window.scrollTo({top:0,behavior:'instant'})}
+function go(page){if(!pages.some(p=>p[0]===page))page='home';current=page;filter=page==='news'?'Wartenberg':'Alle';if(page==='clubs')clubCategory='Alle';if(page==='events')eventCategory='Alle';if(page==='places')placeCategory='Alle';if(page==='news'){newsTopicFilter='Alle Themen';newsLimit=18;}search='';onlyFavorites=false;monthSelected=null;location.hash=page;render();window.scrollTo({top:0,behavior:'instant'})}
 const button=(label,p='home',kind='primary-btn')=>`<button class="${kind}" data-nav="${p}">${esc(label)} <span>→</span></button>`;
 const link=(href,label)=>`<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(label)} ↗</a>`;
 function sectionTitle(title,linkPage=null){return `<div class="section-head"><h2 class="section-title">${esc(title)}</h2>${linkPage?`<button class="link-button" data-nav="${linkPage}">Alle anzeigen →</button>`:''}</div>`}
@@ -102,8 +102,8 @@ function nCardV2(n) {
   const sourceLink=link(safeUrl,"Originalquelle ↗");
   return `<article class="card news-card v2-news-card" ${canRead?`data-reader-card="news" data-reader-id="${esc(n.id)}"`:""}>
       <div class="news-meta-row"><span class="soft-tag topic-pill">${esc(topic)}</span><span class="news-date">${fmt(n.date)}</span></div>
-      <div class="v2-article-context"><span>⌾ ${esc(where)}</span><span class="dot-separator">•</span><span>${esc(mark)}</span></div>
-      <h3>${esc(n.title)}</h3>${n.desc && canRead?`<p>${esc(n.desc)}</p>`:""}
+      <div class="v2-article-context"><span>⌾ ${esc(where)}</span><span class="dot-separator">•</span><span>${n.via==='Amtliche Website'?'Amtliche Mitteilung':esc(mark)}</span></div>
+      <h3>${esc(n.title)}</h3>${n.desc && canRead?`<p>${esc(n.desc)}</p>`:n.sourceId==='gemeinde' && n.officialExcerpt?`<p class="v22-official-excerpt">${esc(n.officialExcerpt)}</p>`:""}
       <div class="source-footer"><span>${esc(by)}${paywall}</span>
         <div class="v2-news-actions">${canRead?`<button type="button" class="v2-read-button" data-reader="news" data-reader-id="${esc(n.id)}" aria-label="Zusammenfassung in der App lesen">Kurzfassung lesen</button>`:""}<button class="star-btn ${isFav?"active":""}" data-fav="${esc(n.id)}" title="${isFav?"Merkliste: entfernen":"Für später merken"}" aria-label="${isFav?"Nachricht aus Merkliste entfernen":"Nachricht merken"}">${isFav?"★":"☆"}</button>${sourceLink}</div>
       </div>
@@ -225,6 +225,54 @@ function readerNews(n){
  ${textPieces.length?'<p class="reader-small-print">Dies ist eine eigenständig verfasste Kurzfassung, nicht der Original- oder Volltext des Artikels. Für alle Details bitte die Originalquelle öffnen.</p>':""}</div>
  <div class="reader-sourcebox"><div><strong>Originalquelle: ${esc(sourceName)}</strong><p>Der vollständige Text und gegebenenfalls Originalfotos stehen beim Herausgeber. Manche Artikel sind nur mit Abonnement lesbar.</p></div>${link(n.source,"Originalartikel lesen")}</div>`;
 }
+function normalizedClubName(value){
+ return String(value||'').toLocaleLowerCase('de')
+  .replace(/ß/g,'ss').replace(/ä/g,'ae').replace(/ö/g,'oe').replace(/ü/g,'ue')
+  .replace(/[^a-z0-9]/g,'');
+}
+const clubAliasRules={
+ 'Kirmesclub Angersbach':['kirmesclub angersbach'],
+ 'Kulturverein Landenhausen e.V.':['kulturverein landenhausen'],
+ 'Männergesangverein 1891 Landenhausen e.V.':['männergesangsverein landenhausen','männergesangverein landenhausen','mgv landenhausen'],
+ 'Musikverein Landenhausen':['musikverein landenhausen'],
+ 'VdK Ortsverband Landenhausen':['vdk landenhausen','vdk-ortsverband landenhausen'],
+ 'VdK Ortsverband Angersbach':['vdk angersbach'],
+ 'Sportgemeinschaft Landenhausen':['sportgemeinschaft landenhausen','sg landenhausen'],
+ 'Turnverein Angersbach (TVA)':['turnverein angersbach','tv angersbach'],
+ 'Obst- und Gartenbauverein Angersbach':['obst- und gartenbauverein angersbach'],
+ 'Obst- und Gartenbauverein Landenhausen':['obst- und gartenbauverein landenhausen'],
+ 'Landfrauenverein Landenhausen':['landfrauenverein landenhausen'],
+ 'Förderverein Schwimmbad Landenhausen e.V.':['förderverein schwimmbad landenhausen','förderverein für das freibad landenhausen','freibad landenhausen gegründet'],
+ 'Freiwillige Feuerwehr Landenhausen':['freiwillige feuerwehr landenhausen'],
+ 'Freiwillige Feuerwehr Angersbach':['freiwillige feuerwehr angersbach'],
+ 'Schützenverein Angersbach':['schützenverein angersbach'],
+ 'Fördergemeinschaft zur Rettung der Burgruine Wartenberg':['fördergemeinschaft burgruine wartenberg','fördergemeinschaft zur rettung der burgruine'],
+ 'SG Landenhausen – Abteilung Schützen':['schützenabteilung sportgemeinschaft landenhausen'],
+ 'SG Landenhausen – Abteilung Fußball':['sg landenhausen','sportgemeinschaft landenhausen fußball'],
+ 'SG Landenhausen – Abteilung Tischtennis':['sportgemeinschaft landenhausen tischtennis'],
+ 'TV Angersbach – Abteilung Tischtennis':['tv angersbach tischtennis']
+};
+function clubAliases(c){
+ const aliases=clubAliasRules[c.title]||[];
+ const generic=c.title.replace(/\s+e\.?\s*v\.?$/i,'').replace(/\s*\([^)]*\)/g,'').replace(/\s*[–-]\s*Abteilung\s+.+$/i,'').trim();
+ if(generic.length>12)aliases.push(generic);
+ return [...new Set(aliases.map(normalizedClubName).filter(x=>x.length>=10))];
+}
+function relatedClubEvents(c){
+ const aliases=clubAliases(c);
+ return events.filter(e=>e.end>=dayKey() && aliases.some(a=>{
+   const org=normalizedClubName(e.organizer),title=normalizedClubName(e.title);
+   return org.includes(a) || (a.length>13 && title.includes(a));
+ })).sort((a,b)=>a.start.localeCompare(b.start)).slice(0,5);
+}
+function relatedClubNews(c){
+ const aliases=clubAliases(c);
+ return news.filter(n=>n.locality==='Wartenberg' && aliases.some(a=>{
+   const title=normalizedClubName(n.title);
+   return title.includes(a);
+ })).sort((a,b)=>String(b.publishedAt||b.date).localeCompare(String(a.publishedAt||a.date))).slice(0,4);
+}
+
 function clubDescription(c){
  const category=c.category||"Gemeinschaft";
  const descriptions={
@@ -243,14 +291,15 @@ function clubDescription(c){
 }
 function readerClub(c){
  const website=c.website&&/^https:\/\//.test(c.website)?c.website:null;
+ const related=relatedClubEvents(c),articles=relatedClubNews(c);
  return `<div class="reader-eyebrow">Vereinsverzeichnis · ${esc(c.location)}</div>
  <h1 id="reader-title">${esc(c.title)}</h1>
  <div class="reader-byline"><span>⌾ ${esc(c.location)}</span><span>♧ ${esc(c.category)}</span></div>
- <div class="reader-illustration" aria-label="Symbolbild zum Verein"><span aria-hidden="true">🤝</span><small>Vereinsleben in Wartenberg</small></div>
- <div class="reader-text"><h2>Über diese Gruppe</h2><p>${esc(clubDescription(c))}</p>
- <p><strong>Ortsteil:</strong> ${esc(c.location)}<br><strong>Bereich:</strong> ${esc(c.category)}</p>
- <p>Der Verein beziehungsweise die Abteilung ist in der örtlichen Vereinsübersicht geführt oder wurde zusätzlich anhand einer Gemeindemitteilung ergänzt. Aktuelle Trainingszeiten, Termine und Kontaktdaten liegen nicht für alle Gruppen maschinenlesbar vor.</p></div>
- <div class="reader-sourcebox"><div><strong>Mehr zum Verein</strong><p>Falls vorhanden, führt die Vereinswebsite direkt zu Angeboten, Ansprechpartnern und aktuellen Informationen.</p></div>${website?link(website,"Vereinswebsite öffnen"):link(c.source,"Offizielle Vereinseinträge")}</div>`;
+ <div class="reader-text"><h2>Verein und Aktivitäten</h2><p>${esc(clubDescription(c))}</p>
+ <div class="v22-club-quickfacts"><div><strong>Ortsteil</strong><span>${esc(c.location)}</span></div><div><strong>Bereich</strong><span>${esc(c.category)}</span></div><div><strong>Kommende Termine</strong><span>${related.length}</span></div></div></div>
+ ${related.length?`<section class="v22-reader-related"><h2>Termine des Vereins</h2><div class="v22-related-list">${related.map(e=>`<button type="button" data-reader="event" data-reader-id="${esc(e.id)}"><span class="v22-related-date">${fmt(e.start,{day:'2-digit',month:'short'})}</span><span><strong>${esc(e.title)}</strong><small>${esc(e.organizer)}</small></span><span>›</span></button>`).join('')}</div></section>`:`<p class="v22-reader-noevents">Aktuell sind keine weiteren Termine dieses Vereins im Gemeindekalender erfasst.</p>`}
+ ${articles.length?`<section class="v22-reader-related"><h2>Nachrichten zum Verein</h2><div class="v22-related-list">${articles.map(n=>`<div class="v22-related-news"><span class="v22-related-date">${fmt(n.date,{day:'2-digit',month:'short'})}</span><span><strong>${esc(n.title)}</strong><small>${esc(n.sourceName||'Originalquelle')}</small></span>${hasReadableNews(n)?`<button type="button" data-reader="news" data-reader-id="${esc(n.id)}">Lesen</button>`:link(n.source,'Quelle ↗')}</div>`).join('')}</div></section>`:''}
+ <div class="reader-sourcebox"><div><strong>Kontakte und weitere Informationen</strong><p>Verbindliche Ansprechpartner, Angebote und Trainingszeiten stehen beim Verein oder in der offiziellen Vereinsübersicht.</p></div><div class="v22-club-links">${website?link(website,"Vereinswebsite ↗"):""}${link(c.source||sources.clubs,"Gemeindeverzeichnis ↗")}</div></div>`;
 }
 function readerEvent(e){
  const period=e.end && e.end!==e.start?fmt(e.start)+" bis "+fmt(e.end):fmt(e.start);
@@ -298,11 +347,12 @@ function eCard(e) {
  <button class="star-btn ${f?'active':''}" data-fav="${esc(e.id)}" aria-label="${f?'Favorit entfernen':'Als Favorit speichern'}" title="Favorit">${f?'★':'☆'}</button></div></article>`;
 }
 function cCard(c) {
- const f=fav.includes(c.id);
+ const f=fav.includes(c.id),next=relatedClubEvents(c)[0];
  return `<article class="card club-card" data-reader-card="club" data-reader-id="${esc(c.id)}">
  <div class="club-top"><div class="club-logo">${c.category==='Feuerwehr'?'✚':c.category==='Musik'?'♫':c.category==='Natur'?'♧':'✦'}</div>
  <button class="star-btn ${f?'active':''}" data-fav="${esc(c.id)}" title="Favorit" aria-label="Verein merken">${f?'★':'☆'}</button></div>
  <h3>${esc(c.title)}</h3><div class="small-meta">⌾ ${esc(c.location)} · ${esc(c.category)}</div>
+ ${next?`<div class="v22-club-next"><strong>Nächster Termin</strong><span>${fmt(next.start,{day:'numeric',month:'short'})} · ${esc(next.title)}</span></div>`:""}
  <div class="source-mention v2-club-actions"><button type="button" class="v2-read-button" data-reader="club" data-reader-id="${esc(c.id)}">Verein ansehen</button>
  ${c.website?link(c.website,'Website ↗'):''}</div></article>`;
 }
@@ -325,14 +375,14 @@ async function updateEvents(){
   if(cached&&Array.isArray(cached.items)&&cached.items.length){events=validEventData(cached);eventsUpdatedAt=cached.checkedAt||'unbekannt';eventsStatus='Zwischengespeichert';}
   else eventsStatus='Redaktionelle Vorschau';
  }
- if(current==='home'||current==='events')render();
+ if(current==='home'||current==='events'||current==='clubs')render();
 }
 const views={home:viewHome,news:viewNews,events:viewEvents,waste:viewWaste,clubs:viewClubs,places:viewPlaces,service:viewService,weather:viewWeather,settings:viewSettings};
 function render(){const nav=pages.map(p=>`<button type="button" class="nav-link ${current===p[0]?'active':''}" data-nav="${p[0]}"><span style="font-size:20px;line-height:1;width:21px;text-align:center">${p[2]}</span>${esc(p[1])}</button>`).join('');$('#desktop-nav').innerHTML=nav;const mobile=['home','news','events','waste','clubs'].map(x=>pages.find(p=>p[0]===x)).map(p=>`<button class="${current===p[0]?'active':''}" data-nav="${p[0]}"><span style="font-size:21px">${p[2]}</span><span>${p[0]==='events'?'Termine':p[0]==='waste'?'Abfall':esc(p[1])}</span></button>`).join('');$('#mobile-nav').innerHTML=mobile;$('#crumb').textContent=pages.find(p=>p[0]===current)?.[1]||'Übersicht';$('#header-day').textContent=new Date().toLocaleDateString('de-DE',{weekday:'long',day:'numeric',month:'long'});try{$('#content').innerHTML=views[current]();}catch(err){console.error('Wartenberg 360: Ansicht konnte nicht gerendert werden',err);$('#content').innerHTML='<div class="card card-pad"><h2>Inhalte vorübergehend nicht verfügbar</h2><p>Bitte die Seite neu laden oder über die Navigation eine andere Rubrik öffnen.</p></div>';}}
 function toast(msg){const el=$('#toast');el.textContent=msg;el.classList.add('show');clearTimeout(window.__toastTimer);window.__toastTimer=setTimeout(()=>el.classList.remove('show'),2500)}
 function ics(e){const dt=s=>s.replaceAll('-','');const next=s=>{const d=dateObj(s);d.setDate(d.getDate()+1);return d.getFullYear()+String(d.getMonth()+1).padStart(2,'0')+String(d.getDate()).padStart(2,'0')};const clean=s=>String(s).replace(/[\\;,\n]/g,' ').trim();const text=['BEGIN:VCALENDAR','VERSION:2.0','PRODID:-//Wartenberg 360//DE','BEGIN:VEVENT','UID:w360-'+e.id+'@wartenberg360','DTSTAMP:'+new Date().toISOString().replace(/[-:]/g,'').replace(/\.\d{3}/,'').replace('Z','Z'),'DTSTART;VALUE=DATE:'+dt(e.start),'DTEND;VALUE=DATE:'+next(e.end),'SUMMARY:'+clean(e.title),'LOCATION:'+clean(e.location+', 36367 Wartenberg'),'DESCRIPTION:'+clean('Uhrzeit nicht veröffentlicht. Veranstalter: '+e.organizer+'. Quelle: '+e.source),'URL:'+e.source,'END:VEVENT','END:VCALENDAR'].join('\r\n');const url=URL.createObjectURL(new Blob([text],{type:'text/calendar;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download='Wartenberg360-'+e.start+'.ics';a.click();setTimeout(()=>URL.revokeObjectURL(url),3000);toast('Kalenderdatei heruntergeladen')}
 async function updateWeather(){const loc=settings.location==='Landenhausen'?[50.607,9.472]:[50.627,9.445];try{const url=`https://api.open-meteo.com/v1/forecast?latitude=${loc[0]}&longitude=${loc[1]}&current=temperature_2m,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&forecast_days=7&timezone=Europe%2FBerlin`;const response=await fetch(url,{cache:'no-store',signal:AbortSignal.timeout(12000)});if(!response.ok)throw Error('API');const data=await response.json();if(!Number.isFinite(data.current?.temperature_2m)||!Array.isArray(data.daily?.time))throw Error('Daten');weather=data;weatherCache={data,location:settings.location,updated:new Date().toISOString()};save('weather',weatherCache);if(current==='home'||current==='weather')render()}catch{weather=null;if(current==='home'||current==='weather')render();}}
-async function updateNews(){try{const response=await fetch('./news.json?v='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(12000)});if(!response.ok)throw Error('News-Serverantwort');const obj=await response.json();if(!obj||!Array.isArray(obj.items))throw Error('News-Format');const valid=normalizeClientNews(obj);if(valid.length){news=valid;newsUpdatedAt=obj.updatedAt||null;newsSources=Array.isArray(obj.sources)?obj.sources:[];newsStatus='live';save('newsCache',{items:valid,updatedAt:newsUpdatedAt,sources:newsSources});}else{news=newsSeed;newsUpdatedAt=null;newsSources=Array.isArray(obj.sources)?obj.sources:[];newsStatus='fallback';}if(current==='home'||current==='news')render();}catch{const cached=read('newsCache',null);if(cached&&Array.isArray(cached.items)&&cached.items.length){news=cached.items;newsUpdatedAt=cached.updatedAt;newsSources=cached.sources||[];newsStatus='cache';}else{news=newsSeed;newsUpdatedAt=null;newsStatus='fallback';}if(current==='home'||current==='news')render();}}
+async function updateNews(){try{const response=await fetch('./news.json?v='+Date.now(),{cache:'no-store',signal:AbortSignal.timeout(12000)});if(!response.ok)throw Error('News-Serverantwort');const obj=await response.json();if(!obj||!Array.isArray(obj.items))throw Error('News-Format');const valid=normalizeClientNews(obj);if(valid.length){news=valid;newsUpdatedAt=obj.updatedAt||null;newsSources=Array.isArray(obj.sources)?obj.sources:[];newsStatus='live';save('newsCache',{items:valid,updatedAt:newsUpdatedAt,sources:newsSources});}else{news=newsSeed;newsUpdatedAt=null;newsSources=Array.isArray(obj.sources)?obj.sources:[];newsStatus='fallback';}if(current==='home'||current==='news'||current==='clubs')render();}catch{const cached=read('newsCache',null);if(cached&&Array.isArray(cached.items)&&cached.items.length){news=cached.items;newsUpdatedAt=cached.updatedAt;newsSources=cached.sources||[];newsStatus='cache';}else{news=newsSeed;newsUpdatedAt=null;newsStatus='fallback';}if(current==='home'||current==='news'||current==='clubs')render();}}
 
 function searchOpen(){const el=$('#search-modal');el.hidden=false;document.body.style.overflow='hidden';$('#search-input').value='';searchResults('');$('#search-input').focus()}
 function searchClose(){$('#search-modal').hidden=true;document.body.style.overflow=''}
@@ -347,4 +397,4 @@ document.addEventListener('click',e=>{
 document.addEventListener('change',e=>{if(e.target.matches('[data-news-sort]')){newsSort=e.target.value;save('newsSort',newsSort);newsLimit=18;render();return}if(e.target.matches('[data-news-source]')){newsSource=e.target.value;render();return}if(e.target.matches('[data-setting]')){settings[e.target.dataset.setting]=e.target.value;save('settings',settings);applyTheme();render();if(e.target.dataset.setting==='location'){weather=null;weatherCache=weatherCache?.location===settings.location?weatherCache:null;updateWeather()}}});
 document.addEventListener('input',e=>{if(e.target.id==='search-input'){searchResults(e.target.value);return}if(e.target.id==='page-search'){search=e.target.value;const position=e.target.selectionStart;render();const next=$('#page-search');if(next){next.focus();next.setSelectionRange(position,position)}}});
 $('#global-search').textContent='⌕';$('#header-settings').textContent='⚙';$('#close-search').textContent='×';$('#search-symbol').textContent='⌕';$('#global-search').addEventListener('click',searchOpen);$('#header-settings').addEventListener('click',()=>go('settings'));$('#close-search').addEventListener('click',searchClose);$('#search-modal').addEventListener('click',e=>{if(e.target.id==='search-modal')searchClose()});$('#footer-sources').addEventListener('click',()=>go('settings'));$('#open-source-sidebar').addEventListener('click',()=>go('settings'));document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeReader();searchClose()};if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==='k'){e.preventDefault();searchOpen()}});
-current=location.hash.slice(1)||'home';if(!views[current])current='home';if(current==='news'){filter='Wartenberg';newsTopicFilter='Alle Themen';}window.addEventListener('hashchange',()=>{const p=location.hash.slice(1);if(views[p]&&current!==p){current=p;filter=p==='news'?'Wartenberg':'Alle';if(p==='news'){newsTopicFilter='Alle Themen';newsLimit=18;}if(p==='clubs')clubCategory='Alle';if(p==='places')placeCategory='Alle';render()}});render();updateWeather();updateNews();updateEvents();if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('./service-worker.js').catch(()=>{});
+current=location.hash.slice(1)||'home';if(!views[current])current='home';if(current==='news'){filter='Wartenberg';newsTopicFilter='Alle Themen';}window.addEventListener('hashchange',()=>{const p=location.hash.slice(1);if(views[p]&&current!==p){current=p;filter=p==='news'?'Wartenberg':'Alle';if(p==='news'){newsTopicFilter='Alle Themen';newsLimit=18;}if(p==='clubs')clubCategory='Alle';if(p==='events')eventCategory='Alle';if(p==='places')placeCategory='Alle';render()}});render();updateWeather();updateNews();updateEvents();if('serviceWorker'in navigator&&location.protocol.startsWith('http'))navigator.serviceWorker.register('./service-worker.js').catch(()=>{});
