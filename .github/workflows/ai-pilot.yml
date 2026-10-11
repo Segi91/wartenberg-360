@@ -36,7 +36,7 @@ jobs:
           cmake --build /tmp/w360-llama/build --config Release --target llama-server -j 4
           curl --fail --location --retry 3 --retry-delay 4 \
             --output /tmp/w360-qwen3-0.6b.gguf \
-            'https://huggingface.co/tensorblock/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf'
+            'https://huggingface.co/unsloth/Qwen3-0.6B-GGUF/resolve/main/Qwen3-0.6B-Q4_K_M.gguf'
           test "$(stat -c%s /tmp/w360-qwen3-0.6b.gguf)" -gt 250000000
       - name: Modell lokal starten
         shell: bash
