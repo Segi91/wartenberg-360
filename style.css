@@ -95,3 +95,22 @@
 .dark .v2-club-stat strong{color:#e5f2e7}
 .dark .v2-club-stat span{color:#c4d6c7}
 @media(max-width:650px){.v2-club-intro{padding:22px 17px;gap:13px}.v2-club-stat{min-width:89px;padding:12px 8px}.v2-club-stat strong{font-size:34px}.v2-club-stat span{font-size:9px}}
+
+/* W360 V2 Ortsführer & Schnellzugriffe */
+.v2-home-shortcuts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin-top:23px}
+.v2-home-shortcuts button{border:1px solid var(--stroke);border-radius:12px;min-height:56px;padding:13px;text-align:left;font-size:12px;font-weight:760;background:var(--surface);color:var(--accent);transition:background .17s,border .17s}
+.v2-home-shortcuts button:hover{background:var(--accent2);border-color:#9ebba9}
+.v2-place-intro{display:flex;gap:20px;align-items:center;justify-content:space-between;padding:26px 30px;margin-top:18px;margin-bottom:18px;border:1px solid var(--stroke);border-radius:20px;background:linear-gradient(110deg,#eaf0ee,#f6f6f0)}
+.v2-place-intro h2{font-size:clamp(23px,3vw,32px);margin:6px 0 8px;letter-spacing:-1px}
+.v2-place-intro p{font-size:12px;color:#5b7066;max-width:530px;line-height:1.65;margin:0}
+.v2-place-cats{margin-top:14px}
+.v2-places-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+.v2-place-card{padding:23px;display:flex;flex-direction:column;gap:12px;min-height:210px}
+.v2-place-card h3{font-size:17px;margin:0;letter-spacing:-.4px}
+.v2-place-card p{font-size:12px;color:var(--muted);line-height:1.6;margin:0}
+.v2-place-location{font-size:11px;color:var(--muted);margin-top:auto;padding:11px 0;border-top:1px solid var(--stroke)}
+.v2-place-actions{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px}
+.v2-place-actions a{font-weight:750;color:var(--accent)}
+.dark .v2-place-intro{background:linear-gradient(110deg,#28453b,#343b32)}
+.dark .v2-place-intro p{color:#c7d9cd}
+@media(max-width:720px){.v2-places-grid{grid-template-columns:1fr}.v2-place-intro{padding:20px 17px}.v2-home-shortcuts{gap:7px}.v2-home-shortcuts button{font-size:11px;min-height:64px;padding:10px}.v2-place-card{min-height:190px}}
