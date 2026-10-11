@@ -1,0 +1,44 @@
+name: Einmalige Orts-Koordinaten (OpenStreetMap, kein KI-Dienst)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/geocode_places_once.py'
+      - '.github/workflows/geocode-places.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wartenberg-address-geocoding
+  cancel-in-progress: false
+
+jobs:
+  geocode-once:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Syntax und Ausgangsdaten prüfen
+        run: |
+          python3 -m py_compile scripts/geocode_places_once.py
+          python3 -m json.tool data/places.json > /dev/null
+          python3 -m json.tool data/place_coordinates.json > /dev/null
+      - name: Einmalige Adresszuordnung mit Sicherheits- und Rate-Limits
+        run: python3 -u scripts/geocode_places_once.py
+      - name: Koordinaten dauerhaft zwischenspeichern
+        run: |
+          if git diff --quiet -- data/place_coordinates.json; then
+            echo 'Keine Koordinatenänderungen'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/place_coordinates.json
+          git commit -m 'Speichere geprüfte OSM-Kartenpunkte des Ortsführers'
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
