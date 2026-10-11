@@ -3,6 +3,7 @@ on:
   push:
     paths:
       - 'app.js'
+      - 'place-map.js'
       - 'index.html'
       - 'style.css'
       - 'news.json'
@@ -22,14 +23,18 @@ jobs:
       - name: Check out website
         uses: actions/checkout@v4
       - name: Check JavaScript syntax
-        run: node --check app.js
+        run: node --check app.js && node --check place-map.js
       - name: Check news updater syntax
         run: python3 -m py_compile scripts/update_news.py scripts/news_topics.py scripts/sync_official.py
       - name: Check structured data
         run: |
           python3 -m json.tool news.json > /dev/null
           python3 -m json.tool data/curated_news.json > /dev/null
+          python3 -m json.tool data/places.json > /dev/null
+          python3 -m json.tool data/place_coordinates.json > /dev/null
       - name: Prüfe amtliche Quellenadapter ohne Internet
         run: python3 -m unittest discover -s tests -p 'test_official_sync.py' -v
       - name: Test homepage and news feed
         run: node tests/smoke.cjs
+      - name: Test map behavior and safe coordinate handling
+        run: node tests/map.cjs
