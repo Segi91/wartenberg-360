@@ -19,6 +19,7 @@ OUTPUT = ROOT / "news.json"
 UTC = dt.timezone.utc
 NOW = dt.datetime.now(UTC)
 MAX_DAYS = 45
+LOCAL_ARCHIVE_DAYS = 200
 REGION = ("wartenberg", "angersbach", "landenhausen", "vogelsberg",
           "lauterbach", "alsfeld", "schlitz", "herbstein", "schotten",
           "grebenhain", "mücke", "hosenfeld", "lautertal", "feldatal",
@@ -45,16 +46,21 @@ SOURCES = [
     dict(id="fulda", name="Fuldaer Zeitung",
          url="https://www.fuldaerzeitung.de/vogelsberg/", domain="fuldaerzeitung.de",
          category="Vogelsberg", site_only=False, direct=[]),
+    dict(id="la", name="Lauterbacher Anzeiger",
+         url="https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
+         domain="lauterbacher-anzeiger.de", category="Gemeinde", site_only=False,
+         direct=[], search_query='site:lauterbacher-anzeiger.de (Wartenberg OR Angersbach OR Landenhausen OR "TV Angersbach" OR "SG Landenhausen" OR "JSG Wartenberg") when:90d'),
     dict(id="winfo", name="Wartenberg-iNFO", url="https://www.wartenberg-info.de/",
          domain="wartenberg-info.de", category="Gemeinde", site_only=True,
          direct=["https://www.wartenberg-info.de/feed/"]),
 ]
 
 def google_rss(source):
-    query = "site:" + source["domain"]
-    if not source["site_only"]:
+    query = source.get("search_query") or ("site:" + source["domain"])
+    if not source["site_only"] and not source.get("search_query"):
         query += " (Vogelsberg OR Wartenberg OR Angersbach OR Landenhausen OR Lauterbach OR Alsfeld OR Schlitz OR Herbstein OR Schotten OR Grebenhain)"
-    query += " when:30d"
+    if "when:" not in query:
+        query += " when:30d"
     return "https://news.google.com/rss/search?" + urlencode({
         "q": query, "hl": "de", "gl": "DE", "ceid": "DE:de"})
 
@@ -107,11 +113,11 @@ def safe_link(link):
 
 def classify(title, summary, source):
     content = (title + " " + summary).casefold()
-    local = any(term in content for term in LOCAL) or source["id"] in ("gemeinde", "winfo")
+    local = any(term in title.casefold() for term in LOCAL) or source["id"] in ("gemeinde", "winfo")
     location = "Wartenberg" if local else "Vogelsberg"
     if source["id"] == "polizei":
         return "Blaulicht", location
-    if any(term in content for term in ("verein", "fußball", "fussball", "tennis", "sport", "bundesliga")):
+    if any(term in content for term in ("verein", "fußball", "fussball", "tennis", "sport", "bundesliga", "sg landenhausen", "tv angersbach", "jsg wartenberg", "fsg wartenberg", "tischtennis", "schützen")):
         return "Vereine", location
     if any(term in content for term in ("sperrung", "verkehr", "straße", "strasse", "unfall", "baustelle")):
         return "Verkehr", location
@@ -132,7 +138,8 @@ def parse_feed(xml, source, via):
                 title = title[:-len(suffix)]
         if not title or not safe_link(url) or not published:
             continue
-        if published > NOW + dt.timedelta(hours=5) or published < NOW - dt.timedelta(days=MAX_DAYS):
+        limit_days = LOCAL_ARCHIVE_DAYS if source["id"] == "la" else MAX_DAYS
+        if published > NOW + dt.timedelta(hours=5) or published < NOW - dt.timedelta(days=limit_days):
             continue
         if not source["site_only"]:
             # News-index descriptions can contain unrelated headlines:
@@ -194,8 +201,10 @@ def run():
         print("Kein Feed verfügbar: letzte erfolgreiche Daten beibehalten")
         return
     oldest = (NOW - dt.timedelta(days=MAX_DAYS)).date().isoformat()
+    local_oldest = (NOW - dt.timedelta(days=LOCAL_ARCHIVE_DAYS)).date().isoformat()
     items = [x for x in old.values()
-             if x.get("date", "") >= oldest and safe_link(x.get("source", ""))
+             if x.get("date", "") >= (local_oldest if x.get("sourceId") == "la" else oldest)
+             and safe_link(x.get("source", ""))
              and (x.get("sourceId") in ("gemeinde", "kreis", "winfo")
                   or x.get("via") != "Google News"
                   or any(term in x.get("title", "").casefold() for term in REGION))]
