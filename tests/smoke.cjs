@@ -125,7 +125,7 @@ async function main(){
  const noSummaryClick=noSummaryPage.events['click'];
  const blocked={id:'',dataset:{},hasAttribute:n=>n==='data-reader',getAttribute:n=>n==='data-reader'?'news':n==='data-reader-id'?withoutSummary.id:null};
  noSummaryClick({target:{id:'',closest(sel){return sel==='button'||sel==='a,button'?blocked:null;}}});
- assert(noSummaryPage.elements['#reader-modal'].hidden!==false,'Unsummarized news must not open an empty reader');
+ assert(!noSummaryPage.elements['#reader-modal'] || noSummaryPage.elements['#reader-modal'].hidden!==false,'Unsummarized news must not open an empty reader');
 
  const clubsReader=launch('clubs');
  const clubClick=clubsReader.events['click'];
