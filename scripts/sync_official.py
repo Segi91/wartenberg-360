@@ -8,6 +8,7 @@ A changed site structure must fail safely without replacing good data.
 from __future__ import annotations
 
 import datetime as dt
+from difflib import SequenceMatcher
 import hashlib
 import html
 from html.parser import HTMLParser
@@ -307,29 +308,28 @@ def normalize_name(s):
     return re.sub(r"[^a-z0-9]", "", html.unescape(s).casefold())
 
 
+def same_event(a, b):
+    if a.get("start") != b.get("start"):
+        return False
+    a_title = normalize_name(a.get("title", "").replace("ß","ss").replace("ü","ue").replace("ö","oe").replace("ä","ae"))
+    b_title = normalize_name(b.get("title", "").replace("ß","ss").replace("ü","ue").replace("ö","oe").replace("ä","ae"))
+    if not a_title or not b_title:
+        return False
+    title_similarity = SequenceMatcher(None, a_title, b_title).ratio()
+    a_org = normalize_name(a.get("organizer", ""))
+    b_org = normalize_name(b.get("organizer", ""))
+    org_similarity = SequenceMatcher(None, a_org, b_org).ratio()
+    if a_title == b_title and org_similarity >= .5:
+        return True
+    return title_similarity >= .80 and org_similarity >= .72
+
+
 def merge_events(scraped, previous):
     old = [x for x in previous.get("items", []) if isinstance(x, dict)]
     updated = []
-    seen = set()
     for fresh in scraped:
-        # Keep manually checked descriptions from a matching calendar entry.
-        candidates = [x for x in old if x.get("start") == fresh["start"]]
-        match = next((x for x in candidates if
-            normalize_name(x.get("title", "")) in normalize_name(fresh["title"]) or
-            normalize_name(fresh["title"]) in normalize_name(x.get("title", ""))), None)
-        if not match and len(candidates) == 1:
-            # Multiple written variants for the SAME official event are common
-            # ("Preis-Schießen" versus "Preis- und Geflügelschießen").
-            # Accept only when organizer is clearly shared, not merely the date.
-            candidate = candidates[0]
-            own_org = normalize_name(candidate.get("organizer", ""))
-            new_org = normalize_name(fresh.get("organizer", ""))
-            if len(own_org) >= 12 and len(new_org) >= 12 and (
-                own_org in new_org or new_org in own_org or
-                (own_org[:11] == new_org[:11] and
-                 candidate.get("location") == fresh.get("location"))
-            ):
-                match = candidate
+        matching_old = [x for x in old if same_event(x, fresh)]
+        match = max(matching_old, key=lambda x: len(x.get("description",""))) if matching_old else None
         if match:
             fresh["title"] = match["title"]
             if fresh["organizer"] == "Siehe Gemeindekalender":
@@ -339,27 +339,23 @@ def merge_events(scraped, previous):
             fresh["description"] = match.get("description", "")
             fresh["category"] = match.get("category", fresh["category"])
             fresh["id"] = match["id"]
-        key = (fresh["start"], normalize_name(fresh["title"]))
-        if key not in seen:
+        if not any(same_event(fresh, existing) for existing in updated):
             updated.append(fresh)
-            seen.add(key)
-    # Preserve past editorially verified events that have not disappeared from
-    # the official feed for up to 21 days after the last manual check.
+    # Preserve verified upcoming events temporarily when the town website has
+    # failed to include them; never keep dropped events indefinitely.
     for old_event in old:
-        key = (old_event.get("start", ""), normalize_name(old_event.get("title", "")))
-        if key in seen or old_event.get("end", "") < TODAY.isoformat():
+        if old_event.get("end", "") < TODAY.isoformat():
             continue
-        verified_date = previous.get("checkedAt", "")
+        if any(same_event(old_event, x) for x in updated):
+            continue
         try:
-            age = (TODAY - dt.date.fromisoformat(verified_date)).days
+            age = (TODAY - dt.date.fromisoformat(previous.get("checkedAt", ""))).days
         except (TypeError, ValueError):
             age = 99
         if age <= 21:
             updated.append(old_event)
-            seen.add(key)
     updated.sort(key=lambda x: (x["start"], x["title"]))
     return updated[:250]
-
 
 def merge_news(scraped, previous):
     old = [x for x in previous.get("items", []) if isinstance(x, dict)]
