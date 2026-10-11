@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "generatedAt": "2026-10-12",
+  "scope": "Wartenberg (Hessen), Vogelsbergkreis",
+  "geocoder": "OpenStreetMap Nominatim, einmalige Adress-Geokodierung; für unbestätigte Orte keine Koordinaten.",
+  "license": "OpenStreetMap-Daten © OpenStreetMap-Mitwirkende (ODbL), https://www.openstreetmap.org/copyright",
+  "byId": {
+    "ort-001": {
+      "lat": 50.631667,
+      "lon": 9.462778,
+      "precision": "landmark",
+      "label": "Burgruine Wartenberg",
+      "source": "https://de.wikipedia.org/wiki/Burg_Wartenberg_(Hessen)"
+    }
+  }
+}
