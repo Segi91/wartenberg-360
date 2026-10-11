@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T19:24:47Z",
+  "updatedAt": "2026-10-11T19:25:33Z",
   "items": [
     {
       "id": "f519d8d5deeef2fd",
@@ -1147,6 +1147,19 @@
       "via": "Google News"
     },
     {
+      "id": "5f92c0c32514a202",
+      "title": "FSG Vogelsberg III zerlegt Schlusslicht 11:3 – Rettungswagen muss ran",
+      "desc": "",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T05:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVUhJVzhhc0ZjR2s0UVItTTh4Y1l6aXdLaENzM3V3RVROdzJMdFF0RFZnUG5oQkpwTEo2b1VFZEdHVlkyb2tZcE5yQWpNZkRkSkxncEtKUmNRRWNhb01jTzNVTEpva0pzOV9LaF9Dc2pZd18tNUcwcl9Wcnl0NDZIYm1rY1ZDZHMwblpxUkh5TWRXUGpNaWcxY1VhRUl5ak8xcmR3YWZuMmpOekFoZU5PZUZLcXU5d00yN0tNZmMxcGV2N2NjNEFTVjkwcWFsUQ?oc=5",
+      "via": "Google News"
+    },
+    {
       "id": "0c49b4fb264cff7a",
       "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Fulda und Vogelsberg - Presseportal",
       "desc": "",
@@ -1281,7 +1294,7 @@
       "title": "SG Landenhausen trifft auf Tabellenzweiten mit sechs Siegen in Serie",
       "desc": "",
       "date": "2026-09-04",
-      "publishedAt": "2026-09-04T07:00:00+00:00",
+      "publishedAt": "2026-09-04T05:00:00+00:00",
       "category": "Vereine",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -1521,19 +1534,6 @@
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR0tud19LUklZS1hvcE9Bd0xfTGJ5TzZCM1BIX1dCQWpoM1hWNG14MUJGam8zTkV4N0VpT05JVjIwazRIby15X2UyallYaDM3SldjeTM4ZWNSaGxJdUdnck9TVzNZSXozOV9Xc0RMNXB2c2FSX2FJc3pJTkhfeEd2bjREQVoxYURSSFJoQ25mX2pNMWhmTXM5aFZMUVhTUFk3MHpYWUtTc2lVWXFPZWE0UkhrUzE2al9rbEhBRm1oMVZKY1RNQlVUd3pET204bXQ0?oc=5",
-      "via": "Google News"
-    },
-    {
-      "id": "2757618a43b78743",
-      "title": "SG Landenhausen startet später gegen Ex-Gruppenligist SG Aulatal",
-      "desc": "",
-      "date": "2026-07-30",
-      "publishedAt": "2026-07-30T07:00:00+00:00",
-      "category": "Vereine",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOamJka0pnU2l3U3JCdVJrdnh2MzJpSlNWMVJMUm0tSnlJQWpQVlJLQkNFbWRrdS10SkRUVHY4dkR2dWtPYW4zdGdJbVZUTDRYSTdrMTE3WW01VUFQN3ZmX1dyRWRpVGJ5enZudG80SUJUSnhsYjhGVG9lMUloM1U2b0Y1UkdXcGJIQjI5SXgzWTZVaTFXY2NzTlRIZ0JLOXkwcldBcXdURjNvSTExM3RCWmVBZW1URklscGp0MW9mMXp2VUU2aV9v?oc=5",
       "via": "Google News"
     }
   ],
