@@ -210,3 +210,13 @@
  .v22-related-date{min-width:66px}
  .v22-club-links{width:100%}
 }
+
+/* v2.2 official notice highlights on dashboard */
+.v22-municipal-brief{margin:23px 0 0}
+.v22-municipal-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.v22-municipal-item{padding:20px 22px;background:var(--surface);border:1px solid var(--stroke);border-left:3px solid var(--accent);border-radius:14px;min-height:140px;display:flex;align-items:flex-start;flex-direction:column;gap:8px}
+.v22-municipal-date{font-size:10px;font-weight:750;color:var(--accent);font-variant-numeric:tabular-nums}
+.v22-municipal-item h3{font-size:16px;line-height:1.3;font-weight:790;letter-spacing:-.3px;margin:0}
+.v22-municipal-item p{font-size:12px;line-height:1.55;color:var(--muted);margin:0}
+.v22-municipal-item a{font-size:11px;color:var(--accent);font-weight:760;margin-top:auto}
+@media(max-width:650px){.v22-municipal-grid{grid-template-columns:1fr}.v22-municipal-item{min-height:0;padding:17px}}
