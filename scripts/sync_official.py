@@ -317,6 +317,19 @@ def merge_events(scraped, previous):
         match = next((x for x in candidates if
             normalize_name(x.get("title", "")) in normalize_name(fresh["title"]) or
             normalize_name(fresh["title"]) in normalize_name(x.get("title", ""))), None)
+        if not match and len(candidates) == 1:
+            # Multiple written variants for the SAME official event are common
+            # ("Preis-Schießen" versus "Preis- und Geflügelschießen").
+            # Accept only when organizer is clearly shared, not merely the date.
+            candidate = candidates[0]
+            own_org = normalize_name(candidate.get("organizer", ""))
+            new_org = normalize_name(fresh.get("organizer", ""))
+            if len(own_org) >= 12 and len(new_org) >= 12 and (
+                own_org in new_org or new_org in own_org or
+                (own_org[:11] == new_org[:11] and
+                 candidate.get("location") == fresh.get("location"))
+            ):
+                match = candidate
         if match:
             fresh["title"] = match["title"]
             if fresh["organizer"] == "Siehe Gemeindekalender":
