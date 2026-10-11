@@ -653,6 +653,19 @@
       "via": "RSS"
     },
     {
+      "id": "la-editorial-94526281",
+      "title": "Große Investitionen – kaum Rücklagen",
+      "desc": "",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T12:00:00+02:00",
+      "category": "Gemeinde",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/wartenberg-steckt-875-mio-euro-in-klaeranlagenloesung-und-hat-kaum-ruecklagen-94526281.html",
+      "via": "Redaktionell verlinkt"
+    },
+    {
       "id": "0c5547542601d58f",
       "title": "vhs-Kurs: „KI in der Literatur – Lesen und Schreiben im digitalen Zeitalter“",
       "desc": "",
@@ -1017,6 +1030,19 @@
       "via": "Google News"
     },
     {
+      "id": "la-editorial-94503878",
+      "title": "SG Landenhausen gewinnt Derby: Zimmer und Möller holen je zwei Punkte",
+      "desc": "",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T12:00:00+02:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/sport/lokalsport/sg-landenhausen-gewinnt-derby-zimmer-und-moeller-holen-je-zwei-punkte-94503878.html",
+      "via": "Redaktionell verlinkt"
+    },
+    {
       "id": "668cfc28425bde97",
       "title": "POL-OH: Verkehrsunfallmeldungen für den Landkreis Fulda, Vogelsberg und Hersfeld-Rotenburg - Presseportal",
       "desc": "",
@@ -1080,9 +1106,69 @@
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xeVlERVVxVDJQaGFSZTBwMXNlaVFhS3ExUjJheHhWT1Nac3lXZ1FsQnRHbWJYRkhhbXcyMHVKT2l0bnMzNTB2TjRzMkluMzFCdnNzeHNIaGZhU19fX1pzS3lxOG4?oc=5",
       "via": "Google News"
+    },
+    {
+      "id": "la-editorial-94461481",
+      "title": "Wartenberger wählen ihren Bürgermeister",
+      "desc": "",
+      "date": "2026-08-27",
+      "publishedAt": "2026-08-27T12:00:00+02:00",
+      "category": "Gemeinde",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/wartenberg-waehlt-buergermeister-ittmann-drueckte-jede-klingel-wienold-verfolgt-wahl-aus-italien-94461481.html",
+      "via": "Redaktionell verlinkt"
+    },
+    {
+      "id": "la-editorial-94444619",
+      "title": "Mit dem Wartenberger Stil zur Ortsumgehung",
+      "desc": "",
+      "date": "2026-08-15",
+      "publishedAt": "2026-08-15T12:00:00+02:00",
+      "category": "Verkehr",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/ittmann-und-wienold-werben-vor-500-buergern-fuer-ortsumgehung-94444619.html",
+      "via": "Redaktionell verlinkt"
+    },
+    {
+      "id": "la-editorial-94365417",
+      "title": "34 Schützen kämpfen um Königswürde – Herren brauchen über zwei Stunden",
+      "desc": "",
+      "date": "2026-06-24",
+      "publishedAt": "2026-06-24T12:00:00+02:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/34-schuetzen-kaempfen-um-koenigswuerde-herren-brauchen-ueber-zwei-stunden-94365417.html",
+      "via": "Redaktionell verlinkt"
+    },
+    {
+      "id": "la-editorial-94275832",
+      "title": "Keine Förderung für Sporthalle in Landenhausen",
+      "desc": "",
+      "date": "2026-04-23",
+      "publishedAt": "2026-04-23T12:00:00+02:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/keine-foerderung-fuer-die-sporthalle-in-landenhausen-94275832.html",
+      "via": "Redaktionell verlinkt"
     }
   ],
   "sources": [
+    {
+      "id": "la",
+      "name": "Lauterbacher Anzeiger",
+      "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
+      "mode": "Redaktionell verlinkt",
+      "count": 6,
+      "note": "Wartenberg-Rubrik und örtlicher Sport; automatischer Abruf wird ergänzt"
+    },
     {
       "id": "gemeinde",
       "name": "Gemeinde Wartenberg",
@@ -1141,5 +1227,5 @@
     }
   ],
   "feedCount": 6,
-  "note": "Nur RSS-/Index-Überschriften und Quellenlinks, keine fremden Artikelvolltexte."
+  "note": "Nur RSS-/Index-Überschriften und Quellenlinks, keine fremden Artikelvolltexte. | Lauterbacher Anzeiger: unabhängig verifizierte Artikel-Links, keine Artikelvolltexte; einzelne Zielseiten können ein Abo voraussetzen."
 }
