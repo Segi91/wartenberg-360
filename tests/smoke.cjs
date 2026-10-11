@@ -5,6 +5,8 @@ const app=fs.readFileSync('app.js','utf8');
 const data=JSON.parse(fs.readFileSync('news.json','utf8'));
 const eventData=JSON.parse(fs.readFileSync('data/events.json','utf8'));
 const placesData=JSON.parse(fs.readFileSync('data/places.json','utf8'));
+const placeCoordsData=JSON.parse(fs.readFileSync('data/place_coordinates.json','utf8'));
+assert(Object.keys(placeCoordsData.byId).length>=1,'No verified map coordinates');
 assert(placesData.items.length>=80,'Place guide unexpectedly small');
 assert(new Set(placesData.items.map(x=>x.id)).size===placesData.items.length,'Duplicated place IDs');
 assert(new Set(placesData.items.map(x=>x.location+'|'+x.title)).size===placesData.items.length,'Duplicated venue names in locality');
@@ -50,6 +52,7 @@ function launch(hash) {
     if(String(url).includes('news.json'))return {ok:true,json:async()=>data};
     if(String(url).includes('data/events.json'))return {ok:true,json:async()=>eventData};
     if(String(url).includes('data/places.json'))return {ok:true,json:async()=>placesData};
+    if(String(url).includes('data/place_coordinates.json'))return {ok:true,json:async()=>placeCoordsData};
     throw Error('Offline-weather-test');
   }
  });
@@ -109,6 +112,11 @@ async function main(){
  await new Promise(r=>setTimeout(r,20));
  const placesHTML=placesPage.elements['#content'].innerHTML;
  assert(placesHTML.includes('Ortsführer'),'Place guide missing');
+ assert(placesHTML.includes('id="w360-map"'),'Interactive map container missing');
+ assert(placesHTML.includes('data-place-view="map"')&&placesHTML.includes('data-place-view="list"'),'Map/List switch missing');
+ assert(placesHTML.includes('data-map-focus="ort-001"'),'Sourced Burg map focus missing');
+ assert(placesHTML.includes('Keine sichere Position'),'Unknown hiking locations need no-coordinate label');
+ assert(placesHTML.includes('Wartenberg auf einen Blick'),'Map heading missing');
  assert(placesData.items.some(p=>p.title==='Wartenberg Oval'),'Verified venue missing from expanded data');
  assert(placesData.items.some(p=>p.title==='Freibad Landenhausen'),'Verified pool missing from expanded data');
  assert(placesHTML.includes('90')&&placesHTML.includes('Orte und Angebote'),'Guide total count missing');
@@ -118,6 +126,14 @@ async function main(){
  assert(placesHTML.includes('Wandern &amp; Radfahren')||placesHTML.includes('Wandern & Radfahren'),'Trails filter missing');
  assert(vm.runInContext('places.length',placesPage.ctx)===placesData.items.length,'All verified places must load');
  const placeClick=placesPage.events['click'];
+ const listViewBtn={hasAttribute:n=>n==='data-place-view',getAttribute:n=>n==='data-place-view'?'list':null,dataset:{},id:''};
+ placeClick({target:{id:'',closest:()=>listViewBtn}});
+ const listHTML=placesPage.elements['#content'].innerHTML;
+ assert(listHTML.includes('is-list')&&!listHTML.includes('id="w360-map"'),'List toggle did not hide map');
+ assert(listHTML.includes('v3-place-card'),'List toggle removed existing place cards');
+ const mapViewBtn={hasAttribute:n=>n==='data-place-view',getAttribute:n=>n==='data-place-view'?'map':null,dataset:{},id:''};
+ placeClick({target:{id:'',closest:()=>mapViewBtn}});
+ assert(placesPage.elements['#content'].innerHTML.includes('id="w360-map"'),'Map toggle did not restore map');
  const placeBtn={hasAttribute:n=>n==='data-place-topic',getAttribute:n=>n==='data-place-topic'?'Essen & Trinken':null,dataset:{},id:''};
  placeClick({target:{id:'',closest:()=>placeBtn}});
  const gastroHtml=placesPage.elements['#content'].innerHTML;
