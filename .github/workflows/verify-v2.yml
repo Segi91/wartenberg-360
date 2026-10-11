@@ -1,0 +1,33 @@
+name: Wartenberg 360 – Funktionstests
+on:
+  push:
+    paths:
+      - 'app.js'
+      - 'index.html'
+      - 'style.css'
+      - 'news.json'
+      - 'data/**'
+      - 'scripts/**'
+      - 'tests/**'
+      - '.github/workflows/verify-v2.yml'
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check out website
+        uses: actions/checkout@v4
+      - name: Check JavaScript syntax
+        run: node --check app.js
+      - name: Check news updater syntax
+        run: python3 -m py_compile scripts/update_news.py scripts/news_topics.py
+      - name: Check structured data
+        run: |
+          python3 -m json.tool news.json > /dev/null
+          python3 -m json.tool data/curated_news.json > /dev/null
+      - name: Test homepage and news feed
+        run: node tests/smoke.cjs
