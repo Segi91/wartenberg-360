@@ -56,6 +56,10 @@ SOURCES = [
           'site:lauterbacher-anzeiger.de ("Kulturverein Landenhausen" OR "MGV Landenhausen" OR "Fördergemeinschaft Burgruine" OR "Förderverein Schwimmbad Landenhausen" OR "Angersbach Aktiv" OR "VdK Landenhausen" OR "Schützenverein Angersbach") when:180d',
           'site:lauterbacher-anzeiger.de ("SG Landenhausen" OR "TV Angersbach") when:45d',
          ]),
+    dict(id="kulturverein", name="Kulturverein Landenhausen",
+         url="https://kulturverein-landenhausen.de/",
+         domain="kulturverein-landenhausen.de", category="Kultur & Musik",
+         site_only=True, direct=["https://kulturverein-landenhausen.de/feed/"]),
     dict(id="winfo", name="Wartenberg-iNFO", url="https://www.wartenberg-info.de/",
          domain="wartenberg-info.de", category="Gemeinde", site_only=True,
          direct=["https://www.wartenberg-info.de/feed/"]),
@@ -118,6 +122,8 @@ def safe_link(link):
     return parsed.scheme == "https" and bool(parsed.hostname) and not parsed.username and not parsed.password
 
 def classify(title, summary, source):
+    if source["id"] == "kulturverein":
+        return "Kultur & Musik", "Wartenberg"
     content = (title + " " + summary).casefold()
     local = any(term in title.casefold() for term in LOCAL) or source["id"] in ("gemeinde", "winfo")
     location = "Wartenberg" if local else "Vogelsberg"
