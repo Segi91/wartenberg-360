@@ -13,13 +13,14 @@ import time
 from urllib.parse import urlencode, urlparse
 from urllib.request import Request, urlopen
 import xml.etree.ElementTree as ET
+from news_topics import normalize, is_local, TOPICS
 
 ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "news.json"
 UTC = dt.timezone.utc
 NOW = dt.datetime.now(UTC)
 MAX_DAYS = 45
-LOCAL_ARCHIVE_DAYS = 200
+LOCAL_ARCHIVE_DAYS = 270
 REGION = ("wartenberg", "angersbach", "landenhausen", "vogelsberg",
           "lauterbach", "alsfeld", "schlitz", "herbstein", "schotten",
           "grebenhain", "mücke", "hosenfeld", "lautertal", "feldatal",
@@ -174,10 +175,21 @@ def run():
         previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
     except (OSError, ValueError):
         previous = {}
-    old = {x["id"]: x for x in previous.get("items", []) if isinstance(x, dict) and
-           x.get("id") and x.get("title") and x.get("source")
-           and (x.get("sourceId") != "la" or x.get("id", "").startswith("la-editorial-")
-                or any(term in x.get("title", "").casefold() for term in LOCAL))}
+    old = {x["id"]: normalize(x) for x in previous.get("items", [])
+           if isinstance(x, dict) and x.get("id") and x.get("title") and x.get("source")
+           and (x.get("sourceId") != "la" or is_local(x.get("title")) or x.get("editorial"))
+           and not (x.get("sourceId") == "winfo" and x.get("title", "").strip().casefold() in ("wetter", "startseite", "abfallkalender"))}
+    try:
+        collection = json.loads((ROOT / "data" / "curated_news.json").read_text(encoding="utf-8"))
+        curated = [normalize(dict(x, editorial=True)) for x in collection.get("items", [])
+                   if isinstance(x, dict) and x.get("id") and x.get("title")
+                   and re.fullmatch(r"\d{4}-\d{2}-\d{2}", x.get("date", "")) and safe_link(x.get("source", ""))]
+    except (OSError, ValueError):
+        curated = []
+    curated_urls = {x["source"] for x in curated}
+    old = {k:v for k,v in old.items() if v.get("source") not in curated_urls}
+    for item in curated:
+        old[item["id"]] = item
     statuses = []
     success = 0
     for source in SOURCES:
@@ -195,10 +207,10 @@ def run():
             except Exception as ex:
                 errors.append(method + ": " + type(ex).__name__)
         if articles:
-            articles = articles[:40]
+            articles = list({article['id']: article for article in articles}.values())[:70]
             success += 1
             for article in articles:
-                old[article["id"]] = article
+                old[article["id"]] = normalize(article)
         statuses.append(dict(id=source["id"], name=source["name"], url=source["url"],
                              mode=via if articles else "Nur Quelle",
                              count=len(articles), note="; ".join(errors)[:180] if not articles else ""))
@@ -210,7 +222,7 @@ def run():
     oldest = (NOW - dt.timedelta(days=MAX_DAYS)).date().isoformat()
     local_oldest = (NOW - dt.timedelta(days=LOCAL_ARCHIVE_DAYS)).date().isoformat()
     items = [x for x in old.values()
-             if x.get("date", "") >= (local_oldest if x.get("sourceId") == "la" else oldest)
+             if x.get("date", "") >= (local_oldest if (x.get("locality") == "Wartenberg" or x.get("editorial")) else oldest)
              and safe_link(x.get("source", ""))
              and (x.get("sourceId") in ("gemeinde", "kreis", "winfo")
                   or x.get("via") != "Google News"
@@ -223,17 +235,28 @@ def run():
     for item in items:
         key = (item["date"], re.sub(r"\W+", "", item["title"].casefold())[:95])
         publisher = item.get("sourceId", "other")
-        if key in seen or source_counts.get(publisher, 0) >= 35:
+        if key in seen or source_counts.get(publisher, 0) >= (75 if publisher == "la" else 45):
             continue
         seen.add(key)
         source_counts[publisher] = source_counts.get(publisher, 0) + 1
         unique.append(item)
-    result = dict(version=1,
-                  updatedAt=NOW.isoformat(timespec="seconds").replace("+00:00", "Z") if success else None,
-                  items=unique[:180], sources=statuses, feedCount=success,
-                  note="Nur RSS-/Index-Überschriften und Quellenlinks, keine fremden Artikelvolltexte.")
+    unique = unique[:260]
+    for status in statuses:
+        stored = sum(1 for article in unique if article.get("sourceId") == status["id"])
+        status["stored"] = stored
+        if status["count"] == 0 and stored:
+            status["mode"] = "Gepruefte Links / Archiv"
+    topic_counts = {topic: sum(1 for article in unique
+                   if article.get("locality") == "Wartenberg" and article.get("topic") == topic)
+                   for topic in TOPICS}
+    result = dict(version=2,
+                  updatedAt=NOW.isoformat(timespec="seconds").replace("+00:00", "Z") if success else previous.get("updatedAt"),
+                  items=unique, sources=statuses, feedCount=success,
+                  localCount=sum(1 for article in unique if article.get("locality") == "Wartenberg"),
+                  localTopics=topic_counts,
+                  note="Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.")
     OUTPUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print("Gespeichert:", len(unique[:180]), "Nachrichten von", success, "Quellen.")
+    print("Gespeichert:", len(unique), "Nachrichten von", success, "Quellen.")
 
 if __name__ == "__main__":
     run()
