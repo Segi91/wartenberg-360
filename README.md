@@ -6,6 +6,22 @@
 
 Wartenberg 360 ist ein **unabhängiges privates Bürgerprojekt**, keine offizielle Website der Gemeinde.
 
+## Ortsführer-Ausbau – 90 Einträge (Oktober 2026)
+
+Der Ortsführer wurde von bisher 10 Einträgen auf **90 quellenbelegte Orte und Angebote in Angersbach und Landenhausen** erweitert. Er umfasst 13 Bereiche:
+
+- Sehenswürdigkeiten und Geschichte, Natur und Aussicht
+- Wandern und Radfahren, Freizeit und Sport, Spiel- und Bolzplätze
+- Kultur- und Gemeinschaftsorte, Gastronomie, Einkauf
+- Medizinische Versorgung, kommunale Einrichtungen und Mobilität
+- Defibrillatoren (AED) und Altglas-/Grünabfall-Sammelstellen
+
+**Technisch:** Redaktionsdaten in `data/places.json` mit `id`, Titel, Ortsteil, Kategorie, Beschreibung, ursprünglicher Quelle und optional verifizierter Straße/Adresse. Die App lädt die Daten beim Start; die letzte erfolgreiche Version wird lokal zwischengespeichert. Die Einträge sind durchsuchbar, nach Ortsteil und Kategorie filterbar sowie als Favoriten merkbar. Um lange Listen auf Smartphones zu vermeiden, erscheinen zunächst 24 Karten und danach weitere auf Nachfrage.
+
+**Quellenbasis:** Insbesondere die offizielle [Gemeindeseite zu Wanderwegen](https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html), [Spiel- und Bolzplätzen](https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/spiel-und-bolzplaetze.html), [Gastronomie](https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/gastronomie-verzeichnis-der-gaststaetten-etc.html), [medizinischer Versorgung](https://www.gemeinde-wartenberg.de/leben-wohnen/medizinische-versorgung.html), [AED-Standorten](https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html) und [Abfall/Containerstandorten](https://www.gemeinde-wartenberg.de/leben-wohnen/ver-und-entsorgung/abfall.html). Bei ausgewählten Angeboten ergänzen Quellen des Vogelsbergkreises, des Hessischen Tennis-Verbands, der Kirchen und das Gemeindeverzeichnis zum Einkaufsgutschein.
+
+**Standorte:** Bei Wanderwegen, Naturpunkten und Ausflugszielen ohne exakt verifizierte Straßenadresse wird **keine falsche Karten-Route angeboten**. Stattdessen führt ein Button zur offiziellen Strecken-/Standortinformation. Auch Einträge mit bekannter Adresse öffnen eine **Google-Maps-Suche**, keine behauptete GPS-genaue Position. Die Verfügbarkeit von Betrieben, Öffnungszeiten, Eintrittspreise oder Zugänglichkeit können sich ändern; daher bitte die jeweilige Quelle prüfen.
+
 ## Version 2.2 – Gemeindequellen direkt, ohne KI
 
 - **KI-Automatik deaktiviert:** Der experimentelle Qwen-Pilot-Workflow ist aus dem Repository entfernt. Es gibt keine automatische KI-Zusammenfassung und keine laufenden KI-API-Kosten.
