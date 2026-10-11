@@ -1,9 +1,9 @@
 {
   "version": 1,
-  "generatedAt": "2026-10-12",
+  "generatedAt": "2026-10-11T22:03:09+00:00",
   "scope": "Wartenberg (Hessen), Vogelsbergkreis",
-  "geocoder": "OpenStreetMap Nominatim, einmalige Adress-Geokodierung; für unbestätigte Orte keine Koordinaten.",
-  "license": "OpenStreetMap-Daten © OpenStreetMap-Mitwirkende (ODbL), https://www.openstreetmap.org/copyright",
+  "geocoder": "Einmalige adressbasierte Standortauflösung mit OpenStreetMap Nominatim (2026-10), ohne wiederkehrende API-Aufrufe.",
+  "license": "OpenStreetMap-Mitwirkende (ODbL): https://www.openstreetmap.org/copyright",
   "byId": {
     "ort-001": {
       "lat": 50.631667,
@@ -11,6 +11,585 @@
       "precision": "landmark",
       "label": "Burgruine Wartenberg",
       "source": "https://de.wikipedia.org/wiki/Burg_Wartenberg_(Hessen)"
+    },
+    "ort-022": {
+      "lat": 50.626446,
+      "lon": 9.451849,
+      "precision": "house",
+      "label": "Wartenberg Oval, 26, Stangenweg, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 177789550
+    },
+    "ort-023": {
+      "lat": 50.607049,
+      "lon": 9.473774,
+      "precision": "street",
+      "label": "Mittelstraße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26754633
+    },
+    "ort-024": {
+      "lat": 50.607049,
+      "lon": 9.473774,
+      "precision": "street",
+      "label": "Mittelstraße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26754633
+    },
+    "ort-025": {
+      "lat": 50.625496,
+      "lon": 9.438527,
+      "precision": "street",
+      "label": "Hainigweg, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 41972166
+    },
+    "ort-026": {
+      "lat": 50.604611,
+      "lon": 9.476955,
+      "precision": "house",
+      "label": "Freibad Landenhausen, 3, Am Sportzentrum, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 30731719
+    },
+    "ort-027": {
+      "lat": 50.604686,
+      "lon": 9.478903,
+      "precision": "street",
+      "label": "Am Sportzentrum, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27108056
+    },
+    "ort-028": {
+      "lat": 50.624805,
+      "lon": 9.451519,
+      "precision": "street",
+      "label": "Am Sportplatz, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26959209
+    },
+    "ort-029": {
+      "lat": 50.622965,
+      "lon": 9.452419,
+      "precision": "street",
+      "label": "Landenhäuser Straße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 92023601
+    },
+    "ort-030": {
+      "lat": 50.604626,
+      "lon": 9.470069,
+      "precision": "street",
+      "label": "Stockhäuser Straße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 64526485
+    },
+    "ort-031": {
+      "lat": 50.623773,
+      "lon": 9.443301,
+      "precision": "street",
+      "label": "Mühlstraße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 516517014
+    },
+    "ort-032": {
+      "lat": 50.630455,
+      "lon": 9.436225,
+      "precision": "street",
+      "label": "Veilsheckenweg, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27911275
+    },
+    "ort-034": {
+      "lat": 50.611271,
+      "lon": 9.478996,
+      "precision": "street",
+      "label": "Die Lindenäcker, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26823632
+    },
+    "ort-035": {
+      "lat": 50.605118,
+      "lon": 9.471326,
+      "precision": "street",
+      "label": "Auf den Rödern, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 173498875
+    },
+    "ort-037": {
+      "lat": 50.625248,
+      "lon": 9.440017,
+      "precision": "house",
+      "label": "7, Hainigweg, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 100063801
+    },
+    "ort-038": {
+      "lat": 50.62506,
+      "lon": 9.450797,
+      "precision": "house",
+      "label": "Bauzentrum Angersbach, 2, Am Sportplatz, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 92016513
+    },
+    "ort-039": {
+      "lat": 50.629626,
+      "lon": 9.442936,
+      "precision": "house",
+      "label": "25, Lauterbacher Straße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99778901
+    },
+    "ort-040": {
+      "lat": 50.626894,
+      "lon": 9.453864,
+      "precision": "house",
+      "label": "Hippo's, 11, Alter Weg, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 92016521
+    },
+    "ort-041": {
+      "lat": 50.626273,
+      "lon": 9.446664,
+      "precision": "house",
+      "label": "Pizzeria Antalya, 2, Schulstraße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99483956
+    },
+    "ort-042": {
+      "lat": 50.607555,
+      "lon": 9.476619,
+      "precision": "house",
+      "label": "Pizzeria Gap, 3, Fuldaer Straße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 144275750
+    },
+    "ort-043": {
+      "lat": 50.607762,
+      "lon": 9.474505,
+      "precision": "house",
+      "label": "Wartenberger Brauhaus, 7, Mittelstraße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 110290825
+    },
+    "ort-044": {
+      "lat": 50.629217,
+      "lon": 9.443783,
+      "precision": "house",
+      "label": "15, Lauterbacher Straße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99778918
+    },
+    "ort-045": {
+      "lat": 50.624447,
+      "lon": 9.452125,
+      "precision": "house",
+      "label": "Aldi Süd, 1, Am Sportplatz, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 92016514
+    },
+    "ort-046": {
+      "lat": 50.62482,
+      "lon": 9.448189,
+      "precision": "house",
+      "label": "Rewe, 1, Reinickendorfer Straße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 92016517
+    },
+    "ort-047": {
+      "lat": 50.60598,
+      "lon": 9.473218,
+      "precision": "house",
+      "label": "Bäckerei Schröter, 32, Stockhäuser Straße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 144259340
+    },
+    "ort-048": {
+      "lat": 50.62506,
+      "lon": 9.450797,
+      "precision": "house",
+      "label": "Bauzentrum Angersbach, 2, Am Sportplatz, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 92016513
+    },
+    "ort-049": {
+      "lat": 50.62482,
+      "lon": 9.448189,
+      "precision": "house",
+      "label": "Rewe, 1, Reinickendorfer Straße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 92016517
+    },
+    "ort-050": {
+      "lat": 50.629147,
+      "lon": 9.442996,
+      "precision": "house",
+      "label": "Elektro Möller, 20, Lauterbacher Straße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99822590
+    },
+    "ort-051": {
+      "lat": 50.625248,
+      "lon": 9.452599,
+      "precision": "house",
+      "label": "Horse Shop, 21, Stangenweg, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 448204815
+    },
+    "ort-052": {
+      "lat": 50.604511,
+      "lon": 9.471035,
+      "precision": "house",
+      "label": "14, Auf den Rödern, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 144262668
+    },
+    "ort-053": {
+      "lat": 50.623402,
+      "lon": 9.443664,
+      "precision": "house",
+      "label": "13, Mühlstraße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99775430
+    },
+    "ort-054": {
+      "lat": 50.627531,
+      "lon": 9.444902,
+      "precision": "house",
+      "label": "1, Rudloser Straße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99491284
+    },
+    "ort-055": {
+      "lat": 50.625227,
+      "lon": 9.44288,
+      "precision": "house",
+      "label": "1a, Am Schwimmbad, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99935662
+    },
+    "ort-056": {
+      "lat": 50.625512,
+      "lon": 9.454021,
+      "precision": "house",
+      "label": "Physiopoint, 1, Krömmelbach, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 516517007
+    },
+    "ort-057": {
+      "lat": 50.612226,
+      "lon": 9.483396,
+      "precision": "house",
+      "label": "19, Berliner Straße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 144212350
+    },
+    "ort-058": {
+      "lat": 50.61176,
+      "lon": 9.484164,
+      "precision": "house",
+      "label": "30, Friedhofstraße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 144235726
+    },
+    "ort-059": {
+      "lat": 50.628162,
+      "lon": 9.447462,
+      "precision": "street",
+      "label": "Pfarrgasse, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 66377365
+    },
+    "ort-060": {
+      "lat": 50.609494,
+      "lon": 9.47893,
+      "precision": "house",
+      "label": "Evangelische Kirche, 20, Kirchweg, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 28559102
+    },
+    "ort-061": {
+      "lat": 50.627497,
+      "lon": 9.44721,
+      "precision": "house",
+      "label": "Evangelische Kirche, 15, Pfarrgasse, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99484037
+    },
+    "ort-062": {
+      "lat": 50.61001,
+      "lon": 9.483476,
+      "precision": "street",
+      "label": "Salzschlirfer Straße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 170595799
+    },
+    "ort-063": {
+      "lat": 50.627055,
+      "lon": 9.445218,
+      "precision": "house",
+      "label": "Gemeinde Wartenberg, 11, Landenhäuser Straße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99491303
+    },
+    "ort-064": {
+      "lat": 50.625487,
+      "lon": 9.444656,
+      "precision": "house",
+      "label": "9, Im Ziegelgarten, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99484045
+    },
+    "ort-065": {
+      "lat": 50.629913,
+      "lon": 9.438248,
+      "precision": "house",
+      "label": "Mittelpunktschule Wartenberg-Angersbach, 1, Schillerstraße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27544309
+    },
+    "ort-066": {
+      "lat": 50.630889,
+      "lon": 9.43746,
+      "precision": "house",
+      "label": "evangelische Kindertagesstätte Angersbach, 24, In den Fetzwiesen, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27544311
+    },
+    "ort-067": {
+      "lat": 50.607049,
+      "lon": 9.473774,
+      "precision": "street",
+      "label": "Mittelstraße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26754633
+    },
+    "ort-068": {
+      "lat": 50.629523,
+      "lon": 9.439993,
+      "precision": "house",
+      "label": "Haus Schweiger, 18, In den Fetzwiesen, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99940230
+    },
+    "ort-069": {
+      "lat": 50.607049,
+      "lon": 9.473774,
+      "precision": "street",
+      "label": "Mittelstraße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26754633
+    },
+    "ort-070": {
+      "lat": 50.631544,
+      "lon": 9.448049,
+      "precision": "street",
+      "label": "Krombergsweg, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 41350156
+    },
+    "ort-071": {
+      "lat": 50.611439,
+      "lon": 9.480361,
+      "precision": "street",
+      "label": "Steinweg, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 1266256253
+    },
+    "ort-073": {
+      "lat": 50.630758,
+      "lon": 9.447258,
+      "precision": "house",
+      "label": "44, Bahnhofstraße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 143422874
+    },
+    "ort-074": {
+      "lat": 50.61001,
+      "lon": 9.483476,
+      "precision": "street",
+      "label": "Salzschlirfer Straße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 170595799
+    },
+    "ort-075": {
+      "lat": 50.61001,
+      "lon": 9.483476,
+      "precision": "street",
+      "label": "Salzschlirfer Straße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 170595799
+    },
+    "ort-076": {
+      "lat": 50.607049,
+      "lon": 9.473774,
+      "precision": "street",
+      "label": "Mittelstraße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26754633
+    },
+    "ort-077": {
+      "lat": 50.625487,
+      "lon": 9.444656,
+      "precision": "house",
+      "label": "9, Im Ziegelgarten, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99484045
+    },
+    "ort-078": {
+      "lat": 50.630889,
+      "lon": 9.43746,
+      "precision": "house",
+      "label": "evangelische Kindertagesstätte Angersbach, 24, In den Fetzwiesen, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 27544311
+    },
+    "ort-079": {
+      "lat": 50.625799,
+      "lon": 9.453249,
+      "precision": "house",
+      "label": "ESAtec Elektro - Starkstrom - Anlagentechnik GmbH, 34, Stangenweg, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 177789560
+    },
+    "ort-081": {
+      "lat": 50.607049,
+      "lon": 9.473774,
+      "precision": "street",
+      "label": "Mittelstraße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 26754633
+    },
+    "ort-083": {
+      "lat": 50.625487,
+      "lon": 9.444656,
+      "precision": "house",
+      "label": "9, Im Ziegelgarten, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99484045
+    },
+    "ort-086": {
+      "lat": 50.628676,
+      "lon": 9.443757,
+      "precision": "house",
+      "label": "Getränke Hühn, 14, Lauterbacher Straße, Angersbach, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 99778893
+    },
+    "ort-087": {
+      "lat": 50.604611,
+      "lon": 9.476955,
+      "precision": "house",
+      "label": "Freibad Landenhausen, 3, Am Sportzentrum, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 30731719
+    },
+    "ort-088": {
+      "lat": 50.604626,
+      "lon": 9.470069,
+      "precision": "street",
+      "label": "Stockhäuser Straße, Landenhausen, Wartenberg, Vogelsbergkreis, Hessen, 36367, Deutschland",
+      "source": "https://www.openstreetmap.org/copyright",
+      "osm_type": "way",
+      "osm_id": 64526485
     }
+  },
+  "missingIds": [
+    "ort-002",
+    "ort-003",
+    "ort-004",
+    "ort-005",
+    "ort-006",
+    "ort-007",
+    "ort-008",
+    "ort-009",
+    "ort-010",
+    "ort-011",
+    "ort-012",
+    "ort-013",
+    "ort-014",
+    "ort-015",
+    "ort-016",
+    "ort-017",
+    "ort-018",
+    "ort-019",
+    "ort-020",
+    "ort-021",
+    "ort-033",
+    "ort-036",
+    "ort-072",
+    "ort-080",
+    "ort-082",
+    "ort-084",
+    "ort-085",
+    "ort-089",
+    "ort-090"
+  ],
+  "count": 61,
+  "summary": {
+    "already": 1,
+    "resolved": 60,
+    "notFound": 6,
+    "noAddress": 23,
+    "providerBlocked": 0
   }
 }
