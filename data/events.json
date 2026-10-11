@@ -17,29 +17,15 @@
       "exactTimeKnown": false
     },
     {
-      "id": "gemeinde-termin-5b548c6eb92fa4",
-      "start": "2026-10-24",
-      "end": "2026-10-24",
-      "title": "Liederabend 135-jähriges Bestehen MGV Landenhausen",
-      "location": "Landenhausen",
-      "category": "Musik",
-      "organizer": "Männergesangsverein Landenhausen",
-      "description": "",
-      "source": "https://www.gemeinde-wartenberg.de/kalenderdaten/detailansicht.html?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=1986&cHash=f8dde0e9ab8f8d5004f67f6e0fb9c3b6",
-      "origin": "Gemeindekalender",
-      "exactTimeKnown": false
-    },
-    {
       "id": "2026-event-02",
       "start": "2026-10-24",
       "end": "2026-10-24",
       "title": "Liederabend zum 135-jährigen Bestehen des MGV Landenhausen",
       "location": "Landenhausen",
       "category": "Musik",
-      "organizer": "Männergesangverein Landenhausen",
+      "organizer": "Männergesangsverein Landenhausen",
       "description": "Der Männergesangverein Landenhausen hat zum 135-jährigen Bestehen einen Liederabend angekündigt. Eine genaue Uhrzeit wurde in der erfassten Terminübersicht nicht genannt.",
-      "source": "https://www.gemeinde-wartenberg.de/kalenderdaten/alle-termine.html",
-      "verifiedAt": "2026-10-11",
+      "source": "https://www.gemeinde-wartenberg.de/kalenderdaten/detailansicht.html?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=1986&cHash=f8dde0e9ab8f8d5004f67f6e0fb9c3b6",
       "origin": "Gemeindekalender",
       "exactTimeKnown": false
     },
@@ -117,20 +103,6 @@
       "category": "Sport",
       "organizer": "Schützenabteilung Sportgemeinschaft Landenhausen",
       "description": "Die Schützenabteilung der Sportgemeinschaft Landenhausen hat ein Preis- und Geflügelschießen für den Zeitraum vom 7. bis 20. Dezember 2026 angekündigt. Die einzelnen Zeiten sind beim Verein zu erfragen.",
-      "source": "https://www.gemeinde-wartenberg.de/kalenderdaten/alle-termine.html",
-      "verifiedAt": "2026-10-11",
-      "origin": "Gemeindekalender",
-      "exactTimeKnown": false
-    },
-    {
-      "id": "gemeinde-termin-f4928225eccf43",
-      "start": "2026-12-07",
-      "end": "2026-12-20",
-      "title": "Preis-Schießen / Geflügel-Schießen",
-      "location": "Landenhausen",
-      "category": "Gemeinschaft",
-      "organizer": "Schützenabteilung Sportgemeinschaft Landenhausen",
-      "description": "",
       "source": "https://www.gemeinde-wartenberg.de/kalenderdaten/detailansicht.html?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=1981&cHash=97a8844cad97206a8e5f0270c939c1d5",
       "origin": "Gemeindekalender",
       "exactTimeKnown": false
