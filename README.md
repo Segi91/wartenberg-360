@@ -1,10 +1,21 @@
-# Wartenberg 360 · Version 2.2
+# Wartenberg 360 · Version 2.3
 
 **Deine kostenlose digitale Ortszentrale für Angersbach und Landenhausen** in Wartenberg (Hessen, PLZ 36367).
 
 **App:** https://segi91.github.io/wartenberg-360/
 
 Wartenberg 360 ist ein **unabhängiges privates Bürgerprojekt**, keine offizielle Website der Gemeinde.
+
+## Neu in Version 2.3 – Interaktive Ortskarte
+
+- **Karte und Liste:** Im Ortsführer gibt es jetzt einen einfachen Wechsel zwischen interaktiver Karte und der bisherigen Kartenliste. Die Einstellung wird lokal gespeichert.
+- **90 Einträge bleiben erreichbar:** 61 der 90 recherchierten Einträge besitzen nach einmaliger Prüfung und Geokodierung einen belegten Standort. Es sind **38 hausnummerngenaue Standorte, 22 nur straßengenaue Positionen und ein Quellenpunkt der Burgruine**; gemeinsame Adressen werden als Gruppensymbole dargestellt. Die anderen 29 Orte/Wanderwege werden weiterhin im seitlichen Verzeichnis angezeigt, **ohne erfundene Pins**.
+- **Suche und Filter:** Die bestehenden Orts- und Themenfilter und die Suche wirken gleichzeitig auf die Kartenmarker und die komplette zugehörige Seitenliste. Ein Klick auf einen Listeneintrag zentriert die Karte; ein Kartenmarker öffnet ein Fenster mit Quelle und Adresse.
+- **Offline-Fallback:** Die Ortsdaten sowie die einmalig erzeugte Zuordnung sind lokal und über die PWA zwischengespeichert. Die **Kartenkacheln** benötigen Internet und werden **nicht** im Hintergrund geladen, gesammelt oder für Offline-Karten gespeichert. Fällt der Kartendienst aus, bleibt die Ortsliste verfügbar.
+- **Technik:** `place-map.js` mit [Leaflet 1.9.4](https://leafletjs.com/) und [OpenStreetMap-Kartenkacheln](https://operations.osmfoundation.org/policies/tiles/). Sichtbare Urheberangabe im Kartenausschnitt. Keine API-Schlüssel, keine laufende Geokodierung im Browser, keine KI. Die Kartenkacheln werden von externen OSM-Servern übertragen; es findet keine Erfassung des Gerätestandorts statt.
+- **Verifizierung:** `data/place_coordinates.json` enthält die dauerhaft gespeicherten Ergebnisse; `scripts/geocode_places_once.py` ist absichtlich nur als **einmalig auszulösender** Prozess mit maximal 1 Anfrage/1,5 Sekunden und eigener Ergebnisspeicherung gedacht (Nominatim-[Nutzungsregeln](https://operations.osmfoundation.org/policies/nominatim/)). Der normale Nachrichten-Workflow führt ihn **nicht** aus. Einträge ohne verlässliche Position werden nicht durch geschätzte Ortsmitten ersetzt.
+
+**Datenlizenz:** Karten- und Positionsinformationen © OpenStreetMap-Mitwirkende; ODbL und weitere Hinweise unter [openstreetmap.org/copyright](https://www.openstreetmap.org/copyright). Exakt gewählte Ziele können bei nur straßengenauer Verortung von der tatsächlichen Eingangsadresse abweichen. Öffnungszeiten und aktuelle Verfügbarkeit bitte beim jeweiligen Anbieter prüfen.
 
 ## Ortsführer-Ausbau – 90 Einträge (Oktober 2026)
 
@@ -96,7 +107,7 @@ Statische HTML/CSS/JavaScript-PWA ohne kostenpflichtige externe Dienste. GitHub 
 - **Themenregeln:** `scripts/news_topics.py`
 - **Kuratierter Ortsbestand:** `data/curated_news.json`
 - **Aktualisierte Artikel:** `news.json`
-- **Tests:** `node --check app.js`, `python3 -m py_compile scripts/update_news.py scripts/news_topics.py`, `node tests/smoke.cjs`
+- **Tests:** `node --check app.js`, `node --check place-map.js`, `python3 -m unittest discover -s tests -p 'test_official_sync.py'`, `node tests/smoke.cjs`, `node tests/map.cjs`
 - **Automatik:** `.github/workflows/update-news.yml`
 - **Qualitätssicherung:** `.github/workflows/verify-v2.yml`
 
