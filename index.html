@@ -9,25 +9,28 @@
 <link rel="icon" href="./icon.svg" type="image/svg+xml" />
 <link rel="apple-touch-icon" href="./icon-192.png" />
 <title>Wartenberg 360 · Alles vor Ort</title>
-<link rel="stylesheet" href="./style.css" />
+<link rel="stylesheet" href="./style.css?v=20261011-repair1" />
 </head>
 <body>
 <div class="app-shell">
   <aside id="sidebar" class="sidebar">
     <div class="brand-row"><div class="brand-mark">W<span>°</span></div><div><div class="brand-title">Wartenberg <strong>360</strong></div><div class="brand-subtitle">DEIN ZUHAUSE. DEIN ÜBERBLICK.</div></div></div>
     <div class="location-pill"><span class="location-dot"></span> 36367 Wartenberg <span class="muted">· Hessen</span></div>
-    <div class="nav-label">ENTDECKEN</div><nav id="desktop-nav" class="nav-list" aria-label="Hauptnavigation"></nav>
+    <div class="nav-label">ENTDECKEN</div><nav id="desktop-nav" class="nav-list" aria-label="Hauptnavigation"><a class="nav-link active" href="#fallback-home">⌂ &nbsp; Übersicht</a><a class="nav-link" href="#fallback-news">▤ &nbsp; Nachrichten</a><a class="nav-link" href="#fallback-events">▦ &nbsp; Veranstaltungen</a><a class="nav-link" href="#fallback-waste">▣ &nbsp; Abfallkalender</a><a class="nav-link" href="#fallback-clubs">♧ &nbsp; Vereine</a><a class="nav-link" href="#fallback-service">✚ &nbsp; Service &amp; Notruf</a></nav>
     <div class="sidebar-bottom"><div class="aside-glass"><span class="aside-dot"></span><div><strong>Für beide Ortsteile</strong><small>Angersbach & Landenhausen</small></div></div><button type="button" class="minimal-source" id="open-source-sidebar">Daten & Quellen ↗</button></div>
   </aside>
   <div class="main-area">
-    <header class="topbar"><div class="topbar-left"><span class="mobile-brand"><span class="brand-mark small">W<span>°</span></span> Wartenberg <b>360</b></span><span id="crumb" class="crumb">Übersicht</span></div><div class="header-actions"><span class="today-label" id="header-day"></span><button class="icon-btn" id="global-search" aria-label="Suche öffnen" title="Suche (Strg+K)"></button><button class="icon-btn" id="header-settings" aria-label="Einstellungen"></button></div></header>
-    <main id="content" class="content" tabindex="-1"></main>
+    <header class="topbar"><div class="topbar-left"><span class="mobile-brand"><span class="brand-mark small">W<span>°</span></span> Wartenberg <b>360</b></span><span id="crumb" class="crumb">Übersicht</span></div><div class="header-actions"><span class="today-label" id="header-day"></span><button class="icon-btn" id="global-search" aria-label="Suche öffnen" title="Suche (Strg+K)">⌕</button><button class="icon-btn" id="header-settings" aria-label="Einstellungen">⚙</button></div></header>
+    <main id="content" class="content" tabindex="-1"><section id="fallback-home" class="hero"><div class="hero-info">✧ DEIN ORT. DEIN TAG.</div><h1>Schön, dass du<br>hier bist<span style="color:#d4a565">.</span></h1><p>Alles Wichtige rund um Wartenberg – Angersbach und Landenhausen.</p><div class="hero-actions"><a class="primary-btn" href="#fallback-news">Nachrichten ansehen →</a><a class="secondary-btn" href="#fallback-events">Veranstaltungen →</a></div></section>
+<div class="strip" role="status" style="margin-top:16px">Die interaktiven Inhalte werden geladen. Falls diese Anzeige dauerhaft bleibt: Seite neu laden (Strg+F5). Die wichtigsten Quellen kannst du unten direkt öffnen.</div>
+<div class="grid-overview" aria-label="Schnellzugriff"><section class="card card-pad" id="fallback-news"><h2 class="section-title">▤ Nachrichten</h2><p>Aktuelles aus Wartenberg und dem Vogelsbergkreis.</p><p><a href="https://www.gemeinde-wartenberg.de/alle-news.html" target="_blank" rel="noopener noreferrer">Gemeindemeldungen öffnen ↗</a></p><p><a href="https://www.oberhessen-live.de/" target="_blank" rel="noopener noreferrer">Oberhessen-live ↗</a></p></section><section class="card card-pad" id="fallback-events"><h2 class="section-title">▦ Veranstaltungen</h2><p>Termine und Veranstaltungen direkt von der Gemeinde.</p><p><a href="https://www.gemeinde-wartenberg.de/kalenderdaten/alle-termine.html" target="_blank" rel="noopener noreferrer">Terminkalender öffnen ↗</a></p></section><section class="card card-pad" id="fallback-waste"><h2 class="section-title">▣ Abfallkalender</h2><p>Die verbindlichen Abfuhrtermine hängen von deiner Straße ab.</p><p><a href="https://www.zav-online.de/gemeinde-wartenberg-termine" target="_blank" rel="noopener noreferrer">ZAV-Abfallkalender ↗</a></p></section></div>
+<div class="grid-overview" style="margin-top:16px"><section class="card card-pad" id="fallback-clubs"><h2 class="section-title">♧ Vereine</h2><p><a href="https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/vereine.html" target="_blank" rel="noopener noreferrer">Vereine der Gemeinde ↗</a></p></section><section class="card card-pad" id="fallback-service"><h2 class="section-title">✚ Service &amp; Notruf</h2><p>Rettungsdienst: <a href="tel:112">112</a> · Polizei: <a href="tel:110">110</a></p><p>Ärztlicher Bereitschaftsdienst: <a href="tel:116117">116117</a></p></section></div></main>
     <footer class="page-footer"><span>Wartenberg 360 · Unabhängiges Bürgerprojekt</span><span>Inhalte mit Quellen · <button id="footer-sources" class="text-button">Datenstand & Transparenz ↗</button></span></footer>
   </div>
 </div>
-<nav class="bottom-nav" id="mobile-nav" aria-label="Mobile Navigation"></nav>
+<nav class="bottom-nav" id="mobile-nav" aria-label="Mobile Navigation"><a href="#fallback-home">⌂ Übersicht</a><a href="#fallback-news">▤ News</a><a href="#fallback-events">▦ Termine</a><a href="#fallback-waste">▣ Abfall</a><a href="#fallback-clubs">♧ Vereine</a></nav>
 <div id="search-modal" class="modal-backdrop" hidden><section class="search-dialog" role="dialog" aria-modal="true" aria-labelledby="search-title"><div class="search-heading"><strong id="search-title">Alles in Wartenberg finden</strong><button id="close-search" class="icon-btn" aria-label="Schließen"></button></div><div class="search-input-wrap"><span id="search-symbol"></span><input id="search-input" placeholder="Nachrichten, Termine, Vereine, Service ..." aria-label="Suchbegriff" autocomplete="off" /></div><div id="search-results" class="search-results"></div><div class="search-help">ESC zum Schließen · Suche lokal in den hinterlegten Inhalten</div></section></div>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
-<script src="./app.js" defer></script>
+<script src="./app.js?v=20261011-repair1" defer></script>
 </body>
 </html>
