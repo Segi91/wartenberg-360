@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "updatedAt": "2026-10-11T19:27:31Z",
+  "version": 2,
+  "updatedAt": "2026-10-11T19:40:38Z",
   "items": [
     {
       "id": "f519d8d5deeef2fd",
@@ -8,12 +8,13 @@
       "desc": "",
       "date": "2026-10-11",
       "publishedAt": "2026-10-11T18:13:16+00:00",
-      "category": "Verkehr",
+      "category": "Verkehr & Bauen",
       "locality": "Vogelsberg",
       "sourceName": "Fuldaer Zeitung",
       "sourceId": "fulda",
       "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb3RWcERqVXlSaVF4ajRCNHB3OFVNUXZ6WEtUNXY0UW5WWjVLQVp0WHJLNXRyWTJUeFBPM2pyZElWTEo2S0xhRFRXNDIzY3RpSTNTMW5PZTFCTXBadzg2aDlvXzFrSVR0ZkUtYVItWTdKa0M2UzhtZ2tkd1JoY2NxdWFDaHBxNVpMNEtvOW10aXFwMU9qd3hvS0dram5pbnAyb2tlR3dUaFZ0QnM3OFk5OThsU01MRVBaY2VSUzg2SDBYNnRRaDkw?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Verkehr & Bauen"
     },
     {
       "id": "0129611bf7c9f7c6",
@@ -21,12 +22,13 @@
       "desc": "",
       "date": "2026-10-11",
       "publishedAt": "2026-10-11T17:58:46+00:00",
-      "category": "Vereine",
+      "category": "Gemeinschaft & Ehrenamt",
       "locality": "Vogelsberg",
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/11/als-boehmen-nach-romrod-kam/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
     },
     {
       "id": "0dce512a9aa411a4",
@@ -39,7 +41,8 @@
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/11/zu-gut-fuer-die-tonne-foodsharing-rettet-lebensmittel-und-sorgt-fuer-aha-momente/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "c66960b6a4db5d7b",
@@ -47,12 +50,13 @@
       "desc": "",
       "date": "2026-10-11",
       "publishedAt": "2026-10-11T14:11:43+00:00",
-      "category": "Vogelsberg",
+      "category": "Kultur & Musik",
       "locality": "Vogelsberg",
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/11/drei-besondere-novemberabende-im-kulturladen-schlitz/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Kultur & Musik"
     },
     {
       "id": "fb3bcf2cdbeba6cc",
@@ -65,7 +69,8 @@
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/11/wenn-das-leben-fragen-stellt/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "419585cfcfa0e765",
@@ -73,12 +78,13 @@
       "desc": "",
       "date": "2026-10-11",
       "publishedAt": "2026-10-11T08:04:35+00:00",
-      "category": "Verkehr",
+      "category": "Verkehr & Bauen",
       "locality": "Vogelsberg",
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/11/vollsperrung-der-k-70-zwischen-alsfeld-hattendorf-und-der-kreisgrenze-zum-schwalm-eder-kreis/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Verkehr & Bauen"
     },
     {
       "id": "415f14f7eb61af0d",
@@ -91,7 +97,8 @@
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/11/10-tattoo-convention-alsfeld-17-18-oktober/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "e452bb6af3989443",
@@ -104,7 +111,8 @@
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/10/die-gefahren-im-netz-erkennen-und-ihnen-begegnen/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "706836e4fb466df2",
@@ -117,7 +125,8 @@
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/10/stark-selbstbewusst-und-sicher-selbstbehauptungs-und-selbstverteidigungskurs-fuer-jungen/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "4969003dcc763677",
@@ -130,7 +139,8 @@
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/10/viele-begegnungen-seifenkisten-und-ein-talk-mit-steinmeier/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "50b584e414bccd81",
@@ -138,12 +148,13 @@
       "desc": "",
       "date": "2026-10-10",
       "publishedAt": "2026-10-10T14:11:54+00:00",
-      "category": "Vereine",
+      "category": "Gemeinschaft & Ehrenamt",
       "locality": "Vogelsberg",
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/10/landrat-dr-mischak-1-million-zusaetzlich-fuer-den-sport-im-vogelsbergkreis/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
     },
     {
       "id": "605ac43dc68150c6",
@@ -151,12 +162,13 @@
       "desc": "",
       "date": "2026-10-10",
       "publishedAt": "2026-10-10T12:17:37+00:00",
-      "category": "Verkehr",
+      "category": "Verkehr & Bauen",
       "locality": "Vogelsberg",
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/10/dreitaegige-vollsperrung-zwischen-alsfeld-eifa-und-dem-abzweig-nach-grebenau-schwarz/",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Verkehr & Bauen"
     },
     {
       "id": "3ad0f90f63ca5be7",
@@ -164,12 +176,13 @@
       "desc": "",
       "date": "2026-10-10",
       "publishedAt": "2026-10-10T09:13:00+00:00",
-      "category": "Vereine",
+      "category": "Gemeinschaft & Ehrenamt",
       "locality": "Vogelsberg",
       "sourceName": "Fuldaer Zeitung",
       "sourceId": "fulda",
       "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSEcxdFFZd2NDc19jSkYxbnEwcUZmMzRGTUJRSXE5LWw1N29WVTAtdWc0ODFhM21JbTRNXy1Rd1Y5VUlQUzJDX1BzOE5majczZ0R0dnZ6Q1RONUNheG1sdFNfX19pZm9lbGdvODNwNWxwNFFYLVdueDdWelo3RTRMUEJrODU0ZTZNMGFGd0pCOXQxT3NPTEMzUWhYV0NrYjAxUFRkdjF1eEtPZDQ3bDF0V1pFVE02Zw?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Gemeinschaft & Ehrenamt"
     },
     {
       "id": "03011fd870839cab",
@@ -177,12 +190,13 @@
       "desc": "",
       "date": "2026-10-09",
       "publishedAt": "2026-10-09T18:53:47+00:00",
-      "category": "Gemeinde",
+      "category": "Vogelsberg",
       "locality": "Wartenberg",
       "sourceName": "Wartenberg-iNFO",
       "sourceId": "winfo",
       "source": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwMFhuU0xidkFvNS02NUZQWFFyZTQ2WGNaRmpQT21FRHphS0lGSTBTSXk2SXEyNWthbzZiRzd2MDVNT1p5d1g2OEJFM0pLWmc?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "d33094c436ab6aa3",
@@ -190,12 +204,13 @@
       "desc": "",
       "date": "2026-10-09",
       "publishedAt": "2026-10-09T13:31:52+00:00",
-      "category": "Vereine",
+      "category": "Gemeinschaft & Ehrenamt",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTnd6eEZDNjFlcjRNQmhWdHhTN21Rand2b3ZkaXFBUy1NN1ZWWlhNOEQ0Tlo5OXJaWS13QzVRWnlBNXlrSmlSazY4Z3R0ZWIwdWxNWXFkZkM1ZXNlbWpFWncyLUdFMGdZWnVaMXhDMXNra2FfLUhiY1JOS2lCZ00xT0pSbWowcXRBYW05V1g1VHZTLUptU29qZS1vZVZveUwxYkpGcElwQ29NbTQ2N3BCQ291WnpmY01iMXc?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Gemeinschaft & Ehrenamt"
     },
     {
       "id": "54459eb4b649e5ee",
@@ -208,7 +223,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/KJP-tagt-in-der-Vogelsbergschule/boxid/1075801",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "5b0c653f49a226f8",
@@ -216,12 +232,13 @@
       "desc": "",
       "date": "2026-10-09",
       "publishedAt": "2026-10-09T10:00:00+00:00",
-      "category": "Vereine",
+      "category": "Gemeinschaft & Ehrenamt",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOVWtVblVjRDVWSTVoSEpfWkpvelpwSl9nejVUcHdqV3duZEZkc0ZRN2hyM2N3aVN6VGQ3b25MX181OHJDTGhVV29KTkVGMWliQWVXVkJKc0p3eWtRQTYwYW9zeWVWRnV0dEdtT2psRFljaXZFM3hFdmxFZnlkOXo3REEtaUNUeWhNRU5aVzFvYUNNdkcyNlN2N281aF9HRUdpS3B3ejl0U0RIT2dXbkN4XzBVcTJ5UQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Gemeinschaft & Ehrenamt"
     },
     {
       "id": "bc84355ea1e0a011",
@@ -229,12 +246,13 @@
       "desc": "",
       "date": "2026-10-09",
       "publishedAt": "2026-10-09T09:58:00+00:00",
-      "category": "Vereine",
+      "category": "Gemeinschaft & Ehrenamt",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Landrat-Dr-Mischak-1-Million-zustzlich-fr-den-Sport-im-Vogelsbergkreis/boxid/1075786",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
     },
     {
       "id": "239e25f0c22970a7",
@@ -247,7 +265,8 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeFozeExPWUQwQmZtalRrMXoyTXQ1Wmh0WXQ1VVR2NnBORmV2bUNnZzBNa0RJM25DMERma003WGh1QVNWU1V2YkxhM2EzMFJZQThrT1pVSXNzMHE0N0M0dVBPc2FxNi1ZX0JUb2tvdmg4eFo0Z21ha1RjZHBRaEZVRUNtcWdlT3BtLTNsQ2s5dw?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "4dbda928e0c3d474",
@@ -260,7 +279,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Englisch-Auffrischungskurs-A1/boxid/1075775",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "eafd9c14d2004c5f",
@@ -273,7 +293,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Biografisches-Schreiben/boxid/1075773",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "453ce522ddcebb71",
@@ -281,12 +302,13 @@
       "desc": "",
       "date": "2026-10-09",
       "publishedAt": "2026-10-09T09:02:00+00:00",
-      "category": "Vogelsberg",
+      "category": "Familie & Soziales",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Aquarellkarten-Kurs-fr-Jugendliche-und-Erwachsene/boxid/1075772",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "947c5b7d844bc3e9",
@@ -299,7 +321,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Einfhrung-in-die-Digitalfotografie/boxid/1075770",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "276a1cd7f89d9aa3",
@@ -307,12 +330,13 @@
       "desc": "",
       "date": "2026-10-09",
       "publishedAt": "2026-10-09T09:01:00+00:00",
-      "category": "Vogelsberg",
+      "category": "Familie & Soziales",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurse-Einfach-Aquarellkarten-fr-Kinder-Jugendliche-und-Erwachsene/boxid/1075771",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "3c3fbbb96897f8dc",
@@ -325,7 +349,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Yoga-zum-Kennenlernen-Hatha-und-Lu-Jong/boxid/1075769",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "a8de46f9efd5ec6c",
@@ -338,7 +363,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Fitness-fr-jede-n/boxid/1075768",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "b0a29e256e8d3932",
@@ -351,7 +377,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Fitnessboxen/boxid/1075767",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "f5dc67872b370f5d",
@@ -364,7 +391,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Stark-selbstbewusst-und-sicher/boxid/1075750",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "a381cb97b9244c86",
@@ -372,12 +400,13 @@
       "desc": "",
       "date": "2026-10-09",
       "publishedAt": "2026-10-09T07:03:00+00:00",
-      "category": "Vogelsberg",
+      "category": "Familie & Soziales",
       "locality": "Vogelsberg",
       "sourceName": "Fuldaer Zeitung",
       "sourceId": "fulda",
       "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOV1EtTmo2a1I2TThFLWpld19WOVZDMWtBNVZMZDFsTUhpMzNVV1dDbWhkaUZrd253RHpvNTFrclM2Q2hfdHBSajBhVDh3empzbVk5UWhYRHl0eEFPRmZqOU4ydUJyeTlUS1F4dG94NHBqVFpzc2FuNnE3aHdJN19sYUtlNmk4RVFxa3N2eTRnc2dRb3JjSVBGUFY0ZUE3LUloUVZwZFNlZjJGWEhaLTNZZ1NHQXJha2c3SndJ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "a5d2e2ecd570037e",
@@ -385,12 +414,13 @@
       "desc": "",
       "date": "2026-10-09",
       "publishedAt": "2026-10-09T05:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZlBGMkN0ZGJkTlNIUUZZMHkzZ19lTHlCWWpZUGJkTVd5R0plcGdmcmQ0M1NmVmJ6Y2FVeEF6UTBCaVlRZE1GcHloT1lXUFFwOEtCLXo0cGx6R05teGxlRDlQTFdsc2Q2ZHFNMlVWTWk4X0toYTN0T1N1YjllX2J3a090bXY0UHhyVXFnMngydG5ONDNiTXZtMXAtWVliUGl4LVUzU19RNXYxaktqZFZ5elRaeGRYTWY0SFluR2tMdkd2WXJDQ0dv?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "e0d534d2168ee563",
@@ -403,7 +433,8 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9sUlJSX3ZFYTBPcU5xZ3hvTmJWLXZadkwtUmdiNFF0RGgzdktKTUZGbGsxamJuOVItNmo3VDc4eHFnOTBUV1Q0Zml0aVM3LWZfaTY0RGljUkY1RVc3aDVMbV9ZTGc?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "2b8469bc6ffc3697",
@@ -416,7 +447,8 @@
       "sourceName": "Fuldaer Zeitung",
       "sourceId": "fulda",
       "source": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMmVOckk3UXpVYkd6amtKRnRlRFpvb243QUcxbTBVSVd5bDdKWEFZOThhdE5VY0wwQ1NySDAyZFNXcEwtS0lQb2VPTjJkN0wyZnFBU0NqRVNWSkVoWWxHeTVQZ2FhTG9HMTdCOTRNMi12NmhNWUpNal9PWlRHOFBEYndYMXV5T0xPU2pvSDQ1aUozTkFIbFl1ZlRiMEEtRVJPWW9iZVFubDFoUW5kc1BTeTZJeWRMc2FyNk1waFhHZ1Q?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "3984409b0e1f97b1",
@@ -429,7 +461,8 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOSGY3ekhQRXZ0YUlkbWpMRHIzQ0ttT0I4b2tlQWJmUUdPWmcyaFNlWHY3NElMdXlCOXVGUV8xWkpvTVFvaEs1bElLUTM3MWJYQ2xmbTJJeFZoc2dHVmlDSkRrOHprRjU3QTFWMzZXOHpzVl9xd1U2bXJfUTZLYW1VRld6NlFxa0ZBTmJ0STFjaXR4RkFJc2RYeEhaRQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "44042590d902bc18",
@@ -442,7 +475,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Ein-neues-Kapitel-aufgeschlagen-Landrat-Dr-Mischak-begrt-Janine-Schrimpf-Sophie-Kaltenschnee-und-Elias-Pfeiffer-zum-Start-ihres-dualen-Studiums/boxid/1075603",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "5f196a88a6881b4f",
@@ -455,7 +489,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Schweres-Thema-perinatale-Palliativversorgung/boxid/1075589",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "aec1abab21170671",
@@ -463,12 +498,13 @@
       "desc": "",
       "date": "2026-10-08",
       "publishedAt": "2026-10-08T07:28:00+00:00",
-      "category": "Verkehr",
+      "category": "Verkehr & Bauen",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Sperrung-Fahrbahn-der-L3168-wird-erneuert/boxid/1075584",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Verkehr & Bauen"
     },
     {
       "id": "ae3297b9f616305d",
@@ -481,7 +517,8 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVFpmazRRNXV6ZGQ5LWh5cHhzeXZoekx6b19zYVE5b3hfSURBdThQN0dqaExKVjUzZzhDLW9FVFd5d2VkNkF1U0d5OFc0eGlTR0xMS1RNN3plSU82REtRcDV1NU1HM1VybnFTaExCWjlJN1pVM0ZQc2M4M1lYQmwzUmFXNVZVWmJZZkI0djZyZnktalVkSnUxcU1vR09CUC10?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "df653e16528d98c0",
@@ -489,12 +526,13 @@
       "desc": "",
       "date": "2026-10-07",
       "publishedAt": "2026-10-07T11:41:19+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRS1oVXM5Zks4cmFENlRYb2xXVWdRbm1oVWZJU1U0Y28yYW9YQ1dBdEd3YWlNQWJQaE5DWXM0N1M0NldZS3B4YWl1NWRlX2lpYXQwYkRzYUp5d2trRWJnUTkwVFBzTzhUUC1lMndtb2hxWUpiSGxOTFNEdVNHUzJEbXdvYlhaZGVTY1BTSWQ5VVhqUW5wMDU5a1JEbGtuNS1zbEpnVzhIbldxYzNabEIydF9xczFqR1QxaV8yTzJrZWFNXzZacTZDMV9sVGU5bzFfd25RZy1n?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "c147bbd6b36bdaa8",
@@ -502,12 +540,13 @@
       "desc": "",
       "date": "2026-10-07",
       "publishedAt": "2026-10-07T09:34:34+00:00",
-      "category": "Vogelsberg",
+      "category": "Natur & Umwelt",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUTBoRnpiQkpHeVRuclY4RmJXUHIzbklia2t4MFZwanJPR3g3b0tDSlNRVGNla2RwdFN1VFNpemdrWkl3VVVPaWxEZXVpT1hGaEYwV1VrSm5renNrdFhscl84ZXhiVjA5Mm51aWdxWlZjNUdKUXlwa3AxWEFFaWo2dXVlVzd4eVdxdk9hNXZRS2kwWDRCZlhNckEzNloybTZ3Q3hidVF0MTh4NmtT?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Natur & Umwelt"
     },
     {
       "id": "9421b46486090308",
@@ -515,12 +554,13 @@
       "desc": "",
       "date": "2026-10-07",
       "publishedAt": "2026-10-07T06:58:00+00:00",
-      "category": "Vereine",
+      "category": "Gemeinschaft & Ehrenamt",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Kommunale-Wrmeplanung-So-gestalten-Stdte-und-Gemeinden-die-Wrmeversorgung-der-Zukunft/boxid/1075429",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
     },
     {
       "id": "aa6ffcdd992db9d5",
@@ -533,7 +573,8 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORVJDWER0cXRzaHJaS28zX2NCY3hGenhRQTZSc2NWV0ctcHd0bExZakJtcWNfZEZJZVVCb1l4bHlkRkNlNjN0UE00YnZiQm55bzZvWnBDcE5nQUhsUnpuRTVObFpNWXozVWtQY2hUbmVnQ19FRDRZZnlJTXo0Rk94d2NqbUN4RkdSN3Q4TWlyclhWWXNGYnBhQXROdkV5MzR0akNHSlJXQ0RnQWIyajUxbHVB?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "ba8a251f973ad3bf",
@@ -541,12 +582,13 @@
       "desc": "",
       "date": "2026-10-06",
       "publishedAt": "2026-10-06T22:07:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM3JEZE5BQi1nOElYd0YxVTVPT2FaRFlhcDAwM0lTM1c0c1dLOThkc2lTYmpBc19GTGpUVndHVURHaU14LWFZMklvcnRGNGM2bGpmZmU5QVJzWkFFYzRFYmNrR0VFREpzUlFvUE8wVHhIMWxhRnhneG9iV1RtVU5qZ3lBY0UxZU4zU24yaTJhVFhYdzBRYkdYWUVybjM5VFEzU1J3aFJNa18xM1VWV0VsQ00ySHhzRkptbXRN?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "07a5de434f6f7711",
@@ -554,12 +596,13 @@
       "desc": "",
       "date": "2026-10-06",
       "publishedAt": "2026-10-06T16:10:53+00:00",
-      "category": "Vogelsberg",
+      "category": "Blaulicht",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmVLalk3NWRlVjk2X3B5QW1GMm1tMGZWYmNHdURaMlFlXzdDTHY5SnJpNU0tWjBpSTJpT2JTeEhJYU9Eb0FnTWU0ZC1zd2JwbGR4d3BQVlJ2cUlHaHk3dVR5Qjd1eGRadm81NFdZaktIcDFTUFpvY1Vzb3ZWN0pzWElOd3VmZWxGcmJOX3NsbXBiN0l0SDBrLWNQLXUyUndHejR0SVFaVQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "1080580b209afcf1",
@@ -567,12 +610,13 @@
       "desc": "",
       "date": "2026-10-06",
       "publishedAt": "2026-10-06T11:18:00+00:00",
-      "category": "Vogelsberg",
+      "category": "Familie & Soziales",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Wertschtzung-fr-pflegende-Angehrige/boxid/1075353",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "d8a293d63143b9af",
@@ -585,7 +629,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Fr-12-Stunden-im-Einsatz/boxid/1075339",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "5024d217cacb6ef6",
@@ -598,7 +643,8 @@
       "sourceName": "Fuldaer Zeitung",
       "sourceId": "fulda",
       "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUXVoX0JZSy1hLWVwR1oxbGRFN0RtVjctZk13R3lSNFE4SWs0NDIwWUNNSVJ2UlB0bm9EeklQMGRKbUxnOWZZVmtiZ1ZocW9UNDhOMUh5Y3liNGl1Y2IxbnkzQmY0dm04ZmJQaWtjMnZIaHVMVVFMQVJSRExEcUVrUWVrZzFROE1rX2JsYjJwUXB6NGwwandIZ2dZdkxDeUI5ZWhiUW9lSEdPNXZwaFREQw?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "234f36924c09b700",
@@ -611,7 +657,8 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NUUtyblVvUHFWejBVUVI3b2dUazBGakRNaW1JOTZFcHNRbENsQ3J3blpZaUNXbjNqNVZGXzVHN3ZFRDhzTHVTenhoZC11alhKRkRqQ1NtRkZGZFhpRlREeFZyZW8?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "791964ed210e9545",
@@ -624,7 +671,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iMUgyYkV1UlVQX2xFVUFERVZaV3cyV1pxLUtfN1FDWmhERDVYaEQ2X0Z6Mm5YMFZCd3NlV0NOajFBczZCYndfaVZfZXRGVWdwdHpBcDR0akVZb2xQZXBnTWlyS20?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "4c9060364b9b178a",
@@ -632,12 +680,13 @@
       "desc": "",
       "date": "2026-10-06",
       "publishedAt": "2026-10-06T08:42:00+00:00",
-      "category": "Vogelsberg",
+      "category": "Kultur & Musik",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Perspektiven-aus-dem-Iran-Frauenrechte-Kultur-und-Widerstand/boxid/1075309",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Kultur & Musik"
     },
     {
       "id": "fc96df9bf310e571",
@@ -650,7 +699,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nc0VNeVdPZmFXTWdadXByN0dHNm5NNF9LZW9LN0dzZkdfV0FZeWtXRWZRdmIteDN4MklHNTRBdFU1RFFfSVVvSDZ0cHhadVdmYWRKU2gzV1FMeFhOT3ZLbUhJSE8?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "2234c41ccfd2b52b",
@@ -663,7 +713,8 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWXJaV1ZDWGJqczRadlRraDYtQ0IzOXNSOWlMZmt6aHU1Y0ZnVnRvR0FRMFZDY3ZVYzN4Z3JLYTd3dE05dFFydDJoQnBkTEp6UTRibjlkYW01QUpYQzZxMC1OU0Q5WWE1QU83TkFVSkZKZFU1c2JoaHBhWXZlckY5V1ZVRnN2NjJkTE9Za2JFQ1Z1a0w2Y0RMc0s0Zjc4QkY5bmRlMXJsNWJIeERPZFZ2a1k0eEpHTjBIaW5jdw?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "97d13737f3f0fd48",
@@ -676,7 +727,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1VFZkY3RGbXNONVFvbjZ2NVBBNXp1b0o5U1F3aU03Z2xrNnZZRWxoQW1CNDAxMjI4a1pGcTRacDJrZjZIeV9WdlVkTG5aT0x1aklpUE9LYmFja1pQSl9CUGlnT0s?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "fc7abed98cf36c5f",
@@ -689,20 +741,38 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Essstbchen-selbst-herstellen-nach-traditioneller-japanischer-Weise-und-Philosophie/boxid/1075210",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
-      "id": "la-editorial-94526281",
-      "title": "Große Investitionen – kaum Rücklagen",
-      "desc": "",
+      "id": "curated-v2-01",
       "date": "2026-10-05",
       "publishedAt": "2026-10-05T12:00:00+02:00",
-      "category": "Gemeinde",
+      "title": "Große Investitionen – kaum Rücklagen",
+      "topic": "Rathaus & Politik",
+      "category": "Rathaus & Politik",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/wartenberg-steckt-875-mio-euro-in-klaeranlagenloesung-und-hat-kaum-ruecklagen-94526281.html",
-      "via": "Redaktionell verlinkt"
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-02",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T12:00:00+02:00",
+      "title": "Manöver der Bundeswehr im Oktober: Wartenberg liegt im Übungsraum",
+      "topic": "Rathaus & Politik",
+      "category": "Rathaus & Politik",
+      "locality": "Wartenberg",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=93351216d4d08416667d1c19337d412b&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=38",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
     },
     {
       "id": "0c5547542601d58f",
@@ -715,7 +785,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-KI-in-der-Literatur-Lesen-und-Schreiben-im-digitalen-Zeitalter/boxid/1075161",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "147b3c990697024c",
@@ -728,7 +799,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Liedbegleitung-mit-der-Gitarre/boxid/1075160",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "71b889f04328f52e",
@@ -741,7 +813,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Textilmalerei-Gestalte-dein-eigenes-T-Shirt/boxid/1075159",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "a6b06cad2514b234",
@@ -754,7 +827,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Italienisch-leicht-und-locker-A1-2/boxid/1075158",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "42026fe7daeefb2b",
@@ -767,7 +841,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Erfolgreich-qualifiziert-Sieben-neue-Tagesmtter/boxid/1075156",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "e80bbf229aaf1a43",
@@ -780,7 +855,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Trkisch-fr-die-Reise-A1/boxid/1075155",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "28f5ba0f91b5759c",
@@ -788,12 +864,13 @@
       "desc": "",
       "date": "2026-10-05",
       "publishedAt": "2026-10-05T08:35:00+00:00",
-      "category": "Vogelsberg",
+      "category": "Familie & Soziales",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Online-Vortrag-Wie-ist-das-mit-dem-Pflegegrad/boxid/1075146",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "9fb0bc32e38159bf",
@@ -801,12 +878,13 @@
       "desc": "",
       "date": "2026-10-05",
       "publishedAt": "2026-10-05T08:14:00+00:00",
-      "category": "Vogelsberg",
+      "category": "Familie & Soziales",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Wie-funktioniert-Jugendbeteiligung-im-Vogelsbergkreis/boxid/1075133",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "5fda6f5aea0e4c19",
@@ -819,7 +897,8 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObWRDbVhJOUFSZjVqT1BhYUFZRF9WZHVFRFVXdllBZkk2U2N5SUZCYVQ1dWhDUkNPYWxaaXNlMnVCUGhuLXdCcGV4QTlMXzZDd2hZb29mQkI0MU5rQUxqNHU2OE40N2hlblZVdlFoWXVmTlNWOVFNWWFVa2ppdWZId2Y3UFBkU2I1TzBQUXkzSFVpSS1iS2l2bFJZU1JzYWIwOVkxSVQ0VlBoMXlZ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "356b95cb8645fc88",
@@ -832,7 +911,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwUVRENU93Qi0wbzRwclYweVhHT0pQUFpFWFFWWUR2SkhBVjNfODlvM1NSdW9QMzJrcHVTYnhoaTBjNXJ3bFVrWkpUV0FLQV8tSFFsZ1lzYkNXdHJObzhtM2pCRWs?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "c2f7a0738da83cc1",
@@ -845,7 +925,8 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9adDFDa0w1ODlwMXNwejJLWWFFWVFiWWxlX3ZPcHJEd0diYlpGQ0RnWlFQX2JmUG9vWW9HRVpiNkNKTHRpcUppS3FQc2MwdHlNVEhOQ2g0QUo2V00?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "68c35bda33c1fdde",
@@ -858,7 +939,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Schritt-fr-Schritt-zur-besseren-Erziehung/boxid/1075045",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "6d5b5389b2abf1d4",
@@ -866,12 +948,13 @@
       "desc": "",
       "date": "2026-10-02",
       "publishedAt": "2026-10-02T07:16:00+00:00",
-      "category": "Vogelsberg",
+      "category": "Familie & Soziales",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Und-wieder-ein-Austausch-ber-Sozialraumorientierte-Jugendhilfe/boxid/1074977",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "f7d65df0aae0d741",
@@ -879,12 +962,13 @@
       "desc": "",
       "date": "2026-10-02",
       "publishedAt": "2026-10-02T07:15:00+00:00",
-      "category": "Verkehr",
+      "category": "Verkehr & Bauen",
       "locality": "Vogelsberg",
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Helfer-in-schwierigen-Lebenslagen/boxid/1074978",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Verkehr & Bauen"
     },
     {
       "id": "ed36c1016c75bc2b",
@@ -892,12 +976,13 @@
       "desc": "",
       "date": "2026-10-02",
       "publishedAt": "2026-10-02T05:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdlRjY2paWjN5cWtVaDAwOXVhZ2pfc290WDBHZ2VsU2Z6M2ZYRGd4b1VZbzFFbk5LN0xUbC1QSnNDV040T2QtVFJQNjJKVG1jOVdaN3lTOUQta3o4M25MRFRoamhtYmx6LUdtbU1wY0hBTkZPNnRWRHdUcVFnX0dfNWN1cGlIR3hLanNoanMwNlc1UUYycVdkNzMtQVdsMUdrTEM3bEQwS3dKTW1Lb0NuLTZnYm1DemY4dEo0OEl5NjgwM2wyZ2s2MGFCQjJrZjFJeDdYNjlYcW5ULS1kVUE?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "f789a12617ed58f8",
@@ -910,7 +995,23 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05SzRDSmM5MTI0OFdpSmZyakdBX3pXYkNrU0tlUTB4R0Rfd1p0bzl4cWpGM1JIMkh2bGhtSHFwZXRlTi1ncDctRFB2ek10cXA0TlRZXzZsdjE5VEtiTlBraGxKN2g?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "curated-v2-03",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T12:00:00+02:00",
+      "title": "Herbstlaub: Gemeinde informiert über Reinigung und Entsorgung",
+      "topic": "Natur & Umwelt",
+      "category": "Natur & Umwelt",
+      "locality": "Wartenberg",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=8490be51253668112e16b071c141b2fa&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=29",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
     },
     {
       "id": "766f0448dce8a1b3",
@@ -923,7 +1024,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FNXprTS16aHRFam5LNGtndVp4VVFBbEY3UEs3QWxhRG5ncUE3Q0Q1dGZPZDNtQnhoZEVsZjFkZE04bTBtTXNIdkFXMzVYRGhDcGVnTVFFOA?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "d51938bb5f5ce289",
@@ -936,7 +1038,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Ausstellung-in-der-Volkshochschule-erffnet/boxid/1074854",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "3611c46cb73deb3a",
@@ -949,7 +1052,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/berzeugende-Vorhaben-Landrat-Dr-Mischak-bergibt-Felix-Ruhl-sowie-Lebensgemeinschaft-Sassen-und-Richthof-LEADER-Bescheide/boxid/1074852",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "66a07ae125bd0798",
@@ -962,7 +1066,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Weitere-Kursangebote-im-November/boxid/1074838",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "2b7ee69cf288dc7a",
@@ -975,7 +1080,8 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurse-Umgang-mit-der-Motorsge/boxid/1074836",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "6de2211df399bc3f",
@@ -988,7 +1094,36 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Kommunikation-kompakt-sprechen-verstehen-wirken/boxid/1074835",
-      "via": "RSS"
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "26c9e7d1469bce1d",
+      "title": "vhs-Kurs: „Alleine? Was mache ich, wenn keine Angehörigen in der Nähe sind?“",
+      "desc": "",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T09:47:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Alleine-Was-mache-ich-wenn-keine-Angehrigen-in-der-Nhe-sind/boxid/1074834",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "22749b73fde28310",
+      "title": "Ein Tag der Freude",
+      "desc": "",
+      "date": "2026-10-01",
+      "publishedAt": "2026-10-01T08:42:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Ein-Tag-der-Freude/boxid/1074806",
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "b6023fa99757ddc2",
@@ -1001,7 +1136,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFAyQzJkU2pJYUg1LWFabmNXZG4zUWp4WXZ5Q1owR0gwRHQxdkFiVDJMU3N2eWhmMnFQNExNSWgwVU1PMXBvaUQ3cE9aSGszbW1qNDhpSjBmekJ1UWdpblJoR0lkTWM?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "679f52e28c18df59",
@@ -1014,7 +1150,22 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE42SjhGR1dkZnZJVy1MNHlYMDJROGtqck1nTGNFWG51ZGRRbkpaNkh4VEtSQ0pRcmFILUNNamxfMVF5SlJhOTVxS3N6OEk3WnlaMlB4TTIzeGRfN3FKYWZDTTh6QXQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "8184b11f8d0ee17d",
+      "title": "Telemedizin, Praxis-Finanzierung und drohender Ärztemangel",
+      "desc": "",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T07:20:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Telemedizin-Praxis-Finanzierung-und-drohender-rztemangel/boxid/1074615",
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "3031aa86475af53f",
@@ -1027,7 +1178,36 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5WaExOZlU3a29DN3hRMXlPQ1ZxYUNrXzNzdHdjTXViSjc2dnRVMDBSdkxsWk5sY0VpZTB2c0F1MHpKVkxTQ1RlTFlJMHI0MThHMm5PMi1qeGh0SnNqa1Z5dVFKNmU?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "893da720921c01cb",
+      "title": "Landstraße in Landenhausen gesperrt",
+      "desc": "",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T06:59:00+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Wartenberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Landstrae-in-Landenhausen-gesperrt/boxid/1074602",
+      "via": "RSS",
+      "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "45e4e8f692147348",
+      "title": "Gesundheit, Prävention und soziale Unterstützung",
+      "desc": "",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T06:58:00+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Gesundheit-Prvention-und-soziale-Untersttzung/boxid/1074605",
+      "via": "RSS",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "8eac7ce263c68f59",
@@ -1035,12 +1215,41 @@
       "desc": "",
       "date": "2026-09-30",
       "publishedAt": "2026-09-30T05:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTFZvRjhpYlNlY0lEU2YwOTRlSEl1ZFdOVE4xb3hZVExLbFhnZms5aURzWGo5aC1LWVZtSFk0VGRFWjRoTk9TS3k3aFJjMkFpajBCVl83emNHWkpsY2w2RUJNemQ4Z0w4b2ZXc056MjB5bWZkQkl4Y2VQUW1ySnR3cl9FQVhhTC03V25GWi1CX2pIY3pDMDU0ZDNXV2JhYTFXNVJRXzVYcl95RFdXdFl1bFNkT0NINTMzX0JOMW95aFNvMldHeHNqNg?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
+      "id": "557ee3dfa2072c8b",
+      "title": "Gleichstellungsbeauftragte am Telefon",
+      "desc": "",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T11:48:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Gleichstellungsbeauftragte-am-Telefon/boxid/1074525",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "8e076c1d4a331d72",
+      "title": "Gesprächsangebot des Seniorenbeauftragten: Kreisbeigeordneter Hans-Jürgen Schäfer bietet am 6. Oktober Sprechstunde an",
+      "desc": "",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T11:46:00+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Gesprchsangebot-des-Seniorenbeauftragten-Kreisbeigeordneter-Hans-Jrgen-Schfer-bietet-am-6-Oktober-Sprechstunde-an/boxid/1074524",
+      "via": "RSS",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "1e8400226c99296f",
@@ -1053,7 +1262,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9yR1plR3Z4NWZwNXRpdEtFU2htOEFMcGRINXBaNXlFR0tFRFc4U1VjaW9RcXlqdmdzeFQtLXNDR2x0cHZ6TG1MM3JjbUNESG1kaXROd1J0M05rMGVsU0o5LW1ZdXQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "0c49b4fb264cff7a",
@@ -1066,7 +1276,65 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11ZGUxVlB5cnZuTTQ3OXQxNlR5QmhEbXJ4c0NXdllDRmI3b0RYQ3YyV3hJRlVwOXREc2NhVzhkYUxYRXRZNnpZN2tLY1VYTjJYWUV1QUw4dmJUVC1LYmN0VE1zblc?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "curated-v2-04",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T12:00:00+02:00",
+      "title": "Kunstspaziergang Landenhausen: Ausstellungen in Ställen und Gärten",
+      "topic": "Kultur & Musik",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/18-kunstspaziergang-landenhausen-karussell-aus-sperrmuell-dreht-sich-94514823.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "5ee9107d2c38b7ac",
+      "title": "vhs-Kurs: Einführung in das 10-Finger-Tastschreiben für Kids",
+      "desc": "",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T11:59:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Einfhrung-in-das-10-Finger-Tastschreiben-fr-Kids/boxid/1074369",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "ff9bdafacc4480d9",
+      "title": "vhs-Kurs: Sicher unterwegs im Internet – Fakes und Betrug ein Schnippchen schlagen",
+      "desc": "",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T11:58:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Sicher-unterwegs-im-Internet-Fakes-und-Betrug-ein-Schnippchen-schlagen/boxid/1074367",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "6ffa5328b89db8bc",
+      "title": "vhs-Kurs: Betrug am Telefon und im Internet - Aktuelle Betrugsmaschen",
+      "desc": "",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T11:56:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Betrug-am-Telefon-und-im-Internet-Aktuelle-Betrugsmaschen/boxid/1074365",
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "e24cfb395ce904be",
@@ -1074,12 +1342,28 @@
       "desc": "",
       "date": "2026-09-28",
       "publishedAt": "2026-09-28T05:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUzV1cVBLaWRTMEdJc1N0S1h2bF9rR1AxdEljQmpEUWJzMlFSc3lzSmE2VGhZcE02S0lZakRoTjBGMVA2dzlFREtIbHRZUlZFZWdmYmVYeWJaQkNRQ0lKQ29WQkJKRDdvek5IOFpGTWtUblZ6aEdXYk4tZm1pZXFpRk9NeTRpNDlhUVp3SV90Tzd5ZHUxRjlOTDRiSmNMeEZ6enJwLURudWhDcVRRMGs2OTVydURabjZ4ZENDcEVOb0RvZ2I4a2VRNWtmelI?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
+      "id": "curated-v2-05",
+      "date": "2026-09-26",
+      "publishedAt": "2026-09-26T12:00:00+02:00",
+      "title": "36 Künstler und 14 Stationen beim Kunstspaziergang in Landenhausen",
+      "topic": "Kultur & Musik",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/kunstspaziergang-landenhausen-startet-36-kuenstler-an-14-stationen-94511080.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
     },
     {
       "id": "e5e3073c87e093d8",
@@ -1092,7 +1376,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBLWmNUeFdmbElZYWNkdUFhU0Iwd190LWdUeEo1SDA4TUF0aFRDb09RUXFHbHhrV1ZsVnRBLVBJa2VtLVJaemllV1dzMGxvTERDMzFHLWdxVnQzYkROQ0lGRWhhRm4?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "a13c525b34248dab",
@@ -1105,7 +1390,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1uNTczWjluRnNOYWdsbXJCelJodjM4NWV3MWRMN0JYQ1U0ZXhJTk5EMHE0cjFERGotM2NNaE15RU42LTk5QWFqZ19XdEJkWkwwZXFUYVA4UlhHOFA2bjl2WXlTNGQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "la-editorial-94503878",
@@ -1113,12 +1399,13 @@
       "desc": "",
       "date": "2026-09-23",
       "publishedAt": "2026-09-23T12:00:00+02:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://www.lauterbacher-anzeiger.de/sport/lokalsport/sg-landenhausen-gewinnt-derby-zimmer-und-moeller-holen-je-zwei-punkte-94503878.html",
-      "via": "Redaktionell verlinkt"
+      "via": "Redaktionell verlinkt",
+      "topic": "Sport"
     },
     {
       "id": "668cfc28425bde97",
@@ -1131,7 +1418,23 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ac1hVeks2OHBIVEpUUnM1UUZQV2NVTTZXYkpNSExWSDV4Qkt6dVRaM1VEdFY5R09GVmxGRGFQZzNnTVdkU1FVNEt2NFpnR01vcVZYc05JLWZTdkQwazZqX005V1Q?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "curated-v2-06",
+      "date": "2026-09-17",
+      "publishedAt": "2026-09-17T12:00:00+02:00",
+      "title": "Pfarrerin Tamara Kaulich wechselt nach Angersbach und Landenhausen",
+      "topic": "Familie & Soziales",
+      "category": "Familie & Soziales",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/pfarrerin-kaulich-verlaesst-zell-ich-kann-sehr-schlecht-tschuess-sagen-94495805.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
     },
     {
       "id": "f5463fd3bf9f0d33",
@@ -1144,7 +1447,23 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE53djVLMm9GeTRKZVp6NFRhci1DMThrWUJWbV9pQ2dpaS1qTzJubC1BenNkd0xlbldvTjlBY1BIUXR5cUZ1U1NLQm9NSnBqWG1fQXhaTjViclJZZ2N2M0VTNXhld3A?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "curated-v2-07",
+      "date": "2026-09-15",
+      "publishedAt": "2026-09-15T12:00:00+02:00",
+      "title": "Bürgerversammlung in Angersbach: Turnhalle, Kläranlage und Wasserversorgung",
+      "topic": "Rathaus & Politik",
+      "category": "Rathaus & Politik",
+      "locality": "Wartenberg",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=23ed4cdefbba95c26150a5d0f8b40b81&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=24",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
     },
     {
       "id": "3a0d1bc168a1b4f1",
@@ -1157,7 +1476,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5lQ01tTkNjV2tvbU8zd3lYakRYN19vWS1QejFFZGZkMTdJcGVHdjI1QUZQMTF3RWh4WXlteVV5RXU2U1AtcjdlWlVOdmh1SkZKWTJ0TFFQYlBiMk9JMkxaNGUzb1g?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "a192251016a4421c",
@@ -1170,7 +1490,8 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFA1QnQ4RklSUlhDWV9ZNnJidXZHUk5vSVFyd0ZVenkyTm9lbWwtM2pvTllxYWRDTnVpWmZfRXNBNVN2d0FWX2RqWDN4NjdqMWprc2RaUWpJRU1OcFBTVWtJMVpKZUU?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "37ae8e3488a6b955",
@@ -1183,20 +1504,22 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5xeVlERVVxVDJQaGFSZTBwMXNlaVFhS3ExUjJheHhWT1Nac3lXZ1FsQnRHbWJYRkhhbXcyMHVKT2l0bnMzNTB2TjRzMkluMzFCdnNzeHNIaGZhU19fX1pzS3lxOG4?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "f859fbbaaa10729c",
       "title": "SG Landenhausen trifft auf Tabellenzweiten mit sechs Siegen in Serie",
       "desc": "",
       "date": "2026-09-04",
-      "publishedAt": "2026-09-04T07:00:00+00:00",
-      "category": "Vereine",
+      "publishedAt": "2026-09-04T05:00:00+00:00",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbEFWQmJxUVFGUk5ERzR2ekJZbi1iaUp6X3NrdkdORnU5TFVLUUR1Q2M5clJHMWFXT184YjBNNFUzMmo0c1dBY1N6ZE5aUUhya3gzaHpPbUFpR0ROc2Zsd1dzQTNpa2p6cEZYNHlmUjF3aTdQXzdBSk1yVjVpaE1XS2ROUzJiLU0xYVF6OFVITDBpeVNLLTdVYklPeGFBVmNUdXhpcXVIUlgzOGRWVDhiT1daRmVpT3pZaVhuTWxRMDJDWDA0WDNYbG01MERGZDlyUUE?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "0b8305e20c549514",
@@ -1204,12 +1527,13 @@
       "desc": "",
       "date": "2026-09-02",
       "publishedAt": "2026-09-02T07:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGhfTWFLNUJVeXpfM3otcnVhQ1dzYWpsZ1pmVkxLZGJzUlppeVBiVzR3Y2VvQkU1bjVmNzE3Rk9sUEV4S0dfS3NYdkVoTUdoZUpJeHI4RzktMFVSUHVwMWc2Sm54VUpUYVZwZHkyZU1MZnZuZ0xQRGxObk1JTFhXMTNOSkFTUWVkWUtlQ3RyRk8yeDIzc2VEVUU2T1pQOW1uR0V2LWt1NTRWWDBrUUcyVEpESzBpeEFJVXBZRFJZUVMyQQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "1877ef4c3879b6c8",
@@ -1217,12 +1541,43 @@
       "desc": "",
       "date": "2026-08-31",
       "publishedAt": "2026-08-31T07:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObjNUOWhMMVdhV1d0T3hNbnRoWENQNlhiT2tBTXV5R0dCMURYTzMtNXZsUGF4UVlFb0V4RjBMTXMtSWk1QnFJbkRwT3hQQXA0OUdWN3RYWVJlS3BpRTJpQ1hLSzE5T1BKdldnMjFxMllCQVVDM3VsajBGM1gxSWdEOFNNUU1VTUdEam5ucUwyc19YRmRLb3AySVBkUXR0SUZBR3J4eHBxUzZVYlE2TUFvWFpBT2ZtdXJTMzkyX0JjelFGZWhz?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
+      "id": "curated-v2-08",
+      "date": "2026-08-30",
+      "publishedAt": "2026-08-30T12:00:00+02:00",
+      "title": "Bürgermeisterwahl in Wartenberg: Wahlergebnis veröffentlicht",
+      "topic": "Rathaus & Politik",
+      "category": "Rathaus & Politik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/karsten-ittmann-gewinnt-mit-9343-prozent-kontrahent-im-urlaub-in-italien-94466864.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-09",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T12:00:00+02:00",
+      "title": "Wartenberger Dorf-Gespräche in Landenhausen mit über 100 Besuchern",
+      "topic": "Gemeinschaft & Ehrenamt",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/mehr-als-100-besucher-bei-wartenberger-dorf-gespraechen-in-landenhausen-94465069.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
     },
     {
       "id": "94c5747ecd958eec",
@@ -1230,12 +1585,13 @@
       "desc": "",
       "date": "2026-08-28",
       "publishedAt": "2026-08-28T07:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTW9PLWJKWWhEOWRodTdIWHFVWWozV29nUWpPTlJGci1SNndWWVlzeGwwXzYxdDVoZmw2TFFzSURQc3F4MGM5cUxEa3MxN1dyR1R2TVdkTXhybWxGZDdMSU9fMWFVcERCRGIyMjNhRktyZ2xrV1ZWV1R6TnBkUVhFcTdXMWVyWG42UF9sX25wcURBNWlxOXY0SnNhY0kyOFRSdzIyc2tPalUzZjR0UExPOVNfb2NlYk5La0RTUUN0T0RoNmc?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "la-editorial-94461481",
@@ -1243,12 +1599,13 @@
       "desc": "",
       "date": "2026-08-27",
       "publishedAt": "2026-08-27T12:00:00+02:00",
-      "category": "Gemeinde",
+      "category": "Rathaus & Politik",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/wartenberg-waehlt-buergermeister-ittmann-drueckte-jede-klingel-wienold-verfolgt-wahl-aus-italien-94461481.html",
-      "via": "Redaktionell verlinkt"
+      "via": "Redaktionell verlinkt",
+      "topic": "Rathaus & Politik"
     },
     {
       "id": "f30018216b48c623",
@@ -1256,12 +1613,13 @@
       "desc": "",
       "date": "2026-08-21",
       "publishedAt": "2026-08-21T07:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZXBpOEVici1oZTgxeDhKTEpDdXNDQnJFQUFzc2Z6QWZ0N3gwVnR5TFdabGRBVDFFTmhadExNY0d5WU1kd2tjdTBKNS1nUlMydmVIM1dxWDJnZHdUa1F0T2VBZ3V2RGhpWDQtX2xkMlNyZmY1aVNySE01b1dwdWhCTTMxTUMyd1NfZDJOT1Z1UVZjVTJiSjYyX3pJX3FoUmRZNi04bmIwN1ROY05qczZhb3NXaVJDTkhCdWJrcVlCbXJnc3ZRZF9DLU5xU18?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "80de1821bc277860",
@@ -1269,25 +1627,42 @@
       "desc": "",
       "date": "2026-08-17",
       "publishedAt": "2026-08-17T05:00:00+00:00",
-      "category": "Gemeinde",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTlBrQW5CY3FKdkItUTJYdGpOSUF2ZUhqM2FlMEIxWDh6OUtYNFhDanZ1dzhkbUtucThlUFJRemRDRk10WnZVUkZGcVBOalBoVUFCLWF2Rlh5YUlxT1B5Ums3Z3Baano3T3V4VUgyZkRYWS12VXM4b041My1fbXE1VjRpMGE4UF9OazdNSVdhMThLY1pFeDFoOHJwZ0VTX3hpVVBqSUpoSTJMelJENV9JLVhBUnZQbHpraW1Ud1poblJyNDhhZ2Nz?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
-      "id": "la-editorial-94444619",
-      "title": "Mit dem Wartenberger Stil zur Ortsumgehung",
-      "desc": "",
+      "id": "curated-v2-21",
       "date": "2026-08-15",
       "publishedAt": "2026-08-15T12:00:00+02:00",
-      "category": "Verkehr",
+      "title": "Ortsumgehung: Diskussion mit Bürgermeisterkandidaten",
+      "topic": "Rathaus & Politik",
+      "category": "Rathaus & Politik",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/ittmann-und-wienold-werben-vor-500-buergern-fuer-ortsumgehung-94444619.html",
-      "via": "Redaktionell verlinkt"
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "1542522c45ca6a17",
+      "title": "Mit dem Wartenberger Stil zur Ortsumgehung",
+      "desc": "",
+      "date": "2026-08-15",
+      "publishedAt": "2026-08-15T07:00:00+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN2JTLUNEQi04YTFOVkVVaVg0RU4tNFoyMTluV0o3cjZSX3RJR1hnNG1QUm8zQmNRMVUxTlRsUGVsMUJUd2EyZHFKbV9vM0NZVHViWC1Vd05CUnUzMXYwWko4UmRWUXlWaG5uLXY4VWdtZWlXVU40OHVHbTh4aWZJQkE0Qk1tbHJZNUVCcWJ6aTB5S1pQXzh4WE83TFQyVzRubU5PcjFRZk16alNfWWxiSC1rckZ4RnkydlRxQWVLY3p0R0Radk9VRmktaFJnUkxqUVc5UVd3?oc=5",
+      "via": "Google News",
+      "topic": "Verkehr & Bauen"
     },
     {
       "id": "23c78658302b278d",
@@ -1295,12 +1670,28 @@
       "desc": "",
       "date": "2026-08-14",
       "publishedAt": "2026-08-14T07:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaDRaa3NXT1hfbGthTGcwZ1VRbEdiRjJKZmwyRGQ3ZGZGVnRlUzF2Z0liRUk4bDg3Rk5Cd0JOSFlod0FXU2JIb2NxZ19WeVE1R19MVGFicDc5RnF3V1JncjdwSUZfRjBtT1dLV1BZTmRCOFRFME0wTGZzbWV4aFR6blZSM3NRSWREeEFDQlk5bnFubXpYVWxVUUtManYtSjh6bE0xQnhDS3JlMFhTb2dWY2ItWWtyNVVneGREYUZkcUcyY3lZbV8wRQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
+      "id": "curated-v2-10",
+      "date": "2026-08-12",
+      "publishedAt": "2026-08-12T12:00:00+02:00",
+      "title": "Flächenbrand bei Landenhausen: Einsatz der Feuerwehr",
+      "topic": "Blaulicht",
+      "category": "Blaulicht",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/radlader-verhindert-ausbreitung-5000-quadratmeter-stoppelacker-in-flammen-94440856.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
     },
     {
       "id": "9753ca0c72f007d4",
@@ -1308,12 +1699,13 @@
       "desc": "",
       "date": "2026-08-10",
       "publishedAt": "2026-08-10T07:00:00+00:00",
-      "category": "Gemeinde",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUkh1MnhoV3RqYXEzOWFKa0ZSUm5relV0U0JxTTJQSlNBNGlWaC1PckFtN0dBaXUxVTVGeFcyc0RUT3dZRk1KZWFwS1ZiZUtIMG9xT0VnNy11Y1RNTXJyZldacUFldVlEd3loZENkcjRqSGpOdlBqb0c5alFvazl1S0V2Nl9SV0dwNHNZaWlOZHhFaURHdFRCYlBxWWdLakhVMFNmZi16d2N0Mkl2U0lFVVpuNVFwR055VG1MZVJjZC1yVUl6UmlOUkh2WjdMTlFTWHd4MVJOczFqMGhUVzlERw?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "a5fbd21b7035d0f8",
@@ -1321,12 +1713,13 @@
       "desc": "",
       "date": "2026-08-07",
       "publishedAt": "2026-08-07T07:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSHIzaGxGNXJfb3MyVTUtQjF1UlE3MmlNUWo5NTFoN2RpWWFUT195dTBfTDIyN0IzN04wMTFWOS1VWlduS0RiRHk2RG51dW9jYTFOV1A3dXJ6R2pHaDZENDllYVNfNUJIZU0zR0Z4NE4xTE43R0dFRHlKZXdqT2RjZnlZbXdGR2FTSVJZQllEUGhXNFh3cDhkaXZiVGw1Wk1kMEp1amFqWGY0MEhCMGwwUGhUNkNlckN6UTdXb2tzNEVDcFdOb0llMQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "3abd0de13317244d",
@@ -1334,12 +1727,13 @@
       "desc": "",
       "date": "2026-07-31",
       "publishedAt": "2026-07-31T07:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR0tud19LUklZS1hvcE9Bd0xfTGJ5TzZCM1BIX1dCQWpoM1hWNG14MUJGam8zTkV4N0VpT05JVjIwazRIby15X2UyallYaDM3SldjeTM4ZWNSaGxJdUdnck9TVzNZSXozOV9Xc0RMNXB2c2FSX2FJc3pJTkhfeEd2bjREQVoxYURSSFJoQ25mX2pNMWhmTXM5aFZMUVhTUFk3MHpYWUtTc2lVWXFPZWE0UkhrUzE2al9rbEhBRm1oMVZKY1RNQlVUd3pET204bXQ0?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "2757618a43b78743",
@@ -1347,12 +1741,13 @@
       "desc": "",
       "date": "2026-07-30",
       "publishedAt": "2026-07-30T07:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOamJka0pnU2l3U3JCdVJrdnh2MzJpSlNWMVJMUm0tSnlJQWpQVlJLQkNFbWRrdS10SkRUVHY4dkR2dWtPYW4zdGdJbVZUTDRYSTdrMTE3WW01VUFQN3ZmX1dyRWRpVGJ5enZudG80SUJUSnhsYjhGVG9lMUloM1U2b0Y1UkdXcGJIQjI5SXgzWTZVaTFXY2NzTlRIZ0JLOXkwcldBcXdURjNvSTExM3RCWmVBZW1URklscGp0MW9mMXp2VUU2aV9v?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "f803d67ef41cc049",
@@ -1360,12 +1755,13 @@
       "desc": "",
       "date": "2026-07-24",
       "publishedAt": "2026-07-24T07:00:00+00:00",
-      "category": "Gemeinde",
+      "category": "Blaulicht",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPNUg1aktfVmZENktXYzBWa2JSSFg3bmphNXVDWmJEaFBUT3NlNFZET1FJSzdISlVqNEd3RHduUWNuRHpYMy1Bbk82bzRmLURqM3ZBTldoa1JkMjhBUFMwVDNISEYyMWVBUjN4bnZXV1ZpWnVHR2FRRmxyMGIxWk1ISi0wWnZ3NGROcFZydUY5MjhCMTUybmRvQmw2MVA1X2o3SnlSOGtlQklfUEFvbTRybUJiaUJ3cDNRRTM0c2pCdHRURTVUb0lOTzBsem9Qb09oVm5ERlEzcU1mMllBWnNmVnVWUQ?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "aad1c150bddc5165",
@@ -1373,12 +1769,163 @@
       "desc": "",
       "date": "2026-07-23",
       "publishedAt": "2026-07-23T07:00:00+00:00",
-      "category": "Vereine",
+      "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
       "source": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOLXMxYjNZVGVtOXNKU0hoZVllVXFyQUVBRjhOa1FndkJRdGE1eFp2dW9CN3VUUkdHeE44aWxYcmVIRjlQM0ZIQ1dGc0hJb0hVbFY1SUh3ZjVaQ0FSdTR5bkFzeU5lRWNmbndRYnVmQ2Via3F5bG9oVmRYeGlqaTRDbFFGbTFjcnI0aGdSZ2lTTHR1VW5hSzB2aUhZQlg4Yk1UcHhlQXFVNm1RazdWalg0anVZX1hzU1ZMY0RsZlF4c042RXY3TlN2XzFB?oc=5",
-      "via": "Google News"
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
+      "id": "curated-v2-11",
+      "date": "2026-07-07",
+      "publishedAt": "2026-07-07T12:00:00+02:00",
+      "title": "Bundesmusikfest in Angersbach: Musikverein Landenhausen und Gäste",
+      "topic": "Kultur & Musik",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/bundesmusikfest-in-landenhausen-elf-vereine-spielen-aber-ohne-platzierung-94385373.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-12",
+      "date": "2026-07-06",
+      "publishedAt": "2026-07-06T12:00:00+02:00",
+      "title": "Elf Vereine gestalten das Bundesmusikfest 2026 im Wartenberg Oval",
+      "topic": "Kultur & Musik",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://osthessen-news.de/n11796175/elf-vereine-ein-fest-bundesmusikfest-2026-vereint-region.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-13",
+      "date": "2026-06-24",
+      "publishedAt": "2026-06-24T12:00:00+02:00",
+      "title": "Schützenverein Angersbach ermittelt seine Königsfamilie",
+      "topic": "Gemeinschaft & Ehrenamt",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/34-schuetzen-kaempfen-um-koenigswuerde-herren-brauchen-ueber-zwei-stunden-94365417.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-14",
+      "date": "2026-06-15",
+      "publishedAt": "2026-06-15T12:00:00+02:00",
+      "title": "Gemeinde informiert über Restabfallsäcke für Pflegebedürftige",
+      "topic": "Familie & Soziales",
+      "category": "Familie & Soziales",
+      "locality": "Wartenberg",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=f16ed3b3a0975584ac66cbe654c095af&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=48",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-15",
+      "date": "2026-06-11",
+      "publishedAt": "2026-06-11T12:00:00+02:00",
+      "title": "Florinale: Kulturverein Landenhausen öffnet private Gärten",
+      "topic": "Kultur & Musik",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/florinale-in-landenhausen-acht-private-gaerten-oeffnen-am-13-und-14-juni-94345388.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-16",
+      "date": "2026-05-26",
+      "publishedAt": "2026-05-26T12:00:00+02:00",
+      "title": "Förderverein für das Freibad Landenhausen gegründet",
+      "topic": "Gemeinschaft & Ehrenamt",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Wartenberg",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=36a34fb11a7382bef3cb4f8d1fcbf191&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=56",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-17",
+      "date": "2026-05-04",
+      "publishedAt": "2026-05-04T12:00:00+02:00",
+      "title": "XXL-Flohmarkt in Angersbach: 98 Aussteller",
+      "topic": "Gemeinschaft & Ehrenamt",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/98-aussteller-verwandeln-das-dorf-in-einen-riesigen-flohmarkt-94291039.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-18",
+      "date": "2026-04-23",
+      "publishedAt": "2026-04-23T12:00:00+02:00",
+      "title": "Männergesangverein Landenhausen veranstaltet Chor-Workshop",
+      "topic": "Kultur & Musik",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/der-maennergesangverein-praesentiert-14-lieder-nach-drei-tagen-proben-94275895.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-19",
+      "date": "2026-04-23",
+      "publishedAt": "2026-04-23T12:00:00+02:00",
+      "title": "Förderantrag für Sporthalle Landenhausen abgelehnt",
+      "topic": "Verkehr & Bauen",
+      "category": "Verkehr & Bauen",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/keine-foerderung-fuer-die-sporthalle-in-landenhausen-94275832.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
+    },
+    {
+      "id": "curated-v2-20",
+      "date": "2026-03-10",
+      "publishedAt": "2026-03-10T12:00:00+02:00",
+      "title": "50 Jahre Fördergemeinschaft Burgruine Wartenberg",
+      "topic": "Gemeinschaft & Ehrenamt",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/von-der-ruine-zum-wahrzeichen-die-foerdergemeinschaft-feiert-jubilaeum-94211267.html",
+      "via": "Quellengeprüfter Link",
+      "editorial": true,
+      "desc": ""
     }
   ],
   "sources": [
@@ -1386,17 +1933,19 @@
       "id": "gemeinde",
       "name": "Gemeinde Wartenberg",
       "url": "https://www.gemeinde-wartenberg.de/alle-news.html",
-      "mode": "Nur Quelle",
+      "mode": "Gepruefte Links / Archiv",
       "count": 0,
-      "note": "Google News: keine aktuellen passenden Artikel"
+      "note": "Google News: keine aktuellen passenden Artikel",
+      "stored": 5
     },
     {
       "id": "kreis",
       "name": "Vogelsbergkreis",
       "url": "https://www.vogelsbergkreis.de/",
       "mode": "RSS",
-      "count": 40,
-      "note": ""
+      "count": 50,
+      "note": "",
+      "stored": 45
     },
     {
       "id": "polizei",
@@ -1404,7 +1953,8 @@
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "Google News",
       "count": 18,
-      "note": ""
+      "note": "",
+      "stored": 18
     },
     {
       "id": "oberhessen",
@@ -1412,7 +1962,8 @@
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
       "count": 11,
-      "note": ""
+      "note": "",
+      "stored": 11
     },
     {
       "id": "osthessen",
@@ -1420,7 +1971,8 @@
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
       "count": 13,
-      "note": ""
+      "note": "",
+      "stored": 14
     },
     {
       "id": "fulda",
@@ -1428,7 +1980,8 @@
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
       "count": 5,
-      "note": ""
+      "note": "",
+      "stored": 5
     },
     {
       "id": "la",
@@ -1436,7 +1989,8 @@
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
       "count": 20,
-      "note": ""
+      "note": "",
+      "stored": 37
     },
     {
       "id": "winfo",
@@ -1444,9 +1998,22 @@
       "url": "https://www.wartenberg-info.de/",
       "mode": "Google News",
       "count": 1,
-      "note": ""
+      "note": "",
+      "stored": 1
     }
   ],
   "feedCount": 7,
-  "note": "Nur RSS-/Index-Überschriften und Quellenlinks, keine fremden Artikelvolltexte."
+  "localCount": 45,
+  "localTopics": {
+    "Rathaus & Politik": 6,
+    "Kultur & Musik": 6,
+    "Gemeinschaft & Ehrenamt": 5,
+    "Familie & Soziales": 2,
+    "Natur & Umwelt": 1,
+    "Verkehr & Bauen": 3,
+    "Blaulicht": 2,
+    "Sport": 19,
+    "Vogelsberg": 1
+  },
+  "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder."
 }
