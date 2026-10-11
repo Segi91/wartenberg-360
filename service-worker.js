@@ -1,5 +1,5 @@
-const CACHE = 'wartenberg360-v8-no-empty-readers';
-const CORE = ['./', './index.html', './style.css?v=20261011-reader21', './app.js?v=20261011-no-empty-readers', './news.json','./data/events.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
+const CACHE = 'wartenberg360-v9-neutral-headings';
+const CORE = ['./', './index.html', './style.css?v=20261011-reader21', './app.js?v=20261011-neutral-headings', './news.json','./data/events.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => event.waitUntil(
   caches.open(CACHE).then(cache => Promise.allSettled(CORE.map(url => cache.add(url)))).then(() => self.skipWaiting())
 ));
