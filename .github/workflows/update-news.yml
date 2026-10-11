@@ -1,0 +1,39 @@
+name: Regionale Nachrichten aktualisieren
+
+on:
+  schedule:
+    - cron: '18 */2 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_news.py'
+      - '.github/workflows/update-news.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wartenberg-news-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Nachrichten über öffentliche RSS-Feeds abrufen
+        run: python3 scripts/update_news.py
+      - name: Aktualisierte Nachrichten speichern
+        run: |
+          if git diff --quiet -- news.json; then
+            echo 'Keine Änderungen an news.json'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add news.json
+          git commit -m 'Aktualisiere Wartenberg-360-Nachrichten'
+          git push
