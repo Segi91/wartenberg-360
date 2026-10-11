@@ -1,13 +1,27 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-11T20:05:24Z",
+  "updatedAt": "2026-10-11T21:02:24Z",
   "items": [
+    {
+      "id": "2323ecf417790b00",
+      "title": "Landesstraße zwischen Ilbeshausen-Hochwaldhausen und Grebenhain von Mitte Oktober bis Ende Dezember gesperrt",
+      "desc": "",
+      "date": "2026-10-11",
+      "publishedAt": "2026-10-11T20:12:25+00:00",
+      "category": "Natur & Umwelt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/11/landesstrasse-zwischen-ilbeshausen-hochwaldhausen-und-grebenhain-von-mitte-oktober-bis-ende-dezember-gesperrt/",
+      "via": "RSS",
+      "topic": "Natur & Umwelt"
+    },
     {
       "id": "f519d8d5deeef2fd",
       "title": "Vollsperrung bis Dezember: Landesstraße bei Grebenhain wird in zwei Abschnitten saniert",
       "desc": "",
       "date": "2026-10-11",
-      "publishedAt": "2026-10-11T18:13:16+00:00",
+      "publishedAt": "2026-10-11T18:13:00+00:00",
       "category": "Verkehr & Bauen",
       "locality": "Vogelsberg",
       "sourceName": "Fuldaer Zeitung",
@@ -765,6 +779,21 @@
       "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
+      "id": "gemeinde-offiziell-50",
+      "title": "Rathaus und Bauhof geschlossen",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Rathaus und Bauhof am Freitag, dem 16.10.2026 geschlossen.",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=50&cHash=3c81a68ff6a1fc546031a51ad114a304",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Rathaus & Politik",
+      "topic": "Rathaus & Politik"
+    },
+    {
       "id": "0c5547542601d58f",
       "title": "vhs-Kurs: „KI in der Literatur – Lesen und Schreiben im digitalen Zeitalter“",
       "desc": "",
@@ -1289,6 +1318,21 @@
       "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
+      "id": "gemeinde-offiziell-62",
+      "title": "Informationsbroschüre",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Anzeigenschaltung für die Informationsbroschüre der Gemeinde Wartenberg",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=62&cHash=c846899e34fe9b06a8fdfa0edf0b2097",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Rathaus & Politik",
+      "topic": "Rathaus & Politik"
+    },
+    {
       "id": "5ee9107d2c38b7ac",
       "title": "vhs-Kurs: Einführung in das 10-Finger-Tastschreiben für Kids",
       "desc": "",
@@ -1526,7 +1570,7 @@
       "title": "SG Landenhausen trifft auf Tabellenzweiten mit sechs Siegen in Serie",
       "desc": "",
       "date": "2026-09-04",
-      "publishedAt": "2026-09-04T07:00:00+00:00",
+      "publishedAt": "2026-09-04T05:00:00+00:00",
       "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -1534,6 +1578,21 @@
       "source": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbEFWQmJxUVFGUk5ERzR2ekJZbi1iaUp6X3NrdkdORnU5TFVLUUR1Q2M5clJHMWFXT184YjBNNFUzMmo0c1dBY1N6ZE5aUUhya3gzaHpPbUFpR0ROc2Zsd1dzQTNpa2p6cEZYNHlmUjF3aTdQXzdBSk1yVjVpaE1XS2ROUzJiLU0xYVF6OFVITDBpeVNLLTdVYklPeGFBVmNUdXhpcXVIUlgzOGRWVDhiT1daRmVpT3pZaVhuTWxRMDJDWDA0WDNYbG01MERGZDlyUUE?oc=5",
       "via": "Google News",
       "topic": "Sport"
+    },
+    {
+      "id": "gemeinde-offiziell-23",
+      "title": "Freibad Landenhausen",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Ende der Badesaison am Freitag, dem 11.09.2026",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=23&cHash=df2e0848c398c462ce7cd23d5afd620a",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Familie & Soziales",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "0b8305e20c549514",
@@ -1668,6 +1727,21 @@
       "topic": "Vogelsberg"
     },
     {
+      "id": "gemeinde-offiziell-59",
+      "title": "Haushalte für die LWR 2026 gesucht",
+      "date": "2026-08-18",
+      "publishedAt": "2026-08-18T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Das Hessische Statistische Landesamt sucht private Haushalte für die Laufenden Wirtschaftsrechnungen (LWR).",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=59&cHash=cc17cb67fbd1412c837ea31f9ad201d0",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Rathaus & Politik",
+      "topic": "Rathaus & Politik"
+    },
+    {
       "id": "80de1821bc277860",
       "title": "Landenhausen kassiert nach erstem Saisonsieg direkt 1:4-Klatsche",
       "desc": "",
@@ -1711,6 +1785,21 @@
       "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN2JTLUNEQi04YTFOVkVVaVg0RU4tNFoyMTluV0o3cjZSX3RJR1hnNG1QUm8zQmNRMVUxTlRsUGVsMUJUd2EyZHFKbV9vM0NZVHViWC1Vd05CUnUzMXYwWko4UmRWUXlWaG5uLXY4VWdtZWlXVU40OHVHbTh4aWZJQkE0Qk1tbHJZNUVCcWJ6aTB5S1pQXzh4WE83TFQyVzRubU5PcjFRZk16alNfWWxiSC1rckZ4RnkydlRxQWVLY3p0R0Radk9VRmktaFJnUkxqUVc5UVd3?oc=5",
       "via": "Google News",
       "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "gemeinde-offiziell-58",
+      "title": "Schwimmerbecken im Freibad Landenhausen wieder geöffnet",
+      "date": "2026-08-14",
+      "publishedAt": "2026-08-14T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": ", jedoch aktuell noch eingeschränkt nutzbar.",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=58&cHash=6596edb70f8c402e186902ba2165e151",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Familie & Soziales",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "23c78658302b278d",
@@ -1941,6 +2030,21 @@
       "topic": "Kultur & Musik"
     },
     {
+      "id": "gemeinde-offiziell-2",
+      "title": "Freibad öffnet am 30.05.2026 um 10.00 Uhr",
+      "date": "2026-05-30",
+      "publishedAt": "2026-05-30T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "um 10.00 Uhr",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=2&cHash=c5166059876548682d3070510c020a56",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Familie & Soziales",
+      "topic": "Familie & Soziales"
+    },
+    {
       "id": "curated-v2-16",
       "date": "2026-05-26",
       "publishedAt": "2026-05-26T12:00:00+02:00",
@@ -1970,6 +2074,21 @@
       "source": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTnVjRFZkTzktWDJWbXJZb0VOeklhcU1IZWJXNWVveEtBX1AwT3h4X0tMMzBhSFdVRFJrczdGWHJwckFaWXI2Vl8wYkJ3NDNkdlFYcnotUXk2bDNrbm9ENEJzMWRhRzlvTDdSSjVnb3JwSDhvSDRpQ0otTFNxQXZyWmVFQVBvVjhlNXFpMlJOZngtUUR2Y3BFYzhSVW9BWnd2SGotbzgyN2R0eWJSVFJsencydVFhMzdqbjJFZllwMjh5UQ?oc=5",
       "via": "Google News",
       "topic": "Vogelsberg"
+    },
+    {
+      "id": "gemeinde-offiziell-55",
+      "title": "Gerade umgezogen? Einfach online ummelden!",
+      "date": "2026-05-07",
+      "publishedAt": "2026-05-07T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Elektronische Wohnsitzanmeldung ab sofort möglich.",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=55&cHash=63947a3469cd17df1ce8c3d7e1e437e3",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Rathaus & Politik",
+      "topic": "Rathaus & Politik"
     },
     {
       "id": "curated-v2-17",
@@ -2051,6 +2170,21 @@
       "topic": "Verkehr & Bauen"
     },
     {
+      "id": "gemeinde-offiziell-53",
+      "title": "Wasser wird angestellt",
+      "date": "2026-04-13",
+      "publishedAt": "2026-04-13T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Wasser an den Friedhöfen wird angestellt.",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=53&cHash=51401387c88c1db6b314f89b60ccb7aa",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Rathaus & Politik",
+      "topic": "Rathaus & Politik"
+    },
+    {
       "id": "curated-v2-20",
       "date": "2026-03-10",
       "publishedAt": "2026-03-10T12:00:00+02:00",
@@ -2103,7 +2237,7 @@
       "mode": "RSS",
       "count": 11,
       "note": "",
-      "stored": 11
+      "stored": 12
     },
     {
       "id": "osthessen",
@@ -2128,7 +2262,7 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 21,
+      "count": 20,
       "note": "",
       "stored": 45
     },
@@ -2152,7 +2286,7 @@
     }
   ],
   "feedCount": 7,
-  "localCount": 52,
+  "localCount": 60,
   "localTopics": {
     "Rathaus & Politik": 6,
     "Kultur & Musik": 9,
@@ -2164,5 +2298,6 @@
     "Sport": 19,
     "Vogelsberg": 3
   },
-  "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder."
+  "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
+  "officialCheckedAt": "2026-10-11T21:02:44.792937+00:00"
 }
