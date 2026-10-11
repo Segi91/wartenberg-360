@@ -1,5 +1,5 @@
-const CACHE = 'wartenberg360-v4-repair1';
-const CORE = ['./', './index.html', './style.css?v=20261011-repair1', './app.js?v=20261011-repair1', './news.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
+const CACHE = 'wartenberg360-v5-localnews';
+const CORE = ['./', './index.html', './style.css?v=20261011-repair1', './app.js?v=20261011-la1', './news.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => event.waitUntil(
   caches.open(CACHE).then(cache => Promise.allSettled(CORE.map(url => cache.add(url)))).then(() => self.skipWaiting())
 ));
