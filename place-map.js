@@ -91,6 +91,13 @@
       const node=Array.from(side.querySelectorAll("[data-map-focus]")).find(n=>n.getAttribute("data-map-focus")===id);
       if(node&&typeof node.scrollIntoView==="function")node.scrollIntoView({block:"nearest",behavior:"smooth"});
     }
+    // On narrow displays the map is ABOVE the list: return it to view when
+    // a list item is tapped, instead of opening an invisible popup above.
+    const narrow=typeof global.matchMedia==="function"&&global.matchMedia("(max-width:790px)").matches;
+    if(narrow){
+      const mapNode=global.document.getElementById("w360-map");
+      if(mapNode&&typeof mapNode.scrollIntoView==="function")mapNode.scrollIntoView({behavior:"smooth",block:"center"});
+    }
     return true;
   }
   function destroy() {
