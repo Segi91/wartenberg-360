@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-11T19:42:01Z",
+  "updatedAt": "2026-10-11T19:50:10Z",
   "items": [
     {
       "id": "f519d8d5deeef2fd",
@@ -1512,7 +1512,7 @@
       "title": "SG Landenhausen trifft auf Tabellenzweiten mit sechs Siegen in Serie",
       "desc": "",
       "date": "2026-09-04",
-      "publishedAt": "2026-09-04T05:00:00+00:00",
+      "publishedAt": "2026-09-04T07:00:00+00:00",
       "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -2086,9 +2086,18 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 20,
+      "count": 21,
       "note": "",
       "stored": 45
+    },
+    {
+      "id": "kulturverein",
+      "name": "Kulturverein Landenhausen",
+      "url": "https://kulturverein-landenhausen.de/",
+      "mode": "Nur Quelle",
+      "count": 0,
+      "note": "RSS: ValueError; Google News: keine aktuellen passenden Artikel",
+      "stored": 0
     },
     {
       "id": "winfo",
