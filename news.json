@@ -1,7 +1,21 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-11T21:08:04Z",
+  "updatedAt": "2026-10-11T23:44:23Z",
   "items": [
+    {
+      "id": "e563888bf2e3d4f1",
+      "title": "Auftakt nach Maß - Lauterbacher Luchse feiern 9:2-Heimsieg - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-10-11",
+      "publishedAt": "2026-10-11T22:01:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNi1IQjg1bFdZd0hqQVBpQzZmZ1h0eU5hMFpoZy02Q0Vma3pTOTZiS3V0LVdwVUE3OWpFOTY5X05mc0JuX3dRMDUyNnRiTGJLTjF3cVN2d0ZDbEdYUGlvcmlJY1hhX19RQm1PMEl4ZGFfWHI1MzRMNTljRi0tc2dKcnNqcDhTalE5RDlOaEVsSDl4NFhJZjNka3RJbDBlYmc?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
     {
       "id": "2323ecf417790b00",
       "title": "Landesstraße zwischen Ilbeshausen-Hochwaldhausen und Grebenhain von Mitte Oktober bis Ende Dezember gesperrt",
@@ -948,6 +962,20 @@
       "topic": "Blaulicht"
     },
     {
+      "id": "247e72b99bed7f6b",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-04",
+      "publishedAt": "2026-10-04T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tdkJSLWxXOW4zNGcwX3lXNGM2M1RxbVU3WXBPUEFxd0hkRDRNMmMzajZtTXMtNUhXY2FDQnVsTnFOMVA4WDk0UDdkNjZELThxVFljV2NqRHBNazA?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
       "id": "c2f7a0738da83cc1",
       "title": "Vogelsbergkreis - Osthessen|News",
       "desc": "",
@@ -1598,7 +1626,7 @@
       "title": "SG Landenhausen trifft auf Tabellenzweiten mit sechs Siegen in Serie",
       "desc": "",
       "date": "2026-09-04",
-      "publishedAt": "2026-09-04T05:00:00+00:00",
+      "publishedAt": "2026-09-04T07:00:00+00:00",
       "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -2274,7 +2302,7 @@
       "mode": "Google News",
       "count": 13,
       "note": "",
-      "stored": 14
+      "stored": 16
     },
     {
       "id": "fulda",
@@ -2327,5 +2355,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-11T21:08:21.212754+00:00"
+  "officialCheckedAt": "2026-10-11T23:44:43.427551+00:00"
 }
