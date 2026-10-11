@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-11T21:07:10Z",
+  "updatedAt": "2026-10-11T21:08:04Z",
   "items": [
     {
       "id": "2323ecf417790b00",
@@ -1580,6 +1580,20 @@
       "topic": "Blaulicht"
     },
     {
+      "id": "147ef7a58a756356",
+      "title": "Auch SG Landenhausen kann SG Haunetal nicht bezwingen",
+      "desc": "",
+      "date": "2026-09-07",
+      "publishedAt": "2026-09-07T05:00:00+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTEMzTW9RSmZZSkhrZDRoTEFCcHpDdWw0TVNBWGtWUzE0cGN1ZGpOQjNEN2VobUhMUXBjdHY0dWdXUUNLejRBOTcwaGpXOHRuUS1Tc3Qwa25aTE9SYU5NN3N5OXMwRElWLUF1WnNKNURMb2tYYUJ3eW9xWU9PcXBPUHNTYk5NUTZNMUp0LW9hbllIRVlIbFBjckd1amJzb092cDFDVnM0V3ZNamJZREt4cUZveVVvaFlfTnhVemtycGh2Yk14VEZvRDZsaHBIXzA?oc=5",
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
       "id": "f859fbbaaa10729c",
       "title": "SG Landenhausen trifft auf Tabellenzweiten mit sechs Siegen in Serie",
       "desc": "",
@@ -2276,9 +2290,9 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 20,
+      "count": 21,
       "note": "",
-      "stored": 46
+      "stored": 47
     },
     {
       "id": "kulturverein",
@@ -2300,7 +2314,7 @@
     }
   ],
   "feedCount": 7,
-  "localCount": 61,
+  "localCount": 62,
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 9,
@@ -2309,9 +2323,9 @@
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 4,
     "Blaulicht": 2,
-    "Sport": 20,
+    "Sport": 21,
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-11T21:07:29.880308+00:00"
+  "officialCheckedAt": "2026-10-11T21:08:21.212754+00:00"
 }
