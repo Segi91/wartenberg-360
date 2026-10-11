@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "updatedAt": null,
+  "items": [],
+  "sources": [],
+  "feedCount": 0,
+  "note": "Die automatische Erfassung startet beim ersten erfolgreichen GitHub-Actions-Lauf. Bis dahin zeigt die App den redaktionellen Startbestand."
+}
