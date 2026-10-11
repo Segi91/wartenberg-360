@@ -220,3 +220,42 @@
 .v22-municipal-item p{font-size:12px;line-height:1.55;color:var(--muted);margin:0}
 .v22-municipal-item a{font-size:11px;color:var(--accent);font-weight:760;margin-top:auto}
 @media(max-width:650px){.v22-municipal-grid{grid-template-columns:1fr}.v22-municipal-item{min-height:0;padding:17px}}
+
+
+/* Wartenberg 360 – Ortsführer V3: große, quellengeprüfte Ortsübersicht */
+.v3-place-hero{display:flex;justify-content:space-between;align-items:center;gap:23px;padding:28px 30px;margin:18px 0 19px;border:1px solid var(--stroke);border-radius:21px;background:linear-gradient(115deg,#e9f1e8,#f6f2e7)}
+.v3-place-heading{flex:1;min-width:0}
+.v3-place-heading h2{font-size:clamp(24px,3.4vw,38px);letter-spacing:-1.2px;line-height:1.15;margin:8px 0}
+.v3-place-heading p{font-size:13px;line-height:1.65;color:#5d7167;margin:0;max-width:510px}
+.v3-place-stats{display:grid;grid-template-columns:repeat(3,minmax(90px,1fr));gap:9px;flex:0 1 375px}
+.v3-place-stats>div{background:#fff9;border:1px solid #cbdccf;border-radius:14px;padding:12px 15px;text-align:center;min-width:0}
+.v3-place-stats strong{display:block;font-size:29px;line-height:1.2;color:#235b4a;font-weight:830;letter-spacing:-1px;font-variant-numeric:tabular-nums}
+.v3-place-stats span{display:block;color:#586b60;font-size:10px;line-height:1.4;margin-top:5px}
+.v3-place-toolbar{margin-bottom:16px}
+.v3-place-toolbar .search-field{flex:1;min-width:220px}
+.v3-place-categories .v2-section-title{margin:14px 0 12px}
+.v3-place-categories .v2-topic-chip{min-height:42px;padding:9px 12px;cursor:pointer}
+.v3-place-categories .v3-place-topic-emoji{background:none;padding:0;font-size:16px;line-height:1.1}
+.v3-place-categories .v2-topic-chip.active .v3-place-topic-emoji{background:none}
+.v3-place-result-title{margin:25px 0 15px}
+.v3-places-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.v3-place-card{min-height:247px;padding:19px 20px;gap:9px;box-shadow:0 5px 22px #144b2f05}
+.v3-place-card h3{font-size:16px;line-height:1.35;margin:3px 0 0}
+.v3-place-card p{font-size:12px;line-height:1.62;margin:0;color:var(--muted)}
+.v3-place-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:2px}
+.v3-place-top .star-btn{margin:0}
+.v3-place-pictogram{height:40px;width:40px;display:grid;place-items:center;border:1px solid var(--stroke);background:var(--surface2);border-radius:11px;font-size:21px}
+.v3-place-card .soft-tag{font-size:10px;align-self:flex-start}
+.v3-place-card .v2-place-location{padding:12px 0 6px;margin-top:auto;line-height:1.5}
+.v3-place-card .v2-place-actions{justify-content:flex-start;align-items:center;gap:9px 15px;padding-top:2px}
+.v3-place-card .v2-place-actions a{font-size:11px;line-height:1.5}
+.v3-place-more{display:flex;justify-content:center;margin:23px 0 12px}
+.v3-place-more button{border:1px solid var(--stroke);background:var(--surface);color:var(--accent);border-radius:12px;padding:12px 18px;font-weight:800;font-size:12px;cursor:pointer}
+.v3-place-more button:hover{border-color:var(--accent);background:var(--accent2)}
+.dark .v3-place-hero{background:linear-gradient(115deg,#24483b,#343f32)}
+.dark .v3-place-heading p{color:#d1dfcf}
+.dark .v3-place-stats>div{background:#ffffff12;border-color:#88a39135}
+.dark .v3-place-stats strong{color:#e0f1e4}
+.dark .v3-place-stats span{color:#d2e2d1}
+@media(max-width:1080px){.v3-places-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.v3-place-hero{align-items:stretch}.v3-place-stats{grid-template-columns:1fr;flex:0 0 140px}}
+@media(max-width:700px){.v3-place-hero{padding:21px 18px;flex-direction:column;gap:17px;align-items:stretch}.v3-place-heading h2{font-size:30px}.v3-place-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));flex:unset}.v3-place-stats>div{padding:10px 6px}.v3-place-stats strong{font-size:25px}.v3-place-stats span{font-size:9px}.v3-places-grid{grid-template-columns:1fr}.v3-place-card{min-height:0;padding:20px}.v3-place-categories .v2-topic-chip{font-size:11px;min-height:39px}.v3-place-toolbar .search-field{width:100%}}
