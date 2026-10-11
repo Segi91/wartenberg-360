@@ -80,3 +80,18 @@
 @media(max-width:1050px){.v2-feature-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.v2-feature-grid>div:first-child{grid-column:span 2}.v2-feature-grid>div:first-child .v2-news-card{min-height:180px}}
 @media(max-width:650px){.v2-news-intro{padding:23px 20px;gap:15px;grid-template-columns:minmax(0,1fr) 88px}.v2-intro-stats{min-width:0;padding:12px 8px;border-radius:13px}.v2-intro-stats strong{font-size:37px}.v2-intro-stats span{font-size:9px}.v2-news-intro h2{font-size:24px}.v2-scope-bar{gap:8px}.v2-scope{padding:12px 10px;font-size:11px;min-height:54px;gap:7px}.v2-scope span{padding:3px 6px}.v2-feature-grid{grid-template-columns:1fr}.v2-feature-grid>div:first-child{grid-column:auto}.v2-feature-grid .v2-news-card{min-height:175px}.v2-section-title{align-items:start;flex-direction:column;gap:4px}.v2-section-title>span{text-align:left}.v2-topic-chips{display:flex;flex-wrap:nowrap;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:8px;margin-right:-14px;-webkit-overflow-scrolling:touch}.v2-topic-chip{white-space:nowrap;flex:none;scroll-snap-align:start}.v2-toolbar{padding-top:12px}.v2-toolbar .news-source-select{width:100%}.v2-toolbar .news-source-select .select{width:100%}.v2-toolbar .search-field{width:100%}.v2-news-card h3{font-size:16px}}
 @media(prefers-reduced-motion:reduce){.v2-news-card,.v2-topic-chip,.v2-scope{transition:none}.v2-news-card:hover,.v2-topic-chip:hover{transform:none}}
+
+/* W360 V2: Vereine und Initiativen */
+.v2-club-intro{display:flex;justify-content:space-between;align-items:center;gap:24px;padding:26px 30px;margin-top:18px;margin-bottom:18px;background:linear-gradient(112deg,#eef1e7,#f8f6ed);border:1px solid #e1e6d9;border-radius:20px}
+.v2-club-intro h2{font-size:clamp(24px,3.4vw,34px);line-height:1.15;letter-spacing:-1px;margin:5px 0 8px}
+.v2-club-intro p{max-width:600px;line-height:1.65;font-size:12px;color:#596c5c;margin:0}
+.v2-club-stat{background:#fff9;border:1px solid #cdded0;border-radius:15px;padding:15px 20px;text-align:center;min-width:135px}
+.v2-club-stat strong{display:block;font-size:43px;line-height:1;color:#205b4d;letter-spacing:-2px}
+.v2-club-stat span{font-size:10px;color:#5b7265}
+.v2-club-categories{margin-top:18px}
+.dark .v2-club-intro{background:linear-gradient(110deg,#244538,#323f33);border-color:var(--stroke)}
+.dark .v2-club-intro p{color:#c1d6c7}
+.dark .v2-club-stat{background:#ffffff14;border-color:#73977944}
+.dark .v2-club-stat strong{color:#e5f2e7}
+.dark .v2-club-stat span{color:#c4d6c7}
+@media(max-width:650px){.v2-club-intro{padding:22px 17px;gap:13px}.v2-club-stat{min-width:89px;padding:12px 8px}.v2-club-stat strong{font-size:34px}.v2-club-stat span{font-size:9px}}
