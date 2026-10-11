@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-11T21:02:24Z",
+  "updatedAt": "2026-10-11T21:03:48Z",
   "items": [
     {
       "id": "2323ecf417790b00",
@@ -745,6 +745,21 @@
       "topic": "Vogelsberg"
     },
     {
+      "id": "gemeinde-offiziell-50",
+      "title": "Rathaus und Bauhof geschlossen",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Rathaus und Bauhof am Freitag, dem 16.10.2026 geschlossen.",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=50&cHash=3c81a68ff6a1fc546031a51ad114a304",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Rathaus & Politik",
+      "topic": "Rathaus & Politik"
+    },
+    {
       "id": "curated-v2-01",
       "date": "2026-10-05",
       "publishedAt": "2026-10-05T12:00:00+02:00",
@@ -777,21 +792,6 @@
       "desc": "Die Gemeinde kündigte Bundeswehrübungen Anfang und Mitte Oktober an. Wartenberg gehört zu den Übungsräumen; für die zweite Übung vom 13. bis 15. Oktober wurden auch Nachtmärsche und Übungsmunition angekündigt.",
       "body": "Nach Informationen der Gemeinde waren unter anderem 50 Soldaten und sechs Radfahrzeuge für die zweite Übung vorgesehen. Die Information soll Anwohner über mögliche militärische Aktivitäten in der Umgebung informieren.",
       "summaryType": "Redaktionelle Zusammenfassung"
-    },
-    {
-      "id": "gemeinde-offiziell-50",
-      "title": "Rathaus und Bauhof geschlossen",
-      "date": "2026-10-05",
-      "publishedAt": "2026-10-05T12:00:00+02:00",
-      "desc": "",
-      "officialExcerpt": "Rathaus und Bauhof am Freitag, dem 16.10.2026 geschlossen.",
-      "sourceName": "Gemeinde Wartenberg",
-      "sourceId": "gemeinde",
-      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=50&cHash=3c81a68ff6a1fc546031a51ad114a304",
-      "via": "Amtliche Website",
-      "locality": "Wartenberg",
-      "category": "Rathaus & Politik",
-      "topic": "Rathaus & Politik"
     },
     {
       "id": "0c5547542601d58f",
@@ -904,6 +904,20 @@
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Wie-funktioniert-Jugendbeteiligung-im-Vogelsbergkreis/boxid/1075133",
       "via": "RSS",
       "topic": "Familie & Soziales"
+    },
+    {
+      "id": "7ee9dcb7c0619a02",
+      "title": "SG Landenhausen gewinnt Auswärtsspiel – Verletzter von Krankenwagen geholt",
+      "desc": "",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T05:00:00+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQZDdtLUNmSGxKeC1UOU1MYXBDR2FGQjVXdmdvZmhzV1JWeXFzekdfQkxjM2pTRzVkSUoxWGJ6MXVScEFXZGdETHliQU93NEFFaWFGOUljd3VTLVJ1WnEtZy1UdUxvWXQ3a3hvM2FIbmRxcmxzam5hM3VsbExfdjdULVgxQXFxUEN6TnNTQkstcTNaLVpVRXhYUEFPOTBYSVNYZWtsV2Q1RlVxSzhGanVRQU9NRE54ODRrRXdlYXVWbnRjalktOWtqdjFfenY5XzQ5dTc5ci1mVQ?oc=5",
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "5fda6f5aea0e4c19",
@@ -1301,6 +1315,21 @@
       "topic": "Blaulicht"
     },
     {
+      "id": "gemeinde-offiziell-62",
+      "title": "Informationsbroschüre",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Anzeigenschaltung für die Informationsbroschüre der Gemeinde Wartenberg",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=62&cHash=c846899e34fe9b06a8fdfa0edf0b2097",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Rathaus & Politik",
+      "topic": "Rathaus & Politik"
+    },
+    {
       "id": "curated-v2-04",
       "date": "2026-09-28",
       "publishedAt": "2026-09-28T12:00:00+02:00",
@@ -1316,21 +1345,6 @@
       "desc": "Der Kunstspaziergang in Landenhausen zeigte kreative Arbeiten an ungewöhnlichen Ausstellungsorten, darunter Höfe, Gärten und Ställe. Der Bericht des Lauterbacher Anzeigers blickt auf die Veranstaltung zurück.",
       "body": "Kultur wurde bei dieser Veranstaltung direkt im Ort erlebbar. Unterschiedliche Stationen boten die Gelegenheit, Kunst im dörflichen Umfeld zu entdecken.",
       "summaryType": "Redaktionelle Zusammenfassung"
-    },
-    {
-      "id": "gemeinde-offiziell-62",
-      "title": "Informationsbroschüre",
-      "date": "2026-09-28",
-      "publishedAt": "2026-09-28T12:00:00+02:00",
-      "desc": "",
-      "officialExcerpt": "Anzeigenschaltung für die Informationsbroschüre der Gemeinde Wartenberg",
-      "sourceName": "Gemeinde Wartenberg",
-      "sourceId": "gemeinde",
-      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=62&cHash=c846899e34fe9b06a8fdfa0edf0b2097",
-      "via": "Amtliche Website",
-      "locality": "Wartenberg",
-      "category": "Rathaus & Politik",
-      "topic": "Rathaus & Politik"
     },
     {
       "id": "5ee9107d2c38b7ac",
@@ -1570,7 +1584,7 @@
       "title": "SG Landenhausen trifft auf Tabellenzweiten mit sechs Siegen in Serie",
       "desc": "",
       "date": "2026-09-04",
-      "publishedAt": "2026-09-04T05:00:00+00:00",
+      "publishedAt": "2026-09-04T07:00:00+00:00",
       "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -2210,7 +2224,7 @@
       "mode": "Gepruefte Links / Archiv",
       "count": 0,
       "note": "Google News: keine aktuellen passenden Artikel",
-      "stored": 5
+      "stored": 13
     },
     {
       "id": "kreis",
@@ -2262,9 +2276,9 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 20,
+      "count": 22,
       "note": "",
-      "stored": 45
+      "stored": 46
     },
     {
       "id": "kulturverein",
@@ -2286,18 +2300,18 @@
     }
   ],
   "feedCount": 7,
-  "localCount": 60,
+  "localCount": 61,
   "localTopics": {
-    "Rathaus & Politik": 6,
+    "Rathaus & Politik": 11,
     "Kultur & Musik": 9,
     "Gemeinschaft & Ehrenamt": 6,
-    "Familie & Soziales": 2,
+    "Familie & Soziales": 5,
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 4,
     "Blaulicht": 2,
-    "Sport": 19,
+    "Sport": 20,
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-11T21:02:44.792937+00:00"
+  "officialCheckedAt": "2026-10-11T21:04:05.066264+00:00"
 }
