@@ -253,7 +253,7 @@ const clubAliasRules={
  'TV Angersbach – Abteilung Tischtennis':['tv angersbach tischtennis']
 };
 function clubAliases(c){
- const aliases=clubAliasRules[c.title]||[];
+ const aliases=(clubAliasRules[c.title]||[]).slice();
  const generic=c.title.replace(/\s+e\.?\s*v\.?$/i,'').replace(/\s*\([^)]*\)/g,'').replace(/\s*[–-]\s*Abteilung\s+.+$/i,'').trim();
  if(generic.length>12)aliases.push(generic);
  return [...new Set(aliases.map(normalizedClubName).filter(x=>x.length>=10))];
