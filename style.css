@@ -259,3 +259,84 @@
 .dark .v3-place-stats span{color:#d2e2d1}
 @media(max-width:1080px){.v3-places-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.v3-place-hero{align-items:stretch}.v3-place-stats{grid-template-columns:1fr;flex:0 0 140px}}
 @media(max-width:700px){.v3-place-hero{padding:21px 18px;flex-direction:column;gap:17px;align-items:stretch}.v3-place-heading h2{font-size:30px}.v3-place-stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));flex:unset}.v3-place-stats>div{padding:10px 6px}.v3-place-stats strong{font-size:25px}.v3-place-stats span{font-size:9px}.v3-places-grid{grid-template-columns:1fr}.v3-place-card{min-height:0;padding:20px}.v3-place-categories .v2-topic-chip{font-size:11px;min-height:39px}.v3-place-toolbar .search-field{width:100%}}
+
+
+/* Interaktive Wartenberg-Karte v3.1 – OpenStreetMap und vollständige 90er-Ortsliste */
+.w360-place-switch-row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;margin:22px 0 18px}
+.w360-place-switch{display:flex;gap:3px;padding:4px;border-radius:13px;background:var(--surface2);border:1px solid var(--stroke)}
+.w360-place-switch button{cursor:pointer;min-width:110px;padding:10px 17px;border:0;border-radius:9px;background:transparent;color:var(--muted);font-size:13px;font-weight:750;transition:background .18s,color .18s,box-shadow .18s}
+.w360-place-switch button:hover,.w360-place-switch button:focus-visible{color:var(--accent)}
+.w360-place-switch button.active{color:var(--accent);background:var(--surface);box-shadow:0 1px 5px #18362620}
+.w360-place-switch-row>span{font-size:11px;color:var(--muted);line-height:1.55}
+.w360-place-display.is-map>.w360-place-list-content{display:none}
+.w360-place-map-section{display:flex;flex-direction:column;gap:13px}
+.w360-place-map-caption{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px}
+.w360-place-map-caption>div{display:flex;flex-direction:column;gap:4px}
+.w360-place-map-caption strong{font-size:18px;letter-spacing:-.4px;color:var(--text)}
+.w360-place-map-caption span{font-size:11px;color:var(--muted)}
+.w360-place-map-caption p{font-size:12px;line-height:1.55;color:var(--muted);margin:0;max-width:445px}
+.w360-map-layout{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(285px,.82fr);align-items:stretch;gap:14px}
+.w360-map-frame{min-width:0;border:1px solid var(--stroke);border-radius:18px;overflow:hidden;background:#e6eae4;display:flex;flex-direction:column;isolation:isolate}
+#w360-map{position:relative;isolation:isolate;width:100%;height:510px;min-height:370px;z-index:0;background:linear-gradient(130deg,#dfeae1,#cfdbcd)}
+.w360-map-gesture{background:var(--surface);border-top:1px solid var(--stroke);padding:9px 13px;color:var(--muted);font-size:11px;line-height:1.45}
+.w360-map-sidebar{min-width:0;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--stroke);border-radius:18px;overflow:hidden;height:550px;min-height:370px}
+.w360-map-sidebar-heading{flex:0 0 auto;padding:15px 17px;background:var(--surface2);border-bottom:1px solid var(--stroke);display:flex;flex-direction:column;gap:5px}
+.w360-map-sidebar-heading strong{font-size:14px;color:var(--text)}
+.w360-map-sidebar-heading span{font-size:11px;color:var(--muted)}
+.w360-map-location-list{flex:1;min-height:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
+.w360-map-side-item{border-bottom:1px solid var(--stroke);padding:7px 12px 9px;transition:background .15s}
+.w360-map-side-item:last-child{border-bottom:0}
+.w360-map-side-item:has(.selected){background:var(--accent2)}
+.w360-map-select,.w360-map-row-static{display:flex;align-items:center;gap:10px;border:0;background:transparent;width:100%;text-align:left;color:var(--text);font:inherit;padding:8px 4px;min-width:0}
+.w360-map-select{cursor:pointer;border-radius:9px}
+.w360-map-select:hover{background:var(--surface2)}
+.w360-map-select.selected{color:var(--accent);background:var(--accent2)}
+.w360-map-icon{font-size:19px;min-width:35px;width:35px;height:35px;display:grid;place-items:center;border:1px solid var(--stroke);border-radius:10px;background:var(--surface2)}
+.w360-map-row-label{display:flex;flex:1;min-width:0;flex-direction:column;gap:3px}
+.w360-map-row-label strong{font-size:12px;font-weight:790;line-height:1.4;overflow-wrap:anywhere}
+.w360-map-row-label small{font-size:10px;color:var(--muted);line-height:1.4}
+.w360-map-focus-icon{color:var(--accent);font-size:21px}
+.w360-map-row-actions{display:flex;gap:12px;flex-wrap:wrap;padding:0 5px 2px 49px}
+.w360-map-row-actions a{font-size:10px;font-weight:740;color:var(--accent);line-height:1.5;text-decoration:none}
+.w360-map-row-actions a:hover,.w360-map-row-actions a:focus-visible{text-decoration:underline}
+.w360-map-side-item.not-located .w360-map-icon{filter:grayscale(.65);opacity:.65}
+.w360-map-side-item.not-located .w360-map-row-label small{font-style:italic}
+.w360-map-notice{font-size:11px;line-height:1.65;color:var(--muted);margin:0 0 10px}
+.w360-map-unavailable{display:flex;height:100%;min-height:340px;align-items:center;justify-content:center;flex-direction:column;text-align:center;gap:8px;padding:30px;color:#294e43}
+.w360-map-unavailable strong{font-size:18px}
+.w360-map-unavailable p{font-size:12px;line-height:1.6;max-width:420px}
+.w360-div-pin{border:0!important;background:none!important}
+.w360-pin-body{height:43px;width:43px;border-radius:16px 16px 15px 3px;display:flex;align-items:center;justify-content:center;transform:rotate(-45deg);background:#226a53;border:3px solid white;box-shadow:0 3px 14px #1036245e;color:#fff;position:relative}
+.w360-pin-body>span:first-child{display:block;font-size:20px;line-height:1;transform:rotate(45deg)}
+.w360-pin-count{display:grid;place-items:center;position:absolute;right:-9px;top:-8px;background:#f5bb55;color:#2e3d26;font-size:11px;font-weight:850;border-radius:50%;width:23px;height:23px;transform:rotate(45deg);border:2px solid white;box-shadow:0 1px 5px #0003}
+.w360-popup{max-width:300px;min-width:205px;max-height:340px;overflow:auto}
+.w360-popup-heading{font-size:11px;font-weight:850;color:#597364;padding-bottom:8px;border-bottom:1px solid #e1e9e2}
+.w360-popup-entry{padding:9px 2px;border-bottom:1px solid #e6ece6;display:flex;flex-direction:column;gap:4px}
+.w360-popup-entry:last-child{border-bottom:0}
+.w360-popup-entry strong{font-size:13px;line-height:1.35;color:#193e31}
+.w360-popup-entry p{font-size:11px;line-height:1.45;margin:0;color:#586a61;overflow-wrap:anywhere}
+.w360-popup-entry small{font-size:10px;color:#a05c20}
+.w360-popup-tag{font-size:10px;color:#497362}
+.w360-popup-actions{display:flex;flex-wrap:wrap;gap:12px;font-size:11px;margin-top:4px}
+.w360-popup-actions a{font-weight:800;color:#1d7455;text-decoration:none}
+#w360-map .leaflet-control-attribution{font-size:10px}
+#w360-map .leaflet-popup-content{margin:12px 15px}
+.w360-place-display.is-list>.w360-place-list-content{display:block}
+@media(max-width:1080px){.w360-map-layout{grid-template-columns:minmax(0,1fr) minmax(270px,.83fr)}#w360-map{height:480px}.w360-map-sidebar{height:520px}}
+@media(max-width:790px){
+ .w360-map-layout{grid-template-columns:1fr}
+ #w360-map{height:min(66vh,445px);min-height:315px}
+ .w360-map-sidebar{height:320px;min-height:260px}
+ .w360-place-map-caption{flex-direction:column;align-items:flex-start}
+ .w360-place-switch-row>span{font-size:10px}
+ .w360-map-gesture{font-size:10px}
+}
+@media(max-width:430px){
+ .w360-place-switch-row{align-items:stretch}
+ .w360-place-switch{flex:1}
+ .w360-place-switch button{flex:1;min-width:0}
+ .w360-place-switch-row>span{width:100%;text-align:left}
+ .w360-map-sidebar{height:300px}
+ #w360-map{height:335px}
+}
+@media(prefers-reduced-motion:reduce){.w360-map-select{scroll-behavior:auto}}
