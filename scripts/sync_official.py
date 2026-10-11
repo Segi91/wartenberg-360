@@ -140,7 +140,7 @@ def parse_official_news(tree, base):
         if not link or not is_detail_link(link):
             continue
         title = text(a)
-        if not title or title.casefold() in ("mehr erfahren", "weiterlesen", "mehr", "lesen"):
+        if not title or title.casefold() in ("mehr erfahren", "weiterlesen", "mehr", "lesen", "nächste", "vorherige", "zurück", "weiter", "erste", "letzte") or re.fullmatch(r"\d+", title):
             continue
         if len(title) > 165 or len(title) < 4:
             continue
@@ -175,12 +175,14 @@ def parse_official_news(tree, base):
         excerpt = re.sub(r"\s+", " ", excerpt).strip(" -·*:")[:210]
         if excerpt.casefold() == title.casefold() or not excerpt:
             excerpt = ""
+        from news_topics import topic_for
+        topic = topic_for(title, "gemeinde", "Rathaus & Politik")
         results.append({
             "id": identifier, "title": title, "date": date.isoformat(),
             "publishedAt": date.isoformat() + "T12:00:00+02:00",
             "desc": "", "officialExcerpt": excerpt, "sourceName": "Gemeinde Wartenberg",
             "sourceId": "gemeinde", "source": link, "via": "Amtliche Website",
-            "locality": "Wartenberg", "category": "Rathaus & Politik",
+            "locality": "Wartenberg", "category": topic, "topic": topic,
         })
     return results
 
@@ -317,8 +319,10 @@ def merge_events(scraped, previous):
             normalize_name(fresh["title"]) in normalize_name(x.get("title", ""))), None)
         if match:
             fresh["title"] = match["title"]
-            fresh["organizer"] = match["organizer"]
-            fresh["location"] = match["location"]
+            if fresh["organizer"] == "Siehe Gemeindekalender":
+                fresh["organizer"] = match["organizer"]
+            if fresh["location"] == "Wartenberg" and match["location"] in ("Angersbach", "Landenhausen"):
+                fresh["location"] = match["location"]
             fresh["description"] = match.get("description", "")
             fresh["category"] = match.get("category", fresh["category"])
             fresh["id"] = match["id"]
@@ -348,8 +352,16 @@ def merge_news(scraped, previous):
     old = [x for x in previous.get("items", []) if isinstance(x, dict)]
     by_id = {x.get("id"):x for x in old if x.get("id")}
     by_url = {x.get("source"):x for x in old if x.get("source")}
+    news_numbers = set()
+    for older in old:
+        parsed = parse_qs(urlparse(older.get("source","")).query)
+        for k,v in parsed.items():
+            if k.endswith("[news]") and v:
+                news_numbers.add(v[0])
     for new in scraped:
-        if new["source"] in by_url:
+        parsed = parse_qs(urlparse(new["source"]).query)
+        ids = [v[0] for k,v in parsed.items() if k.endswith("[news]") and v]
+        if new["source"] in by_url or (ids and ids[0] in news_numbers):
             continue
         by_id[new["id"]] = new
     return sorted(by_id.values(),
