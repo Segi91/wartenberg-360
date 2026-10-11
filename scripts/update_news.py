@@ -141,7 +141,12 @@ def parse_feed(xml, source, via):
         limit_days = LOCAL_ARCHIVE_DAYS if source["id"] == "la" else MAX_DAYS
         if published > NOW + dt.timedelta(hours=5) or published < NOW - dt.timedelta(days=limit_days):
             continue
-        if not source["site_only"]:
+        if source["id"] == "la":
+            # Lauterbacher Anzeiger focuses on Wartenberg; never mix unrelated
+            # Lauterbach/Vogelsberg headlines into the local source.
+            if not any(term in title.casefold() for term in LOCAL):
+                continue
+        elif not source["site_only"]:
             # News-index descriptions can contain unrelated headlines:
             # require regional place names in the HEADLINE itself for indexed feeds.
             text = title if via == "Google News" else title + " " + summary
@@ -170,7 +175,9 @@ def run():
     except (OSError, ValueError):
         previous = {}
     old = {x["id"]: x for x in previous.get("items", []) if isinstance(x, dict) and
-           x.get("id") and x.get("title") and x.get("source")}
+           x.get("id") and x.get("title") and x.get("source")
+           and (x.get("sourceId") != "la" or x.get("id", "").startswith("la-editorial-")
+                or any(term in x.get("title", "").casefold() for term in LOCAL))}
     statuses = []
     success = 0
     for source in SOURCES:
