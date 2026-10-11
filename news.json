@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-11T19:50:10Z",
+  "updatedAt": "2026-10-11T20:05:24Z",
   "items": [
     {
       "id": "f519d8d5deeef2fd",
@@ -743,7 +743,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/wartenberg-steckt-875-mio-euro-in-klaeranlagenloesung-und-hat-kaum-ruecklagen-94526281.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Der Lauterbacher Anzeiger berichtet über große Investitionen in Wartenberg, unter anderem in die Kläranlagenlösung. Gleichzeitig thematisiert der Bericht die begrenzten finanziellen Rücklagen der Gemeinde.",
+      "body": "Es geht um kommunale Finanzen: Wartenberg plant umfangreiche Ausgaben für die Infrastruktur. Der Beitrag beleuchtet, wie diese Vorhaben mit der angespannten Rücklagenlage zusammenhängen.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "curated-v2-02",
@@ -758,7 +760,9 @@
       "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=93351216d4d08416667d1c19337d412b&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=38",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Die Gemeinde kündigte Bundeswehrübungen Anfang und Mitte Oktober an. Wartenberg gehört zu den Übungsräumen; für die zweite Übung vom 13. bis 15. Oktober wurden auch Nachtmärsche und Übungsmunition angekündigt.",
+      "body": "Nach Informationen der Gemeinde waren unter anderem 50 Soldaten und sechs Radfahrzeuge für die zweite Übung vorgesehen. Die Information soll Anwohner über mögliche militärische Aktivitäten in der Umgebung informieren.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "0c5547542601d58f",
@@ -997,7 +1001,9 @@
       "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=8490be51253668112e16b071c141b2fa&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=29",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Die Gemeinde erläutert die Pflichten der Anlieger beim Entfernen von Herbstlaub auf Gehwegen. Außerdem nennt sie Möglichkeiten zur Entsorgung, darunter Biotonne, Grünabfallsammelstelle und Kompost.",
+      "body": "Wer entlang des eigenen Grundstücks reinigungspflichtig ist, soll auch heruntergefallenes Laub beseitigen, damit Gehwege sicher bleiben. Laub muss nicht zwingend weggeworfen werden: Im eigenen Garten kann es beispielsweise kompostiert werden.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "766f0448dce8a1b3",
@@ -1278,7 +1284,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/18-kunstspaziergang-landenhausen-karussell-aus-sperrmuell-dreht-sich-94514823.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Der Kunstspaziergang in Landenhausen zeigte kreative Arbeiten an ungewöhnlichen Ausstellungsorten, darunter Höfe, Gärten und Ställe. Der Bericht des Lauterbacher Anzeigers blickt auf die Veranstaltung zurück.",
+      "body": "Kultur wurde bei dieser Veranstaltung direkt im Ort erlebbar. Unterschiedliche Stationen boten die Gelegenheit, Kunst im dörflichen Umfeld zu entdecken.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "5ee9107d2c38b7ac",
@@ -1349,7 +1357,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/kunstspaziergang-landenhausen-startet-36-kuenstler-an-14-stationen-94511080.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Zum Kunstspaziergang in Landenhausen waren 36 Künstlerinnen und Künstler an 14 Stationen angekündigt. Der Bericht stellt die Veranstaltung und ihre dezentralen Ausstellungsorte vor.",
+      "body": "Die vielen einzelnen Stationen machen den Kunstspaziergang zu einem Rundgang durch den Ort. Für Hintergründe und Originalbilder führt der Quellenlink zum Lauterbacher Anzeiger.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "fff6b562e7b6dec6",
@@ -1434,7 +1444,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/pfarrerin-kaulich-verlaesst-zell-ich-kann-sehr-schlecht-tschuess-sagen-94495805.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Eine Pfarrerin wechselt nach Angersbach und Landenhausen. Der Artikel beleuchtet den beruflichen Abschied vom bisherigen Wirkungsort und den bevorstehenden Wechsel.",
+      "body": "Der Bericht ist vor allem für das evangelische Gemeindeleben relevant. Einzelheiten zur Person und ihren bisherigen Aufgaben stehen beim Lauterbacher Anzeiger.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "f5463fd3bf9f0d33",
@@ -1463,7 +1475,9 @@
       "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=23ed4cdefbba95c26150a5d0f8b40b81&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=24",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Die Gemeinde hatte für den 1. Oktober 2026 zu einer Bürgerversammlung ins Wartenberg Oval eingeladen. Auf der Tagesordnung standen unter anderem die Turnhallensanierung in Landenhausen, die Kläranlage Angersbach und die Wasserversorgung.",
+      "body": "Die Einladung sah einen Bericht aus der Gemeindevertretung und anschließend mehrere Infrastrukturthemen vor. Das Datum bezeichnet die angekündigte Versammlung; die Meldung ist inzwischen ein Archivhinweis.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "3a0d1bc168a1b4f1",
@@ -1562,7 +1576,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/karsten-ittmann-gewinnt-mit-9343-prozent-kontrahent-im-urlaub-in-italien-94466864.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Zur Bürgermeisterwahl in Wartenberg wurde ein Wahlergebnis veröffentlicht. Der Lauterbacher Anzeiger berichtet über den Ausgang und den politischen Kontext der Abstimmung.",
+      "body": "Der Artikel ordnet die Bürgermeisterwahl vom 30. August 2026 ein. Für amtlich verbindliche Ergebnisse ist zusätzlich die Bekanntmachung der Gemeinde maßgeblich.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "curated-v2-09",
@@ -1577,7 +1593,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/mehr-als-100-besucher-bei-wartenberger-dorf-gespraechen-in-landenhausen-94465069.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Bei den Wartenberger Dorf-Gesprächen in Landenhausen kamen laut dem Bericht mehr als 100 Besucherinnen und Besucher zusammen. Thema war der Austausch über Anliegen aus der Gemeinde.",
+      "body": "Die Veranstaltung bot Raum für örtliche Diskussionen und persönliche Begegnungen. Mehr zu behandelten Fragen und Wortmeldungen steht im Originalbericht.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "94c5747ecd958eec",
@@ -1676,7 +1694,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/ittmann-und-wienold-werben-vor-500-buergern-fuer-ortsumgehung-94444619.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "In einer Veranstaltung zur Ortsumgehung diskutierten die Bürgermeisterkandidaten vor zahlreichen Bürgerinnen und Bürgern. Der Zeitungsbericht greift Standpunkte zur Verkehrsfrage auf.",
+      "body": "Die Ortsumgehung ist ein langfristiges Thema für Wartenberg. Die Meldung dokumentiert die Debatte im Sommer 2026, nicht den aktuellen Planungsstand.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "1542522c45ca6a17",
@@ -1719,7 +1739,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/radlader-verhindert-ausbreitung-5000-quadratmeter-stoppelacker-in-flammen-94440856.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Bei Landenhausen kam es zu einem Flächenbrand, zu dem die Feuerwehr alarmiert wurde. Der Zeitungsbericht schildert den Einsatz auf dem betroffenen Gelände.",
+      "body": "Das Ereignis ist als ältere Blaulichtmeldung archiviert. Für aktuelle Gefahrenlagen sind die offiziellen Warn- und Einsatzkanäle der zuständigen Stellen maßgeblich.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "9753ca0c72f007d4",
@@ -1818,7 +1840,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/bundesmusikfest-in-landenhausen-elf-vereine-spielen-aber-ohne-platzierung-94385373.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Das Bundesmusikfest brachte den Musikverein Landenhausen und weitere Vereine zusammen. Der Bericht blickt auf die musikalische Veranstaltung im Wartenberger Umfeld.",
+      "body": "Im Mittelpunkt stehen die Mitwirkung regionaler Musikvereine und die gemeinsame Veranstaltung. Das Original enthält weitere Einzelheiten.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "b6b5501956793a3e",
@@ -1847,7 +1871,9 @@
       "source": "https://osthessen-news.de/n11796175/elf-vereine-ein-fest-bundesmusikfest-2026-vereint-region.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Laut Osthessen News wirkten elf Vereine am Bundesmusikfest 2026 im Wartenberg Oval mit. Die Veranstaltung stand im Zeichen der gemeinschaftlichen Blasmusik.",
+      "body": "Das Wartenberg Oval war Schauplatz des Musikereignisses mit mehreren Vereinen. Einen ausführlicheren Bericht gibt es bei Osthessen News.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "curated-v2-13",
@@ -1862,7 +1888,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/34-schuetzen-kaempfen-um-koenigswuerde-herren-brauchen-ueber-zwei-stunden-94365417.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Der Schützenverein Angersbach ermittelte bei seinem Wettbewerb die Königsfamilie. Der Lauterbacher Anzeiger berichtete über den Verlauf und die Beteiligten.",
+      "body": "Das Vereinsereignis gehört zum örtlichen Brauchtum und zum Gemeinschaftsleben. Namen und Wettbewerbsergebnisse lassen sich im Original nachlesen.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "curated-v2-14",
@@ -1877,7 +1905,9 @@
       "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=f16ed3b3a0975584ac66cbe654c095af&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=48",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Die Gemeinde Wartenberg informierte über zusätzliche Restabfallsäcke für bestimmte Pflegebedarfe. Nach ihrer Mitteilung können pflegebedürftige Bürgerinnen und Bürger jährlich sechs entsprechende Säcke erhalten.",
+      "body": "Die Regelung soll bei der Entsorgung von Windeln helfen. Für genaue Voraussetzungen, Antragstellung und die weiterhin geltende Regelung bitte die Gemeinde kontaktieren.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "curated-v2-15",
@@ -1892,7 +1922,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/florinale-in-landenhausen-acht-private-gaerten-oeffnen-am-13-und-14-juni-94345388.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Zur Florinale in Landenhausen öffneten acht private Gärten für Besucherinnen und Besucher. Der Kulturverein Landenhausen steht hinter der Veranstaltung.",
+      "body": "Die Florinale verbindet Gartenkultur und Begegnungen im Ort. Der Bericht kündigte die Teilnahme- und Besichtigungsmöglichkeit im Juni 2026 an; der Termin liegt bereits zurück.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "b73175d217177731",
@@ -1921,7 +1953,9 @@
       "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=36a34fb11a7382bef3cb4f8d1fcbf191&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=56",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Im Februar 2026 wurde ein Förderverein für das Freibad Landenhausen gegründet. Er soll zusätzliche Ausstattung und Angebote unterstützen, während das Bad weiterhin von der Gemeinde betrieben wird.",
+      "body": "Nach der Gemeindemitteilung möchte der Verein unter anderem Mittel durch Veranstaltungen und Spenden sammeln. Geplante Aktivitäten umfassen Aktionen im Freibad. Mitgliedschafts- und Kontaktinformationen stehen bei der Gemeinde.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "757b1566d99cf50c",
@@ -1950,7 +1984,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/98-aussteller-verwandeln-das-dorf-in-einen-riesigen-flohmarkt-94291039.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "In Angersbach verwandelte ein großer Dorfflohmarkt mit 98 Ausstellenden den Ort in einen Treffpunkt für Besucherinnen und Besucher. Der Beitrag berichtet über das lokale Veranstaltungsgeschehen.",
+      "body": "Der Flohmarkt ist Teil des gemeinschaftlichen Lebens in Angersbach. Die Meldung wird als Rückblick im Archiv geführt.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "49f1e1ff119ec7e1",
@@ -1979,7 +2015,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/der-maennergesangverein-praesentiert-14-lieder-nach-drei-tagen-proben-94275895.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Der Männergesangverein Landenhausen veranstaltete einen mehrtägigen Chor-Workshop. Der anschließende Auftritt beziehungsweise die Präsentation war Teil des musikalischen Vereinsprogramms.",
+      "body": "Laut dem Artikel wurden nach den Probentagen 14 Lieder präsentiert. Der Workshop zeigt die kulturelle Arbeit des Vereins im Ort.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "curated-v2-19",
@@ -1994,7 +2032,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/keine-foerderung-fuer-die-sporthalle-in-landenhausen-94275832.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Ein Förderantrag für die Sporthalle in Landenhausen wurde abgelehnt. Der Artikel beschreibt die Entscheidung und ihre Bedeutung für die geplante Maßnahme.",
+      "body": "Die weitere Finanzierung und Zukunft der Halle sind kommunale Infrastrukturfragen. Aktuelle Beschlüsse sollte man ergänzend über die Gemeinde prüfen.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
       "id": "cdbf2b63599bc205",
@@ -2023,7 +2063,9 @@
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/von-der-ruine-zum-wahrzeichen-die-foerdergemeinschaft-feiert-jubilaeum-94211267.html",
       "via": "Quellengeprüfter Link",
       "editorial": true,
-      "desc": ""
+      "desc": "Die Fördergemeinschaft Burgruine Wartenberg blickte auf 50 Jahre Vereinsgeschichte zurück. Im Mittelpunkt steht das Engagement für den Erhalt der Burgruine.",
+      "body": "Der Bericht zeichnet nach, wie aus der Ruine ein prägendes örtliches Wahrzeichen werden konnte und welche Rolle das ehrenamtliche Engagement dabei spielte.",
+      "summaryType": "Redaktionelle Zusammenfassung"
     }
   ],
   "sources": [
