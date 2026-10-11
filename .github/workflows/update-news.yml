@@ -7,7 +7,6 @@ on:
   push:
     paths:
       - 'scripts/update_news.py'
-      - 'app.js'
       - '.github/workflows/update-news.yml'
 
 permissions:
@@ -41,4 +40,6 @@ jobs:
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add news.json
           git commit -m 'Aktualisiere Wartenberg-360-Nachrichten'
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
