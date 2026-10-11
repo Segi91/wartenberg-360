@@ -319,8 +319,15 @@ def same_event(a, b):
     a_org = normalize_name(a.get("organizer", ""))
     b_org = normalize_name(b.get("organizer", ""))
     org_similarity = SequenceMatcher(None, a_org, b_org).ratio()
-    if a_title == b_title and org_similarity >= .5:
-        return True
+    if a_title == b_title:
+        if org_similarity >= .5:
+            return True
+        # Older manual entries sometimes had no organizer; the municipality
+        # now supplies an authoritative name. Avoid treating that as a new event.
+        generic = ("veranstalter laut gemeinde", "siehe gemeindekalender", "nicht angegeben")
+        if any(t in str(a.get("organizer","")).casefold() or
+               t in str(b.get("organizer","")).casefold() for t in generic):
+            return True
     return title_similarity >= .80 and org_similarity >= .72
 
 
