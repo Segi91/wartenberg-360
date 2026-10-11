@@ -1,0 +1,841 @@
+{
+  "version": 1,
+  "verifiedAt": "2026-10-11",
+  "scope": "Gemeinde Wartenberg in Hessen, 36367: Angersbach und Landenhausen",
+  "note": "Aus offiziellen Gemeindeseiten und benannten Fachquellen recherchierte Orte und Angebote. Keine Live-Öffnungszeiten. Ohne verlässlich bekannte Straßenadresse wird nur die Informationsquelle angezeigt; solche Einträge erhalten keinen fingierten Routing-Pin.",
+  "items": [
+    {
+      "id": "ort-001",
+      "title": "Burgruine Wartenberg",
+      "location": "Angersbach",
+      "category": "Sehenswürdigkeiten",
+      "address": null,
+      "description": "Historische Burgruine in der Gemarkung Angersbach. Ein beliebter Halt für Wanderungen und Radtouren; genaue Zuwege in der verlinkten Ortsinformation prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/veranstaltungsraeume/-plaetze.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-002",
+      "title": "Info- und Raststation an der Burgruine",
+      "location": "Angersbach",
+      "category": "Sehenswürdigkeiten",
+      "address": null,
+      "description": "Raststation mit Aufenthaltsraum und Toiletten an der Burgruine. Sie kann laut Gemeinde für Veranstaltungen angemietet werden; der Vulkanradweg verläuft in der Nähe.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/veranstaltungsraeume/-plaetze.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-003",
+      "title": "Historischer Rundgang Angersbach",
+      "location": "Angersbach",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Historischer Rundgang mit Informationstafeln zur Ortsgeschichte seit dem Jahr 812 und historischen Fotografien. Teil des Zeitpfads Wartenberg.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-004",
+      "title": "Zeitpfad Wartenberg",
+      "location": "Angersbach",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Markierter etwa 18 Kilometer langer Themenweg zur Geologie und Ortsgeschichte. Die Gemeinde nennt rund 30 Informationstafeln; Teilstrecken sind möglich.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-005",
+      "title": "Wartenberger Panorama-Weg",
+      "location": "Beide Ortsteile",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Rundweg um Angersbach und Landenhausen mit Aussichten, Naturstationen und Möglichkeiten zur Kombination mit weiteren Wegen. Für den konkreten Einstieg die Wanderkarte nutzen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-006",
+      "title": "Wartenberger Rundwanderwege 1 bis 5",
+      "location": "Beide Ortsteile",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Fünf markierte Rundwanderwege des Heimat- und Verkehrsvereins. Sie kreuzen den Panorama-Weg und lassen sich miteinander kombinieren.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-007",
+      "title": "Sonnenweg der Poesie",
+      "location": "Landenhausen",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Vom Kulturverein Landenhausen gestalteter Wanderweg mit Gedichten und Texten. Besonders im späten Frühling und Frühsommer landschaftlich reizvoll.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-008",
+      "title": "Fetzenrod-Rundweg",
+      "location": "Landenhausen",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Rundwanderung bei Landenhausen. Details zu Route, Länge und Einstieg über die Wanderübersicht und die verlinkte Tourkarte.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-009",
+      "title": "Hohmichelstein-Rundweg",
+      "location": "Landenhausen",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Einer der durch die Gemeinde vorgestellten Rundwanderwege bei Landenhausen. Verlauf und Zugang bitte über die Routenkarte prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-010",
+      "title": "Landenhäuserstein-Rundweg",
+      "location": "Landenhausen",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Wanderroute im Umfeld von Landenhausen. Die Gemeinde verlinkt die entsprechende Tourkarte mit dem Streckenverlauf.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-011",
+      "title": "Kreppelstein-Rundweg",
+      "location": "Landenhausen",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Rundtour bei Landenhausen; Einstieg und Verlauf stehen in der verlinkten Wanderübersicht.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-012",
+      "title": "Vulkanradweg bei Wartenberg",
+      "location": "Angersbach",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Beliebter Radweg auf einer ehemaligen Bahntrasse durch den Vogelsberg; bei Angersbach nahe der Burgruine und Raststation erreichbar.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-013",
+      "title": "BahnRadweg Hessen bei Wartenberg",
+      "location": "Beide Ortsteile",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Überregionale Radroute, die unter anderem Vulkanradweg und weitere Bahntrassenradwege miteinander verbindet. Verlauf siehe offizielle Routeninformationen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-014",
+      "title": "Hessischer Radfernweg R2 / R7a",
+      "location": "Angersbach",
+      "category": "Wandern & Radfahren",
+      "address": null,
+      "description": "Die Gemeinde nennt die Radwege R2 und R7a im Bereich der Burgruine. Die Anbindung und Streckenführung bitte anhand der Radkarte prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/veranstaltungsraeume/-plaetze.html",
+      "kind": "route"
+    },
+    {
+      "id": "ort-015",
+      "title": "Naturdenkmal Alte Eiche",
+      "location": "Landenhausen",
+      "category": "Natur & Aussicht",
+      "address": null,
+      "description": "Als Naturdenkmal aufgeführte alte Eiche an einer markanten Station des Wartenberger Panorama-Wegs. Lage über die Wanderkarte erschließen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-016",
+      "title": "Aussichtspunkt Wiedig",
+      "location": "Landenhausen",
+      "category": "Natur & Aussicht",
+      "address": null,
+      "description": "Aussichtsbereich bei Landenhausen; auf dem Panorama-Weg als markanter Punkt aufgeführt.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-017",
+      "title": "Wacholderheide Landenhausen",
+      "location": "Landenhausen",
+      "category": "Natur & Aussicht",
+      "address": null,
+      "description": "Naturlandschaft auf beziehungsweise nahe der Panorama-Weg-Strecke; auf markierten Wegen bleiben und Schutzbereiche beachten.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-018",
+      "title": "Hubertushöhe – Aussicht",
+      "location": "Landenhausen",
+      "category": "Natur & Aussicht",
+      "address": null,
+      "description": "Aussichtspunkt in der Wartenberger Wanderübersicht. Die genaue Lage ist über die Panorama-Weg-Karte zu finden.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-019",
+      "title": "Steinkuppe",
+      "location": "Landenhausen",
+      "category": "Natur & Aussicht",
+      "address": null,
+      "description": "Landschaftspunkt am Panorama-Weg rund um Landenhausen; Zugang über die ausgeschilderten Wanderwege.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-020",
+      "title": "Neu-Mexiko-Aussicht",
+      "location": "Angersbach",
+      "category": "Natur & Aussicht",
+      "address": null,
+      "description": "Aussicht im Umfeld von Angersbach, in der gemeindlichen Panorama-Weg-Beschreibung genannt.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-021",
+      "title": "Sonnberg",
+      "location": "Angersbach",
+      "category": "Natur & Aussicht",
+      "address": null,
+      "description": "Markanter Abschnitt und Aussichtspunkt am Panorama-Weg mit Blicken auf Angersbach und seine Umgebung.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-022",
+      "title": "Wartenberg Oval",
+      "location": "Angersbach",
+      "category": "Kultur & Treffen",
+      "address": "Stangenweg 26, 36367 Wartenberg",
+      "description": "Multifunktionales Kultur- und Veranstaltungszentrum der Gemeinde mit großer Halle und variabler Bühne.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/veranstaltungsraeume/-plaetze.html"
+    },
+    {
+      "id": "ort-023",
+      "title": "Gemeinschaftsraum Landenhausen",
+      "location": "Landenhausen",
+      "category": "Kultur & Treffen",
+      "address": "Mittelstraße 10, 36367 Wartenberg",
+      "description": "Anmietbarer Gemeinschaftsraum mit Küche, Toiletten, Aufzug und rund 75 Quadratmetern Fläche für Feiern und Veranstaltungen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/veranstaltungsraeume/-plaetze.html"
+    },
+    {
+      "id": "ort-024",
+      "title": "Innerörtlicher Veranstaltungsplatz Landenhausen",
+      "location": "Landenhausen",
+      "category": "Kultur & Treffen",
+      "address": "Mittelstraße 8/10, 36367 Wartenberg",
+      "description": "Hof- und Veranstaltungsfläche an Kindergarten und Gemeinschaftsraum; die Gemeinde veröffentlicht hierfür eine Nutzungsordnung.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice"
+    },
+    {
+      "id": "ort-025",
+      "title": "Grillplatz Angersbach",
+      "location": "Angersbach",
+      "category": "Freizeit & Sport",
+      "address": "Hainigweg, 36367 Wartenberg",
+      "description": "Örtlicher Grillplatz. Für Reservierung, Regeln und mögliche Gebühren die Gemeinde kontaktieren.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/veranstaltungsraeume/-plaetze.html"
+    },
+    {
+      "id": "ort-026",
+      "title": "Freibad Landenhausen",
+      "location": "Landenhausen",
+      "category": "Freizeit & Sport",
+      "address": "Am Sportzentrum 3, 36367 Wartenberg",
+      "description": "Beheiztes Freibad mit Schwimmerbecken, Nichtschwimmerbecken und Planschbereich. Saisonbetrieb; aktuelle Öffnung auf der Gemeindewebsite prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/freibad-landenhausen.html"
+    },
+    {
+      "id": "ort-027",
+      "title": "Sportzentrum Landenhausen",
+      "location": "Landenhausen",
+      "category": "Freizeit & Sport",
+      "address": "Am Sportzentrum, 36367 Wartenberg",
+      "description": "Sport- und Gemeinschaftseinrichtung der Sportgemeinschaft Landenhausen. Vor einem Besuch auf laufende Sanierungsmaßnahmen achten.",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=17d37208c01fef9b1327b08f2955c806&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=44"
+    },
+    {
+      "id": "ort-028",
+      "title": "Sportplatz Angersbach",
+      "location": "Angersbach",
+      "category": "Freizeit & Sport",
+      "address": "Am Sportplatz, 36367 Wartenberg",
+      "description": "Sportplatz im Ortsteil Angersbach. Belegungs- und Nutzungszeiten richten sich nach Sportvereinen und Gemeinde.",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?cHash=17d37208c01fef9b1327b08f2955c806&tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=44"
+    },
+    {
+      "id": "ort-029",
+      "title": "Tennisanlage TV Angersbach",
+      "location": "Angersbach",
+      "category": "Freizeit & Sport",
+      "address": "Landenhäuser Straße, 36367 Wartenberg",
+      "description": "Tennisanlage des TV Angersbach mit Freiplätzen. Standortangabe laut Hessischem Tennis-Verband; Trainings- und Nutzungsbedingungen beim Verein.",
+      "source": "https://htv.liga.nu/cgi-bin/WebObjects/nuLigaTENDE.woa/wa/clubInfoDisplay?club=25221"
+    },
+    {
+      "id": "ort-030",
+      "title": "Kreisjugendheim und Zeltlager Landenhausen",
+      "location": "Landenhausen",
+      "category": "Freizeit & Sport",
+      "address": "Stockhäuser Straße 100, 36367 Wartenberg",
+      "description": "Jugend- und Gruppenunterkunft am Waldrand mit Zeltlager; buchbar etwa für Klassenfahrten und Vereinsfreizeiten.",
+      "source": "https://www.vogelsbergkreis.de/buerger-service/familie-kinder-jugend/kreisjugendheim-landenhausen/"
+    },
+    {
+      "id": "ort-031",
+      "title": "Spiel- und Bolzplatz Mühlstraße",
+      "location": "Angersbach",
+      "category": "Spielplätze",
+      "address": "Mühlstraße, 36367 Wartenberg",
+      "description": "Öffentlicher Spielplatz mit Bolzfläche in Angersbach. Die genaue Lage ist in der offiziellen Spielplatzübersicht markiert.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/spiel-und-bolzplaetze.html"
+    },
+    {
+      "id": "ort-032",
+      "title": "Spiel- und Bolzplatz Veilsheckenweg",
+      "location": "Angersbach",
+      "category": "Spielplätze",
+      "address": "Veilsheckenweg, 36367 Wartenberg",
+      "description": "Spiel- und Bolzplatz in Angersbach; für Kinder und zum Ballspielen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/spiel-und-bolzplaetze.html"
+    },
+    {
+      "id": "ort-033",
+      "title": "Spielplatz Krombergsweg / Großleite",
+      "location": "Angersbach",
+      "category": "Spielplätze",
+      "address": "Krombergsweg / Großleite, 36367 Wartenberg",
+      "description": "Spielplatz an der Einmündung beziehungsweise im Bereich Krombergsweg/Großleite in Angersbach.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/spiel-und-bolzplaetze.html"
+    },
+    {
+      "id": "ort-034",
+      "title": "Spielplatz Die Lindenäcker",
+      "location": "Landenhausen",
+      "category": "Spielplätze",
+      "address": "Die Lindenäcker, 36367 Wartenberg",
+      "description": "Öffentlicher Spielplatz in Landenhausen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/spiel-und-bolzplaetze.html"
+    },
+    {
+      "id": "ort-035",
+      "title": "Spielplatz Auf den Rödern",
+      "location": "Landenhausen",
+      "category": "Spielplätze",
+      "address": "Auf den Rödern, 36367 Wartenberg",
+      "description": "Öffentlicher Spielplatz im Ortsteil Landenhausen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/spiel-und-bolzplaetze.html"
+    },
+    {
+      "id": "ort-036",
+      "title": "Bolzplatz Am Kolnacker",
+      "location": "Landenhausen",
+      "category": "Spielplätze",
+      "address": "Am Kolnacker / Verlängerung Steinweg, 36367 Wartenberg",
+      "description": "Bolzplatz am Kolnacker in Landenhausen, in der Verlängerung des Steinwegs.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/spiel-und-bolzplaetze.html"
+    },
+    {
+      "id": "ort-037",
+      "title": "Bej Jerje",
+      "location": "Angersbach",
+      "category": "Essen & Trinken",
+      "address": "Hainigweg 7, 36367 Wartenberg",
+      "description": "Schank- und Speisewirtschaft im Ortsteil Angersbach. Aktuelle Öffnungszeiten vor dem Besuch prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/gastronomie-verzeichnis-der-gaststaetten-etc.html"
+    },
+    {
+      "id": "ort-038",
+      "title": "Bistro-Restaurant im Bauzentrum",
+      "location": "Angersbach",
+      "category": "Essen & Trinken",
+      "address": "Am Sportplatz 2, 36367 Wartenberg",
+      "description": "Von der Gemeinde gelistetes Bistro-Restaurant am Bauzentrum Angersbach.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/gastronomie-verzeichnis-der-gaststaetten-etc.html"
+    },
+    {
+      "id": "ort-039",
+      "title": "Eisdiele Perilli",
+      "location": "Angersbach",
+      "category": "Essen & Trinken",
+      "address": "Lauterbacher Straße 25, 36367 Wartenberg",
+      "description": "Eisdiele in Angersbach; mögliche saisonale Öffnungszeiten berücksichtigen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/gastronomie-verzeichnis-der-gaststaetten-etc.html"
+    },
+    {
+      "id": "ort-040",
+      "title": "HIPPO's – Essen, Trinken & mehr",
+      "location": "Angersbach",
+      "category": "Essen & Trinken",
+      "address": "Alter Weg 11, 36367 Wartenberg",
+      "description": "Gastronomiebetrieb in Angersbach, im Gemeinde-Gastronomieverzeichnis aufgeführt.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/gastronomie-verzeichnis-der-gaststaetten-etc.html"
+    },
+    {
+      "id": "ort-041",
+      "title": "Pizzeria Antalya",
+      "location": "Angersbach",
+      "category": "Essen & Trinken",
+      "address": "Schulstraße 2, 36367 Wartenberg",
+      "description": "Pizzeria in Angersbach; Speisekarte und Öffnungszeiten beim Betrieb prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/gastronomie-verzeichnis-der-gaststaetten-etc.html"
+    },
+    {
+      "id": "ort-042",
+      "title": "Pizzeria GAP",
+      "location": "Landenhausen",
+      "category": "Essen & Trinken",
+      "address": "Fuldaer Straße 3, 36367 Wartenberg",
+      "description": "Pizzeria in Landenhausen, gelistet im Gastronomieverzeichnis der Gemeinde.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/gastronomie-verzeichnis-der-gaststaetten-etc.html"
+    },
+    {
+      "id": "ort-043",
+      "title": "DorfBräuHaus",
+      "location": "Landenhausen",
+      "category": "Essen & Trinken",
+      "address": "Mittelstraße 7, 36367 Wartenberg",
+      "description": "Gaststätte beziehungsweise Dorfbräuhaus in der Landenhäuser Ortsmitte.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/gastronomie-verzeichnis-der-gaststaetten-etc.html"
+    },
+    {
+      "id": "ort-044",
+      "title": "Wartenberger Hof",
+      "location": "Angersbach",
+      "category": "Essen & Trinken",
+      "address": "Lauterbacher Straße 15, 36367 Wartenberg",
+      "description": "Gastwirtschaft mit Pension in Angersbach. Zimmer und Bewirtung direkt erfragen.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/gastronomie-verzeichnis-der-gaststaetten-etc.html"
+    },
+    {
+      "id": "ort-045",
+      "title": "ALDI Angersbach",
+      "location": "Angersbach",
+      "category": "Einkaufen",
+      "address": "Am Sportplatz 1, 36367 Wartenberg",
+      "description": "Lebensmitteldiscounter am Sportplatz; die Gemeinde führt die Filiale als Akzeptanzstelle des Wartenberger Einkaufsgutscheins.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/wartenberger-einkaufsgutschein.html"
+    },
+    {
+      "id": "ort-046",
+      "title": "Nahkauf Angersbach",
+      "location": "Angersbach",
+      "category": "Einkaufen",
+      "address": "Reinickendorfer Straße 1, 36367 Wartenberg",
+      "description": "Lebensmittelgeschäft in Angersbach; als örtlicher Versorgungspunkt im Gemeindeverzeichnis aufgeführt.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/wartenberger-einkaufsgutschein.html"
+    },
+    {
+      "id": "ort-047",
+      "title": "Bäckerei Schröter",
+      "location": "Landenhausen",
+      "category": "Einkaufen",
+      "address": "Stockhäuser Straße 32, 36367 Wartenberg",
+      "description": "Bäckerei im Ortsteil Landenhausen, als Gutschein-Akzeptanzstelle gelistet.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/wartenberger-einkaufsgutschein.html"
+    },
+    {
+      "id": "ort-048",
+      "title": "Bauzentrum Angersbach",
+      "location": "Angersbach",
+      "category": "Einkaufen",
+      "address": "Am Sportplatz 2, 36367 Wartenberg",
+      "description": "Baumarkt beziehungsweise Bauzentrum im Gewerbebereich Angersbach.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/wartenberger-einkaufsgutschein.html"
+    },
+    {
+      "id": "ort-049",
+      "title": "Vulkan Metzgerei",
+      "location": "Angersbach",
+      "category": "Einkaufen",
+      "address": "Reinickendorfer Straße 1, 36367 Wartenberg",
+      "description": "Metzgerei laut Gemeindeverzeichnis am Standort Reinickendorfer Straße 1.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/wartenberger-einkaufsgutschein.html"
+    },
+    {
+      "id": "ort-050",
+      "title": "Elektro Möller",
+      "location": "Angersbach",
+      "category": "Einkaufen",
+      "address": "Lauterbacher Straße 20, 36367 Wartenberg",
+      "description": "Örtliches Elektro-Fachgeschäft beziehungsweise Fachbetrieb, laut Liste zum Einkaufsgutschein.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/wartenberger-einkaufsgutschein.html"
+    },
+    {
+      "id": "ort-051",
+      "title": "Horse Shop & HorSeven",
+      "location": "Angersbach",
+      "category": "Einkaufen",
+      "address": "Stangenweg 21, 36367 Wartenberg",
+      "description": "Fachgeschäft für Reitsportbedarf im Ortsteil Angersbach.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/wartenberger-einkaufsgutschein.html"
+    },
+    {
+      "id": "ort-052",
+      "title": "Salon Ria",
+      "location": "Landenhausen",
+      "category": "Einkaufen",
+      "address": "Auf den Rödern 14, 36367 Wartenberg",
+      "description": "Friseursalon in Landenhausen, im kommunalen Gutscheinverzeichnis aufgeführt.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/wartenberger-einkaufsgutschein.html"
+    },
+    {
+      "id": "ort-053",
+      "title": "Hausarztpraxis Wartenberg",
+      "location": "Angersbach",
+      "category": "Gesundheit",
+      "address": "Mühlstraße 13, 36367 Wartenberg",
+      "description": "Hausärztliche Versorgung durch eine internistische Praxis. Termine und Sprechzeiten bitte vorab prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/medizinische-versorgung.html"
+    },
+    {
+      "id": "ort-054",
+      "title": "Wartenberg-Apotheke",
+      "location": "Angersbach",
+      "category": "Gesundheit",
+      "address": "Rudloser Straße 1, 36367 Wartenberg",
+      "description": "Apotheke in Angersbach. Notdienst und aktuelle Öffnungszeiten beim Apothekenservice prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/medizinische-versorgung.html"
+    },
+    {
+      "id": "ort-055",
+      "title": "Zahnarztpraxis Glania",
+      "location": "Angersbach",
+      "category": "Gesundheit",
+      "address": "Am Schwimmbad 1a, 36367 Wartenberg",
+      "description": "Zahnärztliche Praxis in Angersbach. Terminvereinbarung beim Anbieter.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/medizinische-versorgung.html"
+    },
+    {
+      "id": "ort-056",
+      "title": "PhysioPoint Angersbach",
+      "location": "Angersbach",
+      "category": "Gesundheit",
+      "address": "Krömmelbach 1, 36367 Wartenberg",
+      "description": "Praxis für Physiotherapie; Angaben zu Leistungen und Terminen direkt beim Betrieb prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/medizinische-versorgung.html"
+    },
+    {
+      "id": "ort-057",
+      "title": "Praxis für Krankengymnastik Carmen Füg",
+      "location": "Landenhausen",
+      "category": "Gesundheit",
+      "address": "Berliner Straße 19, 36367 Wartenberg",
+      "description": "Physiotherapie beziehungsweise Krankengymnastik im Ortsteil Landenhausen.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/medizinische-versorgung.html"
+    },
+    {
+      "id": "ort-058",
+      "title": "Maniküre und Fußpflege Severina Utke",
+      "location": "Landenhausen",
+      "category": "Gesundheit",
+      "address": "Friedhofstraße 30, 36367 Wartenberg",
+      "description": "Fußpflege und Maniküre in Landenhausen, im Gesundheitsverzeichnis der Gemeinde aufgeführt.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/medizinische-versorgung.html"
+    },
+    {
+      "id": "ort-059",
+      "title": "Evangelische Kirche Angersbach",
+      "location": "Angersbach",
+      "category": "Kultur & Treffen",
+      "address": "Pfarrgasse 24, 36367 Wartenberg",
+      "description": "Kirchengebäude im historischen Ortsbereich. Gottesdienste und etwaige Besichtigungsmöglichkeiten über die Kirchengemeinde erfahren.",
+      "source": "https://www.wartenberg-info.de/kirchengemeinden/angersbach/evangelisch/"
+    },
+    {
+      "id": "ort-060",
+      "title": "Evangelische Kirche Landenhausen",
+      "location": "Landenhausen",
+      "category": "Kultur & Treffen",
+      "address": "Kirchweg 20, 36367 Wartenberg",
+      "description": "Kirche im Ortsteil Landenhausen; die kirchliche Informationsseite beschreibt sie als offene Kirche.",
+      "source": "https://www.wartenberg-info.de/kirchengemeinden/landenhausen/evangelisch/"
+    },
+    {
+      "id": "ort-061",
+      "title": "Evangelisches Gemeindehaus Angersbach",
+      "location": "Angersbach",
+      "category": "Kultur & Treffen",
+      "address": "Pfarrgasse 15, 36367 Wartenberg",
+      "description": "Gemeindehaus für kirchliche und soziale Gruppenangebote. Das zentrale Pfarrbüro befindet sich inzwischen in Lauterbach.",
+      "source": "https://www.wartenberg-info.de/kirchengemeinden/angersbach/evangelisch/"
+    },
+    {
+      "id": "ort-062",
+      "title": "Landeskirchliche Gemeinschaft Landenhausen",
+      "location": "Landenhausen",
+      "category": "Kultur & Treffen",
+      "address": "Salzschlirfer Straße 1, 36367 Wartenberg",
+      "description": "Örtliche christliche Gemeinschaft; Kontaktdaten im Kirchenverzeichnis der Gemeinde.",
+      "source": "https://www.gemeinde-wartenberg.de/familie-soziales/kirchen.html"
+    },
+    {
+      "id": "ort-063",
+      "title": "Rathaus und Bürgerbüro Wartenberg",
+      "location": "Angersbach",
+      "category": "Öffentliche Einrichtungen",
+      "address": "Landenhäuser Straße 11, 36367 Wartenberg",
+      "description": "Gemeindeverwaltung und Bürgerservice. Vor dem Besuch Terminpflicht oder Sprechzeiten prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice"
+    },
+    {
+      "id": "ort-064",
+      "title": "Bauhof Wartenberg",
+      "location": "Angersbach",
+      "category": "Öffentliche Einrichtungen",
+      "address": "Im Ziegelgarten 9, 36367 Wartenberg",
+      "description": "Gemeindlicher Bauhof; außerdem Standort eines öffentlich zugänglichen AED und verschiedener Sammelangebote.",
+      "source": "https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html"
+    },
+    {
+      "id": "ort-065",
+      "title": "Grundschule Wartenberg",
+      "location": "Angersbach",
+      "category": "Öffentliche Einrichtungen",
+      "address": "Schillerstraße 1, 36367 Wartenberg",
+      "description": "Grundschulstandort in Angersbach; die Gemeinde führt die Schule auch in ihrer ÖPNV-Übersicht.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/bus-bahn/busverbindungen.html"
+    },
+    {
+      "id": "ort-066",
+      "title": "Kindertagesstätte Angersbach",
+      "location": "Angersbach",
+      "category": "Öffentliche Einrichtungen",
+      "address": "In den Fetzwiesen 24, 36367 Wartenberg",
+      "description": "Kindertagesstätte im Ortsteil Angersbach. Am Gebäude befindet sich nach Gemeindeangaben ein öffentlich zugänglicher AED.",
+      "source": "https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html"
+    },
+    {
+      "id": "ort-067",
+      "title": "Evangelische Kindertagesstätte Landenhausen",
+      "location": "Landenhausen",
+      "category": "Öffentliche Einrichtungen",
+      "address": "Mittelstraße 10, 36367 Wartenberg",
+      "description": "Kindertagesstätte im Dorfzentrum von Landenhausen nahe dem Gemeinschaftsraum.",
+      "source": "https://www.dasoertliche.de/Themen/Kirchen-Evangelische/Wartenberg-Hess.html"
+    },
+    {
+      "id": "ort-068",
+      "title": "Freiwillige Feuerwehr Angersbach",
+      "location": "Angersbach",
+      "category": "Öffentliche Einrichtungen",
+      "address": "In den Fetzwiesen 18, 36367 Wartenberg",
+      "description": "Feuerwehrhaus der Angersbacher Einsatzabteilung. Kein Ersatz für den Notruf 112.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/vereine.html"
+    },
+    {
+      "id": "ort-069",
+      "title": "Feuerwehrhaus Landenhausen",
+      "location": "Landenhausen",
+      "category": "Öffentliche Einrichtungen",
+      "address": "Mittelstraße 10 A, 36367 Wartenberg",
+      "description": "Feuerwehrstandort im Ortsteil Landenhausen. Öffentlich zugänglicher AED am Gebäude.",
+      "source": "https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html"
+    },
+    {
+      "id": "ort-070",
+      "title": "Friedhof Angersbach",
+      "location": "Angersbach",
+      "category": "Öffentliche Einrichtungen",
+      "address": "Krombergsweg, 36367 Wartenberg",
+      "description": "Friedhof mit Friedhofshalle in Angersbach; Informationen zu Grabarten und Verwaltung beim Friedhofsamt.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/friedhofsamt.html"
+    },
+    {
+      "id": "ort-071",
+      "title": "Friedhof Landenhausen",
+      "location": "Landenhausen",
+      "category": "Öffentliche Einrichtungen",
+      "address": "Steinweg, 36367 Wartenberg",
+      "description": "Friedhof im Ortsteil Landenhausen; Friedhofsangelegenheiten über die Gemeinde.",
+      "source": "https://www.gemeinde-wartenberg.de/buergerservice/friedhofsamt.html"
+    },
+    {
+      "id": "ort-072",
+      "title": "Dreschhalle Landenhausen",
+      "location": "Landenhausen",
+      "category": "Kultur & Treffen",
+      "address": "Schnepfenhain / Ecke Steinweg, 36367 Wartenberg",
+      "description": "Von der Gemeinde genannter Treffpunkt und öffentlich zugänglicher AED-Standort.",
+      "source": "https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html"
+    },
+    {
+      "id": "ort-073",
+      "title": "Bahnhof Angersbach",
+      "location": "Angersbach",
+      "category": "Mobilität",
+      "address": "Bahnhofstraße 44, 36367 Wartenberg",
+      "description": "Regionalbahnhof zwischen Fulda und Gießen mit barrierefreiem Zugang und Fahrradstellplätzen.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/bahnanbindung.html"
+    },
+    {
+      "id": "ort-074",
+      "title": "Bushaltestelle Ortsmitte Landenhausen",
+      "location": "Landenhausen",
+      "category": "Mobilität",
+      "address": "Salzschlirfer Straße 8/9, 36367 Wartenberg",
+      "description": "ÖPNV-Haltestelle in Landenhausen für die Linien 393, VB-90 und VB-91. Aktuelle Fahrpläne beim VGO/RMV prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/bus-bahn/busverbindungen.html"
+    },
+    {
+      "id": "ort-075",
+      "title": "Bushaltestelle Siedlung Landenhausen",
+      "location": "Landenhausen",
+      "category": "Mobilität",
+      "address": "Salzschlirfer Straße 29/34, 36367 Wartenberg",
+      "description": "Bushaltestelle im Bereich der Siedlung; die Gemeinde nennt hier die Linie 393.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/bus-bahn/busverbindungen.html"
+    },
+    {
+      "id": "ort-076",
+      "title": "Wochenmarkt Landenhausen",
+      "location": "Landenhausen",
+      "category": "Einkaufen",
+      "address": "Mittelstraße 10, 36367 Wartenberg",
+      "description": "Wochenmarkt mit regionalen Lebensmitteln und Wochenmarkt-Café. Der genaue Markttag und Ausfälle sollten vor dem Besuch geprüft werden.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/maerkte.html"
+    },
+    {
+      "id": "ort-077",
+      "title": "AED am Bauhof Angersbach",
+      "location": "Angersbach",
+      "category": "Defibrillatoren",
+      "address": "Im Ziegelgarten 9, 36367 Wartenberg",
+      "description": "Öffentlich zugänglicher automatisierter externer Defibrillator; laut Gemeinde rund um die Uhr erreichbar. Im Notfall 112 wählen.",
+      "source": "https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html"
+    },
+    {
+      "id": "ort-078",
+      "title": "AED an der Kita Angersbach",
+      "location": "Angersbach",
+      "category": "Defibrillatoren",
+      "address": "In den Fetzwiesen 24, 36367 Wartenberg",
+      "description": "Öffentlicher Defibrillator an der Kindertagesstätte. 24-Stunden-Zugänglichkeit laut Gemeinde.",
+      "source": "https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html"
+    },
+    {
+      "id": "ort-079",
+      "title": "AED bei G&N Angersbach",
+      "location": "Angersbach",
+      "category": "Defibrillatoren",
+      "address": "Stangenweg 34, 36367 Wartenberg",
+      "description": "Öffentlich zugänglicher AED an der Firma G&N Gefahrenmelde- und Nachrichtentechnik.",
+      "source": "https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html"
+    },
+    {
+      "id": "ort-080",
+      "title": "AED Dreschhalle Landenhausen",
+      "location": "Landenhausen",
+      "category": "Defibrillatoren",
+      "address": "Schnepfenhain / Ecke Steinweg, 36367 Wartenberg",
+      "description": "Rund um die Uhr zugänglicher AED am Bereich der Dreschhalle Landenhausen.",
+      "source": "https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html"
+    },
+    {
+      "id": "ort-081",
+      "title": "AED Feuerwehrhaus Landenhausen",
+      "location": "Landenhausen",
+      "category": "Defibrillatoren",
+      "address": "Mittelstraße 10 A, 36367 Wartenberg",
+      "description": "Öffentlich zugänglicher AED am Feuerwehrhaus. Im medizinischen Notfall 112 wählen.",
+      "source": "https://www.gemeinde-wartenberg.de/sicherheit-ordnung/aed-standorte.html"
+    },
+    {
+      "id": "ort-082",
+      "title": "Grünabfallsammelstelle an der Kläranlage",
+      "location": "Angersbach",
+      "category": "Entsorgung",
+      "address": null,
+      "description": "Saisonale Annahmestelle für Garten- und Grünabfälle im Bereich der Angersbacher Kläranlage; Öffnung und Gebühren bei der Gemeinde prüfen.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/ver-und-entsorgung/abfall.html"
+    },
+    {
+      "id": "ort-083",
+      "title": "Altglascontainer am Bauhof Angersbach",
+      "location": "Angersbach",
+      "category": "Entsorgung",
+      "address": "Im Ziegelgarten 9, 36367 Wartenberg",
+      "description": "Altglascontainer am Bauhof; nur geeignete Glasverpackungen einwerfen und Einwurfzeiten beachten.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/ver-und-entsorgung/abfall.html"
+    },
+    {
+      "id": "ort-084",
+      "title": "Altglascontainer Mühlstraße / Rudloser Straße",
+      "location": "Angersbach",
+      "category": "Entsorgung",
+      "address": "Mühlstraße / Ecke Rudloser Straße, 36367 Wartenberg",
+      "description": "Offizieller Wertstoff-Standort für Altglas in Angersbach.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/ver-und-entsorgung/abfall.html"
+    },
+    {
+      "id": "ort-085",
+      "title": "Altglascontainer Adalbert-Stifter-Weg / Veilsheckenweg",
+      "location": "Angersbach",
+      "category": "Entsorgung",
+      "address": "Adalbert-Stifter-Weg / Ecke Veilsheckenweg, 36367 Wartenberg",
+      "description": "Altglas-Sammelstelle im Bereich der genannten Straßenkreuzung.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/ver-und-entsorgung/abfall.html"
+    },
+    {
+      "id": "ort-086",
+      "title": "Altglascontainer Lauterbacher Straße",
+      "location": "Angersbach",
+      "category": "Entsorgung",
+      "address": "Lauterbacher Straße 14, 36367 Wartenberg",
+      "description": "Offiziell gelisteter Altglas-Containerstandort in Angersbach.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/ver-und-entsorgung/abfall.html"
+    },
+    {
+      "id": "ort-087",
+      "title": "Altglascontainer am Freibad Landenhausen",
+      "location": "Landenhausen",
+      "category": "Entsorgung",
+      "address": "Am Sportzentrum 3, 36367 Wartenberg",
+      "description": "Altglascontainer auf dem Parkplatz des Freibads in Landenhausen.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/ver-und-entsorgung/abfall.html"
+    },
+    {
+      "id": "ort-088",
+      "title": "Altglascontainer am Kreisjugendheim Landenhausen",
+      "location": "Landenhausen",
+      "category": "Entsorgung",
+      "address": "Stockhäuser Straße 100, 36367 Wartenberg",
+      "description": "Altglascontainer im Bereich des Kreisjugendheims; Einwurfzeiten beachten.",
+      "source": "https://www.gemeinde-wartenberg.de/leben-wohnen/ver-und-entsorgung/abfall.html"
+    },
+    {
+      "id": "ort-089",
+      "title": "Birkich am Panorama-Weg",
+      "location": "Angersbach",
+      "category": "Natur & Aussicht",
+      "address": null,
+      "description": "Markanter Punkt am Wartenberger Panorama-Weg in der Gemarkung Angersbach.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "landmark"
+    },
+    {
+      "id": "ort-090",
+      "title": "Lärchenberg und Assberg",
+      "location": "Angersbach",
+      "category": "Natur & Aussicht",
+      "address": null,
+      "description": "Landschaftsabschnitte am Wartenberger Panorama-Weg mit schattigen Wegpartien.",
+      "source": "https://www.gemeinde-wartenberg.de/freizeit-tourismus-1/sport-und-freizeit/radfahren-wandern.html",
+      "kind": "landmark"
+    }
+  ]
+}
