@@ -84,6 +84,8 @@ async function main(){
  assert(homeHtml.includes('Schön, dass du'),'Home hero missing');
  assert(homeHtml.includes('Aus unserem Dorfleben'),'Community digest missing');
  assert(homeHtml.includes('news-card'),'Home news cards missing');
+ const recentOfficial=data.items.some(n=>n.sourceId==='gemeinde'&&n.via==='Amtliche Website'&&n.officialExcerpt&&(Date.now()-new Date(n.date+'T12:00:00').getTime())<=45*86400000);
+ if(recentOfficial)assert(homeHtml.includes('Aktuelles aus dem Rathaus'),'Recent municipal notices missing on homepage');
  const clubPage=launch('clubs');
  await new Promise(r=>setTimeout(r,20));
  const clubsHTML=clubPage.elements['#content'].innerHTML;
@@ -93,6 +95,8 @@ async function main(){
  assert(clubsHTML.includes('Jugendfeuerwehr Angersbach'),'Official youth group missing');
  assert(clubsHTML.includes('SG Landenhausen – Abteilung Tischtennis'),'Club section missing');
  assert(clubsHTML.includes('data-reader="club"'),'Club in-app details unavailable');
+ const upcomingAssociation=vm.runInContext('clubs.some(c=>relatedClubEvents(c).length>0)',clubPage.ctx);
+ if(upcomingAssociation)assert(clubsHTML.includes('Nächster Termin'),'Related club events should appear on club cards');
  const placesPage=launch('places');
  await new Promise(r=>setTimeout(r,20));
  const placesHTML=placesPage.elements['#content'].innerHTML;
@@ -112,6 +116,8 @@ async function main(){
  const eventHtml=ev.elements['#content'].innerHTML;
  assert(eventHtml.includes('Seniorennachmittag')||eventHtml.includes('Weihnachtsmarkt'),'Additional official December events missing');
  assert(eventHtml.includes('data-reader="event"'),'Event in-app details missing');
+ assert(eventHtml.includes('data-event-category'),'Event topic filters missing');
+ assert(eventHtml.includes('Geprüft:'),'Calendar freshness indicator missing');
  const articlePage=launch('news');
  await new Promise(r=>setTimeout(r,40));
  const articleClick=articlePage.events['click'];
