@@ -172,3 +172,41 @@
  .event-card .event-actions{justify-content:flex-start}
 }
 @media(prefers-reduced-motion:reduce){.reader-backdrop{backdrop-filter:none}}
+
+
+/* Wartenberg 360 V2.2 – source-backed municipal content and connected club profiles */
+.v22-official-excerpt{color:var(--muted);font-size:12px;line-height:1.65;margin:7px 0 12px}
+.v22-event-info{display:flex;flex-wrap:wrap;align-items:center;gap:8px 18px;margin:16px 0 20px;padding:12px 16px;background:var(--surface2);border-radius:13px;border:1px solid var(--stroke);font-size:12px;color:var(--muted)}
+.v22-event-info span:first-child{font-weight:800;color:var(--accent)}
+.v22-event-info .text-button{margin-left:auto;color:var(--accent);font-weight:730}
+.v22-event-categories{margin:-2px 0 22px}
+.v22-club-next{background:var(--surface2);border:1px solid var(--stroke);border-radius:10px;padding:10px 12px;display:flex;flex-direction:column;gap:4px;margin:13px 0 0}
+.v22-club-next strong{font-size:10px;color:var(--accent);font-weight:780}
+.v22-club-next span{font-size:12px;line-height:1.4;color:var(--text)}
+.v22-club-quickfacts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px;margin:16px 0 20px}
+.v22-club-quickfacts>div{border:1px solid var(--stroke);background:var(--surface2);border-radius:12px;padding:12px;display:flex;flex-direction:column;gap:5px}
+.v22-club-quickfacts strong{font-size:10px;color:var(--muted);font-weight:760}
+.v22-club-quickfacts span{font-size:12px;color:var(--text);line-height:1.35}
+.v22-reader-related{padding-top:20px;border-top:1px solid var(--stroke);margin:24px 0 0}
+.v22-reader-related h2{font-size:19px;margin:0 0 12px;letter-spacing:-.4px}
+.v22-related-list{display:flex;flex-direction:column;gap:8px}
+.v22-related-list>button,.v22-related-news{display:flex;align-items:center;gap:13px;text-align:left;width:100%;padding:11px 13px;background:var(--surface2);border:1px solid var(--stroke);border-radius:11px;color:var(--text);font-size:12px;line-height:1.35}
+.v22-related-list>button{cursor:pointer}
+.v22-related-list>button:hover{border-color:var(--accent);background:var(--accent2)}
+.v22-related-list>button>:nth-child(2),.v22-related-news>:nth-child(2){flex:1;min-width:0}
+.v22-related-list strong{display:block;font-size:12px;line-height:1.45}
+.v22-related-list small{display:block;color:var(--muted);font-size:10px;line-height:1.5;margin-top:3px}
+.v22-related-date{border-radius:9px;min-width:72px;padding:9px 7px;text-align:center;background:var(--surface);font-variant-numeric:tabular-nums;color:var(--accent);font-size:11px;font-weight:780}
+.v22-related-news>a{flex:none;white-space:nowrap;color:var(--accent);font-size:11px;text-decoration:none;font-weight:760}
+.v22-related-news>button{background:var(--accent);border:0;border-radius:8px;padding:7px 10px;color:#fff;font-size:11px;font-weight:760;cursor:pointer}
+.v22-reader-noevents{font-size:12px;line-height:1.6;color:var(--muted);margin:16px 0}
+.v22-club-links{display:flex;flex-direction:column;gap:9px;align-items:stretch}
+.v22-club-links>a{white-space:nowrap}
+@media(max-width:700px){
+ .v22-event-info{align-items:flex-start;gap:8px 12px;padding:13px}
+ .v22-event-info .text-button{margin-left:0}
+ .v22-club-quickfacts{grid-template-columns:1fr 1fr}
+ .v22-related-news{flex-wrap:wrap}
+ .v22-related-date{min-width:66px}
+ .v22-club-links{width:100%}
+}
