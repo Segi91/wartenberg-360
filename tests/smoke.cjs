@@ -3,6 +3,7 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict');
 const app=fs.readFileSync('app.js','utf8');
 const data=JSON.parse(fs.readFileSync('news.json','utf8'));
+const eventData=JSON.parse(fs.readFileSync('data/events.json','utf8'));
 assert(data.version>=2,'Missing v2 news schema');
 assert(Array.isArray(data.items)&&data.items.length>20,'Expected real news entries');
 assert(data.items.filter(x=>x.locality==='Wartenberg'&&x.topic!=='Sport').length>=8,'Non-sport articles missing');
@@ -40,6 +41,7 @@ function launch(hash) {
   URL,Blob,AbortSignal,setTimeout,clearTimeout,confirm:()=>false,
   fetch:async url=>{
     if(String(url).includes('news.json'))return {ok:true,json:async()=>data};
+    if(String(url).includes('data/events.json'))return {ok:true,json:async()=>eventData};
     throw Error('Offline-weather-test');
   }
  });
@@ -57,6 +59,9 @@ async function main(){
  assert(html.includes('Abseits des Spielfelds'),'Non-sport highlights missing');
  assert(html.includes('SG Landenhausen')||html.includes('Sport'),'Sport still accessible');
  assert(html.includes('news-card'),'News cards absent');
+ assert(html.includes('Neueste zuerst')&&html.includes('Älteste zuerst'),'News date sorting not available');
+ assert(!html.includes('Alle Vereine, nicht nur Sport'),'Unwanted intro text still present');
+ assert(html.includes('data-reader="news"'),'In-app article reading action absent');
  const click=news.events['click'];
  assert(typeof click==='function','Click navigation missing');
  const topicBtn={getAttribute:n=>n==='data-news-topic'?'Kultur & Musik':null,hasAttribute:n=>n==='data-news-topic',dataset:{}};
@@ -79,6 +84,9 @@ async function main(){
  assert(clubsHTML.includes('Vereine &amp; Initiativen')||clubsHTML.includes('Vereine & Initiativen'),'Club directory missing');
  assert(clubsHTML.includes('Kulturverein Landenhausen'),'Culture club missing');
  assert(clubsHTML.includes('Schützenverein Angersbach'),'Schützenverein missing');
+ assert(clubsHTML.includes('Jugendfeuerwehr Angersbach'),'Official youth group missing');
+ assert(clubsHTML.includes('SG Landenhausen – Abteilung Tischtennis'),'Club section missing');
+ assert(clubsHTML.includes('data-reader="club"'),'Club in-app details unavailable');
  const placesPage=launch('places');
  await new Promise(r=>setTimeout(r,20));
  const placesHTML=placesPage.elements['#content'].innerHTML;
@@ -93,6 +101,29 @@ async function main(){
    assert(h.length>250,'Page empty: '+page);
    assert(!h.includes('Inhalte vorübergehend nicht verfügbar'),'Rendering failed: '+page);
  }
- console.log('OK: '+data.items.length+' Nachrichten, '+curated.items.length+' geprüfte Links; 9 Seiten und alle Filter gerendert.');
+ const ev=launch('events');
+ await new Promise(r=>setTimeout(r,40));
+ const eventHtml=ev.elements['#content'].innerHTML;
+ assert(eventHtml.includes('Seniorennachmittag')||eventHtml.includes('Weihnachtsmarkt'),'Additional official December events missing');
+ assert(eventHtml.includes('data-reader="event"'),'Event in-app details missing');
+ const articlePage=launch('news');
+ await new Promise(r=>setTimeout(r,40));
+ const articleClick=articlePage.events['click'];
+ const openBtn={id:'',dataset:{},hasAttribute:n=>n==='data-reader',getAttribute:n=>n==='data-reader'?'news':n==='data-reader-id'?'curated-v2-02':null};
+ articleClick({target:{id:'',closest(sel){return sel==='button'||sel==='a,button'?openBtn:null;}}});
+ assert(articlePage.elements['#reader-modal'].hidden===false,'Article reader did not open');
+ assert(articlePage.elements['#reader-content'].innerHTML.includes('Bundeswehr'),'Article content not displayed in reader');
+ const clubsReader=launch('clubs');
+ const clubClick=clubsReader.events['click'];
+ const openClub={id:'',dataset:{},hasAttribute:n=>n==='data-reader',getAttribute:n=>n==='data-reader'?'club':n==='data-reader-id'?'c0':null};
+ clubClick({target:{id:'',closest(sel){return sel==='button'||sel==='a,button'?openClub:null;}}});
+ assert(clubsReader.elements['#reader-content'].innerHTML.includes('Angersbach Aktiv'),'Club profile not shown');
+ const evReader=launch('events');
+ await new Promise(r=>setTimeout(r,40));
+ const eventClick=evReader.events['click'];
+ const openEvent={id:'',dataset:{},hasAttribute:n=>n==='data-reader',getAttribute:n=>n==='data-reader'?'event':n==='data-reader-id'?eventData.items[0].id:null};
+ eventClick({target:{id:'',closest(sel){return sel==='button'||sel==='a,button'?openEvent:null;}}});
+ assert(evReader.elements['#reader-content'].innerHTML.includes('Kirmes'),'Event details not shown');
+ console.log('OK: '+data.items.length+' Meldungen, '+eventData.items.length+' Termine, Leser und Vereinsverzeichnis; alle 9 Seiten gerendert.');
 }
 main().catch(err=>{console.error(err);process.exitCode=1;});
