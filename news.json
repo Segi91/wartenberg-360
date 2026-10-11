@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-11T19:40:38Z",
+  "updatedAt": "2026-10-11T19:42:01Z",
   "items": [
     {
       "id": "f519d8d5deeef2fd",
@@ -183,20 +183,6 @@
       "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSEcxdFFZd2NDc19jSkYxbnEwcUZmMzRGTUJRSXE5LWw1N29WVTAtdWc0ODFhM21JbTRNXy1Rd1Y5VUlQUzJDX1BzOE5majczZ0R0dnZ6Q1RONUNheG1sdFNfX19pZm9lbGdvODNwNWxwNFFYLVdueDdWelo3RTRMUEJrODU0ZTZNMGFGd0pCOXQxT3NPTEMzUWhYV0NrYjAxUFRkdjF1eEtPZDQ3bDF0V1pFVE02Zw?oc=5",
       "via": "Google News",
       "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
-      "id": "03011fd870839cab",
-      "title": "Wetter",
-      "desc": "",
-      "date": "2026-10-09",
-      "publishedAt": "2026-10-09T18:53:47+00:00",
-      "category": "Vogelsberg",
-      "locality": "Wartenberg",
-      "sourceName": "Wartenberg-iNFO",
-      "sourceId": "winfo",
-      "source": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFBwMFhuU0xidkFvNS02NUZQWFFyZTQ2WGNaRmpQT21FRHphS0lGSTBTSXk2SXEyNWthbzZiRzd2MDVNT1p5d1g2OEJFM0pLWmc?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
     },
     {
       "id": "d33094c436ab6aa3",
@@ -1366,6 +1352,20 @@
       "desc": ""
     },
     {
+      "id": "fff6b562e7b6dec6",
+      "title": "Kunstspaziergang Landenhausen startet: 36 Künstler an 14 Stationen",
+      "desc": "",
+      "date": "2026-09-26",
+      "publishedAt": "2026-09-26T06:00:00+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNanVnMk80TThMUlVjVmNXbVN4cUZIc1hhMk5RSEU0dzdFemVvTWNoeEo1ZGN4VmNISDY5Z0lpLVFUTFV3UG1ETU84bGV4Y2hUN0ZUU1FEWHVpYmZzeHV4LXk3RFNuczA1ZFUxZW9Jck1DMXBCRFprZXhHTGhUQ09nekxubGUyMWo3djZYN3ZIQ1Izel9faUtkX0daOE50eFN6YmdLb3JHMV83T083dFdJa0xuLU9WeFQwRnNqRFJvR3N2WUV1MlY3TFpyTjUtVGdGa1J0aDFSLVA2VG5t?oc=5",
+      "via": "Google News",
+      "topic": "Kultur & Musik"
+    },
+    {
       "id": "e5e3073c87e093d8",
       "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Fulda, Vogelsberg und Hersfeld-Rotenburg - Presseportal",
       "desc": "",
@@ -1594,6 +1594,20 @@
       "topic": "Sport"
     },
     {
+      "id": "ae1e3de3afd9fdab",
+      "title": "Mehr als 100 Besucher bei 5. Wartenberger Dorf-Gesprächen in Landenhausen",
+      "desc": "",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T07:00:00+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPaWpGUEJ4bW1IY2JLZ2tLOWI3NF9KYUd5eUN6VmNVRWlsTDBCNDdZSDVfUzNreFl1Z0Q4N1BmeTBTaXhQSEdWM0IteUlsUzdrNXVyU1Y5d05vak9jdS01TlE4SW9aXzMzbl84MExSaVZneFdWSnZ3MDE0VHZnTk42akI3Q1Jsc3RTUkZNOU9xYUl5SGY1aTV6MHRtM0VaZGI0YW9XNF8yRlBLMTdUbmlrZlJMNHFQTlJWV2pIM1d2TGxqcENQQVkyQjg4Tl9lSnVCWWVrQk1yTjhyX0Z0c0hXd1A1Zw?oc=5",
+      "via": "Google News",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
       "id": "la-editorial-94461481",
       "title": "Wartenberger wählen ihren Bürgermeister",
       "desc": "",
@@ -1620,6 +1634,20 @@
       "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZXBpOEVici1oZTgxeDhKTEpDdXNDQnJFQUFzc2Z6QWZ0N3gwVnR5TFdabGRBVDFFTmhadExNY0d5WU1kd2tjdTBKNS1nUlMydmVIM1dxWDJnZHdUa1F0T2VBZ3V2RGhpWDQtX2xkMlNyZmY1aVNySE01b1dwdWhCTTMxTUMyd1NfZDJOT1Z1UVZjVTJiSjYyX3pJX3FoUmRZNi04bmIwN1ROY05qczZhb3NXaVJDTkhCdWJrcVlCbXJnc3ZRZF9DLU5xU18?oc=5",
       "via": "Google News",
       "topic": "Sport"
+    },
+    {
+      "id": "c00429321260fd99",
+      "title": "Gemeinde zündet Bau-Turbo: Wartenberg beschleunigt Wohnungsbau",
+      "desc": "",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMXBOdFB0RXhxdlU0WjlyQlJ1VzVRZHJpbkQ5MTk2M3VKVVNjM0xqOW1iaGVDTmNNOUloSWMyWEtmblpYd0pNRXBXMkJVQkI4YWoxVlIxUkhKbnR2cUZETzRBRGNLZVJZSXNtTjhkN1ZsWXVna0o4YVVLeTZQcjJaaTFZbFhoY0V3Nl80c2U5VG9YVVUtS194YXZXTV9DaF8wdkZpOU5WRWdpclNIQ3F6bTNfMjdoang0SzhEOFFzdElWS1ktWExSeWx2RTVaNDJ5V3dDTlBTRQ?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "80de1821bc277860",
@@ -1793,6 +1821,20 @@
       "desc": ""
     },
     {
+      "id": "b6b5501956793a3e",
+      "title": "Bundesmusikfest in Landenhausen: Elf Vereine spielen – aber ohne Platzierung",
+      "desc": "",
+      "date": "2026-07-07",
+      "publishedAt": "2026-07-07T07:00:00+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOeW1kNEk4VFdOWUJPTEtnWkdwWW44bnQzRFY1RlhxVlZkZ1h4eVliSzUzYURGeDE5bHJWOFpkUkZXMXRmNUNwMkVaakxsTkc5ZVFPOUUzSmJobTNOS19CTU95V0xXZFY4ZnQzMTJEcl9NUHZ4SWdQQTMtY1VmbUFOQ3JKc1pDeHpSX2NqYmRjVXFJY0tNbVVreE94aTI0dzB1ZWJaVU8waGNMZE4yNFgzYjZCNElvaWlJT2ZheXlaNDM2YlpKem1FelNVU2lNTHo4ZFRKMUJQa1RTVW5QeXBsWnlkVlp6dw?oc=5",
+      "via": "Google News",
+      "topic": "Kultur & Musik"
+    },
+    {
       "id": "curated-v2-12",
       "date": "2026-07-06",
       "publishedAt": "2026-07-06T12:00:00+02:00",
@@ -1853,6 +1895,20 @@
       "desc": ""
     },
     {
+      "id": "b73175d217177731",
+      "title": "Florinale in Landenhausen: Acht private Gärten öffnen am 13. und 14. Juni",
+      "desc": "",
+      "date": "2026-06-11",
+      "publishedAt": "2026-06-11T07:00:00+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZVlCSEJQRlhId3FEOWhJU3hNc1lCZGlOMkpZbnJTLUtxN0daa0ZSaUQwa1Jqa2lObmNiOVpBLU1iSi1xb0pONlFicWNGcnRRS1k1SnpWcVFTY0hxdTZaREZ6dnZfa09EcWM0RklFTHpTRm9CYlhnaUw0MFZOcFJFanRVMUZOcjBzekY2c0Ntc2ItTlZ3a2N4NGtxNkJBN09FVXdvWlhTdEZnYkZPUHZ6NXRub3NIaGlaZU0wOVVFNTJCdnBjZ1Vrc01mWU9zWkE0T2JvVEJNWnRITzZRMFkwRGhZM20?oc=5",
+      "via": "Google News",
+      "topic": "Kultur & Musik"
+    },
+    {
       "id": "curated-v2-16",
       "date": "2026-05-26",
       "publishedAt": "2026-05-26T12:00:00+02:00",
@@ -1868,6 +1924,20 @@
       "desc": ""
     },
     {
+      "id": "757b1566d99cf50c",
+      "title": "RFV Landenhausen: Über 1000 Nennungen für 42 Prüfungen",
+      "desc": "",
+      "date": "2026-05-21",
+      "publishedAt": "2026-05-21T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTnVjRFZkTzktWDJWbXJZb0VOeklhcU1IZWJXNWVveEtBX1AwT3h4X0tMMzBhSFdVRFJrczdGWHJwckFaWXI2Vl8wYkJ3NDNkdlFYcnotUXk2bDNrbm9ENEJzMWRhRzlvTDdSSjVnb3JwSDhvSDRpQ0otTFNxQXZyWmVFQVBvVjhlNXFpMlJOZngtUUR2Y3BFYzhSVW9BWnd2SGotbzgyN2R0eWJSVFJsencydVFhMzdqbjJFZllwMjh5UQ?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
       "id": "curated-v2-17",
       "date": "2026-05-04",
       "publishedAt": "2026-05-04T12:00:00+02:00",
@@ -1881,6 +1951,20 @@
       "via": "Quellengeprüfter Link",
       "editorial": true,
       "desc": ""
+    },
+    {
+      "id": "49f1e1ff119ec7e1",
+      "title": "Die Burgruine Wartenberg lockt hunderte Besucher zur Maifeier",
+      "desc": "",
+      "date": "2026-05-01",
+      "publishedAt": "2026-05-01T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbXRkM3pzdVVOUzFsTWpRQXAyY3MtU3RHei1fRHdjd3d6MWpfSjlwbUJNUjNEamxQLW4zbGphSHIzaVdpN1VZNi1jM3FYeWRHVjFhUkRQY3NtNmJjVUhqdUw4TmxjUWluNjBTVjFQb2Itelk3aGhxdHZFVlVOcDRQbmJpSXhVc0MtZ1cyYjVabGliekQyRWNHVHpXZHY4ejNFZDVjZ1B2bjJfVnhGZ2lXeEhud2I5c09VT3YxNGRVRDRWWjJRLUxpQ1hTMm8wNEoxbkhDWjFB?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "curated-v2-18",
@@ -1911,6 +1995,20 @@
       "via": "Quellengeprüfter Link",
       "editorial": true,
       "desc": ""
+    },
+    {
+      "id": "cdbf2b63599bc205",
+      "title": "Keine Förderung für die Sporthalle in Landenhausen",
+      "desc": "",
+      "date": "2026-04-23",
+      "publishedAt": "2026-04-23T07:00:00+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ2J2TXdiTmlqVHdMaExIakhxaXkyb3BuV2FjYnZ3TDhTOUNVUnE3M3pvYXRvenhJbjVEOHMyMWZ2dEk5WDdCbnNjWHZldlhLcjVwVmV6OS1MaWtVa2FIM0JEeHYtcVFFbmN2QS1mT1B4VU9ib1ZMbTY0dW9pX3pQVHljRmlheWpZRU9OaEZORTdGeEdCRFJqVTE0QVJiRFdtRHRLQ0hWUjNxVThVSWc0MmczMzNaQzdSOUlXaDhTZW91Y1VSbHNkdEtB?oc=5",
+      "via": "Google News",
+      "topic": "Verkehr & Bauen"
     },
     {
       "id": "curated-v2-20",
@@ -1990,7 +2088,7 @@
       "mode": "Google News",
       "count": 20,
       "note": "",
-      "stored": 37
+      "stored": 45
     },
     {
       "id": "winfo",
@@ -1999,21 +2097,21 @@
       "mode": "Google News",
       "count": 1,
       "note": "",
-      "stored": 1
+      "stored": 0
     }
   ],
   "feedCount": 7,
-  "localCount": 45,
+  "localCount": 52,
   "localTopics": {
     "Rathaus & Politik": 6,
-    "Kultur & Musik": 6,
-    "Gemeinschaft & Ehrenamt": 5,
+    "Kultur & Musik": 9,
+    "Gemeinschaft & Ehrenamt": 6,
     "Familie & Soziales": 2,
     "Natur & Umwelt": 1,
-    "Verkehr & Bauen": 3,
+    "Verkehr & Bauen": 4,
     "Blaulicht": 2,
     "Sport": 19,
-    "Vogelsberg": 1
+    "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder."
 }
