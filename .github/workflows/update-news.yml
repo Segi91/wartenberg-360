@@ -7,6 +7,8 @@ on:
   push:
     paths:
       - 'scripts/update_news.py'
+      - 'scripts/news_topics.py'
+      - 'data/curated_news.json'
       - '.github/workflows/update-news.yml'
 
 permissions:
