@@ -50,15 +50,20 @@ SOURCES = [
     dict(id="la", name="Lauterbacher Anzeiger",
          url="https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
          domain="lauterbacher-anzeiger.de", category="Gemeinde", site_only=False,
-         direct=[], search_query='site:lauterbacher-anzeiger.de (Wartenberg OR Angersbach OR Landenhausen OR "TV Angersbach" OR "SG Landenhausen" OR "JSG Wartenberg") when:90d'),
+         direct=[], search_queries=[
+          'site:lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/ when:120d',
+          'site:lauterbacher-anzeiger.de (Wartenberg OR Angersbach OR Landenhausen) (Kultur OR Musikverein OR Feuerwehr OR Kunst OR Kirche OR Gemeinde OR Förderverein OR Flohmarkt OR Landfrauen OR Kirmes OR Ehrenamt) when:180d',
+          'site:lauterbacher-anzeiger.de ("Kulturverein Landenhausen" OR "MGV Landenhausen" OR "Fördergemeinschaft Burgruine" OR "Förderverein Schwimmbad Landenhausen" OR "Angersbach Aktiv" OR "VdK Landenhausen" OR "Schützenverein Angersbach") when:180d',
+          'site:lauterbacher-anzeiger.de ("SG Landenhausen" OR "TV Angersbach") when:45d',
+         ]),
     dict(id="winfo", name="Wartenberg-iNFO", url="https://www.wartenberg-info.de/",
          domain="wartenberg-info.de", category="Gemeinde", site_only=True,
          direct=["https://www.wartenberg-info.de/feed/"]),
 ]
 
-def google_rss(source):
-    query = source.get("search_query") or ("site:" + source["domain"])
-    if not source["site_only"] and not source.get("search_query"):
+def google_rss(source, query_override=None):
+    query = query_override or source.get("search_query") or ("site:" + source["domain"])
+    if not source["site_only"] and not (query_override or source.get("search_query")):
         query += " (Vogelsberg OR Wartenberg OR Angersbach OR Landenhausen OR Lauterbach OR Alsfeld OR Schlitz OR Herbstein OR Schotten OR Grebenhain)"
     if "when:" not in query:
         query += " when:30d"
@@ -196,13 +201,18 @@ def run():
         articles = []
         via = ""
         errors = []
-        candidates = [(url, "RSS") for url in source["direct"]] + [(google_rss(source), "Google News")]
+        queries = source.get("search_queries", [None])
+        candidates = [(url, "RSS") for url in source["direct"]] + [(google_rss(source, query), "Google News") for query in queries]
         for url, method in candidates:
             try:
                 found = parse_feed(fetch_feed(url), source, method)
                 if found:
-                    articles, via = found, method
-                    break
+                    if source["id"] == "la":
+                        articles.extend(found)
+                        via = method
+                    else:
+                        articles, via = found, method
+                        break
                 errors.append(method + ": keine aktuellen passenden Artikel")
             except Exception as ex:
                 errors.append(method + ": " + type(ex).__name__)
@@ -210,6 +220,8 @@ def run():
             articles = list({article['id']: article for article in articles}.values())[:70]
             success += 1
             for article in articles:
+                if source["id"] == "winfo" and article["title"].strip().casefold() in ("wetter", "startseite", "abfallkalender"):
+                    continue
                 old[article["id"]] = normalize(article)
         statuses.append(dict(id=source["id"], name=source["name"], url=source["url"],
                              mode=via if articles else "Nur Quelle",
