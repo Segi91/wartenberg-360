@@ -1,4 +1,4 @@
-# Wartenberg 360 · Version 2.0
+# Wartenberg 360 · Version 2.1
 
 **Deine kostenlose digitale Ortszentrale für Angersbach und Landenhausen** in Wartenberg (Hessen, PLZ 36367).
 
@@ -6,13 +6,27 @@
 
 Wartenberg 360 ist ein **unabhängiges privates Bürgerprojekt**, keine offizielle Website der Gemeinde.
 
+## Neu in Version 2.1: direkt in der App lesen
+
+**Nachrichten:** Die Karten öffnen über „Lesen“ oder einen Klick auf die Karte einen integrierten Nachrichtenleser. Er zeigt Titel, Erscheinungsdatum, Ort, Quelle und – bei den 21 quellengeprüften Ortsmeldungen – eigenständig geschriebene inhaltliche Zusammenfassungen. Weitere automatisch übernommene RSS-/Index-Artikel lassen sich ebenfalls in der App öffnen, aber ohne verlässlich verfügbare, zulässige Inhaltsdaten erscheinen dort zunächst nur die bibliografischen Angaben und ein klarer Hinweis. Der vollständige Originalartikel bleibt beim Herausgeber, einschließlich etwaiger Paywall.
+
+**Bilder und Rechte:** Die dekorativen Rubrik-Symbole in der Leseansicht sind **keine Original-Pressefotos**. Fremde Fotos werden nur eingebunden, wenn eine belegte passende Lizenz/Berechtigung und eine korrekte Quellen- und Urheberangabe vorliegen. Eine bloße Verlinkung würde die Rechte an vollständigen Artikeln und Pressebildern nicht aufheben.
+
+**Sortierung:** Im Nachrichtenbereich gibt es die explizite Auswahl „Neueste zuerst“ / „Älteste zuerst“. Die Auswahl wird im Browser gespeichert. Der unerwünschte Hinweistext oberhalb der Themenfilter wurde entfernt.
+
+**Vereine:** 49 örtliche Vereine, Gruppen und Vereinsabteilungen einschließlich Nach­wuchs­gruppen sowie der zusätzlich gemeldeten Freibad-Fördergemeinschaft. Ein Klick auf „Verein ansehen“ öffnet das interne Profil mit Ortsteil, Tätigkeitsbereich und einer eigenständig erstellten Kurzbeschreibung. Wenn der Verein eine Website hat, ist sie als Zusatz verlinkt; Mitgliedschaft, aktuelle Ansprechpartner und Trainingszeiten können externe Prüfung erfordern.
+
+**Termine:** 12 überprüfte, kommende Veranstaltungsdaten aus der öffentlich zugänglichen Gemeindeübersicht (Stand 11.10.2026) als lokaler JSON-Datenbestand unter `data/events.json`; Termin-Karten haben die Schaltfläche „Details“ mit Veranstalter, Datum, Kurzbeschreibung und Kalenderexport. **Dies ist derzeit kein kontinuierlich synchronisierter Live-Terminkalender** – neue Termine und Änderungen können beim Veranstalter später abweichen.
+
+Die App ist weiterhin eine kostenlose GitHub-Pages-PWA ohne nutzerseitige Anmeldung.
+
 ## Was ist neu in Version 2.0?
 
 - **Nachrichten aus Wartenberg zuerst:** direkte Ortsmeldungen aus Angersbach, Landenhausen und Wartenberg; der restliche Vogelsberg bleibt gesondert anwählbar.
 - **Kein reiner Sport-Feed:** acht Themengebiete neben allgemeinen Regionalmeldungen: Rathaus & Politik, Kultur & Musik, Gemeinschaft & Ehrenamt, Familie & Soziales, Natur & Umwelt, Verkehr & Bauen, Blaulicht, Sport.
 - **„Abseits des Spielfelds“:** erste Nachrichtenkarten zeigen bewusst vielfältige nicht-sportliche Themen, Sport bleibt als eigener Schwerpunkt erhalten.
 - **Quellengebunden:** automatisierte RSS-/Nachrichtenindex-Suche ergänzt um datierte, geprüfte Originalartikel aus dem örtlichen Vereins- und Gemeindeleben, auch aus älteren Monaten. Paywalls werden nicht umgangen. Keine Volltexte oder fremde Pressefotos.
-- **Vereine & Initiativen:** ausgebautes Verzeichnis mit 38 Einträgen in beiden Ortsteilen – von Kultur, Musik und Ehrenamt bis Jugend, Feuerwehr, Natur und Sport. Filter nach Ortsteil und Aktivität.
+- **Vereine & Initiativen:** ausgebautes Verzeichnis mit 49 Einträgen einschließlich Abteilungen in beiden Ortsteilen – von Kultur, Musik und Ehrenamt bis Jugend, Feuerwehr, Natur und Sport. Filter nach Ortsteil und Aktivität.
 - **Ortsführer:** ausgewählte öffentliche Orte mit Quellen- und Kartenlinks. Saisonale Öffnungszeiten bitte beim Betreiber prüfen.
 - **Persönliche Startseite:** unter Einstellungen Nachrichtenschwerpunkt Ausgewogen / Kultur & Vereine / Rathaus & Alltag / Lokalsport auswählen. Die Einstellung wird nur im eigenen Browser gespeichert.
 - **Offline-Unterstützung:** App-Hülle und zuletzt empfangene Nachrichten können bei erneuter Nutzung aus dem lokalen Cache verfügbar sein; Live-Wetter erfordert Internet.
