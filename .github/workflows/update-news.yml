@@ -7,6 +7,7 @@ on:
   push:
     paths:
       - 'scripts/update_news.py'
+      - 'scripts/sync_official.py'
       - 'scripts/news_topics.py'
       - 'data/curated_news.json'
       - '.github/workflows/update-news.yml'
@@ -29,19 +30,25 @@ jobs:
       - name: Prüfe JavaScript und Python auf Syntaxfehler
         run: |
           node --check app.js
-          python3 -m py_compile scripts/update_news.py
+          python3 -m py_compile scripts/update_news.py scripts/sync_official.py scripts/news_topics.py
       - name: Nachrichten über öffentliche RSS-Feeds abrufen
         run: python3 scripts/update_news.py
-      - name: Aktualisierte Nachrichten speichern
+      - name: Direkte amtliche Nachrichten und Termine synchronisieren
+        run: python3 -u scripts/sync_official.py
+      - name: Amtliche Daten prüfen
         run: |
-          if git diff --quiet -- news.json; then
-            echo 'Keine Änderungen an news.json'
+          python3 -m json.tool news.json > /dev/null
+          python3 -m json.tool data/events.json > /dev/null
+      - name: Aktualisierte Nachrichten und Veranstaltungen speichern
+        run: |
+          if git diff --quiet -- news.json data/events.json; then
+            echo 'Nachrichten und Termine unverändert'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add news.json
-          git commit -m 'Aktualisiere Wartenberg-360-Nachrichten'
+          git add news.json data/events.json
+          git commit -m 'Aktualisiere Wartenberg-360-Nachrichten und Gemeindetermine'
           git fetch origin main
           git rebase origin/main
           git push origin HEAD:main
