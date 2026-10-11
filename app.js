@@ -290,6 +290,42 @@ async function updatePlaces(){
  }
  if(current==="places")render();
 }
+function placeMapSwitcher(items){
+ const located=items.filter(p=>!!placeCoordinates[p.id]).length;
+ const onMap=placeViewMode==="map";
+ return `<section class="w360-place-switch-row" aria-label="Ortsführer-Darstellung">
+    <div class="w360-place-switch" role="group" aria-label="Ansicht auswählen">
+     <button type="button" data-place-view="map" aria-pressed="${onMap}" class="${onMap?"active":""}">🗺️ Karte</button>
+     <button type="button" data-place-view="list" aria-pressed="${!onMap}" class="${!onMap?"active":""}">▤ Liste</button>
+    </div><span>${located} von ${items.length} Orten auf der Karte · ${items.length-located} ohne sicheren Kartenpunkt</span>
+  </section>`;
+}
+function placeMapMarkup(items){
+ const plotted=items.filter(p=>!!placeCoordinates[p.id]);
+ const unplotted=items.filter(p=>!placeCoordinates[p.id]);
+ const rows=[...plotted,...unplotted];
+ return `<section class="w360-place-map-section" aria-label="Karte mit allen Orten des Ortsführers">
+ <div class="w360-place-map-caption"><div><strong>Wartenberg auf einen Blick</strong><span>Angersbach und Landenhausen entdecken</span></div><p>Orte mit überprüftem Standort sind markiert; Wanderwege und weitere Einträge ohne verlässliche Koordinaten stehen daneben in der Übersicht.</p></div>
+ <div class="w360-map-layout">
+   <div class="w360-map-frame"><div id="w360-map" aria-label="Interaktive Karte von Wartenberg mit Standortmarkierungen" role="application"></div>
+     <div class="w360-map-gesture">Karte verschieben: ziehen · Zoomen: + / − · Ort auswählen: rechts oder unten antippen</div></div>
+   <aside id="w360-map-sidebar" class="w360-map-sidebar" aria-label="Alle passenden Orte">
+      <div class="w360-map-sidebar-heading"><strong>${items.length} Orte im Filter</strong><span>${plotted.length} Kartenpunkte · ${unplotted.length} ohne genaue Position</span></div>
+      <div class="w360-map-location-list">${rows.length?rows.map(p=>{
+       const loc=placeCoordinates[p.id];
+       const precision=loc?(loc.precision==="house"?"Hausnummer geprüft":loc.precision==="landmark"?"Belegter Standort":"Straßenposition, ungefähr"):"Keine sichere Position";
+       const title=`<span class="w360-map-icon" aria-hidden="true">${placeIcon(p.category)}</span><span class="w360-map-row-label"><strong>${esc(p.title)}</strong><small>${esc(p.location)} · ${esc(precision)}</small></span>`;
+       return `<article class="w360-map-side-item ${loc?"has-location":"not-located"}" data-place-row="${esc(p.id)}">
+        ${loc?`<button type="button" class="w360-map-select" data-map-focus="${esc(p.id)}" aria-label="${esc(p.title)} auf der Karte anzeigen" aria-pressed="false">${title}<span class="w360-map-focus-icon" aria-hidden="true">⌖</span></button>`:
+        `<div class="w360-map-row-static">${title}</div>`}
+        <div class="w360-map-row-actions">${loc&&p.address?link("https://www.google.com/maps/search/?api=1&query="+encodeURIComponent(p.address),"Adresse prüfen"):""}${link(p.source,p.kind==="route"?"Wegverlauf":"Details")}</div>
+       </article>`;
+      }).join(""):empty("Keine passenden Orte gefunden.")}</div>
+   </aside>
+ </div>
+ <p class="w360-map-notice">Kartenmaterial: © OpenStreetMap-Mitwirkende (ODbL). Die Karte benötigt Internet, die Ortsliste nicht. Es wird kein Gerätestandort abgefragt. Ein Straßenmarker kann ungenau sein; die Originalquelle bleibt maßgeblich.</p>
+ </section>`;
+}
 function viewPlaces(){
  const categoryOrder=["Alle","Sehenswürdigkeiten","Natur & Aussicht","Wandern & Radfahren",
  "Freizeit & Sport","Spielplätze","Kultur & Treffen","Essen & Trinken",
@@ -304,6 +340,7 @@ function viewPlaces(){
   &&[p.title,p.location,p.category,p.address||"",p.description].join(" ").toLocaleLowerCase("de").includes(needle));
  const sorted=matching.slice().sort((a,b)=>categoryOrder.indexOf(a.category)-categoryOrder.indexOf(b.category)||a.title.localeCompare(b.title,"de"));
  const visible=sorted.slice(0,placeLimit);
+ placeMapItems=sorted;
  const countCat=c=>local.filter(p=>c==="Alle"||p.category===c).length;
  const localCounts={Angersbach:places.filter(p=>p.location==="Angersbach").length,
  Landenhausen:places.filter(p=>p.location==="Landenhausen").length};
@@ -318,6 +355,10 @@ function viewPlaces(){
  <div class="toolbar v3-place-toolbar"><div class="filters">${["Alle","Angersbach","Landenhausen"].map(v=>`<button type="button" class="chip ${filter===v?"active":""}" data-filter="${v}">${esc(v)}</button>`).join("")}<button type="button" class="chip ${onlyFavorites?"active":""}" data-only-favs="true">★ Gemerkte</button></div>${searchBox()}</div>
  <section class="v3-place-categories"><div class="v2-section-title"><h2>Was möchtest du entdecken?</h2><span>${cats.length-1} Themenbereiche</span></div>
   <div class="v2-topic-chips v2-place-cats">${cats.map(c=>`<button type="button" class="v2-topic-chip ${placeCategory===c?"active":""}" data-place-topic="${esc(c)}"><span class="v3-place-topic-emoji" aria-hidden="true">${c==="Alle"?"⌾":placeIcon(c)}</span> ${esc(c)} <span>${countCat(c)}</span></button>`).join("")}</div></section>
+ ${placeMapSwitcher(sorted)}
+ <div class="w360-place-display ${placeViewMode==="map"?"is-map":"is-list"}">
+  ${placeViewMode==="map"?placeMapMarkup(sorted):""}
+  <div class="w360-place-list-content">
  <div class="v2-section-title v3-place-result-title"><h2>${placeCategory==="Alle"?"Orte entdecken":esc(placeCategory)}</h2><span>${matching.length} Einträge ${onlyFavorites?"· Merkliste":""}</span></div>
  <div class="v2-places-grid v3-places-grid">${visible.length?visible.map(p=>{
    const hasAddress=!!p.address,canMap=hasAddress&&p.kind!=="route";
@@ -332,7 +373,8 @@ function viewPlaces(){
    </article>`;
  }).join(""):empty("Für diese Auswahl gibt es keine Einträge. Versuche einen anderen Ortsteil, Suchbegriff oder Themenbereich.")}</div>
  ${matching.length>visible.length?`<div class="v3-place-more"><button type="button" class="v2-more-button" data-place-more="true">Weitere Orte anzeigen (${matching.length-visible.length} verbleibend) ↓</button></div>`:""}
- <p class="source-mention">Stand: ${esc(placesUpdatedAt||"unbekannt")} · ${esc(placesStatus)}. Die Einträge wurden aus Gemeinde- und Fachquellen zusammengestellt. Für Wege und Naturpunkte ohne eindeutig belegte Anschrift gibt es bewusst keinen erfundenen Navigationspunkt. Bei Karten-Suchen öffnet sich Google Maps; Öffnungszeiten, Zugänglichkeit und Details bitte beim jeweiligen Anbieter prüfen.</p>`;
+ </div></div>
+ <p class="source-mention">Stand: ${esc(placesUpdatedAt||"unbekannt")} · ${esc(placesStatus)}. Karte und Liste greifen auf denselben Ortsbestand zurück. Für Wege und Punkte ohne gesicherte Adresse gibt es bewusst keine erfundenen Marker. Öffnungszeiten, Zugänglichkeit und Detailadressen bitte beim Anbieter prüfen.</p>`;
 }
 
 function nCard(n){return nCardV2(n)}
