@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-11T19:06:17Z",
+  "updatedAt": "2026-10-11T19:24:47Z",
   "items": [
     {
       "id": "f519d8d5deeef2fd",
@@ -55,6 +55,19 @@
       "via": "RSS"
     },
     {
+      "id": "2b0bc15d6e52341c",
+      "title": "EC Lauterbach siegt 9:2 – doch Trainer sieht „kein gutes Spiel\"",
+      "desc": "",
+      "date": "2026-10-11",
+      "publishedAt": "2026-10-11T11:56:54+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQajdMcWpWa3IzVUhmUWRYUE1NUXhWY3F2X1dzT0hndjFaOTZRYkduUUdzMWRJZ1U5X0s1OUpfQVVubnl3My1lUW41WU1jdnlWQU50cmxUTHlwd3FVSWJRUkduTWpVQzRJRmJPd3BxTzNSZDQ1OWc5Yi1hV1VidGFtWC1FcnhKWlotYURYWmpkVXZIY21EZXNCYnp3WUp5cUxzdnY1RmJibUo2a2FpTnI1d1NCaUJBa1h0bkVJcmw4NzA?oc=5",
+      "via": "Google News"
+    },
+    {
       "id": "fb3bcf2cdbeba6cc",
       "title": "Wenn das Leben Fragen stellt",
       "desc": "",
@@ -68,6 +81,19 @@
       "via": "RSS"
     },
     {
+      "id": "f89dbb42937c9140",
+      "title": "Foodsharing: Vogelsberger Besucher staunen über Mengen noch genießbarer Lebensmittel",
+      "desc": "",
+      "date": "2026-10-11",
+      "publishedAt": "2026-10-11T09:05:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQNG54bVJyY0pMQ0ZPYks0b05Va1J0cEdCb3JtemsxcHh5M0oxWlFiME9sdE8wRTFsSDNYWnFJTkVIWkhMeEVHUmNubGFxcGdSQ1pOSFZjV1VEQ21lTmtwY2RJakJRelpYT0IyUzRyalJkTy0xZGZ4TlpjNkRra3hqOTNCRExBbzd5UFE5ay1hYjZxWUgzTm1pOHprTlpNWXpwVC1fYTk1YnB6S1M4b3k4WkZLMElhUktLMzZ1TllwX3ZJLUVPOTFnS3NvbDA5RTFHdXViMmdTUld0QThiSXRBekppNk4yOHV4cnBlT3JMaXZlTjgxcl9F?oc=5",
+      "via": "Google News"
+    },
+    {
       "id": "419585cfcfa0e765",
       "title": "Vollsperrung der K 70 zwischen Alsfeld/Hattendorf und der Kreisgrenze zum Schwalm-Eder-Kreis",
       "desc": "",
@@ -79,6 +105,19 @@
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/11/vollsperrung-der-k-70-zwischen-alsfeld-hattendorf-und-der-kreisgrenze-zum-schwalm-eder-kreis/",
       "via": "RSS"
+    },
+    {
+      "id": "cf2a3c12cb34eafc",
+      "title": "Sturm beeinträchtigt Bilanz des Schottener Vogelparks",
+      "desc": "",
+      "date": "2026-10-11",
+      "publishedAt": "2026-10-11T07:05:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNZXJrRDk1Y0V5NmhaQ0tCZVd5Znc0ci1Cc2xnc3kyck40S29UX0E1dE9GbndrQ3Q5TTlBeTJOdmxZTXN2WkFVazV3ZkJ1U0FzR0xaWEdjNXJDZ1o0WG4zYW9NNzRTYXltX1pma3duQTZsRU5rd1JVM2V4U2I3YzFsTlRWQTJLd3ZOUGlHRzNZdnRZZWd3OGh2dkZFZDRqenpfYll4QlcwY3I0MXVJRWM5bVF0UjFEQ0hsMnpaeGtZdnpxNV80TUkwTWNR?oc=5",
+      "via": "Google News"
     },
     {
       "id": "415f14f7eb61af0d",
@@ -112,8 +151,8 @@
       "desc": "",
       "date": "2026-10-10",
       "publishedAt": "2026-10-10T18:13:19+00:00",
-      "category": "Gemeinde",
-      "locality": "Wartenberg",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
       "sourceName": "Oberhessen-live",
       "sourceId": "oberhessen",
       "source": "https://www.oberhessen-live.de/2026/10/10/stark-selbstbewusst-und-sicher-selbstbehauptungs-und-selbstverteidigungskurs-fuer-jungen/",
@@ -380,6 +419,32 @@
       "via": "Google News"
     },
     {
+      "id": "bdce7ed378fcdc65",
+      "title": "105 Unterschriften: Bürger fordern neue Standortprüfung für Lauterbacher Rettungswache",
+      "desc": "",
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T06:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOQUwxaVdfZGZMUnR2eTE3aFZUUW9ZdFRjb3kwVndVYVlOd0tmUWF2bGpJclRlSGZtQkoyYTNFbGw1bExHc1FhbGZfODFJRzZOVVVJZXlmUVM3QnM2WlBPb1hUMTBkUnBmUm9rWkUyX2RiRXp4M3k3WEJyV2M4RFBCMWdPQ3BpVzV3d0VhaW45b2ptMUlHQzJnRHk2TW9CMmxsQ2dtVThLRVl3OF9OVVE5bzhWODFUTVJZWHpGbjNfVm0tN3RmUXBzWDlGM08xZzZ3a0dNSjJqcWE3X2hoS0FRYm1qUG42M0g5Z2J6Rk8xdExVd21iMGw3RkVR?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "a5d2e2ecd570037e",
+      "title": "Derby mit neuem Trainer: SG Landenhausen empfängt SG Lauter II",
+      "desc": "",
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T05:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZlBGMkN0ZGJkTlNIUUZZMHkzZ19lTHlCWWpZUGJkTVd5R0plcGdmcmQ0M1NmVmJ6Y2FVeEF6UTBCaVlRZE1GcHloT1lXUFFwOEtCLXo0cGx6R05teGxlRDlQTFdsc2Q2ZHFNMlVWTWk4X0toYTN0T1N1YjllX2J3a090bXY0UHhyVXFnMngydG5ONDNiTXZtMXAtWVliUGl4LVUzU19RNXYxaktqZFZ5elRaeGRYTWY0SFluR2tMdkd2WXJDQ0dv?oc=5",
+      "via": "Google News"
+    },
+    {
       "id": "e0d534d2168ee563",
       "title": "Wohnung in Vollbrand: Großalarm in Schlitz - Osthessen|News",
       "desc": "",
@@ -403,6 +468,45 @@
       "sourceName": "Fuldaer Zeitung",
       "sourceId": "fulda",
       "source": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMmVOckk3UXpVYkd6amtKRnRlRFpvb243QUcxbTBVSVd5bDdKWEFZOThhdE5VY0wwQ1NySDAyZFNXcEwtS0lQb2VPTjJkN0wyZnFBU0NqRVNWSkVoWWxHeTVQZ2FhTG9HMTdCOTRNMi12NmhNWUpNal9PWlRHOFBEYndYMXV5T0xPU2pvSDQ1aUozTkFIbFl1ZlRiMEEtRVJPWW9iZVFubDFoUW5kc1BTeTZJeWRMc2FyNk1waFhHZ1Q?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "643cdd0bc78fb54a",
+      "title": "Nach Altstadtbrand in Lauterbach: Ehemaliges Hotel Schüz und Restaurant Agbaba werden abgerissen",
+      "desc": "",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T17:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQeFNZc185d0ZwdGlGS1RsM1AxVkdUaWN5Zkc1elpKR1FUZXpHS19VSzJYalRBRUotdXIyMWY1dk1fS3Q2TEZQMEM1V0tKWlFNNkp2RFQ3d2xRSFROWWhWMmlJQldFR1p1bG1ndnZkYTJmTm5OYS1udi1jN2VRSlFsMERMdjBOYWRWRmhHVHhoWXgyNEk3WjNIakpTYlU0Q3JpaGpKbE1tNU5hUTVEeGh4aW9kcHpmb0VwVzUyN05NZkZGUDBWVi1GekNVN3NiTEI4c2gzcVFJMkM1QnU2dXJLS0kwYTZuMFRJdXRHN05mbEVzbWhOUFE?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "2d2a5d19be6af574",
+      "title": "Lauterbacher Luchse holen Kanadier mit 1,96 Metern für die neue Saison",
+      "desc": "",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T13:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPQVczMVc1WW9VS0w3bmZKUXBFT1BfSE5ISlJNcVFPTENXR0ZnMkd2UHBlWVlQVWR6Q3gwNmg2LXVGSVlSMnVLNUlPQ3FXZGZIeVU0STh5NmZweGNKaG5nNTZkdFRkTlR6VDFQdE1Lb3Vid2FEWnhuWklRczlxMml0Q3dGeXVwYkJTalJRLVdzajNHcGc1eGxtdDBkV21yV0RSLXZ0X3pTT1BQSzNVTG9lYWZ5bmdIM3puTWt2ak1GZThFVGJwbExNeEhwNE8zSEZCTEVV?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "97124196f76afd51",
+      "title": "Lauterbacher Luchse kehren in die Regionalliga West zurück: „Brauchen keine Angst zu haben\"",
+      "desc": "",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T13:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNOC1ZZ0d2M041QU1vZ2hyaF80QWdXV00waGpfZUgySmt3dDZRZVpJRm1iLWRkcUl2YmN2VUxHZ0Z1M3pmRkhjMDFxclpSZFhIYmpTZnRZZm5CUTJYc1JwVnp5OWtoVEtFVnphcVhucl9iRXZsaC1jaDZERXFfMXdIRFJOUVY1QmFEanB1V284SmkxN1BKMklBSy1ld0d3MnVYUEhBX04zeTBSa1plb204dzdnTHdQdUdhNlpMYlN2X2pPTVlWaWpxS25fTGpPT0R5YVhLOHI0ZWhnWmkwMU1LX2pjakVuYWt0UHVlMXdB?oc=5",
       "via": "Google News"
     },
     {
@@ -471,6 +575,19 @@
       "via": "Google News"
     },
     {
+      "id": "df653e16528d98c0",
+      "title": "SG Landenhausen hat neuen Trainer – und trifft bald auf Ex-Coach Güldner",
+      "desc": "",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T11:41:19+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRS1oVXM5Zks4cmFENlRYb2xXVWdRbm1oVWZJU1U0Y28yYW9YQ1dBdEd3YWlNQWJQaE5DWXM0N1M0NldZS3B4YWl1NWRlX2lpYXQwYkRzYUp5d2trRWJnUTkwVFBzTzhUUC1lMndtb2hxWUpiSGxOTFNEdVNHUzJEbXdvYlhaZGVTY1BTSWQ5VVhqUW5wMDU5a1JEbGtuNS1zbEpnVzhIbldxYzNabEIydF9xczFqR1QxaV8yTzJrZWFNXzZacTZDMV9sVGU5bzFfd25RZy1n?oc=5",
+      "via": "Google News"
+    },
+    {
       "id": "c147bbd6b36bdaa8",
       "title": "OHNE GIEßEN – Wie Gärten wieder mit der Natur statt gegen sie arbeiten, Lauterbach (Hessen) - Osthessen|News",
       "desc": "",
@@ -507,6 +624,19 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORVJDWER0cXRzaHJaS28zX2NCY3hGenhRQTZSc2NWV0ctcHd0bExZakJtcWNfZEZJZVVCb1l4bHlkRkNlNjN0UE00YnZiQm55bzZvWnBDcE5nQUhsUnpuRTVObFpNWXozVWtQY2hUbmVnQ19FRDRZZnlJTXo0Rk94d2NqbUN4RkdSN3Q4TWlyclhWWXNGYnBhQXROdkV5MzR0akNHSlJXQ0RnQWIyajUxbHVB?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "ba8a251f973ad3bf",
+      "title": "TV Angersbach trotzt Zweiten nach 0:2-Rückstand ein 5:5 ab",
+      "desc": "",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T22:07:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM3JEZE5BQi1nOElYd0YxVTVPT2FaRFlhcDAwM0lTM1c0c1dLOThkc2lTYmpBc19GTGpUVndHVURHaU14LWFZMklvcnRGNGM2bGpmZmU5QVJzWkFFYzRFYmNrR0VFREpzUlFvUE8wVHhIMWxhRnhneG9iV1RtVU5qZ3lBY0UxZU4zU24yaTJhVFhYdzBRYkdYWUVybjM5VFEzU1J3aFJNa18xM1VWV0VsQ00ySHhzRkptbXRN?oc=5",
       "via": "Google News"
     },
     {
@@ -848,6 +978,19 @@
       "via": "RSS"
     },
     {
+      "id": "ed36c1016c75bc2b",
+      "title": "Fünf Auswärtsniederlagen: SG Landenhausen will endlich in der Fremde punkten",
+      "desc": "",
+      "date": "2026-10-02",
+      "publishedAt": "2026-10-02T05:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNdlRjY2paWjN5cWtVaDAwOXVhZ2pfc290WDBHZ2VsU2Z6M2ZYRGd4b1VZbzFFbk5LN0xUbC1QSnNDV040T2QtVFJQNjJKVG1jOVdaN3lTOUQta3o4M25MRFRoamhtYmx6LUdtbU1wY0hBTkZPNnRWRHdUcVFnX0dfNWN1cGlIR3hLanNoanMwNlc1UUYycVdkNzMtQVdsMUdrTEM3bEQwS3dKTW1Lb0NuLTZnYm1DemY4dEo0OEl5NjgwM2wyZ2s2MGFCQjJrZjFJeDdYNjlYcW5ULS1kVUE?oc=5",
+      "via": "Google News"
+    },
+    {
       "id": "f789a12617ed58f8",
       "title": "POL-OH: Verkehrsunfallmeldungen für den Landkreis Vogelsberg und den Landkreis Fulda - Presseportal",
       "desc": "",
@@ -978,6 +1121,19 @@
       "via": "Google News"
     },
     {
+      "id": "8eac7ce263c68f59",
+      "title": "VfL Lauterbach macht Traumstart perfekt: 8:2 gegen SG Landenhausen",
+      "desc": "",
+      "date": "2026-09-30",
+      "publishedAt": "2026-09-30T05:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTFZvRjhpYlNlY0lEU2YwOTRlSEl1ZFdOVE4xb3hZVExLbFhnZms5aURzWGo5aC1LWVZtSFk0VGRFWjRoTk9TS3k3aFJjMkFpajBCVl83emNHWkpsY2w2RUJNemQ4Z0w4b2ZXc056MjB5bWZkQkl4Y2VQUW1ySnR3cl9FQVhhTC03V25GWi1CX2pIY3pDMDU0ZDNXV2JhYTFXNVJRXzVYcl95RFdXdFl1bFNkT0NINTMzX0JOMW95aFNvMldHeHNqNg?oc=5",
+      "via": "Google News"
+    },
+    {
       "id": "1e8400226c99296f",
       "title": "POL-OH: Biker Safety Tour 2026: \"Gemeinsam sicher durch den Vogelsberg\" - Presseportal",
       "desc": "",
@@ -1001,6 +1157,19 @@
       "sourceName": "Polizeipräsidium Osthessen",
       "sourceId": "polizei",
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE11ZGUxVlB5cnZuTTQ3OXQxNlR5QmhEbXJ4c0NXdllDRmI3b0RYQ3YyV3hJRlVwOXREc2NhVzhkYUxYRXRZNnpZN2tLY1VYTjJYWUV1QUw4dmJUVC1LYmN0VE1zblc?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "e24cfb395ce904be",
+      "title": "Freistoß in der Nachspielzeit: Krause rettet SG Landenhausen das 2:2",
+      "desc": "",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T05:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPUzV1cVBLaWRTMEdJc1N0S1h2bF9rR1AxdEljQmpEUWJzMlFSc3lzSmE2VGhZcE02S0lZakRoTjBGMVA2dzlFREtIbHRZUlZFZWdmYmVYeWJaQkNRQ0lKQ29WQkJKRDdvek5IOFpGTWtUblZ6aEdXYk4tZm1pZXFpRk9NeTRpNDlhUVp3SV90Tzd5ZHUxRjlOTDRiSmNMeEZ6enJwLURudWhDcVRRMGs2OTVydURabjZ4ZENDcEVOb0RvZ2I4a2VRNWtmelI?oc=5",
       "via": "Google News"
     },
     {
@@ -1108,6 +1277,84 @@
       "via": "Google News"
     },
     {
+      "id": "f859fbbaaa10729c",
+      "title": "SG Landenhausen trifft auf Tabellenzweiten mit sechs Siegen in Serie",
+      "desc": "",
+      "date": "2026-09-04",
+      "publishedAt": "2026-09-04T07:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbEFWQmJxUVFGUk5ERzR2ekJZbi1iaUp6X3NrdkdORnU5TFVLUUR1Q2M5clJHMWFXT184YjBNNFUzMmo0c1dBY1N6ZE5aUUhya3gzaHpPbUFpR0ROc2Zsd1dzQTNpa2p6cEZYNHlmUjF3aTdQXzdBSk1yVjVpaE1XS2ROUzJiLU0xYVF6OFVITDBpeVNLLTdVYklPeGFBVmNUdXhpcXVIUlgzOGRWVDhiT1daRmVpT3pZaVhuTWxRMDJDWDA0WDNYbG01MERGZDlyUUE?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "ed9878e562bfb11f",
+      "title": "Vogelsberger U12-Leichtathleten holen Vize-Titel bei Hessenmeisterschaft",
+      "desc": "",
+      "date": "2026-09-03",
+      "publishedAt": "2026-09-03T07:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPVzJKRUpWNFZKSmlTWVV5UXB4ZXpMVG4ycDdPOWlYOVd1TURRSnJQSDhUUXJlZUhqc0RSZXNmU2xXcWQ0Wm1RdktPd24zV3JOaENIT1Vnb3p4OXk4TjlzS25yVkhLeU5ydHNnTHFKbV9CaHo1dmk0TG8ybGpOU2dVdmxiblFBSXQyZEJGYzZyLWtuTU1pem9oMkZZVzZpX2ZPRi1FclVIdlREYklfZEdZc3FyZlExaElEZ0VHQWlfWTkxWEZTM1JTM2VaYmlpbm02YmF2b2ZDSQ?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "0b8305e20c549514",
+      "title": "TV Angersbach verspielt 2:0-Führung und kassiert 3:7-Heimpleite",
+      "desc": "",
+      "date": "2026-09-02",
+      "publishedAt": "2026-09-02T07:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPUGhfTWFLNUJVeXpfM3otcnVhQ1dzYWpsZ1pmVkxLZGJzUlppeVBiVzR3Y2VvQkU1bjVmNzE3Rk9sUEV4S0dfS3NYdkVoTUdoZUpJeHI4RzktMFVSUHVwMWc2Sm54VUpUYVZwZHkyZU1MZnZuZ0xQRGxObk1JTFhXMTNOSkFTUWVkWUtlQ3RyRk8yeDIzc2VEVUU2T1pQOW1uR0V2LWt1NTRWWDBrUUcyVEpESzBpeEFJVXBZRFJZUVMyQQ?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "1877ef4c3879b6c8",
+      "title": "SG Landenhausen schießt zehn Tore gegen VfL Lauterbach II",
+      "desc": "",
+      "date": "2026-08-31",
+      "publishedAt": "2026-08-31T07:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObjNUOWhMMVdhV1d0T3hNbnRoWENQNlhiT2tBTXV5R0dCMURYTzMtNXZsUGF4UVlFb0V4RjBMTXMtSWk1QnFJbkRwT3hQQXA0OUdWN3RYWVJlS3BpRTJpQ1hLSzE5T1BKdldnMjFxMllCQVVDM3VsajBGM1gxSWdEOFNNUU1VTUdEam5ucUwyc19YRmRLb3AySVBkUXR0SUZBR3J4eHBxUzZVYlE2TUFvWFpBT2ZtdXJTMzkyX0JjelFGZWhz?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "26759a4e35266d70",
+      "title": "Vogelsberger U12-Team startet beim Hessenfinale – zum ersten Mal",
+      "desc": "",
+      "date": "2026-08-29",
+      "publishedAt": "2026-08-29T07:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNclowNXBxeGRyWmVjVmVtbDV5aDkxZVhERUJUUnNkcU52TkdZaEd6QmFMUkg3YmgydGtXZEtPQndIWmlMTTE2TkQ3ejZFU3dkNVFvU3JFZWxENmxhNm9OWG9ITm5CelVYbU0xd2hzTndNNGhuZV9tUndBTmNVN0NreU9iLXBnQUN3dUVjT3FacHBHTzE4Y1oxNGU4Qnh6X3hPVG5IbDJZZ3IyTTUxMHpjd01KLTYwb01pbHNxZlMzdmhROWN6c0JDaE1n?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "94c5747ecd958eec",
+      "title": "SG Landenhausen steht bei null Punkten – und muss zweimal ran",
+      "desc": "",
+      "date": "2026-08-28",
+      "publishedAt": "2026-08-28T07:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTW9PLWJKWWhEOWRodTdIWHFVWWozV29nUWpPTlJGci1SNndWWVlzeGwwXzYxdDVoZmw2TFFzSURQc3F4MGM5cUxEa3MxN1dyR1R2TVdkTXhybWxGZDdMSU9fMWFVcERCRGIyMjNhRktyZ2xrV1ZWV1R6TnBkUVhFcTdXMWVyWG42UF9sX25wcURBNWlxOXY0SnNhY0kyOFRSdzIyc2tPalUzZjR0UExPOVNfb2NlYk5La0RTUUN0T0RoNmc?oc=5",
+      "via": "Google News"
+    },
+    {
       "id": "la-editorial-94461481",
       "title": "Wartenberger wählen ihren Bürgermeister",
       "desc": "",
@@ -1119,6 +1366,84 @@
       "sourceId": "la",
       "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/wartenberg-waehlt-buergermeister-ittmann-drueckte-jede-klingel-wienold-verfolgt-wahl-aus-italien-94461481.html",
       "via": "Redaktionell verlinkt"
+    },
+    {
+      "id": "caad787fd81890e0",
+      "title": "Über 220 Kinder beim Vogelsberger KiLa-Cup in Lauterbach",
+      "desc": "",
+      "date": "2026-08-25",
+      "publishedAt": "2026-08-25T07:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbklmMlZaVjYxTUpJU1Vsb2piNzVLSmpvQjJnMDJzX196TDY2Rk10d2plRnpRZmJJUlh0TFM3QWNjUWFKSUI3RldfbURkOWVSWTBDU09vOEI5Q2VqbVRIc2YxcXRUWjZ5dmNtSkdGMVRadi1RMlBvVTZpdUZOdktkWGdaY0VpTFFCR2QtWjNmMTdZdFctZE1LQ19WbkQtQzdtaDBjc0c4b0toQnE5M2JLZ1d0aDBTRUxGVjBIdTRWbzIxckk?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "790153e7261f762d",
+      "title": "SG Lauter II ringt Kreisoberliga-Absteiger SG Schlitzerland 2:2 ab",
+      "desc": "",
+      "date": "2026-08-24",
+      "publishedAt": "2026-08-24T07:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNYUtxdVNnVGZ3cG82WU95QmE4ZGE5Y0lGd2VKdkRpSk91T0twaGw4NTFnOHZlcXBPRDU3QnJ1STBMc1N1Qm5jYjZ3cGdiTHI4UGEyLURTVFBieXh1S0VwNllyRy12N21nVmdtenpFN0JjSUxDamlZTkRMeFdlR2hrYnNOQzZsLXdiSEZaSzV3am1oYXRIWUV5a0Nvd2ladHJzUlRmbUs3VXNLdmdGc3pnZ0dFX1RzRUpUdk82bzZ5V2phY1ZBOFQ0bEtn?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "f30018216b48c623",
+      "title": "SG Landenhausen trifft auf makellosen Spitzenreiter SG Haselbach",
+      "desc": "",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T07:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZXBpOEVici1oZTgxeDhKTEpDdXNDQnJFQUFzc2Z6QWZ0N3gwVnR5TFdabGRBVDFFTmhadExNY0d5WU1kd2tjdTBKNS1nUlMydmVIM1dxWDJnZHdUa1F0T2VBZ3V2RGhpWDQtX2xkMlNyZmY1aVNySE01b1dwdWhCTTMxTUMyd1NfZDJOT1Z1UVZjVTJiSjYyX3pJX3FoUmRZNi04bmIwN1ROY05qczZhb3NXaVJDTkhCdWJrcVlCbXJnc3ZRZF9DLU5xU18?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "f5d84aecd8dfd70a",
+      "title": "Herbstein will Zweckverband Vulkanradweg zum 31. Dezember auflösen",
+      "desc": "",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T07:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQN0thTjFOREI1R2J0d2pzN05Bc1Z2TlE3MDFjZFF6VTVYZGY2YjZyWllJaHZ3cHBVMWRmVmdrODVaWUZhYmlxRzRLbGFRNFBnUEk5cDhGczRnUk9ZMDJfZlBGcG5XMUJWU1RmeFh6UkNEU3ZUbWJIV1Z1UmVOMDZZZmR2MHAwUzhKb3ZuNk1aVU5pQWVzX01nU19BVUdXeXd1bkY3UU9FS2V6d2t5VnZfRGdPbDY0QU82VmhqbE5iejZUcWJ2ZUlhNHQybmZMRlItNXhsOEMwU3V0WkU?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "238214d9f6f37574",
+      "title": "Lautertaler Nachbarschaftshilfe als „Herzschlag der Region“",
+      "desc": "",
+      "date": "2026-08-21",
+      "publishedAt": "2026-08-21T07:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOLWJEel92bWdYazNOU0N5ODBVRG5DY2JWX19YSFFCamxCOFE2ajJoTlRzVXJxX2ZTZFRBSms0U2RZYmloV21pdkpLeG16SWhBRXhuV0FFSFM2TDE3YVF2NHdlU0RQeHEyald4QmVnemRWTElqTktlTkpnRFlWbFJSQUdiMHp1ZWZLUjlFQWp4eVhNMmd1QTRBdHNkNU5fQTdWREhPdXlpTy01OVdocl9LYWMxMk5mZE0xVERHMTRmdEpLanM2YlN6X3paNHdacGlqQTNwUW50bw?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "80de1821bc277860",
+      "title": "Landenhausen kassiert nach erstem Saisonsieg direkt 1:4-Klatsche",
+      "desc": "",
+      "date": "2026-08-17",
+      "publishedAt": "2026-08-17T05:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQTlBrQW5CY3FKdkItUTJYdGpOSUF2ZUhqM2FlMEIxWDh6OUtYNFhDanZ1dzhkbUtucThlUFJRemRDRk10WnZVUkZGcVBOalBoVUFCLWF2Rlh5YUlxT1B5Ums3Z3Baano3T3V4VUgyZkRYWS12VXM4b041My1fbXE1VjRpMGE4UF9OazdNSVdhMThLY1pFeDFoOHJwZ0VTX3hpVVBqSUpoSTJMelJENV9JLVhBUnZQbHpraW1Ud1poblJyNDhhZ2Nz?oc=5",
+      "via": "Google News"
     },
     {
       "id": "la-editorial-94444619",
@@ -1134,41 +1459,85 @@
       "via": "Redaktionell verlinkt"
     },
     {
-      "id": "la-editorial-94365417",
-      "title": "34 Schützen kämpfen um Königswürde – Herren brauchen über zwei Stunden",
+      "id": "23c78658302b278d",
+      "title": "SG Landenhausen geht mit zwei Heimspielen in den Punktekampf",
       "desc": "",
-      "date": "2026-06-24",
-      "publishedAt": "2026-06-24T12:00:00+02:00",
+      "date": "2026-08-14",
+      "publishedAt": "2026-08-14T07:00:00+00:00",
       "category": "Vereine",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
-      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/34-schuetzen-kaempfen-um-koenigswuerde-herren-brauchen-ueber-zwei-stunden-94365417.html",
-      "via": "Redaktionell verlinkt"
+      "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQaDRaa3NXT1hfbGthTGcwZ1VRbEdiRjJKZmwyRGQ3ZGZGVnRlUzF2Z0liRUk4bDg3Rk5Cd0JOSFlod0FXU2JIb2NxZ19WeVE1R19MVGFicDc5RnF3V1JncjdwSUZfRjBtT1dLV1BZTmRCOFRFME0wTGZzbWV4aFR6blZSM3NRSWREeEFDQlk5bnFubXpYVWxVUUtManYtSjh6bE0xQnhDS3JlMFhTb2dWY2ItWWtyNVVneGREYUZkcUcyY3lZbV8wRQ?oc=5",
+      "via": "Google News"
     },
     {
-      "id": "la-editorial-94275832",
-      "title": "Keine Förderung für Sporthalle in Landenhausen",
+      "id": "f60fa319e18fab62",
+      "title": "Turmdrehkran soll Obergeschoss des Brandhauses in Lauterbach abtragen",
       "desc": "",
-      "date": "2026-04-23",
-      "publishedAt": "2026-04-23T12:00:00+02:00",
+      "date": "2026-08-12",
+      "publishedAt": "2026-08-12T07:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Vogelsberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOeE9tVXZOM2xEaTNFc1ZlMVRyM0VZQk1ydUtvOW1DYjhOZEl2UXJpUW9jcXJPaEI0V3FPVFBLa2x0ZkJvMFhaQXptZ1BlVDAtQWVlMkljOWdPZ0lzdnJJVE02R2JwZVJiOG5kQ1dhbTQwYnAyckg3MUxlZGVOUjJ5R1YwMFJjSVF5OWVWaGtZUUtET3QxdjE1ai1OZGtJb3RmaU9ab1lJbFBodWRBVXVZWXBBMER4Vm9wY0R1X002RjJQc0ZsYWtVTkxwM1VqM2RvZW14ZFkzT2J4cUVyWHVVag?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "9753ca0c72f007d4",
+      "title": "Landenhausen verliert zweimal in drei Tagen – Lauterbach II kassiert acht Gegentore",
+      "desc": "",
+      "date": "2026-08-10",
+      "publishedAt": "2026-08-10T07:00:00+00:00",
+      "category": "Gemeinde",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUkh1MnhoV3RqYXEzOWFKa0ZSUm5relV0U0JxTTJQSlNBNGlWaC1PckFtN0dBaXUxVTVGeFcyc0RUT3dZRk1KZWFwS1ZiZUtIMG9xT0VnNy11Y1RNTXJyZldacUFldVlEd3loZENkcjRqSGpOdlBqb0c5alFvazl1S0V2Nl9SV0dwNHNZaWlOZHhFaURHdFRCYlBxWWdLakhVMFNmZi16d2N0Mkl2U0lFVVpuNVFwR055VG1MZVJjZC1yVUl6UmlOUkh2WjdMTlFTWHd4MVJOczFqMGhUVzlERw?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "a5fbd21b7035d0f8",
+      "title": "SG Landenhausen startet mit einem Doppelspieltag",
+      "desc": "",
+      "date": "2026-08-07",
+      "publishedAt": "2026-08-07T07:00:00+00:00",
       "category": "Vereine",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
       "sourceId": "la",
-      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/keine-foerderung-fuer-die-sporthalle-in-landenhausen-94275832.html",
-      "via": "Redaktionell verlinkt"
+      "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPSHIzaGxGNXJfb3MyVTUtQjF1UlE3MmlNUWo5NTFoN2RpWWFUT195dTBfTDIyN0IzN04wMTFWOS1VWlduS0RiRHk2RG51dW9jYTFOV1A3dXJ6R2pHaDZENDllYVNfNUJIZU0zR0Z4NE4xTE43R0dFRHlKZXdqT2RjZnlZbXdGR2FTSVJZQllEUGhXNFh3cDhkaXZiVGw1Wk1kMEp1amFqWGY0MEhCMGwwUGhUNkNlckN6UTdXb2tzNEVDcFdOb0llMQ?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "3abd0de13317244d",
+      "title": "SG Landenhausen trennt sich kurz vor Saisonstart von Trainer Güldner",
+      "desc": "",
+      "date": "2026-07-31",
+      "publishedAt": "2026-07-31T07:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNR0tud19LUklZS1hvcE9Bd0xfTGJ5TzZCM1BIX1dCQWpoM1hWNG14MUJGam8zTkV4N0VpT05JVjIwazRIby15X2UyallYaDM3SldjeTM4ZWNSaGxJdUdnck9TVzNZSXozOV9Xc0RMNXB2c2FSX2FJc3pJTkhfeEd2bjREQVoxYURSSFJoQ25mX2pNMWhmTXM5aFZMUVhTUFk3MHpYWUtTc2lVWXFPZWE0UkhrUzE2al9rbEhBRm1oMVZKY1RNQlVUd3pET204bXQ0?oc=5",
+      "via": "Google News"
+    },
+    {
+      "id": "2757618a43b78743",
+      "title": "SG Landenhausen startet später gegen Ex-Gruppenligist SG Aulatal",
+      "desc": "",
+      "date": "2026-07-30",
+      "publishedAt": "2026-07-30T07:00:00+00:00",
+      "category": "Vereine",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOamJka0pnU2l3U3JCdVJrdnh2MzJpSlNWMVJMUm0tSnlJQWpQVlJLQkNFbWRrdS10SkRUVHY4dkR2dWtPYW4zdGdJbVZUTDRYSTdrMTE3WW01VUFQN3ZmX1dyRWRpVGJ5enZudG80SUJUSnhsYjhGVG9lMUloM1U2b0Y1UkdXcGJIQjI5SXgzWTZVaTFXY2NzTlRIZ0JLOXkwcldBcXdURjNvSTExM3RCWmVBZW1URklscGp0MW9mMXp2VUU2aV9v?oc=5",
+      "via": "Google News"
     }
   ],
   "sources": [
-    {
-      "id": "la",
-      "name": "Lauterbacher Anzeiger",
-      "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
-      "mode": "Redaktionell verlinkt",
-      "count": 6,
-      "note": "Wartenberg-Rubrik und örtlicher Sport; automatischer Abruf wird ergänzt"
-    },
     {
       "id": "gemeinde",
       "name": "Gemeinde Wartenberg",
@@ -1218,6 +1587,14 @@
       "note": ""
     },
     {
+      "id": "la",
+      "name": "Lauterbacher Anzeiger",
+      "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
+      "mode": "Google News",
+      "count": 40,
+      "note": ""
+    },
+    {
       "id": "winfo",
       "name": "Wartenberg-iNFO",
       "url": "https://www.wartenberg-info.de/",
@@ -1226,6 +1603,6 @@
       "note": ""
     }
   ],
-  "feedCount": 6,
-  "note": "Nur RSS-/Index-Überschriften und Quellenlinks, keine fremden Artikelvolltexte. | Lauterbacher Anzeiger: unabhängig verifizierte Artikel-Links, keine Artikelvolltexte; einzelne Zielseiten können ein Abo voraussetzen."
+  "feedCount": 7,
+  "note": "Nur RSS-/Index-Überschriften und Quellenlinks, keine fremden Artikelvolltexte."
 }
