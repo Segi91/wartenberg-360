@@ -1,5 +1,5 @@
-const CACHE = 'wartenberg360-v10-official-v22';
-const CORE = ['./', './index.html', './style.css?v=20261011-v22-official', './app.js?v=20261011-v22-official', './news.json','./data/events.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
+const CACHE = 'wartenberg360-v11-places90';
+const CORE = ['./', './index.html', './style.css?v=20261011-places90', './app.js?v=20261011-places90', './news.json','./data/events.json', './data/places.json', './manifest.webmanifest', './icon.svg', './icon-192.png', './icon-512.png'];
 self.addEventListener('install', event => event.waitUntil(
   caches.open(CACHE).then(cache => Promise.allSettled(CORE.map(url => cache.add(url)))).then(() => self.skipWaiting())
 ));
@@ -11,8 +11,10 @@ self.addEventListener('fetch', event => {
   if (req.method !== 'GET') return;
   const url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
-  const isNews = url.pathname.endsWith('/news.json');
-  const key = isNews ? './news.json' : req;
+  const names = {'/news.json':'./news.json','/data/events.json':'./data/events.json','/data/places.json':'./data/places.json'};
+  const path = url.pathname;
+  const canonical = Object.keys(names).find(suffix => path.endsWith(suffix));
+  const key = canonical ? names[canonical] : req;
   event.respondWith(
     fetch(req).then(response => {
       if(response.ok) {
