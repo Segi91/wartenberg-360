@@ -52,15 +52,15 @@ async function main(){
  const news=launch('news');
  await new Promise(r=>setTimeout(r,35));
  let html=news.elements['#content'].innerHTML;
- assert(html.includes('Was bewegt unsere Gemeinde?'),'News intro missing');
+ assert(html.includes('Aktuelles aus Wartenberg'),'News intro missing');
  assert(html.includes('Gemeinschaft &amp; Ehrenamt')||html.includes('Gemeinschaft & Ehrenamt'),'Community category missing');
  assert(html.includes('Kultur &amp; Musik')||html.includes('Kultur & Musik'),'Culture category missing');
  assert(html.includes('data-news-topic='),'Topic filters missing');
- assert(html.includes('Abseits des Spielfelds'),'Non-sport highlights missing');
+ assert(html.includes('Aus dem Gemeindeleben'),'Local-news highlights missing');
  assert(html.includes('SG Landenhausen')||html.includes('Sport'),'Sport still accessible');
  assert(html.includes('news-card'),'News cards absent');
  assert(html.includes('Neueste zuerst')&&html.includes('Älteste zuerst'),'News date sorting not available');
- assert(!html.includes('Alle Vereine, nicht nur Sport'),'Unwanted intro text still present');
+ assert(!html.includes('nicht nur Fußball')&&!html.includes('Abseits des Spielfelds')&&!html.includes('Alle Vereine, nicht nur Sport'),'Unwanted football comparison text still present');
  assert(html.includes('data-reader="news"'),'In-app article reading action absent');
  assert(!html.includes('Zu dieser Meldung liegt noch keine eigenständig formulierte Zusammenfassung vor.'),'Old empty reader warning still present');
  const newestWithSummary=data.items.find(n=>(n.summaryType==='Redaktionelle Zusammenfassung'||n.editorial)&&String(n.desc||'').length>=60);
