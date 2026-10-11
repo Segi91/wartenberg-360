@@ -56,6 +56,17 @@ class OfficialParserTests(unittest.TestCase):
         self.assertEqual(items[0]["title"],"Kirmes in Angersbach")
         self.assertEqual(items[1]["location"],"Landenhausen")
 
+    def test_variant_spellings_do_not_duplicate_club_events(self):
+        a={"start":"2026-10-24","title":"Liederabend 135-jähriges Bestehen MGV Landenhausen","organizer":"Männergesangsverein Landenhausen"}
+        b={"start":"2026-10-24","title":"Liederabend zum 135-jährigen Bestehen des MGV Landenhausen","organizer":"Männergesangverein Landenhausen"}
+        self.assertTrue(official.same_event(a,b))
+        a2={"start":"2026-12-07","title":"Preis-Schießen / Geflügel-Schießen","organizer":"Schützenabteilung Sportgemeinschaft Landenhausen"}
+        b2={"start":"2026-12-07","title":"Preis- und Geflügelschießen","organizer":"Schützenabteilung Sportgemeinschaft Landenhausen"}
+        self.assertTrue(official.same_event(a2,b2))
+        self.assertFalse(official.same_event(
+            {"start":"2026-12-12","title":"Weihnachtsmarkt","organizer":"Vereinsgemeinschaft Landenhausen"},
+            {"start":"2026-12-12","title":"Weihnachtskonzert","organizer":"Musikverein Landenhausen"}))
+
     def test_non_official_urls_are_rejected(self):
         self.assertFalse(official.safe_official_link("https://malicious.example/",official.NEWS_URL))
         self.assertTrue(official.safe_official_link("/alle-news.html",official.NEWS_URL))
