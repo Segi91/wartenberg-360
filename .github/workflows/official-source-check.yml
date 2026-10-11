@@ -1,0 +1,22 @@
+name: Offizielle Wartenberg-Quellen prüfen (ohne KI)
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/sync_official.py'
+      - '.github/workflows/official-source-check.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 4
+    steps:
+      - uses: actions/checkout@v4
+      - name: Python-Syntax prüfen
+        run: python3 -m py_compile scripts/sync_official.py
+      - name: Amtliche Nachrichten und Veranstaltungen prüfen (nur Vorschau)
+        run: python3 -u scripts/sync_official.py --probe
