@@ -62,6 +62,12 @@ async function main(){
  assert(html.includes('Neueste zuerst')&&html.includes('Älteste zuerst'),'News date sorting not available');
  assert(!html.includes('Alle Vereine, nicht nur Sport'),'Unwanted intro text still present');
  assert(html.includes('data-reader="news"'),'In-app article reading action absent');
+ assert(!html.includes('Zu dieser Meldung liegt noch keine eigenständig formulierte Zusammenfassung vor.'),'Old empty reader warning still present');
+ const newestWithSummary=data.items.find(n=>(n.summaryType==='Redaktionelle Zusammenfassung'||n.editorial)&&String(n.desc||'').length>=60);
+ const withoutSummary=data.items.find(n=>!n.desc&&!n.body);
+ assert(newestWithSummary&&withoutSummary,'Need a sample article with/without summary');
+ assert(html.includes('Kurzfassung lesen'),'Summarized story must have reader action');
+
  const click=news.events['click'];
  assert(typeof click==='function','Click navigation missing');
  const topicBtn={getAttribute:n=>n==='data-news-topic'?'Kultur & Musik':null,hasAttribute:n=>n==='data-news-topic',dataset:{}};
@@ -113,6 +119,14 @@ async function main(){
  articleClick({target:{id:'',closest(sel){return sel==='button'||sel==='a,button'?openBtn:null;}}});
  assert(articlePage.elements['#reader-modal'].hidden===false,'Article reader did not open');
  assert(articlePage.elements['#reader-content'].innerHTML.includes('Bundeswehr'),'Article content not displayed in reader');
+ assert(!articlePage.elements['#reader-content'].innerHTML.includes('Zu dieser Meldung liegt noch keine eigenständig formulierte Zusammenfassung vor.'),'Placeholder must not appear');
+ const noSummaryPage=launch('news');
+ await new Promise(r=>setTimeout(r,40));
+ const noSummaryClick=noSummaryPage.events['click'];
+ const blocked={id:'',dataset:{},hasAttribute:n=>n==='data-reader',getAttribute:n=>n==='data-reader'?'news':n==='data-reader-id'?withoutSummary.id:null};
+ noSummaryClick({target:{id:'',closest(sel){return sel==='button'||sel==='a,button'?blocked:null;}}});
+ assert(noSummaryPage.elements['#reader-modal'].hidden!==false,'Unsummarized news must not open an empty reader');
+
  const clubsReader=launch('clubs');
  const clubClick=clubsReader.events['click'];
  const openClub={id:'',dataset:{},hasAttribute:n=>n==='data-reader',getAttribute:n=>n==='data-reader'?'club':n==='data-reader-id'?'c0':null};
