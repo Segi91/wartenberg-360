@@ -1,0 +1,211 @@
+#!/usr/bin/env python3
+"""Wartenberg 360: Quellengebundener RSS-/Nachrichtenindex, keine Artikel-Volltexte."""
+from __future__ import annotations
+
+import datetime as dt
+import email.utils
+import hashlib
+import html
+import json
+from pathlib import Path
+import re
+import time
+from urllib.parse import urlencode, urlparse
+from urllib.request import Request, urlopen
+import xml.etree.ElementTree as ET
+
+ROOT = Path(__file__).resolve().parents[1]
+OUTPUT = ROOT / "news.json"
+UTC = dt.timezone.utc
+NOW = dt.datetime.now(UTC)
+MAX_DAYS = 45
+REGION = ("wartenberg", "angersbach", "landenhausen", "vogelsberg",
+          "lauterbach", "alsfeld", "schlitz", "herbstein", "schotten",
+          "grebenhain", "mücke", "hosenfeld", "lautertal", "feldatal",
+          "ulrichstein", "kirtorf", "romrod", "grebenau", "antrifttal")
+LOCAL = ("wartenberg", "angersbach", "landenhausen")
+
+SOURCES = [
+    dict(id="gemeinde", name="Gemeinde Wartenberg",
+         url="https://www.gemeinde-wartenberg.de/alle-news.html", domain="gemeinde-wartenberg.de",
+         category="Gemeinde", site_only=True, direct=[]),
+    dict(id="kreis", name="Vogelsbergkreis", url="https://www.vogelsbergkreis.de/",
+         domain="vogelsbergkreis.de", category="Vogelsberg", site_only=True,
+         direct=["https://www.lifepr.de/rss/pressemitteilungen/newsroom/kreisausschuss-des-vogelsbergkreises"]),
+    dict(id="polizei", name="Polizeipräsidium Osthessen",
+         url="https://www.presseportal.de/blaulicht/nr/43558", domain="presseportal.de",
+         category="Blaulicht", site_only=False,
+         direct=["https://www.presseportal.de/rss/dienststelle_43558.rss2"]),
+    dict(id="oberhessen", name="Oberhessen-live",
+         url="https://www.oberhessen-live.de/vogelsberg/", domain="oberhessen-live.de",
+         category="Vogelsberg", site_only=False,
+         direct=["https://www.oberhessen-live.de/feed/"]),
+    dict(id="osthessen", name="Osthessen News", url="https://osthessen-news.de/",
+         domain="osthessen-news.de", category="Vogelsberg", site_only=False, direct=[]),
+    dict(id="fulda", name="Fuldaer Zeitung",
+         url="https://www.fuldaerzeitung.de/vogelsberg/", domain="fuldaerzeitung.de",
+         category="Vogelsberg", site_only=False, direct=[]),
+    dict(id="winfo", name="Wartenberg-iNFO", url="https://www.wartenberg-info.de/",
+         domain="wartenberg-info.de", category="Gemeinde", site_only=True,
+         direct=["https://www.wartenberg-info.de/feed/"]),
+]
+
+def google_rss(source):
+    query = "site:" + source["domain"]
+    if not source["site_only"]:
+        query += " (Vogelsberg OR Wartenberg OR Angersbach OR Landenhausen OR Lauterbach OR Alsfeld OR Schlitz OR Herbstein OR Schotten OR Grebenhain)"
+    query += " when:30d"
+    return "https://news.google.com/rss/search?" + urlencode({
+        "q": query, "hl": "de", "gl": "DE", "ceid": "DE:de"})
+
+def fetch_feed(url):
+    request = Request(url, headers={
+        "User-Agent": "Wartenberg360/1.0 (+https://github.com/Segi91/wartenberg-360)",
+        "Accept": "application/rss+xml,application/atom+xml,application/xml,text/xml;q=0.9,*/*;q=0.3"})
+    with urlopen(request, timeout=18) as response:
+        if response.status != 200:
+            raise ValueError("HTTP " + str(response.status))
+        content = response.read(1_500_001)
+        if len(content) > 1_500_000:
+            raise ValueError("Feed too large")
+        if not any(tag in content[:3000] for tag in (b"<rss", b"<feed", b"<rdf:RDF")):
+            raise ValueError("Not a feed")
+        return content
+
+def child(node, *names):
+    for name in names:
+        for element in node.iter():
+            if element is node or element.tag.rsplit("}", 1)[-1] != name:
+                continue
+            if name == "link" and element.attrib.get("href"):
+                return element.attrib["href"]
+            if element.text and element.text.strip():
+                return element.text.strip()
+    return ""
+
+def plain(value):
+    value = re.sub(r"<[^>]*>", " ", value)
+    return re.sub(r"\s+", " ", html.unescape(value)).strip()
+
+def parse_date(value):
+    if not value:
+        return None
+    try:
+        date = email.utils.parsedate_to_datetime(value)
+    except (TypeError, ValueError):
+        try:
+            date = dt.datetime.fromisoformat(value.replace("Z", "+00:00"))
+        except ValueError:
+            return None
+    if date.tzinfo is None:
+        date = date.replace(tzinfo=UTC)
+    return date.astimezone(UTC)
+
+def safe_link(link):
+    parsed = urlparse(link)
+    return parsed.scheme == "https" and bool(parsed.hostname) and not parsed.username and not parsed.password
+
+def classify(title, summary, source):
+    content = (title + " " + summary).casefold()
+    local = any(term in content for term in LOCAL) or source["id"] in ("gemeinde", "winfo")
+    location = "Wartenberg" if local else "Vogelsberg"
+    if source["id"] == "polizei":
+        return "Blaulicht", location
+    if any(term in content for term in ("verein", "fußball", "fussball", "tennis", "sport", "bundesliga")):
+        return "Vereine", location
+    if any(term in content for term in ("sperrung", "verkehr", "straße", "strasse", "unfall", "baustelle")):
+        return "Verkehr", location
+    return ("Gemeinde" if local else source["category"]), location
+
+def parse_feed(xml, source, via):
+    root = ET.fromstring(xml)
+    entries = [e for e in root.iter() if e.tag.rsplit("}", 1)[-1] in ("item", "entry")]
+    articles = []
+    for entry in entries[:90]:
+        title = plain(child(entry, "title"))
+        url = plain(child(entry, "link"))
+        published = parse_date(child(entry, "pubDate", "published", "updated", "date"))
+        summary = plain(child(entry, "description", "summary"))
+        if via == "Google News":
+            suffix = " - " + source["name"]
+            if title.endswith(suffix):
+                title = title[:-len(suffix)]
+        if not title or not safe_link(url) or not published:
+            continue
+        if published > NOW + dt.timedelta(hours=5) or published < NOW - dt.timedelta(days=MAX_DAYS):
+            continue
+        if via != "Google News" and not source["site_only"]:
+            if not any(term in (title + " " + summary).casefold() for term in REGION):
+                continue
+        host = urlparse(url).hostname or ""
+        if via == "Google News":
+            if host not in ("news.google.com", "www.google.com") and not (
+                host == source["domain"] or host.endswith("." + source["domain"])):
+                continue
+        elif host != source["domain"] and not host.endswith("." + source["domain"]) and not (
+                source["id"] == "kreis" and host.endswith("lifepr.de")):
+            continue
+        category, locality = classify(title, summary, source)
+        article_id = hashlib.sha256((source["id"] + "\n" + url).encode()).hexdigest()[:16]
+        articles.append(dict(
+            id=article_id, title=title[:220], desc="", date=published.date().isoformat(),
+            publishedAt=published.isoformat(timespec="seconds"),
+            category=category, locality=locality, sourceName=source["name"],
+            sourceId=source["id"], source=url, via=via))
+    return articles
+
+def run():
+    try:
+        previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        previous = {}
+    old = {x["id"]: x for x in previous.get("items", []) if isinstance(x, dict) and
+           x.get("id") and x.get("title") and x.get("source")}
+    statuses = []
+    success = 0
+    for source in SOURCES:
+        articles = []
+        via = ""
+        errors = []
+        candidates = [(url, "RSS") for url in source["direct"]] + [(google_rss(source), "Google News")]
+        for url, method in candidates:
+            try:
+                found = parse_feed(fetch_feed(url), source, method)
+                if found:
+                    articles, via = found, method
+                    break
+                errors.append(method + ": keine aktuellen passenden Artikel")
+            except Exception as ex:
+                errors.append(method + ": " + type(ex).__name__)
+        if articles:
+            success += 1
+            for article in articles:
+                old[article["id"]] = article
+        statuses.append(dict(id=source["id"], name=source["name"], url=source["url"],
+                             mode=via if articles else "Nur Quelle",
+                             count=len(articles), note="; ".join(errors)[:180] if not articles else ""))
+        print(source["name"] + ": " + str(len(articles)) + " Artikel, " + (via or "Quelllink"))
+        time.sleep(0.1)
+    if not success and previous.get("updatedAt"):
+        print("Kein Feed verfügbar: letzte erfolgreiche Daten beibehalten")
+        return
+    oldest = (NOW - dt.timedelta(days=MAX_DAYS)).date().isoformat()
+    items = [x for x in old.values() if x.get("date", "") >= oldest and safe_link(x.get("source", ""))]
+    items.sort(key=lambda item: item.get("publishedAt", item["date"]), reverse=True)
+    # Cross-source duplicate titles from the same day
+    seen = set()
+    unique = []
+    for item in items:
+        key = (item["date"], re.sub(r"\W+", "", item["title"].casefold())[:95])
+        if key not in seen:
+            seen.add(key)
+            unique.append(item)
+    result = dict(version=1,
+                  updatedAt=NOW.isoformat(timespec="seconds").replace("+00:00", "Z") if success else None,
+                  items=unique[:180], sources=statuses, feedCount=success,
+                  note="Nur RSS-/Index-Überschriften und Quellenlinks, keine fremden Artikelvolltexte.")
+    OUTPUT.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print("Gespeichert:", len(unique[:180]), "Nachrichten von", success, "Quellen.")
+
+if __name__ == "__main__":
+    run()
