@@ -24,10 +24,12 @@ jobs:
       - name: Check JavaScript syntax
         run: node --check app.js
       - name: Check news updater syntax
-        run: python3 -m py_compile scripts/update_news.py scripts/news_topics.py
+        run: python3 -m py_compile scripts/update_news.py scripts/news_topics.py scripts/sync_official.py
       - name: Check structured data
         run: |
           python3 -m json.tool news.json > /dev/null
           python3 -m json.tool data/curated_news.json > /dev/null
+      - name: Prüfe amtliche Quellenadapter ohne Internet
+        run: python3 -m unittest discover -s tests -p 'test_official_sync.py' -v
       - name: Test homepage and news feed
         run: node tests/smoke.cjs
