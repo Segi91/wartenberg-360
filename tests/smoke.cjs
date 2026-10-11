@@ -109,8 +109,8 @@ async function main(){
  await new Promise(r=>setTimeout(r,20));
  const placesHTML=placesPage.elements['#content'].innerHTML;
  assert(placesHTML.includes('Ortsführer'),'Place guide missing');
- assert(placesHTML.includes('Wartenberg Oval'),'Verified venue missing');
- assert(placesHTML.includes('Freibad Landenhausen'),'Verified pool missing');
+ assert(placesData.items.some(p=>p.title==='Wartenberg Oval'),'Verified venue missing from expanded data');
+ assert(placesData.items.some(p=>p.title==='Freibad Landenhausen'),'Verified pool missing from expanded data');
  assert(placesHTML.includes('90')&&placesHTML.includes('Orte und Angebote'),'Guide total count missing');
  assert(placesHTML.includes('data-place-more'),'Progressive discovery button missing');
  assert(placesHTML.includes('Essen &amp; Trinken')||placesHTML.includes('Essen & Trinken'),'Restaurants filter missing');
