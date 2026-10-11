@@ -134,8 +134,11 @@ def parse_feed(xml, source, via):
             continue
         if published > NOW + dt.timedelta(hours=5) or published < NOW - dt.timedelta(days=MAX_DAYS):
             continue
-        if via != "Google News" and not source["site_only"]:
-            if not any(term in (title + " " + summary).casefold() for term in REGION):
+        if not source["site_only"]:
+            # News-index descriptions can contain unrelated headlines:
+            # require regional place names in the HEADLINE itself for indexed feeds.
+            text = title if via == "Google News" else title + " " + summary
+            if not any(term in text.casefold() for term in REGION):
                 continue
         host = urlparse(url).hostname or ""
         if via == "Google News":
@@ -178,6 +181,7 @@ def run():
             except Exception as ex:
                 errors.append(method + ": " + type(ex).__name__)
         if articles:
+            articles = articles[:40]
             success += 1
             for article in articles:
                 old[article["id"]] = article
@@ -190,16 +194,24 @@ def run():
         print("Kein Feed verfügbar: letzte erfolgreiche Daten beibehalten")
         return
     oldest = (NOW - dt.timedelta(days=MAX_DAYS)).date().isoformat()
-    items = [x for x in old.values() if x.get("date", "") >= oldest and safe_link(x.get("source", ""))]
+    items = [x for x in old.values()
+             if x.get("date", "") >= oldest and safe_link(x.get("source", ""))
+             and (x.get("sourceId") in ("gemeinde", "kreis", "winfo")
+                  or x.get("via") != "Google News"
+                  or any(term in x.get("title", "").casefold() for term in REGION))]
     items.sort(key=lambda item: item.get("publishedAt", item["date"]), reverse=True)
     # Cross-source duplicate titles from the same day
     seen = set()
     unique = []
+    source_counts = {}
     for item in items:
         key = (item["date"], re.sub(r"\W+", "", item["title"].casefold())[:95])
-        if key not in seen:
-            seen.add(key)
-            unique.append(item)
+        publisher = item.get("sourceId", "other")
+        if key in seen or source_counts.get(publisher, 0) >= 35:
+            continue
+        seen.add(key)
+        source_counts[publisher] = source_counts.get(publisher, 0) + 1
+        unique.append(item)
     result = dict(version=1,
                   updatedAt=NOW.isoformat(timespec="seconds").replace("+00:00", "Z") if success else None,
                   items=unique[:180], sources=statuses, feedCount=success,
