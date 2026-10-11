@@ -4,6 +4,13 @@ const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/st
 const app=fs.readFileSync('app.js','utf8');
 const data=JSON.parse(fs.readFileSync('news.json','utf8'));
 const eventData=JSON.parse(fs.readFileSync('data/events.json','utf8'));
+const placesData=JSON.parse(fs.readFileSync('data/places.json','utf8'));
+assert(placesData.items.length>=80,'Place guide unexpectedly small');
+assert(new Set(placesData.items.map(x=>x.id)).size===placesData.items.length,'Duplicated place IDs');
+assert(new Set(placesData.items.map(x=>x.location+'|'+x.title)).size===placesData.items.length,'Duplicated venue names in locality');
+assert(placesData.items.every(x=>x.source.startsWith('https://')),'Missing trustworthy source for a place');
+assert(placesData.items.every(x=>x.address===null||x.address.endsWith('36367 Wartenberg')),'Unverified town address');
+
 assert(data.version>=2,'Missing v2 news schema');
 assert(Array.isArray(data.items)&&data.items.length>20,'Expected real news entries');
 assert(data.items.filter(x=>x.locality==='Wartenberg'&&x.topic!=='Sport').length>=8,'Non-sport articles missing');
@@ -42,6 +49,7 @@ function launch(hash) {
   fetch:async url=>{
     if(String(url).includes('news.json'))return {ok:true,json:async()=>data};
     if(String(url).includes('data/events.json'))return {ok:true,json:async()=>eventData};
+    if(String(url).includes('data/places.json'))return {ok:true,json:async()=>placesData};
     throw Error('Offline-weather-test');
   }
  });
@@ -103,6 +111,24 @@ async function main(){
  assert(placesHTML.includes('Ortsführer'),'Place guide missing');
  assert(placesHTML.includes('Wartenberg Oval'),'Verified venue missing');
  assert(placesHTML.includes('Freibad Landenhausen'),'Verified pool missing');
+ assert(placesHTML.includes('90')&&placesHTML.includes('Orte und Angebote'),'Guide total count missing');
+ assert(placesHTML.includes('data-place-more'),'Progressive discovery button missing');
+ assert(placesHTML.includes('Essen &amp; Trinken')||placesHTML.includes('Essen & Trinken'),'Restaurants filter missing');
+ assert(placesHTML.includes('Gesundheit'),'Healthcare filter missing');
+ assert(placesHTML.includes('Wandern &amp; Radfahren')||placesHTML.includes('Wandern & Radfahren'),'Trails filter missing');
+ assert(vm.runInContext('places.length',placesPage.ctx)===placesData.items.length,'All verified places must load');
+ const placeClick=placesPage.events['click'];
+ const placeBtn={hasAttribute:n=>n==='data-place-topic',getAttribute:n=>n==='data-place-topic'?'Essen & Trinken':null,dataset:{},id:''};
+ placeClick({target:{id:'',closest:()=>placeBtn}});
+ const gastroHtml=placesPage.elements['#content'].innerHTML;
+ assert(gastroHtml.includes('Bej Jerje')&&gastroHtml.includes('DorfBräuHaus'),'Gastronomy filter broken');
+ assert(!gastroHtml.includes('Spielplatz Krombergsweg'),'Filter includes unrelated places');
+ const routeBtn={hasAttribute:n=>n==='data-place-topic',getAttribute:n=>n==='data-place-topic'?'Wandern & Radfahren':null,dataset:{},id:''};
+ placeClick({target:{id:'',closest:()=>routeBtn}});
+ const routesHtml=placesPage.elements['#content'].innerHTML;
+ assert(routesHtml.includes('Sonnenweg der Poesie'),'Verified official hiking route absent');
+ assert(!routesHtml.includes('Karten-Suche'),'Hiking routes without verified entry coordinates must not offer misleading map links');
+
  const remaining=['events','waste','service','weather','settings'];
  for(const page of remaining){
    const v=launch(page);
