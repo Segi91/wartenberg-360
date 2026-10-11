@@ -330,7 +330,7 @@ function searchClose(){$('#search-modal').hidden=true;document.body.style.overfl
 function searchResults(query){const q=query.toLocaleLowerCase('de').trim();const all=[...news.map(n=>({title:n.title,sub:'Nachricht · '+(n.sourceName||n.category),page:'news'})),...events.map(e=>({title:e.title,sub:'Veranstaltung · '+e.location,page:'events'})),...clubs.map(c=>({title:c.title,sub:'Verein · '+c.location,page:'clubs'})),...places.map(p=>({title:p.title,sub:'Ortsführer · '+p.location,page:'places'})),...pages.map(p=>({title:p[1],sub:'Bereich',page:p[0]}))];const items=all.filter(x=>(x.title+' '+x.sub).toLocaleLowerCase('de').includes(q)).slice(0,12);$('#search-results').innerHTML=items.map(x=>`<button class="search-result" data-search-go="${x.page}"><span style="color:var(--accent);font-size:22px">⌕</span><span><strong>${esc(x.title)}</strong><span>${esc(x.sub)}</span></span></button>`).join('')||empty('Probiere einen anderen Suchbegriff.');}
 document.addEventListener('click',e=>{
   if(e.target.id==='reader-modal'){closeReader();return}
-  const close=e.target.closest('#reader-close');if(close){closeReader();return}
+  const close=e.target.closest('#reader-close');if(close?.id==='reader-close'){closeReader();return}
   const button=e.target.closest('button');
   if(button?.hasAttribute('data-reader')){openReader(button.getAttribute('data-reader'),button.getAttribute('data-reader-id'));return}
   if(!e.target.closest('a,button')){const card=e.target.closest('[data-reader-card]');if(card){openReader(card.getAttribute('data-reader-card'),card.getAttribute('data-reader-id'));return}}
