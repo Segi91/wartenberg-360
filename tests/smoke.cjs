@@ -73,6 +73,26 @@ async function main(){
  assert(homeHtml.includes('Schön, dass du'),'Home hero missing');
  assert(homeHtml.includes('Aus unserem Dorfleben'),'Community digest missing');
  assert(homeHtml.includes('news-card'),'Home news cards missing');
- console.log('OK: '+data.items.length+' Nachrichten, '+curated.items.length+' geprüfte Links; News/Filter/Home gerendert.');
+ const clubPage=launch('clubs');
+ await new Promise(r=>setTimeout(r,20));
+ const clubsHTML=clubPage.elements['#content'].innerHTML;
+ assert(clubsHTML.includes('Vereine &amp; Initiativen')||clubsHTML.includes('Vereine & Initiativen'),'Club directory missing');
+ assert(clubsHTML.includes('Kulturverein Landenhausen'),'Culture club missing');
+ assert(clubsHTML.includes('Schützenverein Angersbach'),'Schützenverein missing');
+ const placesPage=launch('places');
+ await new Promise(r=>setTimeout(r,20));
+ const placesHTML=placesPage.elements['#content'].innerHTML;
+ assert(placesHTML.includes('Ortsführer'),'Place guide missing');
+ assert(placesHTML.includes('Wartenberg Oval'),'Verified venue missing');
+ assert(placesHTML.includes('Freibad Landenhausen'),'Verified pool missing');
+ const remaining=['events','waste','service','weather','settings'];
+ for(const page of remaining){
+   const v=launch(page);
+   await new Promise(r=>setTimeout(r,10));
+   const h=v.elements['#content'].innerHTML;
+   assert(h.length>250,'Page empty: '+page);
+   assert(!h.includes('Inhalte vorübergehend nicht verfügbar'),'Rendering failed: '+page);
+ }
+ console.log('OK: '+data.items.length+' Nachrichten, '+curated.items.length+' geprüfte Links; 9 Seiten und alle Filter gerendert.');
 }
 main().catch(err=>{console.error(err);process.exitCode=1;});
