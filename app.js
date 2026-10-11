@@ -140,7 +140,7 @@ function viewNewsV2() {
   const renderList=filtered.slice(0,newsLimit);
   return `${heading("Deine Gemeinde. Deine Themen.","Nachrichten aus Wartenberg","Echte Ortsmeldungen: Rathaus, Kultur, Vereine, Familie und Sport. Der restliche Vogelsberg bleibt separat erreichbar.")}
     <section class="v2-news-intro">
-       <div><div class="v2-eyebrow">WARTENBERG 360 · VERSION 2.0</div><h2>Was bewegt unsere Gemeinde?</h2><p>Angersbach und Landenhausen – nicht nur Fußball. Finde die Themen, die dich interessieren.</p>
+       <div><div class="v2-eyebrow">WARTENBERG 360 · VERSION 2.0</div><h2>Aktuelles aus Wartenberg</h2><p>Nachrichten und Informationen aus Angersbach und Landenhausen.</p>
          <div class="v2-live-note">◷ ${esc(newsFreshness())} <button class="text-button" data-news-refresh type="button">↻ Aktualisieren</button></div></div>
        <div class="v2-intro-stats"><strong>${localCount}</strong><span>Ortsmeldungen<br>mit Quellenlink</span></div>
     </section>
@@ -156,7 +156,7 @@ function viewNewsV2() {
       <label class="news-source-select"><span>Nachrichtenquelle</span><select class="select" data-news-source aria-label="Nachrichtenquelle"><option value="Alle">Alle Quellen</option>${publishers.map(name=>`<option value="${esc(name)}" ${newsSource===name?"selected":""}>${esc(name)}</option>`).join("")}</select></label>
       <label class="news-source-select"><span>Sortierung</span><select class="select" data-news-sort aria-label="Nachrichten nach Datum sortieren"><option value="newest" ${newsSort==="newest"?"selected":""}>Neueste zuerst</option><option value="oldest" ${newsSort==="oldest"?"selected":""}>Älteste zuerst</option></select></label> ${searchBox()} <button type="button" class="chip ${onlyFavorites?"active":""} data-only-favs="true" aria-label="Gemerkte Nachrichten anzeigen">★ Merkliste</button>
     </div>
-    ${highlights.length?`<div class="page-section v2-feature-section"><div class="v2-section-title"><h2>Abseits des Spielfelds</h2><span>Kultur, Ehrenamt, Rathaus und Dorfleben</span></div><div class="v2-feature-grid">${highlights.map((n,i)=>`<div class="${i===0?"v2-feature-lead":""}">${nCard(n)}</div>`).join("")}</div></div>`:""}
+    ${highlights.length?`<div class="page-section v2-feature-section"><div class="v2-section-title"><h2>Aus dem Gemeindeleben</h2><span>Aktuelle Meldungen aus verschiedenen Bereichen</span></div><div class="v2-feature-grid">${highlights.map((n,i)=>`<div class="${i===0?"v2-feature-lead":""}">${nCard(n)}</div>`).join("")}</div></div>`:""}
     <div class="page-section"><div class="v2-section-title"><h2>${newsTopicFilter==="Alle Themen"?(scope==="Wartenberg"?"Weitere Nachrichten vor Ort":"Nachrichten aus der Region"):esc(newsTopicFilter)}</h2><span>${filtered.length+highlights.length} passende Artikel</span></div>
       <div class="news-grid">${renderList.length?renderList.map(nCard).join(""):highlights.length?"":empty("Für diese Auswahl wurden keine weiteren Meldungen gefunden. Wähle eine andere Kategorie oder Quelle.")}</div>
       ${filtered.length>newsLimit?`<button type="button" class="v2-load-more" data-news-more>Weitere ${Math.min(18,filtered.length-newsLimit)} Nachrichten anzeigen ↓</button>`:""}
@@ -175,7 +175,7 @@ function viewClubsV2() {
      &&(!onlyFavorites||fav.includes(c.id))
      &&[c.title,c.category,c.location].join(" ").toLocaleLowerCase("de").includes(search.toLocaleLowerCase("de")));
   return `${heading("Engagement verbindet","Vereine & Initiativen","Musik, Kultur, Jugend, Ehrenamt, Natur und Sport – das Vereinsleben aus beiden Ortsteilen.")}
-  <section class="v2-club-intro"><div><span class="v2-eyebrow">VEREINSLEBEN IN WARTENBERG</span><h2>Mehr als Sport.</h2><p>Aus der offiziellen Vereinsübersicht der Gemeinde ergänzt um den Freibad-Förderverein von 2026. Ein Verein fehlt? Nutze die Quellenübersicht.</p></div><div class="v2-club-stat"><strong>${clubs.length}</strong><span>Vereine & Gruppen</span></div></section>
+  <section class="v2-club-intro"><div><span class="v2-eyebrow">VEREINSLEBEN IN WARTENBERG</span><h2>Vereine und Initiativen</h2><p>Einträge aus der offiziellen Vereinsübersicht, ergänzt um weitere örtliche Gruppen und Abteilungen.</p></div><div class="v2-club-stat"><strong>${clubs.length}</strong><span>Vereine & Gruppen</span></div></section>
   <div class="toolbar"><div class="filters">${["Alle","Angersbach","Landenhausen"].map(v=>`<button type="button" class="chip ${filter===v?"active":""}" data-filter="${v}">${esc(v)}</button>`).join("")}<button type="button" class="chip ${onlyFavorites?"active":""}" data-only-favs="true">★ Gemerkte</button></div>${searchBox()}</div>
   <div class="v2-club-categories"><div class="v2-section-title"><h2>Aktivitäten entdecken</h2><span>${countHere} Einträge im ausgewählten Ortsteil</span></div><div class="v2-topic-chips">${cats.map(c=>`<button type="button" class="v2-topic-chip ${clubCategory===c?"active":""}" data-club-topic="${esc(c)}">${esc(c)} <span>${clubs.filter(x=>(filter==="Alle"||x.location===filter)&&(c==="Alle"||x.category===c)).length}</span></button>`).join("")}</div></div>
   <div class="v2-section-title" style="margin:24px 0 14px"><h2>Alle passenden Vereine</h2><span>${arr.length} Einträge</span></div>
