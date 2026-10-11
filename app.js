@@ -297,7 +297,7 @@ function placeMapSwitcher(items){
     <div class="w360-place-switch" role="group" aria-label="Ansicht auswählen">
      <button type="button" data-place-view="map" aria-pressed="${onMap}" class="${onMap?"active":""}">🗺️ Karte</button>
      <button type="button" data-place-view="list" aria-pressed="${!onMap}" class="${!onMap?"active":""}">▤ Liste</button>
-    </div><span>${located} von ${items.length} Orten auf der Karte · ${items.length-located} ohne sicheren Kartenpunkt</span>
+    </div><span>${located} von ${items.length} Orten verortet · ${items.length-located} ohne sicheren Kartenpunkt</span>
   </section>`;
 }
 function placeMapMarkup(items){
@@ -310,7 +310,7 @@ function placeMapMarkup(items){
    <div class="w360-map-frame"><div id="w360-map" aria-label="Interaktive Karte von Wartenberg mit Standortmarkierungen" role="application"></div>
      <div class="w360-map-gesture">Karte verschieben: ziehen · Zoomen: + / − · Ort auswählen: rechts oder unten antippen</div></div>
    <aside id="w360-map-sidebar" class="w360-map-sidebar" aria-label="Alle passenden Orte">
-      <div class="w360-map-sidebar-heading"><strong>${items.length} Orte im Filter</strong><span>${plotted.length} Kartenpunkte · ${unplotted.length} ohne genaue Position</span></div>
+      <div class="w360-map-sidebar-heading"><strong>${items.length} Orte im Filter</strong><span>${plotted.length} Orte verortet · ${unplotted.length} ohne genaue Position</span></div>
       <div class="w360-map-location-list">${rows.length?rows.map(p=>{
        const loc=placeCoordinates[p.id];
        const precision=loc?(loc.precision==="house"?"Hausnummer geprüft":loc.precision==="landmark"?"Belegter Standort":"Straßenposition, ungefähr"):"Keine sichere Position";
