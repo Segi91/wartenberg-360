@@ -84,21 +84,32 @@ function storyTag(n) {
   const old=(Date.now()-new Date(n.date+"T12:00:00").getTime())>50*86400000;
   return old?"Archiv":n.editorial?"Quellengeprüft":"Aktuelle Meldung";
 }
+function hasReadableNews(n) {
+  const summary=String(n?.desc||'').trim();
+  const articleText=String(n?.body||'').trim();
+  // Nur redaktionell bzw. selbst verfasste Inhalte in den internen Lesemodus aufnehmen.
+  const curated=n?.summaryType==='Redaktionelle Zusammenfassung' || n?.editorial===true;
+  const officialStarter=n?.sourceId==='gemeinde' && n?.id?.startsWith('n');
+  return (curated || officialStarter) && summary.length>=60 || (curated && articleText.length>=80);
+}
 function nCardV2(n) {
   const by=n.sourceName||"Gemeinde Wartenberg",topic=topicOf(n),where=n.locality||"Vogelsberg";
   const isFav=fav.includes(n.id);
+  const canRead=hasReadableNews(n);
   const mark=storyTag(n);
-  const linkName=n.via==="Google News"?"Artikel öffnen":"Originalquelle";
   const paywall=n.sourceId==="la"?" · teilweise kostenpflichtig":"";
-  return `<article class="card news-card v2-news-card" data-reader-card="news" data-reader-id="${esc(n.id)}">
+  const safeUrl=String(n.source||"");
+  const sourceLink=link(safeUrl,"Originalquelle ↗");
+  return `<article class="card news-card v2-news-card" ${canRead?`data-reader-card="news" data-reader-id="${esc(n.id)}"`:""}>
       <div class="news-meta-row"><span class="soft-tag topic-pill">${esc(topic)}</span><span class="news-date">${fmt(n.date)}</span></div>
       <div class="v2-article-context"><span>⌾ ${esc(where)}</span><span class="dot-separator">•</span><span>${esc(mark)}</span></div>
-      <h3>${esc(n.title)}</h3>${n.desc?`<p>${esc(n.desc)}</p>`:""}
+      <h3>${esc(n.title)}</h3>${n.desc && canRead?`<p>${esc(n.desc)}</p>`:""}
       <div class="source-footer"><span>${esc(by)}${paywall}</span>
-        <div class="v2-news-actions"><button type="button" class="v2-read-button" data-reader="news" data-reader-id="${esc(n.id)}" aria-label="Nachricht in der App lesen">Lesen</button><button class="star-btn ${isFav?"active":""}" data-fav="${esc(n.id)}" title="${isFav?"Merkliste: entfernen":"Für später merken"}" aria-label="${isFav?"Nachricht aus Merkliste entfernen":"Nachricht merken"}">${isFav?"★":"☆"}</button>${link(n.source,linkName)}</div>
+        <div class="v2-news-actions">${canRead?`<button type="button" class="v2-read-button" data-reader="news" data-reader-id="${esc(n.id)}" aria-label="Zusammenfassung in der App lesen">Kurzfassung lesen</button>`:""}<button class="star-btn ${isFav?"active":""}" data-fav="${esc(n.id)}" title="${isFav?"Merkliste: entfernen":"Für später merken"}" aria-label="${isFav?"Nachricht aus Merkliste entfernen":"Nachricht merken"}">${isFav?"★":"☆"}</button>${sourceLink}</div>
       </div>
     </article>`;
 }
+
 function newsPanelV2() {
   const sourcesList=[["gemeinde","Gemeinde Wartenberg",sources.news],["la","Lauterbacher Anzeiger","https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/"],["winfo","Wartenberg-iNFO","https://www.wartenberg-info.de/"],["kulturverein","Kulturverein Landenhausen","https://kulturverein-landenhausen.de/"],["oberhessen","Oberhessen-live","https://www.oberhessen-live.de/vogelsberg/"],["kreis","Vogelsbergkreis","https://www.vogelsbergkreis.de/"],["polizei","Polizeipräsidium Osthessen","https://www.presseportal.de/blaulicht/nr/43558"],["osthessen","Osthessen News","https://osthessen-news.de/"],["fulda","Fuldaer Zeitung","https://www.fuldaerzeitung.de/vogelsberg/"]];
   return `<details class="card news-sources v2-sources"><summary>Transparenz & Quellen · ${sourcesList.length} Nachrichtenanbieter</summary>
@@ -203,16 +214,14 @@ function readerNews(n){
  const published=fmt(n.date);
  const sourceName=n.sourceName||"Nachrichtenquelle";
  const age=storyTag(n);
- const textBody=textPieces.length
-    ?textPieces.map(t=>`<p>${esc(t)}</p>`).join("")
-    :`<div class="reader-note"><strong>Zu dieser Meldung liegt noch keine eigenständig formulierte Zusammenfassung vor.</strong><p>Wir kennen derzeit die Überschrift, das Veröffentlichungsdatum und die Quelle. Weitere Einzelheiten können wir nicht zuverlässig innerhalb der App wiedergeben. Den vollständigen Originalartikel findest du über den Link unten.</p></div>`;
+ const textBody=textPieces.map(t=>`<p>${esc(t)}</p>`).join("");
  const photo= n.image && n.imageLicense && /^https:\/\//.test(n.image)
     ?`<figure class="reader-image"><img src="${esc(n.image)}" alt="${esc(n.imageAlt||"Bild zur Nachricht")}" loading="lazy"/><figcaption>${esc(n.imageCredit||"Bild")}, Lizenz: ${esc(n.imageLicense)}</figcaption></figure>`
     :`<div class="reader-illustration" aria-label="Symbolbild zur Rubrik ${esc(topic)}"><span aria-hidden="true">${articleSymbol(topic)}</span><small>Symbolbild · kein Originalfoto</small></div>`;
  return `<div class="reader-eyebrow">${esc(topic)} · ${esc(age)}</div><h1 id="reader-title">${esc(n.title)}</h1>
  <div class="reader-byline"><span>📅 ${esc(published)}</span><span>⌾ ${esc(n.locality||"Vogelsberg")}</span><span>📰 ${esc(sourceName)}</span></div>
  ${photo}
- <div class="reader-text"><h2>${textPieces.length?"Das Wichtigste im Überblick":"Zum Artikel"}</h2>${textBody}
+ <div class="reader-text"><h2>Das Wichtigste im Überblick</h2>${textBody}
  ${textPieces.length?'<p class="reader-small-print">Dies ist eine eigenständig verfasste Kurzfassung, nicht der Original- oder Volltext des Artikels. Für alle Details bitte die Originalquelle öffnen.</p>':""}</div>
  <div class="reader-sourcebox"><div><strong>Originalquelle: ${esc(sourceName)}</strong><p>Der vollständige Text und gegebenenfalls Originalfotos stehen beim Herausgeber. Manche Artikel sind nur mit Abonnement lesbar.</p></div>${link(n.source,"Originalartikel lesen")}</div>`;
 }
@@ -258,7 +267,7 @@ function readerEvent(e){
 function openReader(type,id){
   const list=type==='news'?news:type==='club'?clubs:type==='event'?events:null;
   const item=list?.find(v=>v.id===id);
-  if(!item)return;
+  if(!item || (type==='news' && !hasReadableNews(item)))return;
   const el=$('#reader-modal'),content=$('#reader-content');
   if(!el||!content)return;
   const output=type==='news'?readerNews(item):type==='club'?readerClub(item):readerEvent(item);
