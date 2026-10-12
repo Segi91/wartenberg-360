@@ -1,7 +1,49 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-12T15:42:35Z",
+  "updatedAt": "2026-10-12T23:03:29Z",
   "items": [
+    {
+      "id": "67e8e7daf3baa481",
+      "title": "True Crime in Lauterbachs Buchhandlung",
+      "desc": "",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T19:48:34+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/12/true-crime-in-lauterbachs-buchhandlung/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "ef8ba33bd072e8e8",
+      "title": "„Wegbegleiter im Sterben“ und „Farbspiel“ – Ausstellung bis zum 18. Oktober in der Museumsscheune",
+      "desc": "",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T18:08:32+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/12/wegbegleiter-im-sterben-und-farbspiel-ausstellung-bis-zum-18-oktober-in-der-museumsscheune/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "ea8aff96b376c354",
+      "title": "Lauterbacher Altweibersommer lockt fast fünfhundert Gäste an die verschiedensten Orte der Stadt",
+      "desc": "",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T16:02:09+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/12/lauterbacher-altweibersommer-lockt-fast-fuenfhundert-gaeste-an-die-verschiedensten-orte-der-stadt/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
     {
       "id": "73f90f1bb8bf578b",
       "title": "Zwei Reiterinnen, ein vielseitiges Pferd und zahlreiche Erfolge",
@@ -2408,7 +2450,7 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "Google News",
-      "count": 17,
+      "count": 15,
       "note": "",
       "stored": 18
     },
@@ -2419,14 +2461,14 @@
       "mode": "RSS",
       "count": 12,
       "note": "",
-      "stored": 18
+      "stored": 21
     },
     {
       "id": "osthessen",
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 14,
+      "count": 12,
       "note": "",
       "stored": 17
     },
@@ -2444,7 +2486,7 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 22,
+      "count": 20,
       "note": "",
       "stored": 48
     },
@@ -2481,5 +2523,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-12T15:43:00.729084+00:00"
+  "officialCheckedAt": "2026-10-12T23:03:51.768092+00:00"
 }
