@@ -1,7 +1,189 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-13T06:53:22Z",
+  "updatedAt": "2026-10-13T16:06:03Z",
   "items": [
+    {
+      "id": "f777b8c92bb6587d",
+      "title": "vhs-Kurs: Omas Rezepte für die Winterzeit",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T14:07:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Omas-Rezepte-fr-die-Winterzeit/boxid/1076185",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "b6c12e7efb36d7cc",
+      "title": "vhs-Kurs: Lachyoga kennen lernen - Ein Vormittag voller gemeinsamem Lachen!",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T14:06:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Lachyoga-kennen-lernen-Ein-Vormittag-voller-gemeinsamem-Lachen/boxid/1076184",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "08e28e363d731ade",
+      "title": "vhs-Kurs: Das ABC des Kochens für Frauen und Männer",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T14:05:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Das-ABC-des-Kochens-fr-Frauen-und-Mnner/boxid/1076183",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "286e302fe3f42631",
+      "title": "vhs-Kurs: Mediterran genießen: Tapas und Desserts",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T14:04:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Mediterran-genieen-Tapas-und-Desserts/boxid/1076182",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "e14d6e9c126c489b",
+      "title": "Eichhof-Stiftung Lauterbach zeigt auf der Alsfelder Herbstmesse die ganze Bandbreite",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T14:00:47+00:00",
+      "category": "Natur & Umwelt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/13/eichhof-stiftung-lauterbach-zeigt-auf-der-alsfelder-herbstmesse-die-ganze-bandbreite/",
+      "via": "RSS",
+      "topic": "Natur & Umwelt"
+    },
+    {
+      "id": "1c9783eaaee459b9",
+      "title": "„Klavier im Fokus“ – Werkstattkonzert mit Teilnehmenden des Meisterkurses",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T11:54:43+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/13/klavier-im-fokus-werkstattkonzert-mit-teilnehmenden-des-meisterkurses/",
+      "via": "RSS",
+      "topic": "Kultur & Musik"
+    },
+    {
+      "id": "87719f3e7bd475ec",
+      "title": "Moderne Technik hält Einzug",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T11:18:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Moderne-Technik-hlt-Einzug/boxid/1076143",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "c125207847f214f1",
+      "title": "„Ihr könnt euch mal gernhaben“",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T10:11:46+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/13/ihr-koennt-euch-mal-gernhaben/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "8cc6422ac435a732",
+      "title": "Sprachlich in eine neue Welt abtauchen",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T08:15:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Sprachlich-in-eine-neue-Welt-abtauchen/boxid/1076080",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "c6390a1459179618",
+      "title": "Mama geht lesen…",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T08:09:16+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/13/mama-geht-lesen/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "2dbc2b8751de817f",
+      "title": "Kochen mit Kontext: Mexiko zwischen Weltpolitik und Alltag",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T07:20:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Kochen-mit-Kontext-Mexiko-zwischen-Weltpolitik-und-Alltag/boxid/1076066",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "6dcee22447ef8a8b",
+      "title": "Noch Plätze frei: Poetry-Slam Workshop mit Johanna Schubert",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T07:18:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Noch-Pltze-frei-Poetry-Slam-Workshop-mit-Johanna-Schubert/boxid/1076065",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "d33ec036ddc81606",
+      "title": "Luchse holen Eiskunstlauf-Star Annette Dytrt nach Lauterbach",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T07:06:00+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRWNieXpoeFczWXFyb1pjMUctOXJfUUJ1WmxJUUFaNVpKTXNKNzhPMkdXaXZFOUhjZWtpTEdfMmw1TWxrclM5WEw1a3dtby1ad0lUV1ZIRExLOHJ2VmZ2S1Z6YXhiaWRwQUpMSWtmLUJJVW1NNjdqUmdpWmNQM1lIcTgwRjBfNHpYUjF3aW5xTG1haU5HaTNQY1NMdE9XZEktOXFBZ0JMV3RaQ0E2M0tEUXdyWkk?oc=5",
+      "via": "Google News",
+      "topic": "Kultur & Musik"
+    },
     {
       "id": "65fcd2e081eea133",
       "title": "Straßenwärterin oder Straßenwärter im Winterdienst (w/m/d) für die Autobahn­meisterei Alsfeld in Alsfeld | ON JOBS - Osthessen|News",
@@ -1469,34 +1651,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "26c9e7d1469bce1d",
-      "title": "vhs-Kurs: „Alleine? Was mache ich, wenn keine Angehörigen in der Nähe sind?“",
-      "desc": "",
-      "date": "2026-10-01",
-      "publishedAt": "2026-10-01T09:47:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Alleine-Was-mache-ich-wenn-keine-Angehrigen-in-der-Nhe-sind/boxid/1074834",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "22749b73fde28310",
-      "title": "Ein Tag der Freude",
-      "desc": "",
-      "date": "2026-10-01",
-      "publishedAt": "2026-10-01T08:42:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Ein-Tag-der-Freude/boxid/1074806",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "b6023fa99757ddc2",
       "title": "POL-OH: Zeugen nach Verkehrsunfallflucht im Bereich Mücke gesucht - Presseportal",
       "desc": "",
@@ -1525,20 +1679,6 @@
       "topic": "Blaulicht"
     },
     {
-      "id": "8184b11f8d0ee17d",
-      "title": "Telemedizin, Praxis-Finanzierung und drohender Ärztemangel",
-      "desc": "",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T07:20:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Telemedizin-Praxis-Finanzierung-und-drohender-rztemangel/boxid/1074615",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "3031aa86475af53f",
       "title": "POL-OH: Fzg.-Brand auf der BAB A5 zwischen Hattenbacher Dreieck und Alsfeld-Ost - Presseportal",
       "desc": "",
@@ -1553,34 +1693,6 @@
       "topic": "Blaulicht"
     },
     {
-      "id": "893da720921c01cb",
-      "title": "Landstraße in Landenhausen gesperrt",
-      "desc": "",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T06:59:00+00:00",
-      "category": "Verkehr & Bauen",
-      "locality": "Wartenberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Landstrae-in-Landenhausen-gesperrt/boxid/1074602",
-      "via": "RSS",
-      "topic": "Verkehr & Bauen"
-    },
-    {
-      "id": "45e4e8f692147348",
-      "title": "Gesundheit, Prävention und soziale Unterstützung",
-      "desc": "",
-      "date": "2026-09-30",
-      "publishedAt": "2026-09-30T06:58:00+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Gesundheit-Prvention-und-soziale-Untersttzung/boxid/1074605",
-      "via": "RSS",
-      "topic": "Familie & Soziales"
-    },
-    {
       "id": "8eac7ce263c68f59",
       "title": "VfL Lauterbach macht Traumstart perfekt: 8:2 gegen SG Landenhausen",
       "desc": "",
@@ -1593,34 +1705,6 @@
       "source": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOTFZvRjhpYlNlY0lEU2YwOTRlSEl1ZFdOVE4xb3hZVExLbFhnZms5aURzWGo5aC1LWVZtSFk0VGRFWjRoTk9TS3k3aFJjMkFpajBCVl83emNHWkpsY2w2RUJNemQ4Z0w4b2ZXc056MjB5bWZkQkl4Y2VQUW1ySnR3cl9FQVhhTC03V25GWi1CX2pIY3pDMDU0ZDNXV2JhYTFXNVJRXzVYcl95RFdXdFl1bFNkT0NINTMzX0JOMW95aFNvMldHeHNqNg?oc=5",
       "via": "Google News",
       "topic": "Sport"
-    },
-    {
-      "id": "557ee3dfa2072c8b",
-      "title": "Gleichstellungsbeauftragte am Telefon",
-      "desc": "",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T11:48:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Gleichstellungsbeauftragte-am-Telefon/boxid/1074525",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "8e076c1d4a331d72",
-      "title": "Gesprächsangebot des Seniorenbeauftragten: Kreisbeigeordneter Hans-Jürgen Schäfer bietet am 6. Oktober Sprechstunde an",
-      "desc": "",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T11:46:00+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Gesprchsangebot-des-Seniorenbeauftragten-Kreisbeigeordneter-Hans-Jrgen-Schfer-bietet-am-6-Oktober-Sprechstunde-an/boxid/1074524",
-      "via": "RSS",
-      "topic": "Familie & Soziales"
     },
     {
       "id": "1e8400226c99296f",
@@ -1681,20 +1765,6 @@
       "desc": "Der Kunstspaziergang in Landenhausen zeigte kreative Arbeiten an ungewöhnlichen Ausstellungsorten, darunter Höfe, Gärten und Ställe. Der Bericht des Lauterbacher Anzeigers blickt auf die Veranstaltung zurück.",
       "body": "Kultur wurde bei dieser Veranstaltung direkt im Ort erlebbar. Unterschiedliche Stationen boten die Gelegenheit, Kunst im dörflichen Umfeld zu entdecken.",
       "summaryType": "Redaktionelle Zusammenfassung"
-    },
-    {
-      "id": "5ee9107d2c38b7ac",
-      "title": "vhs-Kurs: Einführung in das 10-Finger-Tastschreiben für Kids",
-      "desc": "",
-      "date": "2026-09-28",
-      "publishedAt": "2026-09-28T11:59:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Einfhrung-in-das-10-Finger-Tastschreiben-fr-Kids/boxid/1074369",
-      "via": "RSS",
-      "topic": "Vogelsberg"
     },
     {
       "id": "e24cfb395ce904be",
@@ -2562,7 +2632,7 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "Google News",
-      "count": 15,
+      "count": 14,
       "note": "",
       "stored": 18
     },
@@ -2573,14 +2643,14 @@
       "mode": "RSS",
       "count": 12,
       "note": "",
-      "stored": 23
+      "stored": 27
     },
     {
       "id": "osthessen",
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 16,
+      "count": 13,
       "note": "",
       "stored": 21
     },
@@ -2591,14 +2661,14 @@
       "mode": "Google News",
       "count": 5,
       "note": "",
-      "stored": 8
+      "stored": 9
     },
     {
       "id": "la",
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 21,
+      "count": 20,
       "note": "",
       "stored": 48
     },
@@ -2622,18 +2692,18 @@
     }
   ],
   "feedCount": 7,
-  "localCount": 63,
+  "localCount": 62,
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 9,
     "Gemeinschaft & Ehrenamt": 6,
     "Familie & Soziales": 5,
     "Natur & Umwelt": 1,
-    "Verkehr & Bauen": 4,
+    "Verkehr & Bauen": 3,
     "Blaulicht": 2,
     "Sport": 22,
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-13T06:53:46.764910+00:00"
+  "officialCheckedAt": "2026-10-13T16:06:29.618719+00:00"
 }
