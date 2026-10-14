@@ -1,7 +1,21 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-14T18:43:14Z",
+  "updatedAt": "2026-10-14T23:17:57Z",
   "items": [
+    {
+      "id": "9c6f123895b22273",
+      "title": "Noch nie gegen Landenhausen gespielt: Ex-Trainer Güldner führt Pfordt heute dagegen",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T22:22:00+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQSXpldlhGTjRCcTBRN3BKa19wb0gxU2pGVm5JSllaRkhLZ1ZRcWo1UUVSeFp5V3plLTU0RjFsTnpYTk8ybU9wcFdlVDdGXzJtM21NdF9aTmFXMXZmdjdPc1pFNHVqTmVKTHVzZlpBZmdRaXdyOFJOVkhfYVpqb3l3YWs1S2xSUXgyeGI1QVRJZzFEdG9iVGVXQXc0RlFpQTRjZ1JJdll3SWFYeGVqMjVjWG9PYmxoMDNRQTYwMXVYaFhxaGQzUlFnNVJZbmNLa0I1dHRKR2RTMzRwekllMEpOalZ6dUR0Zjg?oc=5",
+      "via": "Google News",
+      "topic": "Sport"
+    },
     {
       "id": "3e127bba41ebef03",
       "title": "Lichtblick im grauen Oktober",
@@ -1219,6 +1233,20 @@
       "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUTBoRnpiQkpHeVRuclY4RmJXUHIzbklia2t4MFZwanJPR3g3b0tDSlNRVGNla2RwdFN1VFNpemdrWkl3VVVPaWxEZXVpT1hGaEYwV1VrSm5renNrdFhscl84ZXhiVjA5Mm51aWdxWlZjNUdKUXlwa3AxWEFFaWo2dXVlVzd4eVdxdk9hNXZRS2kwWDRCZlhNckEzNloybTZ3Q3hidVF0MTh4NmtT?oc=5",
       "via": "Google News",
       "topic": "Natur & Umwelt"
+    },
+    {
+      "id": "066c19cb54c699c5",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kR2N1dlNlYUdPRDJ4NFVOaGVHNmQxTTJFUFVQcm4yT0FPVXdldUtXZy1XcG52Tzh4NlB0LXd3bUhaTzNfc21DdHA0RkZ1Ym1wRDNvV1diM2ZUTlk?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "9421b46486090308",
@@ -2837,7 +2865,7 @@
       "name": "Oberhessen-live",
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
-      "count": 10,
+      "count": 9,
       "note": "",
       "stored": 36
     },
@@ -2846,9 +2874,9 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 13,
+      "count": 10,
       "note": "",
-      "stored": 22
+      "stored": 23
     },
     {
       "id": "fulda",
@@ -2864,9 +2892,9 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 19,
+      "count": 20,
       "note": "",
-      "stored": 48
+      "stored": 49
     },
     {
       "id": "kulturverein",
@@ -2888,7 +2916,7 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 63,
+  "localCount": 64,
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 10,
@@ -2897,9 +2925,9 @@
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 3,
     "Blaulicht": 2,
-    "Sport": 22,
+    "Sport": 23,
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-14T18:43:36.039582+00:00"
+  "officialCheckedAt": "2026-10-14T23:18:17.570468+00:00"
 }
