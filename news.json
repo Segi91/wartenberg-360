@@ -1,7 +1,49 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-14T01:16:40Z",
+  "updatedAt": "2026-10-14T07:46:42Z",
   "items": [
+    {
+      "id": "d7f515387a9c3231",
+      "title": "Von der Ringwallanlage zum Luftkurort",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T06:11:07+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/14/von-der-ringwallanlage-zum-luftkurort-2/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "e392ca62fdee7a8e",
+      "title": "Sprachlich in eine neue Welt abtauchen",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T04:11:08+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/14/sprachlich-in-eine-neue-welt-abtauchen/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "ce3942681a6dc5ac",
+      "title": "Vollsperrung bis Dezember: Landesstraße bei Grebenhain wird in zwei Abschnitten saniert",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T02:42:25+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORGU3a0VpSnZ6RG9sVVRfNGYtZmlMWkJCVFYxQ2ZwNHN2VVBTTldyVGFNSGJZWlJYT3gwOHBFTGQ3MVB5d0RQQXdxSmIxVnhSSEpKUS1YajZvbEUyUFQ3SWdOREw1a0pGWkNBVDFGdnhCYVh6emE4RHNPbm1uOGVIUzRud2lEU1MyNUxIU3p5d3VPa0Z0X3NQREF5MXVORm8weDg3Qy0yLXpVcUZDTnZ1TE5Ec3BWSG5Wcml4V0haN1plcEJYbWdN?oc=5",
+      "via": "Google News",
+      "topic": "Verkehr & Bauen"
+    },
     {
       "id": "c5ddab604f42f671",
       "title": "Den Alltag von Pflegebedürftigen besser machen",
@@ -113,6 +155,20 @@
       "source": "https://www.oberhessen-live.de/2026/10/13/eichhof-stiftung-lauterbach-zeigt-auf-der-alsfelder-herbstmesse-die-ganze-bandbreite/",
       "via": "RSS",
       "topic": "Natur & Umwelt"
+    },
+    {
+      "id": "056925c8eb0ccea7",
+      "title": "Apotheke in Vogelsbergkreis - 1 Anbieter",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T13:08:50+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU3JGOTFNTU0tM0tIakFyWkd2NGRwUmFlRHFhLXJmLXBwdHI3VUlfT0hVTnJ4VXlnT0p4WjBnZUNEcU52bFY0SFZJSUpOT2ptc0RrNTQzcnJUazRieU1kcVpueW9tNHFLZ1ZvdzFrUXVpNlJLMDkybWVKMExZVVhaZQ?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "1c9783eaaee459b9",
@@ -508,7 +564,7 @@
     },
     {
       "id": "e563888bf2e3d4f1",
-      "title": "Auftakt nach Maß - Lauterbacher Luchse feiern 9:2-Heimsieg - OSTHESSEN|NEWS",
+      "title": "Auftakt nach Maß - Lauterbacher Luchse feiern 9:2-Heimsieg - Osthessen|News",
       "desc": "",
       "date": "2026-10-11",
       "publishedAt": "2026-10-11T22:01:00+00:00",
@@ -2702,7 +2758,7 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "Google News",
-      "count": 14,
+      "count": 13,
       "note": "",
       "stored": 18
     },
@@ -2713,7 +2769,7 @@
       "mode": "RSS",
       "count": 12,
       "note": "",
-      "stored": 30
+      "stored": 32
     },
     {
       "id": "osthessen",
@@ -2731,7 +2787,7 @@
       "mode": "Google News",
       "count": 5,
       "note": "",
-      "stored": 9
+      "stored": 11
     },
     {
       "id": "la",
@@ -2775,5 +2831,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-14T01:16:58.921579+00:00"
+  "officialCheckedAt": "2026-10-14T07:47:07.262483+00:00"
 }
