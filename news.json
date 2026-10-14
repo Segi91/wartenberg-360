@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-13T21:20:18Z",
+  "updatedAt": "2026-10-14T01:16:40Z",
   "items": [
     {
       "id": "c5ddab604f42f671",
@@ -717,6 +717,20 @@
       "topic": "Gemeinschaft & Ehrenamt"
     },
     {
+      "id": "0d967618e6c3abdb",
+      "title": "Förderung auch für Kommunen - 1 Million Euro für den Sport im Vogelsbergkreis - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-10-09",
+      "publishedAt": "2026-10-09T22:05:36+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYXFfeW9TUnZldFlUQUZBcy1TdDR6X3Jpd1FzWWtyVnR3QzZ4N0FFU2sxOVg2bEJzOHRCY09lNFBESVNCdDNTcjdkN3BqeldKVmk5SEozT1BBY3pRbWtKRkdCVW5HRWRwNzdjSGxKQVFhNmt2c0lzMDZQTUhybGJfMlY2R0o2Tm9TZlJBS21hV19GSlhVWFpvY0NBVnN6eUZFYVdUUWNQZ2FjSnNBUG1ENFIxYVNjcy0xSWpv?oc=5",
+      "via": "Google News",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
       "id": "d33094c436ab6aa3",
       "title": "Förderung auch für Kommunen - 1 Millionen Euro für den Sportkreis Vogelsberg - Osthessen|News",
       "desc": "",
@@ -727,20 +741,6 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTnd6eEZDNjFlcjRNQmhWdHhTN21Rand2b3ZkaXFBUy1NN1ZWWlhNOEQ0Tlo5OXJaWS13QzVRWnlBNXlrSmlSazY4Z3R0ZWIwdWxNWXFkZkM1ZXNlbWpFWncyLUdFMGdZWnVaMXhDMXNra2FfLUhiY1JOS2lCZ00xT0pSbWowcXRBYW05V1g1VHZTLUptU29qZS1vZVZveUwxYkpGcElwQ29NbTQ2N3BCQ291WnpmY01iMXc?oc=5",
-      "via": "Google News",
-      "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
-      "id": "0d967618e6c3abdb",
-      "title": "Förderung auch für Kommunen - 1 Million Euro für den Sport im Vogelsbergkreis - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-09",
-      "publishedAt": "2026-10-09T13:30:50+00:00",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYXFfeW9TUnZldFlUQUZBcy1TdDR6X3Jpd1FzWWtyVnR3QzZ4N0FFU2sxOVg2bEJzOHRCY09lNFBESVNCdDNTcjdkN3BqeldKVmk5SEozT1BBY3pRbWtKRkdCVW5HRWRwNzdjSGxKQVFhNmt2c0lzMDZQTUhybGJfMlY2R0o2Tm9TZlJBS21hV19GSlhVWFpvY0NBVnN6eUZFYVdUUWNQZ2FjSnNBUG1ENFIxYVNjcy0xSWpv?oc=5",
       "via": "Google News",
       "topic": "Gemeinschaft & Ehrenamt"
     },
@@ -1233,6 +1233,20 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nc0VNeVdPZmFXTWdadXByN0dHNm5NNF9LZW9LN0dzZkdfV0FZeWtXRWZRdmIteDN4MklHNTRBdFU1RFFfSVVvSDZ0cHhadVdmYWRKU2gzV1FMeFhOT3ZLbUhJSE8?oc=5",
       "via": "Google News",
       "topic": "Blaulicht"
+    },
+    {
+      "id": "c7ebf7684b3deca3",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-06",
+      "publishedAt": "2026-10-06T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmeHNVajZ4SDBGbUN4X3hzeE1Lcmp3MXZTV01TeldxdWIyclE2NnBHNm9JZ1J6Qy0tbXB1UVJFWWdYakszcXRQbnV0ZXUwQWhxRWVDbWFBY1dfUjA?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "2234c41ccfd2b52b",
@@ -2706,9 +2720,9 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 12,
+      "count": 14,
       "note": "",
-      "stored": 21
+      "stored": 22
     },
     {
       "id": "fulda",
@@ -2761,5 +2775,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-13T21:20:43.336982+00:00"
+  "officialCheckedAt": "2026-10-14T01:16:58.921579+00:00"
 }
