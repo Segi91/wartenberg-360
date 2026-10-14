@@ -1,7 +1,49 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-14T13:49:45Z",
+  "updatedAt": "2026-10-14T18:43:14Z",
   "items": [
+    {
+      "id": "3e127bba41ebef03",
+      "title": "Lichtblick im grauen Oktober",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T18:22:35+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/14/lichtblick-im-grauen-oktober/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "05a8795415cded7b",
+      "title": "Reifenstecher in Lauterbach: Unbekannte beschädigen drei Autos in derselben Straße",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T17:13:00+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb0hpdFZDUU1NU3FOUXRVeVcyM2YtVFdkVnpPZThPdmFwelZ3c0lSUzNtNFh5NkxEZUtwVUI4ek5VWGx1SnN0TlVmNFNpWmZoZlFhdjJNSVlRdXlPVVhFS2JTOWdLb0xacnR5MmQtTzZyNW5IUDNpeGdoUnh6RGJJYUgxa2NvSHlxX2c4anpXNnJod0JlLVhXZnZOOWNSbHY2YmdoN09tUWhidXVrZDJXVWJ3?oc=5",
+      "via": "Google News",
+      "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "5768820be7f838b9",
+      "title": "Moderne Technik hält Einzug",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T14:06:28+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/14/moderne-technik-haelt-einzug/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
     {
       "id": "b7e945d4c6ca450a",
       "title": "Wenn die Welt stillsteht, braucht es Menschen, die Halt geben",
@@ -2795,9 +2837,9 @@
       "name": "Oberhessen-live",
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
-      "count": 11,
+      "count": 10,
       "note": "",
-      "stored": 34
+      "stored": 36
     },
     {
       "id": "osthessen",
@@ -2813,9 +2855,9 @@
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 5,
+      "count": 7,
       "note": "",
-      "stored": 11
+      "stored": 12
     },
     {
       "id": "la",
@@ -2859,5 +2901,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-14T13:50:06.747916+00:00"
+  "officialCheckedAt": "2026-10-14T18:43:36.039582+00:00"
 }
