@@ -1,7 +1,35 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-14T23:17:57Z",
+  "updatedAt": "2026-10-15T04:51:20Z",
   "items": [
+    {
+      "id": "233695e357df790d",
+      "title": "Wenn die Welt stillsteht, braucht es Menschen, die Halt geben",
+      "desc": "",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T04:07:36+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/15/wenn-die-welt-stillsteht-braucht-es-menschen-die-halt-geben/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "8db0b3a99da763ce",
+      "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
+      "desc": "",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T02:17:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTHg0U0VRX3o1VzJxazNYb2FOSFhfMm5MQ0RWU0Rtc0xpcE45OE9kZUcyM3dHRzhYaEE3NGpKZW9BYUtDSklFMnI4bVlPRlVrbzIwNUk4eVFjaXZqc0NSd1FrVk41MXI2c1Z6T0tXVWRobVZ5WE5kZC1Ud2NaRUNpbFNyWkpha3l3ZXp2Zk5VOHhNVHp1SkVUNWhKMXdqNFRNckE2R0Rqa3RTYV9zZDM0eWNB?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
     {
       "id": "9c6f123895b22273",
       "title": "Noch nie gegen Landenhausen gespielt: Ex-Trainer Güldner führt Pfordt heute dagegen",
@@ -2856,7 +2884,7 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "Google News",
-      "count": 13,
+      "count": 11,
       "note": "",
       "stored": 18
     },
@@ -2867,14 +2895,14 @@
       "mode": "RSS",
       "count": 9,
       "note": "",
-      "stored": 36
+      "stored": 37
     },
     {
       "id": "osthessen",
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 10,
+      "count": 12,
       "note": "",
       "stored": 23
     },
@@ -2883,16 +2911,16 @@
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 7,
+      "count": 8,
       "note": "",
-      "stored": 12
+      "stored": 13
     },
     {
       "id": "la",
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 20,
+      "count": 19,
       "note": "",
       "stored": 49
     },
@@ -2929,5 +2957,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-14T23:18:17.570468+00:00"
+  "officialCheckedAt": "2026-10-15T04:51:44.511192+00:00"
 }
