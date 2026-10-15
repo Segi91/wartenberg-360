@@ -1,7 +1,49 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-15T11:42:02Z",
+  "updatedAt": "2026-10-15T17:09:21Z",
   "items": [
+    {
+      "id": "97a76a68cd2798b4",
+      "title": "Annette Dytrt eröffnet Charity-Spiel der Lauterbacher Luchse",
+      "desc": "",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T15:58:24+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/15/annette-dytrt-eroeffnet-charity-spiel-der-lauterbacher-luchse/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "8497613f8e8f553a",
+      "title": "Show and Brass Band Alsfeld begeistert beim Oktoberfest in New Mills",
+      "desc": "",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T13:48:03+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/15/show-and-brass-band-alsfeld-begeistert-beim-oktoberfest-in-new-mills/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "a7b81e2a322454d8",
+      "title": "Kochen mit Kontext: Mexiko zwischen Weltpolitik und Alltag",
+      "desc": "",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T11:58:50+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/15/kochen-mit-kontext-mexiko-zwischen-weltpolitik-und-alltag/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
     {
       "id": "884119cd84f1e855",
       "title": "Auf zum Endspurt: Nur noch drei Feierabendmärkte bis zur Winterpause",
@@ -480,10 +522,10 @@
     },
     {
       "id": "48653c6dd56ef12a",
-      "title": "L 3168 wird erneuert: Vollsperrung zwischen Ilbeshausen und Grebenhain - Osthessen|News",
+      "title": "L 3168 wird erneuert: Vollsperrung zwischen Ilbeshausen und Grebenhain - OSTHESSEN|NEWS",
       "desc": "",
       "date": "2026-10-13",
-      "publishedAt": "2026-10-13T06:00:00+00:00",
+      "publishedAt": "2026-10-13T06:05:40+00:00",
       "category": "Verkehr & Bauen",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
@@ -2207,6 +2249,20 @@
       "topic": "Blaulicht"
     },
     {
+      "id": "43b0f342096f600a",
+      "title": "Natur- und Lebensraum Vogelsberg stellt Weichen für Landschaftspflegeverband - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-09-16",
+      "publishedAt": "2026-09-16T07:00:00+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTJHU01Ed1E5MmpQOUN4TUNWZWJ4T3RpcDZybzRqd2NjeWhpeHZCUzFwcVh4SlQzazRyd2hFQlJOYV9ScmZ2ZmNkRjIyenROYWdpSmZvNTRMdVZURTF2M3dxaFlOdjJ4THdLbXlkRHZDTHAwRFMtZXhUNjhFQnZCNlg3OTBvNHVqeThKS1V1NHAzOTU5TzFLNUpzQk9NUUdMenlCbDNPcW51S2lxRDcwa0VjYlF0LTd0SW5ncA?oc=5",
+      "via": "Google News",
+      "topic": "Familie & Soziales"
+    },
+    {
       "id": "curated-v2-07",
       "date": "2026-09-15",
       "publishedAt": "2026-09-15T12:00:00+02:00",
@@ -2951,16 +3007,16 @@
       "mode": "RSS",
       "count": 8,
       "note": "",
-      "stored": 39
+      "stored": 42
     },
     {
       "id": "osthessen",
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 13,
+      "count": 14,
       "note": "",
-      "stored": 25
+      "stored": 26
     },
     {
       "id": "fulda",
@@ -2976,7 +3032,7 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 18,
+      "count": 17,
       "note": "",
       "stored": 49
     },
@@ -3013,5 +3069,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-15T11:42:24.675448+00:00"
+  "officialCheckedAt": "2026-10-15T17:09:43.311898+00:00"
 }
