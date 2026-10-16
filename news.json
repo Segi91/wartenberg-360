@@ -1,7 +1,36 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-15T21:31:02Z",
+  "updatedAt": "2026-10-16T00:28:42Z",
   "items": [
+    {
+      "id": "gemeinde-offiziell-47ac0c6e3597",
+      "title": "15.10 - 17.10.2026 Kirmesclub Angersbach Kirmes in Angersbach",
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Kirmesclub Angersbach Kirmes in Angersbach",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/kalenderdaten/detailansicht.html?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=1974&cHash=fe49feb9edf430bc7d85af1797db3cd4",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Gemeinschaft & Ehrenamt",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "7ec877a18e5b1a6a",
+      "title": "Fahrbahnsanierung zwischen Laubach und Schotten: Nächste Woche wieder frei - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T22:00:16+00:00",
+      "category": "Natur & Umwelt",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanpKWkVtRFFqZGs3ZWtrR19janBPSnFNZ3ZaNnlzYWNYY21KaFBJNVhFT3k4N2pWTWlVNFpsSWM4dnViZmdKYzF1ekZXRy0tOXZWamp1UFZkU1pkdFhzQ0VHRUdBOW5yMzVYcklGaFJRbjRNczc2UW1SaVFfa0xQQUp6S1p5LTRSbUZrSU5TbEdpb1dXYjJlS2txN0lRZEQxd1JyM1ctNEhlV0xlUEw1TlNveU4?oc=5",
+      "via": "Google News",
+      "topic": "Natur & Umwelt"
+    },
     {
       "id": "f359026b6716c73b",
       "title": "Online-Vortrag: Wie ist das mit dem Pflegegrad?",
@@ -71,6 +100,20 @@
       "source": "https://www.oberhessen-live.de/2026/10/15/kochen-mit-kontext-mexiko-zwischen-weltpolitik-und-alltag/",
       "via": "RSS",
       "topic": "Vogelsberg"
+    },
+    {
+      "id": "9922709cd68513ac",
+      "title": "Musiklauf in der Eissportarena Lauterbach - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T11:40:29+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQVzYyWWMyRFVibjJVZS1EV29LaTJjMThNcGxuenZCZ3ZsSlZHeWJhT0xQVFl3U3BHanVUbzJQSDlOYUo1YVl6Wk1kcVF3UFJfc3JKYTRLdVBDZkwwOWRkSWVOMlBKeTNMUTNVSk0tX0thT2FJX3U2NE1raXItZkZOd3dxT2xEMlZm?oc=5",
+      "via": "Google News",
+      "topic": "Kultur & Musik"
     },
     {
       "id": "884119cd84f1e855",
@@ -1331,6 +1374,20 @@
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Sperrung-Fahrbahn-der-L3168-wird-erneuert/boxid/1075584",
       "via": "RSS",
       "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "1275e7ed2dbdb6db",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-08",
+      "publishedAt": "2026-10-08T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1IeENzSk9TQUhBWElPTkhLQVZtc3JxU0ZOUmFINTQyNzlQU2xvRGxhYWJ3QWtEQ0VQVnhsNENBVDRGcVJtM1NZS0Q5bnVtVkxUSGN2VWVvQzVVQnM?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "ae3297b9f616305d",
@@ -3042,9 +3099,9 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 13,
+      "count": 15,
       "note": "",
-      "stored": 26
+      "stored": 29
     },
     {
       "id": "fulda",
@@ -3060,7 +3117,7 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 16,
+      "count": 19,
       "note": "",
       "stored": 49
     },
@@ -3084,7 +3141,7 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 64,
+  "localCount": 65,
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 10,
@@ -3097,5 +3154,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-15T21:31:24.338891+00:00"
+  "officialCheckedAt": "2026-10-16T00:29:05.780657+00:00"
 }
