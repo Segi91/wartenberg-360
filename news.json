@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-16T18:09:37Z",
+  "updatedAt": "2026-10-16T21:21:27Z",
   "items": [
     {
       "id": "gemeinde-offiziell-47ac0c6e3597",
@@ -16,6 +16,34 @@
       "locality": "Wartenberg",
       "category": "Gemeinschaft & Ehrenamt",
       "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "e684b72f418ae462",
+      "title": "Geänderte Öffnungszeiten des Tourist Center",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T19:44:52+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/16/geaenderte-oeffnungszeiten-des-tourist-center/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "1725c58472cb3bd9",
+      "title": "„Blutspenden gehört für uns einfach dazu“",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T18:12:35+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/16/blutspenden-gehoert-fuer-uns-einfach-dazu/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "264e8e0dccdd350c",
@@ -1080,34 +1108,6 @@
       "source": "https://www.oberhessen-live.de/2026/10/11/drei-besondere-novemberabende-im-kulturladen-schlitz/",
       "via": "RSS",
       "topic": "Kultur & Musik"
-    },
-    {
-      "id": "fb3bcf2cdbeba6cc",
-      "title": "Wenn das Leben Fragen stellt",
-      "desc": "",
-      "date": "2026-10-11",
-      "publishedAt": "2026-10-11T10:03:12+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/11/wenn-das-leben-fragen-stellt/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "419585cfcfa0e765",
-      "title": "Vollsperrung der K 70 zwischen Alsfeld/Hattendorf und der Kreisgrenze zum Schwalm-Eder-Kreis",
-      "desc": "",
-      "date": "2026-10-11",
-      "publishedAt": "2026-10-11T08:04:35+00:00",
-      "category": "Verkehr & Bauen",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/11/vollsperrung-der-k-70-zwischen-alsfeld-hattendorf-und-der-kreisgrenze-zum-schwalm-eder-kreis/",
-      "via": "RSS",
-      "topic": "Verkehr & Bauen"
     },
     {
       "id": "3ad0f90f63ca5be7",
@@ -3224,5 +3224,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-16T18:10:02.975427+00:00"
+  "officialCheckedAt": "2026-10-16T21:21:50.618871+00:00"
 }
