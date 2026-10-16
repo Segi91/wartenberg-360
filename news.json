@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-16T00:28:42Z",
+  "updatedAt": "2026-10-16T07:19:04Z",
   "items": [
     {
       "id": "gemeinde-offiziell-47ac0c6e3597",
@@ -16,6 +16,34 @@
       "locality": "Wartenberg",
       "category": "Gemeinschaft & Ehrenamt",
       "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "c9d7ba605eee5a6f",
+      "title": "Talk und Musik in der Werkshalle, KI im Netz und ein Gottesdienst in Ermenrod",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T05:49:20+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/16/talk-und-musik-in-der-werkshalle-ki-im-netz-und-ein-gottesdienst-in-ermenrod/",
+      "via": "RSS",
+      "topic": "Kultur & Musik"
+    },
+    {
+      "id": "4af0e0b0f166047a",
+      "title": "Spezialtechnik aus Grebenhain für weltweiten Einsatz",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T04:12:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/16/spezialtechnik-aus-grebenhain-fuer-weltweiten-einsatz/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "7ec877a18e5b1a6a",
@@ -131,7 +159,7 @@
     },
     {
       "id": "f186b9d70b0b54c1",
-      "title": "Hightech aus dem Vogelsberg: Besuch bei einem besonderen Unternehmen - Osthessen|News",
+      "title": "Hightech aus dem Vogelsberg: Besuch bei einem besonderen Unternehmen - OSTHESSEN|NEWS",
       "desc": "",
       "date": "2026-10-15",
       "publishedAt": "2026-10-15T09:00:00+00:00",
@@ -593,10 +621,10 @@
     },
     {
       "id": "48653c6dd56ef12a",
-      "title": "L 3168 wird erneuert: Vollsperrung zwischen Ilbeshausen und Grebenhain - OSTHESSEN|NEWS",
+      "title": "L 3168 wird erneuert: Vollsperrung zwischen Ilbeshausen und Grebenhain - Osthessen|News",
       "desc": "",
       "date": "2026-10-13",
-      "publishedAt": "2026-10-13T06:05:40+00:00",
+      "publishedAt": "2026-10-13T06:00:00+00:00",
       "category": "Verkehr & Bauen",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
@@ -1024,20 +1052,6 @@
       "source": "https://www.oberhessen-live.de/2026/10/10/landrat-dr-mischak-1-million-zusaetzlich-fuer-den-sport-im-vogelsbergkreis/",
       "via": "RSS",
       "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
-      "id": "605ac43dc68150c6",
-      "title": "Dreitägige Vollsperrung zwischen Alsfeld/Eifa und dem Abzweig nach Grebenau/Schwarz",
-      "desc": "",
-      "date": "2026-10-10",
-      "publishedAt": "2026-10-10T12:17:37+00:00",
-      "category": "Verkehr & Bauen",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/10/dreitaegige-vollsperrung-zwischen-alsfeld-eifa-und-dem-abzweig-nach-grebenau-schwarz/",
-      "via": "RSS",
-      "topic": "Verkehr & Bauen"
     },
     {
       "id": "3ad0f90f63ca5be7",
@@ -3065,7 +3079,7 @@
       "mode": "Gepruefte Links / Archiv",
       "count": 0,
       "note": "Google News: keine aktuellen passenden Artikel",
-      "stored": 13
+      "stored": 14
     },
     {
       "id": "kreis",
@@ -3090,16 +3104,16 @@
       "name": "Oberhessen-live",
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
-      "count": 9,
+      "count": 10,
       "note": "",
-      "stored": 44
+      "stored": 45
     },
     {
       "id": "osthessen",
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 15,
+      "count": 13,
       "note": "",
       "stored": 29
     },
@@ -3108,7 +3122,7 @@
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 8,
+      "count": 7,
       "note": "",
       "stored": 13
     },
@@ -3117,7 +3131,7 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 19,
+      "count": 18,
       "note": "",
       "stored": 49
     },
@@ -3145,7 +3159,7 @@
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 10,
-    "Gemeinschaft & Ehrenamt": 6,
+    "Gemeinschaft & Ehrenamt": 7,
     "Familie & Soziales": 5,
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 3,
@@ -3154,5 +3168,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-16T00:29:05.780657+00:00"
+  "officialCheckedAt": "2026-10-16T07:19:24.207463+00:00"
 }
