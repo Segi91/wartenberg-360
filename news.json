@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-16T07:19:04Z",
+  "updatedAt": "2026-10-16T13:20:22Z",
   "items": [
     {
       "id": "gemeinde-offiziell-47ac0c6e3597",
@@ -16,6 +16,76 @@
       "locality": "Wartenberg",
       "category": "Gemeinschaft & Ehrenamt",
       "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "a7a8ae8378362d14",
+      "title": "Gasalarm in Wallenrod: Feuerwehr gibt Entwarnung",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T12:01:45+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/16/gasalarm-in-wallenrod-feuerwehr-gibt-entwarnung/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "9cc8644be781597d",
+      "title": "Vom Hallenbadbecken auf Wanderschaft",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T09:56:35+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/16/vom-hallenbadbecken-auf-wanderschaft/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "06d0936b3d2b26cb",
+      "title": "Jetzt hebt der Nach-Nachfolger ab",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T09:28:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Jetzt-hebt-der-Nach-Nachfolger-ab/boxid/1076567",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "5c6f5e11a768a1f7",
+      "title": "Werkzeugkästen aus Garage in Grebenhain gestohlen",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T07:52:39+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/16/werkzeugkaesten-aus-garage-in-grebenhain-gestohlen/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "00794f546b27b6f8",
+      "title": "Minute 95: TSV Pfordt entreißt SG Landenhausen den Sieg beim 3:3",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T07:01:24+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNNFAybUVKSV9FM3AxTER6WHVJcU1seTloTkVwWEpoMVowNkdWTTNHOC1JcndueVg4STlGZmJtS2VyUTM2VDJqSDZSWTVMSkFrd3lPVFM2eHJiLVAtd1Z5VzZXTnJpOXhKYVd1ZDlGODBzZUlmT3RsQWpyeWd1NXVFbmNaSnVLeVlnUzNCd2xFV2lWS2xzQ0JhRVVYd05jeVYxczBveW0yVVdORUR4bjhzWWhQZFU0aHA3ZmFwZmpNWTJCVlN2X2o4?oc=5",
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "c9d7ba605eee5a6f",
@@ -159,7 +229,7 @@
     },
     {
       "id": "f186b9d70b0b54c1",
-      "title": "Hightech aus dem Vogelsberg: Besuch bei einem besonderen Unternehmen - OSTHESSEN|NEWS",
+      "title": "Hightech aus dem Vogelsberg: Besuch bei einem besonderen Unternehmen - Osthessen|News",
       "desc": "",
       "date": "2026-10-15",
       "publishedAt": "2026-10-15T09:00:00+00:00",
@@ -596,7 +666,7 @@
       "title": "Straßenwärterin oder Straßenwärter im Winterdienst (w/m/d) für die Autobahn­meisterei Alsfeld in Alsfeld | ON JOBS - Osthessen|News",
       "desc": "",
       "date": "2026-10-13",
-      "publishedAt": "2026-10-13T06:40:03+00:00",
+      "publishedAt": "2026-10-13T06:41:20+00:00",
       "category": "Verkehr & Bauen",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
@@ -677,7 +747,7 @@
     },
     {
       "id": "719b7a00dd1bf5cc",
-      "title": "Vollsperrung zwischen Eifa und Grebenau-Abzweig - Osthessen|News",
+      "title": "Dreitägige Vollsperrung zwischen Alsfeld/Eifa und Abzweig nach Grebenau/Schwarz - Osthessen|News",
       "desc": "",
       "date": "2026-10-13",
       "publishedAt": "2026-10-13T00:00:00+00:00",
@@ -686,6 +756,20 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQdE5ZVlRJbU1wNU55MVRYVmFiRGJPY0MyYXdQS29mMmVBWWQ4b0ZpejhjMHExOUJmTTFodUc2YnV4ZjEzQTIybFRYaXdjMUJqTF92bEVlMU1YNjJQa1ZaOWtkVHp4ZjFTRGhkZkRQaGZ2dThXQ0UweXhxdlNaYVYxajBTZERzMHEwMXhHNmVwZENqQQ?oc=5",
+      "via": "Google News",
+      "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "f53b7918f6749211",
+      "title": "Vollsperrung zwischen Eifa und Grebenau-Abzweig - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T00:00:00+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOOWQydXl3V1NsM2ZRcmVsbW1XX1c1SFRWLXNGRTRTZklRS0k2T0kyLWlJWEluSVpNSXdBMFR1NThzR0pWbWhDNmdSTTJJeHozQjllWmRYUUVHYmpscFExOXZVX0NkNDZFZEtsZTBQUWJFeTNBNUdGLVBkYnphS1FvY19lamNoUWc2QXZMSC05TXQ1ekU2bGc?oc=5",
       "via": "Google News",
       "topic": "Verkehr & Bauen"
     },
@@ -1010,48 +1094,6 @@
       "source": "https://www.oberhessen-live.de/2026/10/10/die-gefahren-im-netz-erkennen-und-ihnen-begegnen/",
       "via": "RSS",
       "topic": "Vogelsberg"
-    },
-    {
-      "id": "706836e4fb466df2",
-      "title": "Stark, selbstbewusst und sicher Selbstbehauptungs- und Selbstverteidigungskurs für Jungen",
-      "desc": "",
-      "date": "2026-10-10",
-      "publishedAt": "2026-10-10T18:13:19+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/10/stark-selbstbewusst-und-sicher-selbstbehauptungs-und-selbstverteidigungskurs-fuer-jungen/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "4969003dcc763677",
-      "title": "Viele Begegnungen, Seifenkisten und ein Talk mit Steinmeier",
-      "desc": "",
-      "date": "2026-10-10",
-      "publishedAt": "2026-10-10T16:11:50+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/10/viele-begegnungen-seifenkisten-und-ein-talk-mit-steinmeier/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "50b584e414bccd81",
-      "title": "Landrat Dr. Mischak: 1 Million zusätzlich für den Sport im Vogelsbergkreis",
-      "desc": "",
-      "date": "2026-10-10",
-      "publishedAt": "2026-10-10T14:11:54+00:00",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/10/landrat-dr-mischak-1-million-zusaetzlich-fuer-den-sport-im-vogelsbergkreis/",
-      "via": "RSS",
-      "topic": "Gemeinschaft & Ehrenamt"
     },
     {
       "id": "3ad0f90f63ca5be7",
@@ -2072,20 +2114,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "2b7ee69cf288dc7a",
-      "title": "vhs-Kurse: Umgang mit der Motorsäge",
-      "desc": "",
-      "date": "2026-10-01",
-      "publishedAt": "2026-10-01T09:49:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurse-Umgang-mit-der-Motorsge/boxid/1074836",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "b6023fa99757ddc2",
       "title": "POL-OH: Zeugen nach Verkehrsunfallflucht im Bereich Mücke gesucht - Presseportal",
       "desc": "",
@@ -2206,7 +2234,7 @@
       "title": "Freistoß in der Nachspielzeit: Krause rettet SG Landenhausen das 2:2",
       "desc": "",
       "date": "2026-09-28",
-      "publishedAt": "2026-09-28T05:00:00+00:00",
+      "publishedAt": "2026-09-28T07:00:00+00:00",
       "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -2300,6 +2328,20 @@
       "sourceId": "la",
       "source": "https://www.lauterbacher-anzeiger.de/sport/lokalsport/sg-landenhausen-gewinnt-derby-zimmer-und-moeller-holen-je-zwei-punkte-94503878.html",
       "via": "Redaktionell verlinkt",
+      "topic": "Sport"
+    },
+    {
+      "id": "63f254d4605748ee",
+      "title": "TV Angersbach gewinnt 6:4 – fünf Punkte davon kampflos",
+      "desc": "",
+      "date": "2026-09-23",
+      "publishedAt": "2026-09-23T07:00:00+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX1dBQURTUVhTczBfTUs3aUcyMUxTdXYyWTRwNklheVlmb1R6Z21zcWZTTUpJTTZRTnFmeXRnTHp3NDBDZ2RKaEVINmVXem56b1pNdmpMVE1hc2tnLTJiT252QVVDaVBtU3NzdmtGVDk1UVVmVmxZZXNxSDdkUnVELXFjcVVhNl9peGVwS01saU1JQWQ5d1k2S1hrdWY3dW5OVXNwY1lsWkNxTXFjYTlmV01ZbzRYQWNm?oc=5",
+      "via": "Google News",
       "topic": "Sport"
     },
     {
@@ -3104,7 +3146,7 @@
       "name": "Oberhessen-live",
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
-      "count": 10,
+      "count": 12,
       "note": "",
       "stored": 45
     },
@@ -3113,9 +3155,9 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 13,
+      "count": 11,
       "note": "",
-      "stored": 29
+      "stored": 30
     },
     {
       "id": "fulda",
@@ -3131,9 +3173,9 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 18,
+      "count": 19,
       "note": "",
-      "stored": 49
+      "stored": 51
     },
     {
       "id": "kulturverein",
@@ -3155,7 +3197,7 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 65,
+  "localCount": 67,
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 10,
@@ -3164,9 +3206,9 @@
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 3,
     "Blaulicht": 2,
-    "Sport": 23,
+    "Sport": 25,
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-16T07:19:24.207463+00:00"
+  "officialCheckedAt": "2026-10-16T13:20:42.686182+00:00"
 }
