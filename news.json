@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-17T18:34:08Z",
+  "updatedAt": "2026-10-17T22:25:59Z",
   "items": [
     {
       "id": "6f59cbdbeabc54e8",
@@ -1192,6 +1192,20 @@
       "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSEcxdFFZd2NDc19jSkYxbnEwcUZmMzRGTUJRSXE5LWw1N29WVTAtdWc0ODFhM21JbTRNXy1Rd1Y5VUlQUzJDX1BzOE5majczZ0R0dnZ6Q1RONUNheG1sdFNfX19pZm9lbGdvODNwNWxwNFFYLVdueDdWelo3RTRMUEJrODU0ZTZNMGFGd0pCOXQxT3NPTEMzUWhYV0NrYjAxUFRkdjF1eEtPZDQ3bDF0V1pFVE02Zw?oc=5",
       "via": "Google News",
       "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "0d4ca239468afbe8",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-10",
+      "publishedAt": "2026-10-10T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBBTS1yWEVPaWtVaGtHcmp1U3k3a0VwYzdFWWN6LW9RY0paU2s2VVJRNDdMTFJhcnNUelNXR1p5Qy1uZEN0amJOcjVqbU1vQXh0T2VDSWl5aVNRWDQ?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "0d967618e6c3abdb",
@@ -3311,7 +3325,7 @@
       "mode": "Google News",
       "count": 17,
       "note": "",
-      "stored": 37
+      "stored": 38
     },
     {
       "id": "fulda",
@@ -3364,5 +3378,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-17T18:34:27.911447+00:00"
+  "officialCheckedAt": "2026-10-17T22:26:23.016177+00:00"
 }
