@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-17T07:02:34Z",
+  "updatedAt": "2026-10-17T12:15:31Z",
   "items": [
     {
       "id": "gemeinde-offiziell-47ac0c6e3597",
@@ -16,6 +16,20 @@
       "locality": "Wartenberg",
       "category": "Gemeinschaft & Ehrenamt",
       "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "488dc31a9553f397",
+      "title": "Klavierkonzert mit Star-Pianistin Claire Huangci bei Alsfeld Musik Art",
+      "desc": "",
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T10:11:47+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/17/klavierkonzert-mit-star-pianistin-claire-huangci-bei-alsfeld-musik-art/",
+      "via": "RSS",
+      "topic": "Kultur & Musik"
     },
     {
       "id": "1132b10b2c1b4e9f",
@@ -1166,20 +1180,6 @@
       "topic": "Verkehr & Bauen"
     },
     {
-      "id": "0129611bf7c9f7c6",
-      "title": "Als Böhmen nach Romrod kam",
-      "desc": "",
-      "date": "2026-10-11",
-      "publishedAt": "2026-10-11T17:58:46+00:00",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/11/als-boehmen-nach-romrod-kam/",
-      "via": "RSS",
-      "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
       "id": "3ad0f90f63ca5be7",
       "title": "Mehr Geld für Hallen und Vereine: Vogelsbergkreis baut Sportförderung aus",
       "desc": "",
@@ -2282,6 +2282,20 @@
       "topic": "Familie & Soziales"
     },
     {
+      "id": "15da04678f1d561b",
+      "title": "Biker-Safety-Tour 2026: Gemeinsam sicher durch den Vogelsberg - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUlhWjJUSExzV0ppYm5xbkNVdEZUR3hldHNzNzJkS3R4Q0lhZUVfQTBQMFl6S0ZZSndTSVpuaURTR2JTTDBlTHhTRGE3YmJaWmZkMEZ6VWdZVVFGSnVyVWNLQUZGUm1xMENkeVBGLVRZbGhDRk9za1VxcVNoeXh0MTRVR2xqdEJLcHpYU3c0dnlvY29hMGxqcEhiMTNLWVIydVB0WGJ5Zw?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
       "id": "f7a5a64daf344084",
       "title": "18. Kunstspaziergang Landenhausen: Ställe und Gärten verwandeln sich in Ausstellungsräume",
       "desc": "",
@@ -3277,7 +3291,7 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "Google News",
-      "count": 10,
+      "count": 9,
       "note": "",
       "stored": 18
     },
@@ -3297,14 +3311,14 @@
       "mode": "Google News",
       "count": 16,
       "note": "",
-      "stored": 36
+      "stored": 37
     },
     {
       "id": "fulda",
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 7,
+      "count": 6,
       "note": "",
       "stored": 15
     },
@@ -3313,7 +3327,7 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 19,
+      "count": 21,
       "note": "",
       "stored": 53
     },
@@ -3350,5 +3364,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-17T07:02:57.618694+00:00"
+  "officialCheckedAt": "2026-10-17T12:15:51.040717+00:00"
 }
