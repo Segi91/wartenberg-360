@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-17T00:34:27Z",
+  "updatedAt": "2026-10-17T07:02:34Z",
   "items": [
     {
       "id": "gemeinde-offiziell-47ac0c6e3597",
@@ -16,6 +16,62 @@
       "locality": "Wartenberg",
       "category": "Gemeinschaft & Ehrenamt",
       "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "1132b10b2c1b4e9f",
+      "title": "Gemeinsam einen Weg gehen, wenn das Ziel auch ungewiss scheint",
+      "desc": "",
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T06:11:58+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/17/gemeinsam-einen-weg-gehen-wenn-das-ziel-auch-ungewiss-scheint/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "6438cedbea1d7136",
+      "title": "Landrat Jens Mischak übergibt Spende für neue Drohne an das DRK Grebenhain",
+      "desc": "",
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T04:32:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNc1dJcDV3N3NYcmphakdhbzJ1NFk1d3FRMW1WbGZwRmtBdXhveUl2YWNITzRlWE9GVGRpQmxFR3ZKRUc4Rm5GSkhZa0o3R0V4OC1HZlVOMXRpbkdXQ2tDTkNOamJPZVNRTjJabjJiV2tHQWkzdWM3YXpfMUVwZWNCYXBXNmZ3cGRjR3pUbnNhRVBUVnNzeHBHUTJkOHVRVFBUWVk3bmtCREdjd3g0dnNTaFE5cWk?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "31fbacc0295cd1a8",
+      "title": "Jetzt hebt der Nach-Nachfolger ab",
+      "desc": "",
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T04:05:49+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/17/jetzt-hebt-der-nach-nachfolger-ab/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "88d3c910b835b111",
+      "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
+      "desc": "",
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T02:42:37+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZUx2SHMxQUtGa2N5dFBDRDZSRUp3eFR6OC01dmdTLWFvU1ZZTDRjd2didTNvZjc1SEhJRnNQcGRhTkNYX1ZoZG0tbVhJenhpQko3LXJaWndxQ3dSV05ITU9xRDBneFdfVmlLTWh5YlhZdlNXZ1dITUhvMmxyT3gwbnJleEZjMWFoSWx4SmxSdnNIUUpOT29ZSWRacEw1YnNxUUg1UFBJTXRzeXd0c0pOWTZR?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "ebc21e5ab734d4ed",
@@ -1122,34 +1178,6 @@
       "source": "https://www.oberhessen-live.de/2026/10/11/als-boehmen-nach-romrod-kam/",
       "via": "RSS",
       "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
-      "id": "0dce512a9aa411a4",
-      "title": "Zu gut für die Tonne: Foodsharing rettet Lebensmittel und sorgt für Aha-Momente",
-      "desc": "",
-      "date": "2026-10-11",
-      "publishedAt": "2026-10-11T16:09:02+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/11/zu-gut-fuer-die-tonne-foodsharing-rettet-lebensmittel-und-sorgt-fuer-aha-momente/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "c66960b6a4db5d7b",
-      "title": "Drei besondere Novemberabende im Kulturladen Schlitz",
-      "desc": "",
-      "date": "2026-10-11",
-      "publishedAt": "2026-10-11T14:11:43+00:00",
-      "category": "Kultur & Musik",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/11/drei-besondere-novemberabende-im-kulturladen-schlitz/",
-      "via": "RSS",
-      "topic": "Kultur & Musik"
     },
     {
       "id": "3ad0f90f63ca5be7",
@@ -2363,7 +2391,7 @@
       "title": "Kunstspaziergang Landenhausen startet: 36 Künstler an 14 Stationen",
       "desc": "",
       "date": "2026-09-26",
-      "publishedAt": "2026-09-26T06:00:00+00:00",
+      "publishedAt": "2026-09-26T07:00:00+00:00",
       "category": "Kultur & Musik",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -2427,6 +2455,20 @@
       "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX1dBQURTUVhTczBfTUs3aUcyMUxTdXYyWTRwNklheVlmb1R6Z21zcWZTTUpJTTZRTnFmeXRnTHp3NDBDZ2RKaEVINmVXem56b1pNdmpMVE1hc2tnLTJiT252QVVDaVBtU3NzdmtGVDk1UVVmVmxZZXNxSDdkUnVELXFjcVVhNl9peGVwS01saU1JQWQ5d1k2S1hrdWY3dW5OVXNwY1lsWkNxTXFjYTlmV01ZbzRYQWNm?oc=5",
       "via": "Google News",
       "topic": "Sport"
+    },
+    {
+      "id": "ca65424a3b317f32",
+      "title": "Buntes Programm am Weltkindertag am Jugendhaus Schlitz - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T07:00:00+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLXF0OHhETTNsVjNtZnBabnhYV0JXVWxkVWRtVXZfdFFieXVBOWtldWZvTE1MODZrLWpXUXJLTHBFOXg5MzdtZlJGaC1jckN0M1RIcG9yT1ZCNzB2MUc3THhETDFFZi0tWDJSUkkzNTQ5d0l6YTBrWkhWRW4wdjFYSW9hb3EyRllNNnJleEt4WnRNUTFGTm9RMzJsZ3g1Mm8?oc=5",
+      "via": "Google News",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "668cfc28425bde97",
@@ -3235,7 +3277,7 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "Google News",
-      "count": 11,
+      "count": 10,
       "note": "",
       "stored": 18
     },
@@ -3253,25 +3295,25 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 15,
+      "count": 16,
       "note": "",
-      "stored": 35
+      "stored": 36
     },
     {
       "id": "fulda",
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 6,
+      "count": 7,
       "note": "",
-      "stored": 13
+      "stored": 15
     },
     {
       "id": "la",
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 23,
+      "count": 19,
       "note": "",
       "stored": 53
     },
@@ -3308,5 +3350,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-17T00:34:44.032875+00:00"
+  "officialCheckedAt": "2026-10-17T07:02:57.618694+00:00"
 }
