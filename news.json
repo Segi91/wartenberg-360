@@ -1,7 +1,21 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-17T15:44:00Z",
+  "updatedAt": "2026-10-17T18:34:08Z",
   "items": [
+    {
+      "id": "6f59cbdbeabc54e8",
+      "title": "Fracht mit Flügeln: Bei Rhenus summt die Logistik",
+      "desc": "",
+      "date": "2026-10-17",
+      "publishedAt": "2026-10-17T15:59:47+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/17/fracht-mit-fluegeln-bei-rhenus-summt-die-logistik/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
     {
       "id": "3317c3c38b690582",
       "title": "Was braucht der Vogelsberg – und wie setzt der Kreis seine Mittel sinnvoll ein?",
@@ -522,6 +536,20 @@
       "topic": "Verkehr & Bauen"
     },
     {
+      "id": "ce3942681a6dc5ac",
+      "title": "Vollsperrung bis Dezember: Landesstraße bei Grebenhain wird in zwei Abschnitten saniert",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T14:42:58+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORGU3a0VpSnZ6RG9sVVRfNGYtZmlMWkJCVFYxQ2ZwNHN2VVBTTldyVGFNSGJZWlJYT3gwOHBFTGQ3MVB5d0RQQXdxSmIxVnhSSEpKUS1YajZvbEUyUFQ3SWdOREw1a0pGWkNBVDFGdnhCYVh6emE4RHNPbm1uOGVIUzRud2lEU1MyNUxIU3p5d3VPa0Z0X3NQREF5MXVORm8weDg3Qy0yLXpVcUZDTnZ1TE5Ec3BWSG5Wcml4V0haN1plcEJYbWdN?oc=5",
+      "via": "Google News",
+      "topic": "Verkehr & Bauen"
+    },
+    {
       "id": "5768820be7f838b9",
       "title": "Moderne Technik hält Einzug",
       "desc": "",
@@ -604,20 +632,6 @@
       "source": "https://www.oberhessen-live.de/2026/10/14/sprachlich-in-eine-neue-welt-abtauchen/",
       "via": "RSS",
       "topic": "Vogelsberg"
-    },
-    {
-      "id": "ce3942681a6dc5ac",
-      "title": "Vollsperrung bis Dezember: Landesstraße bei Grebenhain wird in zwei Abschnitten saniert",
-      "desc": "",
-      "date": "2026-10-14",
-      "publishedAt": "2026-10-14T02:42:25+00:00",
-      "category": "Verkehr & Bauen",
-      "locality": "Vogelsberg",
-      "sourceName": "Fuldaer Zeitung",
-      "sourceId": "fulda",
-      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORGU3a0VpSnZ6RG9sVVRfNGYtZmlMWkJCVFYxQ2ZwNHN2VVBTTldyVGFNSGJZWlJYT3gwOHBFTGQ3MVB5d0RQQXdxSmIxVnhSSEpKUS1YajZvbEUyUFQ3SWdOREw1a0pGWkNBVDFGdnhCYVh6emE4RHNPbm1uOGVIUzRud2lEU1MyNUxIU3p5d3VPa0Z0X3NQREF5MXVORm8weDg3Qy0yLXpVcUZDTnZ1TE5Ec3BWSG5Wcml4V0haN1plcEJYbWdN?oc=5",
-      "via": "Google News",
-      "topic": "Verkehr & Bauen"
     },
     {
       "id": "c5ddab604f42f671",
@@ -1122,20 +1136,6 @@
       "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPemZla3gtQnBzcVNuU1QzSTNjZnJpbDN0VUVNYmhDR3VfenJhSGxSWnVpaVVTLXl2NHc4cEVrNVhERUpKT1JEMFo4U05wWWFVYUo4S1FvZUU0X3BIMjFmWm1jTnBkbjZ6V1R2TkNTZmxTWENkdnhSMjlCeWtLYkpLaVFVV0MyeXI4VWJuQWNIWkU4eWVqMUFvSkZnLXgxVzNyZ1BVWXQ1R1FVM0JnS0duaDhSRWl6UjRMb1NCXzJHTTdoRjhkZklVVjA3NVE?oc=5",
       "via": "Google News",
       "topic": "Sport"
-    },
-    {
-      "id": "a89e33ac82edbe30",
-      "title": "BUND Vogelsberg zu Besuch beim BUND Schwalm-Eder",
-      "desc": "",
-      "date": "2026-10-12",
-      "publishedAt": "2026-10-12T04:14:28+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/12/bund-vogelsberg-zu-besuch-beim-bund-schwalm-eder/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
     },
     {
       "id": "4e9cebb996e84e89",
@@ -3327,7 +3327,7 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 19,
+      "count": 22,
       "note": "",
       "stored": 53
     },
@@ -3344,13 +3344,13 @@
       "id": "winfo",
       "name": "Wartenberg-iNFO",
       "url": "https://www.wartenberg-info.de/",
-      "mode": "Google News",
-      "count": 1,
-      "note": "",
+      "mode": "Nur Quelle",
+      "count": 0,
+      "note": "RSS: HTTPError; Google News: keine aktuellen passenden Artikel",
       "stored": 0
     }
   ],
-  "feedCount": 8,
+  "feedCount": 7,
   "localCount": 69,
   "localTopics": {
     "Rathaus & Politik": 11,
@@ -3364,5 +3364,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-17T15:44:22.818688+00:00"
+  "officialCheckedAt": "2026-10-17T18:34:27.911447+00:00"
 }
