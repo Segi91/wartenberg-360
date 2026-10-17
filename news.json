@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-16T21:21:27Z",
+  "updatedAt": "2026-10-17T00:34:27Z",
   "items": [
     {
       "id": "gemeinde-offiziell-47ac0c6e3597",
@@ -15,6 +15,48 @@
       "via": "Amtliche Website",
       "locality": "Wartenberg",
       "category": "Gemeinschaft & Ehrenamt",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "ebc21e5ab734d4ed",
+      "title": "Standards mit Spielraum – Lauterbacher Jazzquartett, Schlitz - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T22:16:15+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSHdnN2dEX0tnRTVSN0diT01FakIzZnlBeXdvdWItTkNENWhqRjh2Y0YtdVdUSGduS0NVMkpodkF6T1MyTDdGWU5JNFFhRUl5bUtxUUE2VUhfU2M1UFM1d081b01WSU5RMEVOeHJmOXBlWGJYdzhzczVrcm1yVFBNOFFyVnFEZFBYSDVEdFJRWmc5ZTQ?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "6053af58c286b8ce",
+      "title": "Lauterbacher Luchse : Crocodiles Hamburg - Charity-Event mit der Kinderkrebshilfe Schlitz e. V. - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T22:15:24+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT25aODFZMHl3RExUdEVTNDN1cVVZVkI1X2d2cW0yQ25BN3dMOV9peXFKTzNiWlNSVTVXT2pMdEpjX2JJS3l6SVF6THl2QmI1TE14UHhOSFJlbWRLQUlFbHBkaXV0blhpSFIwd2Z4c2FaXzR0Tk1ndDZhb0VXc01pRkpEelBlNVBWWWt0bGN2R09nWGtPWlJyeWtCZjl3TG9qWkFYMTJyLWNWdktqYktFanZnUmk2QVV2eUFVa3NDamd4QmsyTDRyRUM3Z1c?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "94e80580e1c71da7",
+      "title": "Dorfflohmarkt Wernges, Lauterbach (Hessen) - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T22:15:20+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1hTFNPWE1OUVFJSThPNkRvbFJpRmtGX2ppMUZPMWRSd05YRDhlUkh6cm9oV3lna0tRZk9sc0NYdU5ZdHNtSWw2YURUNzFOTl9hNkRZWUE3bjZxZElYVVZiZVhfeEtYY3NTQkd5Wkt3?oc=5",
+      "via": "Google News",
       "topic": "Gemeinschaft & Ehrenamt"
     },
     {
@@ -299,7 +341,7 @@
     },
     {
       "id": "f186b9d70b0b54c1",
-      "title": "Hightech aus dem Vogelsberg: Besuch bei einem besonderen Unternehmen - Osthessen|News",
+      "title": "Hightech aus dem Vogelsberg: Besuch bei einem besonderen Unternehmen - OSTHESSEN|NEWS",
       "desc": "",
       "date": "2026-10-15",
       "publishedAt": "2026-10-15T09:00:00+00:00",
@@ -2198,6 +2240,34 @@
       "topic": "Blaulicht"
     },
     {
+      "id": "43975ea4669afbab",
+      "title": "Schwere Vorwürfe gegen 34-jährigen Ex-Kita-Erzieher aus Grebenhain - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-09-29",
+      "publishedAt": "2026-09-29T07:00:00+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUjZkUVFIWDh3aHoyb2Z4Vkp1UVB5bEstQmVrRWt2dmZiVXE5OWRROWw1Wi1LckQ0ODlJa2tsS1hXREpQYWRuUFZGYTJpdTVvOVNkemg1ZW81U3UwSEF2NmZhcm5WOS02cDhZclJaWjRKbjJ4M1dHRkxlRkMyYWwwVkp6MXhsZ3N5cE80VnpTZk1yQmlkWFRYX0w1NGJKNVV6MVM0d2lFYndBbkdFUUhRVA?oc=5",
+      "via": "Google News",
+      "topic": "Familie & Soziales"
+    },
+    {
+      "id": "f7a5a64daf344084",
+      "title": "18. Kunstspaziergang Landenhausen: Ställe und Gärten verwandeln sich in Ausstellungsräume",
+      "desc": "",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T15:22:13+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOM0VSdkJpN0FsR1JuTDl0TlhsQnNETGEydW9oM0N2WjNMaDRmN0VwMWVjX0dQNl9qcHdrQ1BMSVFYQVdQR3I2WFNMT3hOTnVBVkY2d1pMMndQWUFvMXBFLTdtcXdwYjZ1QmVJN2J1bFZtcWE1TzlBaGNaN0ktQlZKcGRHb0t1d0NXZ2h3QU9iQmU4X0p3aXNZZHQ5ZExyQ0d4LTEzVzZTX3RkenZQVXI3TkZyQm1HOER0cUlPemJQaWRWWEhscEZSNktKcXhPQ3h0a045UDdXUnhnS21FR19r?oc=5",
+      "via": "Google News",
+      "topic": "Kultur & Musik"
+    },
+    {
       "id": "0c49b4fb264cff7a",
       "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Fulda und Vogelsberg - Presseportal",
       "desc": "",
@@ -2907,6 +2977,20 @@
       "summaryType": "Redaktionelle Zusammenfassung"
     },
     {
+      "id": "1aa1f881b3228381",
+      "title": "Public Viewing beim TV Angersbach: Fernseher sogar für die Grillmannschaft",
+      "desc": "",
+      "date": "2026-06-23",
+      "publishedAt": "2026-06-23T07:00:00+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWEtpc0RKazRFT2N1SGF5V3Qzc0NWandMcXZkZVZFWEIwS045aDBXclRzRzJHeGZkMFctTlNLSTdTdmxwRjBrc09uTGVkZzNXOWJPNHFwOVVBeWJDLUlzZS11VmNBQkktZ3BHRDd2VVRiQlp1VzZtSHI5eWtIUk41NGN5ckZNdWk4QXZWREdKaHdQazgtenFtcS1raWcwUktVa1RsakZBazJhZVByOFFrekdTMEFKZkZLTVl3M0NhWnEzT0FmWm5ISkhTRUJaT2kwTl8tSl9yYVVfUQ?oc=5",
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
       "id": "curated-v2-14",
       "date": "2026-06-15",
       "publishedAt": "2026-06-15T12:00:00+02:00",
@@ -3169,16 +3253,16 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 11,
+      "count": 15,
       "note": "",
-      "stored": 31
+      "stored": 35
     },
     {
       "id": "fulda",
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 7,
+      "count": 6,
       "note": "",
       "stored": 13
     },
@@ -3187,9 +3271,9 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 18,
+      "count": 23,
       "note": "",
-      "stored": 51
+      "stored": 53
     },
     {
       "id": "kulturverein",
@@ -3211,18 +3295,18 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 67,
+  "localCount": 69,
   "localTopics": {
     "Rathaus & Politik": 11,
-    "Kultur & Musik": 10,
+    "Kultur & Musik": 11,
     "Gemeinschaft & Ehrenamt": 7,
     "Familie & Soziales": 5,
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 3,
     "Blaulicht": 2,
-    "Sport": 25,
+    "Sport": 26,
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-16T21:21:50.618871+00:00"
+  "officialCheckedAt": "2026-10-17T00:34:44.032875+00:00"
 }
