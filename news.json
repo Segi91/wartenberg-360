@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-18T18:42:20Z",
+  "updatedAt": "2026-10-18T22:28:36Z",
   "items": [
     {
       "id": "401018f2c1f97c73",
-      "title": "„Bibel TV“ zeichnet Gottesdienst zu Allerheiligen in Schlitz auf",
+      "title": "Fernseh-Gottesdienst aus Schlitz: Team von „Bibel TV“ dreht in der Stadtkirche",
       "desc": "",
       "date": "2026-10-18",
       "publishedAt": "2026-10-18T18:12:00+00:00",
-      "category": "Vogelsberg",
+      "category": "Familie & Soziales",
       "locality": "Vogelsberg",
       "sourceName": "Fuldaer Zeitung",
       "sourceId": "fulda",
       "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQzU4QnQ5OHpkeFh1LTgwQmVxNjg1S1l6cFBxVFF4VndmT0Rwc19yajBZdDFmalh3T1I0RHNHRWVyaW12RWctcEJfSEtiVm5JUkY3ZWVneGZhSlFBVGR2MXQ1aGNDYmtYNWQ4d0Zpcy04OEROaTFsdzM2b3VLLUMwTkFaTHNUaENpVTNubWhCeGoyQlRjajJxNGxVUFFvRXJMOEJ0SGpyWFUxUnl5ZklLZ0liLVNHTkxT?oc=5",
       "via": "Google News",
-      "topic": "Vogelsberg"
+      "topic": "Familie & Soziales"
     },
     {
       "id": "1746ae39efccc9e2",
@@ -1220,6 +1220,20 @@
       "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQb3RWcERqVXlSaVF4ajRCNHB3OFVNUXZ6WEtUNXY0UW5WWjVLQVp0WHJLNXRyWTJUeFBPM2pyZElWTEo2S0xhRFRXNDIzY3RpSTNTMW5PZTFCTXBadzg2aDlvXzFrSVR0ZkUtYVItWTdKa0M2UzhtZ2tkd1JoY2NxdWFDaHBxNVpMNEtvOW10aXFwMU9qd3hvS0dram5pbnAyb2tlR3dUaFZ0QnM3OFk5OThsU01MRVBaY2VSUzg2SDBYNnRRaDkw?oc=5",
       "via": "Google News",
       "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "66f73e7e3b42ff92",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-11",
+      "publishedAt": "2026-10-11T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9sWTlQUGUzQ1p1THFObmNXUjZqRnJNeWdjVjk4UUh0QUVxRUhqcHNGWjkyVlZXaTJtc3BSMVpMbWN4UDA1RFFIay1aNVlCZmVlOHFjbnlGdkF1Rmc?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "3ad0f90f63ca5be7",
@@ -3379,9 +3393,9 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 20,
+      "count": 18,
       "note": "",
-      "stored": 40
+      "stored": 41
     },
     {
       "id": "fulda",
@@ -3434,5 +3448,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-18T18:42:39.921543+00:00"
+  "officialCheckedAt": "2026-10-18T22:28:58.379433+00:00"
 }
