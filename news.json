@@ -1,7 +1,21 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-17T22:25:59Z",
+  "updatedAt": "2026-10-18T04:44:31Z",
   "items": [
+    {
+      "id": "b36f9a53f5e5a309",
+      "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
+      "desc": "",
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T02:42:19+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMVdZbDNpTXpCY09rLVZyRF9vNXZJSWlXTkwtLWNsLU5lRk9sOWYwYU9DX1FKM20zZmF6a2hKRFplRWdUeXpqYl95VWttbjY5azZvbUQyd2djNEtpWWRDTTNxdVdsSnN1YWpSUWwtRHQ0aXdka3VWS2NLbnlvV0F6MEpYTldQekVZMDRlN2Fua1ZMYjEybEhGaFFuOEtqc1ctdGV1MmJIbmNHSE1OWXFTc0Z3?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
     {
       "id": "6f59cbdbeabc54e8",
       "title": "Fracht mit Flügeln: Bei Rhenus summt die Logistik",
@@ -2310,20 +2324,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "f7a5a64daf344084",
-      "title": "18. Kunstspaziergang Landenhausen: Ställe und Gärten verwandeln sich in Ausstellungsräume",
-      "desc": "",
-      "date": "2026-09-28",
-      "publishedAt": "2026-09-28T15:22:13+00:00",
-      "category": "Kultur & Musik",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOM0VSdkJpN0FsR1JuTDl0TlhsQnNETGEydW9oM0N2WjNMaDRmN0VwMWVjX0dQNl9qcHdrQ1BMSVFYQVdQR3I2WFNMT3hOTnVBVkY2d1pMMndQWUFvMXBFLTdtcXdwYjZ1QmVJN2J1bFZtcWE1TzlBaGNaN0ktQlZKcGRHb0t1d0NXZ2h3QU9iQmU4X0p3aXNZZHQ5ZExyQ0d4LTEzVzZTX3RkenZQVXI3TkZyQm1HOER0cUlPemJQaWRWWEhscEZSNktKcXhPQ3h0a045UDdXUnhnS21FR19r?oc=5",
-      "via": "Google News",
-      "topic": "Kultur & Musik"
-    },
-    {
       "id": "0c49b4fb264cff7a",
       "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Fulda und Vogelsberg - Presseportal",
       "desc": "",
@@ -2368,6 +2368,20 @@
       "desc": "Der Kunstspaziergang in Landenhausen zeigte kreative Arbeiten an ungewöhnlichen Ausstellungsorten, darunter Höfe, Gärten und Ställe. Der Bericht des Lauterbacher Anzeigers blickt auf die Veranstaltung zurück.",
       "body": "Kultur wurde bei dieser Veranstaltung direkt im Ort erlebbar. Unterschiedliche Stationen boten die Gelegenheit, Kunst im dörflichen Umfeld zu entdecken.",
       "summaryType": "Redaktionelle Zusammenfassung"
+    },
+    {
+      "id": "f7a5a64daf344084",
+      "title": "18. Kunstspaziergang Landenhausen: Ställe und Gärten verwandeln sich in Ausstellungsräume",
+      "desc": "",
+      "date": "2026-09-28",
+      "publishedAt": "2026-09-28T07:00:00+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOM0VSdkJpN0FsR1JuTDl0TlhsQnNETGEydW9oM0N2WjNMaDRmN0VwMWVjX0dQNl9qcHdrQ1BMSVFYQVdQR3I2WFNMT3hOTnVBVkY2d1pMMndQWUFvMXBFLTdtcXdwYjZ1QmVJN2J1bFZtcWE1TzlBaGNaN0ktQlZKcGRHb0t1d0NXZ2h3QU9iQmU4X0p3aXNZZHQ5ZExyQ0d4LTEzVzZTX3RkenZQVXI3TkZyQm1HOER0cUlPemJQaWRWWEhscEZSNktKcXhPQ3h0a045UDdXUnhnS21FR19r?oc=5",
+      "via": "Google News",
+      "topic": "Kultur & Musik"
     },
     {
       "id": "e24cfb395ce904be",
@@ -3323,7 +3337,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 17,
+      "count": 19,
       "note": "",
       "stored": 38
     },
@@ -3334,14 +3348,14 @@
       "mode": "Google News",
       "count": 6,
       "note": "",
-      "stored": 15
+      "stored": 16
     },
     {
       "id": "la",
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 22,
+      "count": 23,
       "note": "",
       "stored": 53
     },
@@ -3378,5 +3392,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-17T22:26:23.016177+00:00"
+  "officialCheckedAt": "2026-10-18T04:44:53.586669+00:00"
 }
