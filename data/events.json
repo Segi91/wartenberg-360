@@ -4,19 +4,6 @@
   "note": "Verifizierte veröffentlichte Termine. Uhrzeiten und genaue Veranstaltungsorte nur falls sicher vorhanden. Erfasster Kalenderstand – keine Garantie für spätere Änderungen.",
   "items": [
     {
-      "id": "2026-event-01",
-      "start": "2026-10-15",
-      "end": "2026-10-17",
-      "title": "Kirmes in Angersbach",
-      "location": "Angersbach",
-      "category": "Kultur",
-      "organizer": "Kirmesclub Angersbach",
-      "description": "Der Kirmesclub Angersbach führt die Kirmes vom 15. bis 17. Oktober 2026 durch. Das genaue Programm und die einzelnen Veranstaltungsorte bitte direkt beim Veranstalter prüfen.",
-      "source": "https://www.gemeinde-wartenberg.de/kalenderdaten/detailansicht.html?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=1974&cHash=fe49feb9edf430bc7d85af1797db3cd4",
-      "origin": "Gemeindekalender",
-      "exactTimeKnown": false
-    },
-    {
       "id": "2026-event-02",
       "start": "2026-10-24",
       "end": "2026-10-24",

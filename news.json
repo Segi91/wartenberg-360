@@ -1,7 +1,35 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-18T04:44:31Z",
+  "updatedAt": "2026-10-18T11:21:16Z",
   "items": [
+    {
+      "id": "1746ae39efccc9e2",
+      "title": "Lauterbacher Luchse und Hamburger Fans sammeln für krebskranke Kinder - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T10:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQWdZaGhOdHVmY3BWTDVjR2FIaXlTT0lOREp4RUFXV2V2ODQyOWFRRHNod0VmbGZ6Vll1clhROHJxc0twRFJOaVpacXNoR3h2VDRhN1lWZFVFT2xTQW8yYzRSc25XLW1QdkI5bUJTYWU0YUowR240dm5kenJObFdYR1FCX1dody1vbkVmMWhtTFViYk1WeUlZYVhqT1BDdmJjc0RJd253VXdVSlNaclVuVg?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "1f29683f2929f7bb",
+      "title": "Wegsteine – eine Sonderausstellung zur Provenienzforschung im Stadtmuseum Alsfeld",
+      "desc": "",
+      "date": "2026-10-18",
+      "publishedAt": "2026-10-18T06:34:47+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/18/wegsteine-eine-sonderausstellung-zur-provenienzforschung-im-stadtmuseum-alsfeld/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
     {
       "id": "b36f9a53f5e5a309",
       "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
@@ -1124,20 +1152,6 @@
       "topic": "Familie & Soziales"
     },
     {
-      "id": "167f270ab8b71ab0",
-      "title": "Mit guten Ideen eine Welt für alle schaffen",
-      "desc": "",
-      "date": "2026-10-12",
-      "publishedAt": "2026-10-12T06:11:39+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/12/mit-guten-ideen-eine-welt-fuer-alle-schaffen/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "86b2c49da4251131",
       "title": "Eichenauer trifft in der 72. Minute: SG Landenhausen gewinnt Derby 1:0",
       "desc": "",
@@ -2129,7 +2143,7 @@
       "title": "Fünf Auswärtsniederlagen: SG Landenhausen will endlich in der Fremde punkten",
       "desc": "",
       "date": "2026-10-02",
-      "publishedAt": "2026-10-02T05:00:00+00:00",
+      "publishedAt": "2026-10-02T07:00:00+00:00",
       "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -2272,7 +2286,7 @@
       "title": "VfL Lauterbach macht Traumstart perfekt: 8:2 gegen SG Landenhausen",
       "desc": "",
       "date": "2026-09-30",
-      "publishedAt": "2026-09-30T05:00:00+00:00",
+      "publishedAt": "2026-09-30T07:00:00+00:00",
       "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -2441,6 +2455,20 @@
       "source": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNanVnMk80TThMUlVjVmNXbVN4cUZIc1hhMk5RSEU0dzdFemVvTWNoeEo1ZGN4VmNISDY5Z0lpLVFUTFV3UG1ETU84bGV4Y2hUN0ZUU1FEWHVpYmZzeHV4LXk3RFNuczA1ZFUxZW9Jck1DMXBCRFprZXhHTGhUQ09nekxubGUyMWo3djZYN3ZIQ1Izel9faUtkX0daOE50eFN6YmdLb3JHMV83T083dFdJa0xuLU9WeFQwRnNqRFJvR3N2WUV1MlY3TFpyTjUtVGdGa1J0aDFSLVA2VG5t?oc=5",
       "via": "Google News",
       "topic": "Kultur & Musik"
+    },
+    {
+      "id": "dec219834b14228a",
+      "title": "Mit Mut und neuer Kraft: Tamara Kaulich startet als Pfarrerin in Angersbach - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-09-26",
+      "publishedAt": "2026-09-26T07:00:00+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Wartenberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORDhtVWlNT1lwdUlZbDVKS3hjSUdhYmlIdF93bmlNMUhaekdhV3VtNzIxSTh4aF9ZYmlyZTJ5RGYtc1FqNzlzQnJGaHIwN0VVNHgtc1NPbkZ6d2lsRUphVXNMSkRpUzdaLUtiUnE5MmxRRlZmakhpeWxQOXhCN3ZGN2J4UUQtZDRCQVN4ZTBYQXgwSUxOblZDUkdQY1VLaUhjc01sYl9pdEFPd0tELXNMTWNhUjJlVmdDYUE?oc=5",
+      "via": "Google News",
+      "topic": "Familie & Soziales"
     },
     {
       "id": "e5e3073c87e093d8",
@@ -3328,7 +3356,7 @@
       "name": "Oberhessen-live",
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
-      "count": 12,
+      "count": 11,
       "note": "",
       "stored": 45
     },
@@ -3337,9 +3365,9 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 19,
+      "count": 20,
       "note": "",
-      "stored": 38
+      "stored": 40
     },
     {
       "id": "fulda",
@@ -3379,12 +3407,12 @@
     }
   ],
   "feedCount": 7,
-  "localCount": 69,
+  "localCount": 70,
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 11,
     "Gemeinschaft & Ehrenamt": 7,
-    "Familie & Soziales": 5,
+    "Familie & Soziales": 6,
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 3,
     "Blaulicht": 2,
@@ -3392,5 +3420,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-18T04:44:53.586669+00:00"
+  "officialCheckedAt": "2026-10-18T11:21:38.012035+00:00"
 }
