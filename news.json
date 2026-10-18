@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-18T11:21:16Z",
+  "updatedAt": "2026-10-18T15:58:42Z",
   "items": [
     {
       "id": "1746ae39efccc9e2",
@@ -2286,7 +2286,7 @@
       "title": "VfL Lauterbach macht Traumstart perfekt: 8:2 gegen SG Landenhausen",
       "desc": "",
       "date": "2026-09-30",
-      "publishedAt": "2026-09-30T07:00:00+00:00",
+      "publishedAt": "2026-09-30T05:00:00+00:00",
       "category": "Sport",
       "locality": "Wartenberg",
       "sourceName": "Lauterbacher Anzeiger",
@@ -3420,5 +3420,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-18T11:21:38.012035+00:00"
+  "officialCheckedAt": "2026-10-18T15:59:00.554548+00:00"
 }
