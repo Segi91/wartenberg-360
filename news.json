@@ -1,7 +1,63 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-19T04:52:38Z",
+  "updatedAt": "2026-10-19T13:35:37Z",
   "items": [
+    {
+      "id": "8555e5a199a6686f",
+      "title": "Bandkonzert des Albert-Einstein-Gymnasiums Maintal in Schlitz",
+      "desc": "",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T10:13:14+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/19/bandkonzert-des-albert-einstein-gymnasiums-maintal-in-schlitz/",
+      "via": "RSS",
+      "topic": "Kultur & Musik"
+    },
+    {
+      "id": "c5300e6f801f3bd6",
+      "title": "Erster Kreisbeigeordneter Patrick Krug besucht Ferienbetreuung in Schlitz",
+      "desc": "",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T10:06:00+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Erster-Kreisbeigeordneter-Patrick-Krug-besucht-Ferienbetreuung-in-Schlitz/boxid/1076744",
+      "via": "RSS",
+      "topic": "Familie & Soziales"
+    },
+    {
+      "id": "0d62ff260c0004f0",
+      "title": "Sehr erfolgreiche Nachwuchsarbeit",
+      "desc": "",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T09:09:00+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Sehr-erfolgreiche-Nachwuchsarbeit/boxid/1076727",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "62ee671663d58a7d",
+      "title": "Herbst-Ferienspaß in Feldatal: Kürbis-Werkstatt begeistert elf Kinder",
+      "desc": "",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T05:59:55+00:00",
+      "category": "Natur & Umwelt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/19/herbst-ferienspass-in-feldatal-kuerbis-werkstatt-begeistert-elf-kinder/",
+      "via": "RSS",
+      "topic": "Natur & Umwelt"
+    },
     {
       "id": "6661231df24b12bc",
       "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
@@ -312,6 +368,20 @@
       "topic": "Vogelsberg"
     },
     {
+      "id": "30b14310ce37f365",
+      "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Fulda und Vogelsberg",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T12:53:06+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6372760",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
       "id": "a7a8ae8378362d14",
       "title": "Gasalarm in Wallenrod: Feuerwehr gibt Entwarnung",
       "desc": "",
@@ -411,7 +481,7 @@
     },
     {
       "id": "7ec877a18e5b1a6a",
-      "title": "Fahrbahnsanierung zwischen Laubach und Schotten: Nächste Woche wieder frei - OSTHESSEN|NEWS",
+      "title": "Fahrbahnsanierung zwischen Laubach und Schotten: Nächste Woche wieder frei - Osthessen|News",
       "desc": "",
       "date": "2026-10-15",
       "publishedAt": "2026-10-15T22:00:16+00:00",
@@ -480,6 +550,20 @@
       "topic": "Vogelsberg"
     },
     {
+      "id": "329c028e1e7542d3",
+      "title": "POL-OH: Einbruch in Garage - Einbruch in Wohnhaus - Diebstahl von Werkzeugen aus Autos",
+      "desc": "",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T12:44:43+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6371999",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
       "id": "a7b81e2a322454d8",
       "title": "Kochen mit Kontext: Mexiko zwischen Weltpolitik und Alltag",
       "desc": "",
@@ -523,7 +607,7 @@
     },
     {
       "id": "f186b9d70b0b54c1",
-      "title": "Hightech aus dem Vogelsberg: Besuch bei einem besonderen Unternehmen - OSTHESSEN|NEWS",
+      "title": "Hightech aus dem Vogelsberg: Besuch bei einem besonderen Unternehmen - Osthessen|News",
       "desc": "",
       "date": "2026-10-15",
       "publishedAt": "2026-10-15T09:00:00+00:00",
@@ -1122,34 +1206,6 @@
       "source": "https://www.oberhessen-live.de/2026/10/12/zwei-reiterinnen-ein-vielseitiges-pferd-und-zahlreiche-erfolge/",
       "via": "RSS",
       "topic": "Vogelsberg"
-    },
-    {
-      "id": "f2b804f3f67015aa",
-      "title": "VHC-Lauterbach genießt den farbenprächtigen Herbst",
-      "desc": "",
-      "date": "2026-10-12",
-      "publishedAt": "2026-10-12T12:06:20+00:00",
-      "category": "Natur & Umwelt",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/12/vhc-lauterbach-geniesst-den-farbenpraechtigen-herbst/",
-      "via": "RSS",
-      "topic": "Natur & Umwelt"
-    },
-    {
-      "id": "4fe4ee8942d9df51",
-      "title": "Standards mit Spielraum – Lauterbacher Jazzquartett im Kulturladen Schlitz",
-      "desc": "",
-      "date": "2026-10-12",
-      "publishedAt": "2026-10-12T09:59:09+00:00",
-      "category": "Kultur & Musik",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/12/standards-mit-spielraum-lauterbacher-jazzquartett-im-kulturladen-schlitz/",
-      "via": "RSS",
-      "topic": "Kultur & Musik"
     },
     {
       "id": "9ac6605e689bcef5",
@@ -2254,34 +2310,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "3611c46cb73deb3a",
-      "title": "Überzeugende Vorhaben: Landrat Dr. Mischak übergibt Felix Ruhl sowie Lebensgemeinschaft Sassen und Richthof LEADER-Bescheide",
-      "desc": "",
-      "date": "2026-10-01",
-      "publishedAt": "2026-10-01T10:29:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/berzeugende-Vorhaben-Landrat-Dr-Mischak-bergibt-Felix-Ruhl-sowie-Lebensgemeinschaft-Sassen-und-Richthof-LEADER-Bescheide/boxid/1074852",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "66a07ae125bd0798",
-      "title": "Weitere Kursangebote im November",
-      "desc": "",
-      "date": "2026-10-01",
-      "publishedAt": "2026-10-01T09:50:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Weitere-Kursangebote-im-November/boxid/1074838",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "b6023fa99757ddc2",
       "title": "POL-OH: Zeugen nach Verkehrsunfallflucht im Bereich Mücke gesucht - Presseportal",
       "desc": "",
@@ -2541,6 +2569,20 @@
       "topic": "Blaulicht"
     },
     {
+      "id": "0a48502179d1831b",
+      "title": "SG Landenhausen kehrt zurück – Heimspiel gegen SV Unterhaun ohne Engel",
+      "desc": "",
+      "date": "2026-09-24",
+      "publishedAt": "2026-09-24T07:00:00+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQdWxNdjdEUEV2MjZvS3pRWU91OFVFSWVXVDFEclZIZ05iODdnbm1rWkpPa1d3eU1uUW9lWElBTjhkODdmN3pkY0ZJNGxDaW1saktidlFiUzI5S25kWjJ5NHd2bGljaFZtV052UFJpa0Q3VVpkQXNVektiZmVteC1qbEdwSlJScm1pdUJPUUcxQnJQckhiaWZjYXA4VWs4d1Rqb2NxbWQwLTVyck9qRzdxY1Rsc2J6TnNGRzFvdTJUa09zOFZfTHlEdGJ5Mm1Sa29L?oc=5",
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
       "id": "la-editorial-94503878",
       "title": "SG Landenhausen gewinnt Derby: Zimmer und Möller holen je zwei Punkte",
       "desc": "",
@@ -2581,6 +2623,20 @@
       "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLXF0OHhETTNsVjNtZnBabnhYV0JXVWxkVWRtVXZfdFFieXVBOWtldWZvTE1MODZrLWpXUXJLTHBFOXg5MzdtZlJGaC1jckN0M1RIcG9yT1ZCNzB2MUc3THhETDFFZi0tWDJSUkkzNTQ5d0l6YTBrWkhWRW4wdjFYSW9hb3EyRllNNnJleEt4WnRNUTFGTm9RMzJsZ3g1Mm8?oc=5",
       "via": "Google News",
       "topic": "Familie & Soziales"
+    },
+    {
+      "id": "92f2cd841169c6a0",
+      "title": "Wieder ganz weit vorn: \"Alsfeld bewegt\" lockt knapp 900 Läufer an den Start - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-09-21",
+      "publishedAt": "2026-09-21T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZGp4Zkt0UnJpMFZhSFd2MEtnaFg2NnVIei1PMXBGWkVQRGQ0bmI0ZGxobk00VXktYUNkTThUYU0tM1Z3WXJ2czh2eUk4cDN6QlR0U2hTejcwZ0gwQW93SlNBazIxQWo3OVdPQ0xDNGxWOWNwVVc4cFNLSzVMZW95dDNVcEJzNXU5djNPTXlTUHY1RUdjVzJvYURTN0hpNmVDRUl3cVpSSGZLRmJYTVlsSnJhUkhGTG8?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "668cfc28425bde97",
@@ -3388,10 +3444,10 @@
       "id": "polizei",
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
-      "mode": "Google News",
-      "count": 8,
+      "mode": "RSS",
+      "count": 2,
       "note": "",
-      "stored": 18
+      "stored": 20
     },
     {
       "id": "oberhessen",
@@ -3407,9 +3463,9 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 18,
+      "count": 19,
       "note": "",
-      "stored": 41
+      "stored": 42
     },
     {
       "id": "fulda",
@@ -3425,9 +3481,9 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 23,
+      "count": 25,
       "note": "",
-      "stored": 53
+      "stored": 54
     },
     {
       "id": "kulturverein",
@@ -3449,7 +3505,7 @@
     }
   ],
   "feedCount": 7,
-  "localCount": 70,
+  "localCount": 71,
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 11,
@@ -3458,9 +3514,9 @@
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 3,
     "Blaulicht": 2,
-    "Sport": 26,
+    "Sport": 27,
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-19T04:52:58.285559+00:00"
+  "officialCheckedAt": "2026-10-19T13:35:58.437640+00:00"
 }
