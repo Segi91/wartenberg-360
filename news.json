@@ -1,7 +1,35 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-18T22:28:36Z",
+  "updatedAt": "2026-10-19T04:52:38Z",
   "items": [
+    {
+      "id": "6661231df24b12bc",
+      "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
+      "desc": "",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T04:27:06+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTUVvZjF1RGhVQkZPVWFVZGdqUGRlNjc4R3RReXlfWXhEemtPYWRDa05JRUdFUUJmSi12RkJ2RzJqZTJMMEcyVVN3ajctTlVTTjNQdnhYZmlkcXRZQzd4ZUpOWHBkR05QQlJ5VXZ0Y2xvTWtocFozT21IcnNTVW1zbW5oS0hwSHBqSkZsM0RhY2V1b2JpY0hUMm9iWnBSZVY3ejBnUGhVM2NMVDFYNWZ5d1NB?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "d699d456004b26e9",
+      "title": "VW Golf prallt gegen Baum",
+      "desc": "",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T04:10:40+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/19/vw-golf-prallt-gegen-baum/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
     {
       "id": "401018f2c1f97c73",
       "title": "Fernseh-Gottesdienst aus Schlitz: Team von „Bibel TV“ dreht in der Stadtkirche",
@@ -1134,20 +1162,6 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Sprechtag-des-Sprachheilbeauftragten-Joachim-Eisentrger/boxid/1075934",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "1c7a1dd039acb4e1",
-      "title": "Lauterbacher Luchse starten mit 9:2-Heimsieg gegen Neuss",
-      "desc": "",
-      "date": "2026-10-12",
-      "publishedAt": "2026-10-12T08:09:31+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/12/lauterbacher-luchse-starten-mit-92-heimsieg-gegen-neuss/",
       "via": "RSS",
       "topic": "Vogelsberg"
     },
@@ -3375,7 +3389,7 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "Google News",
-      "count": 9,
+      "count": 8,
       "note": "",
       "stored": 18
     },
@@ -3404,7 +3418,7 @@
       "mode": "Google News",
       "count": 7,
       "note": "",
-      "stored": 17
+      "stored": 18
     },
     {
       "id": "la",
@@ -3448,5 +3462,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-18T22:28:58.379433+00:00"
+  "officialCheckedAt": "2026-10-19T04:52:58.285559+00:00"
 }
