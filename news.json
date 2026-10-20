@@ -1,7 +1,91 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-20T05:00:17Z",
+  "updatedAt": "2026-10-20T11:49:48Z",
   "items": [
+    {
+      "id": "00b47ac39f2f8a9a",
+      "title": "„Wir können das Angebot für den Sport spürbar erweitern“",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T11:28:00+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Wir-knnen-das-Angebot-fr-den-Sport-sprbar-erweitern/boxid/1076900",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "c3993b13023da2a8",
+      "title": "Auf Spurensuche im Herbstwald",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T11:25:00+00:00",
+      "category": "Natur & Umwelt",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Auf-Spurensuche-im-Herbstwald/boxid/1076899",
+      "via": "RSS",
+      "topic": "Natur & Umwelt"
+    },
+    {
+      "id": "7571ea533a565239",
+      "title": "Geld für den zentralen Treffpunkt",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T08:29:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Geld-fr-den-zentralen-Treffpunkt/boxid/1076854",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "df8d4c8aad239c11",
+      "title": "Zeugenaufruf nach Vandalismus – mehrere Autos zerkratzt",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T07:55:11+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/20/zeugenaufruf-nach-vandalismus-mehrere-autos-zerkratzt/",
+      "via": "RSS",
+      "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "2108dadd5bbed20d",
+      "title": "Stadt Schlitz begrüßt 49 junge Familien mit Windelpaketen",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T06:46:00+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWmY5cGNab3BsWEJVa1pOcmJ3Sk02aHFOakxvN3kxNUJoSlJaQ0RsaUxKZGYtVE1mdFJMSkNYdzFpN01FUUhNQzlhSWlZLU9xTmFYZ0ZUMjBjTFBMN2lIMUpQTXdtaDNYWGpXN1RsampDZ25qcGI5RU15YWw5NGxSVGdXc1NGYkNMTmZJcVlTekI1VHV4YXJiSV85UzJ6S0VPaGpHdW53cnc4SDFhcno3QWtR?oc=5",
+      "via": "Google News",
+      "topic": "Familie & Soziales"
+    },
+    {
+      "id": "4fb6b00318e9c4f7",
+      "title": "Patrick Krug informiert sich über Ferienbetreuung an der Dieffenbach-Grundschule",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T05:59:03+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/20/patrick-krug-informiert-sich-ueber-ferienbetreuung-an-der-dieffenbach-grundschule/",
+      "via": "RSS",
+      "topic": "Familie & Soziales"
+    },
     {
       "id": "cd3b29f3946c5004",
       "title": "Jagdhunde stellen ihr Können unter Beweis – Erfolgreiche Prüfung in Lauterbach",
@@ -57,6 +141,20 @@
       "source": "https://www.oberhessen-live.de/2026/10/19/heiss-auf-den-vulkan-mundart-musik-und-eine-gehoerige-portion-heimatliebe/",
       "via": "RSS",
       "topic": "Kultur & Musik"
+    },
+    {
+      "id": "6661231df24b12bc",
+      "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
+      "desc": "",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T16:27:34+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTUVvZjF1RGhVQkZPVWFVZGdqUGRlNjc4R3RReXlfWXhEemtPYWRDa05JRUdFUUJmSi12RkJ2RzJqZTJMMEcyVVN3ajctTlVTTjNQdnhYZmlkcXRZQzd4ZUpOWHBkR05QQlJ5VXZ0Y2xvTWtocFozT21IcnNTVW1zbW5oS0hwSHBqSkZsM0RhY2V1b2JpY0hUMm9iWnBSZVY3ejBnUGhVM2NMVDFYNWZ5d1NB?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "af05beb73c7bef88",
@@ -155,20 +253,6 @@
       "source": "https://www.oberhessen-live.de/2026/10/19/herbst-ferienspass-in-feldatal-kuerbis-werkstatt-begeistert-elf-kinder/",
       "via": "RSS",
       "topic": "Natur & Umwelt"
-    },
-    {
-      "id": "6661231df24b12bc",
-      "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
-      "desc": "",
-      "date": "2026-10-19",
-      "publishedAt": "2026-10-19T04:27:06+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Fuldaer Zeitung",
-      "sourceId": "fulda",
-      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTUVvZjF1RGhVQkZPVWFVZGdqUGRlNjc4R3RReXlfWXhEemtPYWRDa05JRUdFUUJmSi12RkJ2RzJqZTJMMEcyVVN3ajctTlVTTjNQdnhYZmlkcXRZQzd4ZUpOWHBkR05QQlJ5VXZ0Y2xvTWtocFozT21IcnNTVW1zbW5oS0hwSHBqSkZsM0RhY2V1b2JpY0hUMm9iWnBSZVY3ejBnUGhVM2NMVDFYNWZ5d1NB?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
     },
     {
       "id": "d699d456004b26e9",
@@ -1152,20 +1236,6 @@
       "topic": "Verkehr & Bauen"
     },
     {
-      "id": "a43ced8012e9a99d",
-      "title": "Rathaus stellt Sachverhalte zu LuKIFG-Mitteln und Haushaltsentwicklung klar",
-      "desc": "",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T06:11:50+00:00",
-      "category": "Rathaus & Politik",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/13/rathaus-stellt-sachverhalte-zu-lukifg-mitteln-und-haushaltsentwicklung-klar/",
-      "via": "RSS",
-      "topic": "Rathaus & Politik"
-    },
-    {
       "id": "48653c6dd56ef12a",
       "title": "L 3168 wird erneuert: Vollsperrung zwischen Ilbeshausen und Grebenhain - Osthessen|News",
       "desc": "",
@@ -1191,20 +1261,6 @@
       "sourceId": "fulda",
       "source": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQcC1OcFBtWEFvLUNFbTNQR1kyUm9QclpxZVlnbGtpcUJuaUtSX3dqbzJ5enNlZmlBTXZaODRQNU5FVkhDLVR6LTlmTlE4eEVnNnVyWnpicU1NQnJCMXh2YnpHTWlZVF94RnVHQ3JTcTRfVGNVaTdDNm4xbURXV081RC0yN0hCX0E2MmRHcEZ0RkowQ0tNZkMya0pHa0FXVkZpUEJRQ2xkWWVBMHBjTkJIeUlmd3RUUmtZeHJHaFR4Ul9TWHA1VnM2cGEwS01PTlBoanFVQl8xOGEzZFlLdEt2SUlBaDZUQ2NWLXc?oc=5",
       "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "f72fe27dc4e221fd",
-      "title": "Die Zukunft der Wärmewende – Kalte Nahwärme",
-      "desc": "",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T03:56:49+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/13/die-zukunft-der-waermewende-kalte-nahwaerme/",
-      "via": "RSS",
       "topic": "Vogelsberg"
     },
     {
@@ -1740,20 +1796,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "df653e16528d98c0",
-      "title": "SG Landenhausen hat neuen Trainer – und trifft bald auf Ex-Coach Güldner",
-      "desc": "",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T11:41:19+00:00",
-      "category": "Sport",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRS1oVXM5Zks4cmFENlRYb2xXVWdRbm1oVWZJU1U0Y28yYW9YQ1dBdEd3YWlNQWJQaE5DWXM0N1M0NldZS3B4YWl1NWRlX2lpYXQwYkRzYUp5d2trRWJnUTkwVFBzTzhUUC1lMndtb2hxWUpiSGxOTFNEdVNHUzJEbXdvYlhaZGVTY1BTSWQ5VVhqUW5wMDU5a1JEbGtuNS1zbEpnVzhIbldxYzNabEIydF9xczFqR1QxaV8yTzJrZWFNXzZacTZDMV9sVGU5bzFfd25RZy1n?oc=5",
-      "via": "Google News",
-      "topic": "Sport"
-    },
-    {
       "id": "c147bbd6b36bdaa8",
       "title": "OHNE GIEßEN – Wie Gärten wieder mit der Natur statt gegen sie arbeiten, Lauterbach (Hessen) - Osthessen|News",
       "desc": "",
@@ -1768,6 +1810,20 @@
       "topic": "Natur & Umwelt"
     },
     {
+      "id": "df653e16528d98c0",
+      "title": "SG Landenhausen hat neuen Trainer – und trifft bald auf Ex-Coach Güldner",
+      "desc": "",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T07:00:00+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRS1oVXM5Zks4cmFENlRYb2xXVWdRbm1oVWZJU1U0Y28yYW9YQ1dBdEd3YWlNQWJQaE5DWXM0N1M0NldZS3B4YWl1NWRlX2lpYXQwYkRzYUp5d2trRWJnUTkwVFBzTzhUUC1lMndtb2hxWUpiSGxOTFNEdVNHUzJEbXdvYlhaZGVTY1BTSWQ5VVhqUW5wMDU5a1JEbGtuNS1zbEpnVzhIbldxYzNabEIydF9xczFqR1QxaV8yTzJrZWFNXzZacTZDMV9sVGU5bzFfd25RZy1n?oc=5",
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
       "id": "066c19cb54c699c5",
       "title": "Vogelsbergkreis - Osthessen|News",
       "desc": "",
@@ -1780,6 +1836,20 @@
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kR2N1dlNlYUdPRDJ4NFVOaGVHNmQxTTJFUFVQcm4yT0FPVXdldUtXZy1XcG52Tzh4NlB0LXd3bUhaTzNfc21DdHA0RkZ1Ym1wRDNvV1diM2ZUTlk?oc=5",
       "via": "Google News",
       "topic": "Vogelsberg"
+    },
+    {
+      "id": "ba8a251f973ad3bf",
+      "title": "TV Angersbach trotzt Zweiten nach 0:2-Rückstand ein 5:5 ab",
+      "desc": "",
+      "date": "2026-10-07",
+      "publishedAt": "2026-10-07T07:00:00+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM3JEZE5BQi1nOElYd0YxVTVPT2FaRFlhcDAwM0lTM1c0c1dLOThkc2lTYmpBc19GTGpUVndHVURHaU14LWFZMklvcnRGNGM2bGpmZmU5QVJzWkFFYzRFYmNrR0VFREpzUlFvUE8wVHhIMWxhRnhneG9iV1RtVU5qZ3lBY0UxZU4zU24yaTJhVFhYdzBRYkdYWUVybjM5VFEzU1J3aFJNa18xM1VWV0VsQ00ySHhzRkptbXRN?oc=5",
+      "via": "Google News",
+      "topic": "Sport"
     },
     {
       "id": "9421b46486090308",
@@ -1808,20 +1878,6 @@
       "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMFM5VEJBMld6ZE5rUzRySVRCaTBfLWhHT2dGT0ZFQVFBdVZxdUxxMkkwbDRFbVRrZkNZU2dRaXJKN0VBQjdzVTNFTEJ1a1hQcGtVZl9yNndUNU5CWS05ODRRcWVhb0NjZlUtX1VCSk5mcWVXWDVBQ1FUNGZJdGV0Mm9sYnlRUU03REU3YTdwcFlPWkhEU3M4VWdjc05GNUlkUHR3UVRqMmlhM3hyRFE?oc=5",
       "via": "Google News",
       "topic": "Vogelsberg"
-    },
-    {
-      "id": "ba8a251f973ad3bf",
-      "title": "TV Angersbach trotzt Zweiten nach 0:2-Rückstand ein 5:5 ab",
-      "desc": "",
-      "date": "2026-10-06",
-      "publishedAt": "2026-10-06T22:07:00+00:00",
-      "category": "Sport",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQM3JEZE5BQi1nOElYd0YxVTVPT2FaRFlhcDAwM0lTM1c0c1dLOThkc2lTYmpBc19GTGpUVndHVURHaU14LWFZMklvcnRGNGM2bGpmZmU5QVJzWkFFYzRFYmNrR0VFREpzUlFvUE8wVHhIMWxhRnhneG9iV1RtVU5qZ3lBY0UxZU4zU24yaTJhVFhYdzBRYkdYWUVybjM5VFEzU1J3aFJNa18xM1VWV0VsQ00ySHhzRkptbXRN?oc=5",
-      "via": "Google News",
-      "topic": "Sport"
     },
     {
       "id": "07a5de434f6f7711",
@@ -2251,34 +2307,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "6d5b5389b2abf1d4",
-      "title": "Und wieder ein Austausch über Sozialraumorientierte Jugendhilfe",
-      "desc": "",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T07:16:00+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Und-wieder-ein-Austausch-ber-Sozialraumorientierte-Jugendhilfe/boxid/1074977",
-      "via": "RSS",
-      "topic": "Familie & Soziales"
-    },
-    {
-      "id": "f7d65df0aae0d741",
-      "title": "Helfer in schwierigen Lebenslagen",
-      "desc": "",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T07:15:00+00:00",
-      "category": "Verkehr & Bauen",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Helfer-in-schwierigen-Lebenslagen/boxid/1074978",
-      "via": "RSS",
-      "topic": "Verkehr & Bauen"
-    },
-    {
       "id": "d4afd943c63b5f87",
       "title": "Druck auf die Politik wächst: Vogelsberger Mediziner kritisieren Reformpläne - OSTHESSEN|NEWS",
       "desc": "",
@@ -2350,20 +2378,6 @@
       "source": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1FNXprTS16aHRFam5LNGtndVp4VVFBbEY3UEs3QWxhRG5ncUE3Q0Q1dGZPZDNtQnhoZEVsZjFkZE04bTBtTXNIdkFXMzVYRGhDcGVnTVFFOA?oc=5",
       "via": "Google News",
       "topic": "Blaulicht"
-    },
-    {
-      "id": "d51938bb5f5ce289",
-      "title": "Ausstellung in der Volkshochschule eröffnet",
-      "desc": "",
-      "date": "2026-10-01",
-      "publishedAt": "2026-10-01T10:31:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Ausstellung-in-der-Volkshochschule-erffnet/boxid/1074854",
-      "via": "RSS",
-      "topic": "Vogelsberg"
     },
     {
       "id": "b6023fa99757ddc2",
@@ -3519,7 +3533,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 17,
+      "count": 15,
       "note": "",
       "stored": 44
     },
@@ -3530,7 +3544,7 @@
       "mode": "Google News",
       "count": 7,
       "note": "",
-      "stored": 18
+      "stored": 19
     },
     {
       "id": "la",
@@ -3574,5 +3588,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-20T05:00:37.729977+00:00"
+  "officialCheckedAt": "2026-10-20T11:50:11.298732+00:00"
 }
