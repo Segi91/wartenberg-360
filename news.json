@@ -1,7 +1,35 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-20T17:18:34Z",
+  "updatedAt": "2026-10-20T21:43:10Z",
   "items": [
+    {
+      "id": "992d2c98375a9a8a",
+      "title": "Feuerwehreinsatz mitten in Alsfelds Altstadt - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T18:56:15+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9EcVRqdU1mUThVanJYR3Bvck11NkdTNEg0dGlEdElPazRnam1Sd2NTRl9HQ0V2Nmo5Umxpc0pOWmlxdnBlLVAwME1aNEQ5cm5GaEN5NFJlTjdnUlc3clpNSFY3UE0?oc=5",
+      "via": "Google News",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "3728d02db70e62fd",
+      "title": "Landrat Dr. Mischak übergibt Bewilligungsbescheid: Mittel aus der Dorfentwicklung für das Dorfgemeinschaftshaus Reuters",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T17:44:23+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/20/landrat-dr-mischak-uebergibt-bewilligungsbescheid-mittel-aus-der-dorfentwicklung-fuer-das-dorfgemeinschaftshaus-reuters/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
     {
       "id": "859492166bef50dd",
       "title": "Rauchentwicklung in Wohnhaus: Feuerwehr in Alsfelder Altstadt im Einsatz",
@@ -32,7 +60,7 @@
     },
     {
       "id": "69519a8b073f8ec2",
-      "title": "Größerer Brand in Alsfelder Altstadt gemeldet - Lage unklar - Osthessen|News",
+      "title": "Größerer Brand in Alsfelder Altstadt gemeldet - Lage unklar - OSTHESSEN|NEWS",
       "desc": "",
       "date": "2026-10-20",
       "publishedAt": "2026-10-20T15:38:07+00:00",
@@ -43,6 +71,20 @@
       "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbnNJZDlwbUliM0lja21ZQ21HZU1vNTdBcHBVamVxWFVsS0xwVll3U001XzQ1UFpBZE50WXV5QWMzSjh6aEczZHZQLUVhU0tCdzFjMWlub2Z4NGR3TjNwQTE4VWtnRUxVUG9ITlVlS3RzWTVZTzl5X1RfbmRWLVZQSzgzRjlmaHZ3X2FlQVdEYlZMQi0ySHplbUlZZFBpU2IzX1E?oc=5",
       "via": "Google News",
       "topic": "Blaulicht"
+    },
+    {
+      "id": "96ee54d75bd4291d",
+      "title": "Feuer in der Alsfelder Altstadt - \"Türen und Fenster geschlossen halten\" - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T15:38:07+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQnJ0d2xNZmo0UVM1VVZuQXRGQ0pzaW82aDZ6bGIwVnZVUUNfMXY0WVp0d015d2FGSXk2cE5sR1hpTVcyTVlEZEZ2dEt0LXdKc21NeVV5Y2ZTck5Pc3ZJbWtzblFRZ0VWTk14eGpMOVdZalBOb1RJbGFDdU5wYXlQN2JyekVTMi1KOFY0YnBDSHZfQ1E3QmZMR2RJMjc4RGxfXzdha2N2eEFFa2ZZZ1kw?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "b5b0fd403fdb7a1e",
@@ -1218,20 +1260,6 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Moderne-Technik-hlt-Einzug/boxid/1076143",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "c125207847f214f1",
-      "title": "„Ihr könnt euch mal gernhaben“",
-      "desc": "",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T10:11:46+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/13/ihr-koennt-euch-mal-gernhaben/",
       "via": "RSS",
       "topic": "Vogelsberg"
     },
@@ -2824,20 +2852,6 @@
       "topic": "Blaulicht"
     },
     {
-      "id": "43b0f342096f600a",
-      "title": "Natur- und Lebensraum Vogelsberg stellt Weichen für Landschaftspflegeverband - OSTHESSEN|NEWS",
-      "desc": "",
-      "date": "2026-09-16",
-      "publishedAt": "2026-09-16T07:00:00+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQMTJHU01Ed1E5MmpQOUN4TUNWZWJ4T3RpcDZybzRqd2NjeWhpeHZCUzFwcVh4SlQzazRyd2hFQlJOYV9ScmZ2ZmNkRjIyenROYWdpSmZvNTRMdVZURTF2M3dxaFlOdjJ4THdLbXlkRHZDTHAwRFMtZXhUNjhFQnZCNlg3OTBvNHVqeThKS1V1NHAzOTU5TzFLNUpzQk9NUUdMenlCbDNPcW51S2lxRDcwa0VjYlF0LTd0SW5ncA?oc=5",
-      "via": "Google News",
-      "topic": "Familie & Soziales"
-    },
-    {
       "id": "curated-v2-07",
       "date": "2026-09-15",
       "publishedAt": "2026-09-15T12:00:00+02:00",
@@ -3293,23 +3307,6 @@
       "topic": "Kultur & Musik"
     },
     {
-      "id": "curated-v2-12",
-      "date": "2026-07-06",
-      "publishedAt": "2026-07-06T12:00:00+02:00",
-      "title": "Elf Vereine gestalten das Bundesmusikfest 2026 im Wartenberg Oval",
-      "topic": "Kultur & Musik",
-      "category": "Kultur & Musik",
-      "locality": "Wartenberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://osthessen-news.de/n11796175/elf-vereine-ein-fest-bundesmusikfest-2026-vereint-region.html",
-      "via": "Quellengeprüfter Link",
-      "editorial": true,
-      "desc": "Laut Osthessen News wirkten elf Vereine am Bundesmusikfest 2026 im Wartenberg Oval mit. Die Veranstaltung stand im Zeichen der gemeinschaftlichen Blasmusik.",
-      "body": "Das Wartenberg Oval war Schauplatz des Musikereignisses mit mehreren Vereinen. Einen ausführlicheren Bericht gibt es bei Osthessen News.",
-      "summaryType": "Redaktionelle Zusammenfassung"
-    },
-    {
       "id": "curated-v2-13",
       "date": "2026-06-24",
       "publishedAt": "2026-06-24T12:00:00+02:00",
@@ -3594,7 +3591,7 @@
       "name": "Oberhessen-live",
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
-      "count": 10,
+      "count": 11,
       "note": "",
       "stored": 45
     },
@@ -3603,7 +3600,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 16,
+      "count": 18,
       "note": "",
       "stored": 45
     },
@@ -3621,7 +3618,7 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 26,
+      "count": 25,
       "note": "",
       "stored": 54
     },
@@ -3645,10 +3642,10 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 72,
+  "localCount": 71,
   "localTopics": {
     "Rathaus & Politik": 11,
-    "Kultur & Musik": 11,
+    "Kultur & Musik": 10,
     "Gemeinschaft & Ehrenamt": 7,
     "Familie & Soziales": 6,
     "Natur & Umwelt": 1,
@@ -3658,5 +3655,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-20T17:18:56.350660+00:00"
+  "officialCheckedAt": "2026-10-20T21:43:37.953212+00:00"
 }
