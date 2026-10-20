@@ -1,7 +1,91 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-20T11:49:48Z",
+  "updatedAt": "2026-10-20T17:18:34Z",
   "items": [
+    {
+      "id": "859492166bef50dd",
+      "title": "Rauchentwicklung in Wohnhaus: Feuerwehr in Alsfelder Altstadt im Einsatz",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T16:20:02+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRWpLNW56ZlRPWmQ3bk52bmxHb1UtWmpsVkpQbVljOHYtQmhVdU13dEFMZk5sRHRPRWhiUVZYT1pDWGNBRXZoZUtBTkczTkFhNDlWd2E0NWlaNEFkYm5tWmNKZUl1dEFYNzROb0NsUWxqUkM4dUVmOHdoVHIzV0FPWVJFZjRibWtwWURWNVJfdVd1VU5PczltaWROVXpYaDVGQXo0cUhJWXppVU44T2puM2x3?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "49ac914c41d15782",
+      "title": "Eindrückliche Impulse und 600 Euro für das stationäre Hospiz im Vogelsberg",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T16:08:22+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/20/eindrueckliche-impulse-und-600-euro-fuer-das-stationaere-hospiz-im-vogelsberg/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "69519a8b073f8ec2",
+      "title": "Größerer Brand in Alsfelder Altstadt gemeldet - Lage unklar - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T15:38:07+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQbnNJZDlwbUliM0lja21ZQ21HZU1vNTdBcHBVamVxWFVsS0xwVll3U001XzQ1UFpBZE50WXV5QWMzSjh6aEczZHZQLUVhU0tCdzFjMWlub2Z4NGR3TjNwQTE4VWtnRUxVUG9ITlVlS3RzWTVZTzl5X1RfbmRWLVZQSzgzRjlmaHZ3X2FlQVdEYlZMQi0ySHplbUlZZFBpU2IzX1E?oc=5",
+      "via": "Google News",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "b5b0fd403fdb7a1e",
+      "title": "POL-OH: Verkehrsunfallmeldung für die Landkreise Vogelsberg und Hersfeld-Rotenburg",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T13:42:59+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6374892",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "32eda8085085cb2f",
+      "title": "POL-OH: Dieseldiebstahl - Einbruch in Wohnhaus",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T13:40:43+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6374889",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "1de3aab6b1594bdb",
+      "title": "POL-OH: Diebstahl aus Auto - Sextortion - - Kennzeichendiebstahl - Dieseldiebstahl - Taschendiebstahl - Lullusfest 2026 Polizei zieht positive Abschlussbilanz",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T13:39:07+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6374886",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
     {
       "id": "00b47ac39f2f8a9a",
       "title": "„Wir können das Angebot für den Sport spürbar erweitern“",
@@ -886,20 +970,6 @@
       "topic": "Verkehr & Bauen"
     },
     {
-      "id": "ce3942681a6dc5ac",
-      "title": "Vollsperrung bis Dezember: Landesstraße bei Grebenhain wird in zwei Abschnitten saniert",
-      "desc": "",
-      "date": "2026-10-14",
-      "publishedAt": "2026-10-14T14:42:58+00:00",
-      "category": "Verkehr & Bauen",
-      "locality": "Vogelsberg",
-      "sourceName": "Fuldaer Zeitung",
-      "sourceId": "fulda",
-      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORGU3a0VpSnZ6RG9sVVRfNGYtZmlMWkJCVFYxQ2ZwNHN2VVBTTldyVGFNSGJZWlJYT3gwOHBFTGQ3MVB5d0RQQXdxSmIxVnhSSEpKUS1YajZvbEUyUFQ3SWdOREw1a0pGWkNBVDFGdnhCYVh6emE4RHNPbm1uOGVIUzRud2lEU1MyNUxIU3p5d3VPa0Z0X3NQREF5MXVORm8weDg3Qy0yLXpVcUZDTnZ1TE5Ec3BWSG5Wcml4V0haN1plcEJYbWdN?oc=5",
-      "via": "Google News",
-      "topic": "Verkehr & Bauen"
-    },
-    {
       "id": "5768820be7f838b9",
       "title": "Moderne Technik hält Einzug",
       "desc": "",
@@ -954,6 +1024,20 @@
       "source": "https://www.oberhessen-live.de/2026/10/14/lagerfeuergottesdienst-fuer-junge-leute/",
       "via": "RSS",
       "topic": "Vogelsberg"
+    },
+    {
+      "id": "ce3942681a6dc5ac",
+      "title": "Vollsperrung bis Dezember: Landesstraße bei Grebenhain wird in zwei Abschnitten saniert",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T07:00:00+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORGU3a0VpSnZ6RG9sVVRfNGYtZmlMWkJCVFYxQ2ZwNHN2VVBTTldyVGFNSGJZWlJYT3gwOHBFTGQ3MVB5d0RQQXdxSmIxVnhSSEpKUS1YajZvbEUyUFQ3SWdOREw1a0pGWkNBVDFGdnhCYVh6emE4RHNPbm1uOGVIUzRud2lEU1MyNUxIU3p5d3VPa0Z0X3NQREF5MXVORm8weDg3Qy0yLXpVcUZDTnZ1TE5Ec3BWSG5Wcml4V0haN1plcEJYbWdN?oc=5",
+      "via": "Google News",
+      "topic": "Verkehr & Bauen"
     },
     {
       "id": "d7f515387a9c3231",
@@ -1162,20 +1246,6 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Sprachlich-in-eine-neue-Welt-abtauchen/boxid/1076080",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "c6390a1459179618",
-      "title": "Mama geht lesen…",
-      "desc": "",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T08:09:16+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/13/mama-geht-lesen/",
       "via": "RSS",
       "topic": "Vogelsberg"
     },
@@ -3515,9 +3585,9 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "RSS",
-      "count": 4,
+      "count": 6,
       "note": "",
-      "stored": 22
+      "stored": 25
     },
     {
       "id": "oberhessen",
@@ -3533,9 +3603,9 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 15,
+      "count": 16,
       "note": "",
-      "stored": 44
+      "stored": 45
     },
     {
       "id": "fulda",
@@ -3544,14 +3614,14 @@
       "mode": "Google News",
       "count": 7,
       "note": "",
-      "stored": 19
+      "stored": 20
     },
     {
       "id": "la",
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 25,
+      "count": 26,
       "note": "",
       "stored": 54
     },
@@ -3568,13 +3638,13 @@
       "id": "winfo",
       "name": "Wartenberg-iNFO",
       "url": "https://www.wartenberg-info.de/",
-      "mode": "Nur Quelle",
-      "count": 0,
-      "note": "RSS: HTTPError; Google News: keine aktuellen passenden Artikel",
+      "mode": "Google News",
+      "count": 1,
+      "note": "",
       "stored": 0
     }
   ],
-  "feedCount": 7,
+  "feedCount": 8,
   "localCount": 72,
   "localTopics": {
     "Rathaus & Politik": 11,
@@ -3588,5 +3658,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-20T11:50:11.298732+00:00"
+  "officialCheckedAt": "2026-10-20T17:18:56.350660+00:00"
 }
