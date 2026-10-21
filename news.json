@@ -1,7 +1,105 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-21T07:47:46Z",
+  "updatedAt": "2026-10-21T13:55:36Z",
   "items": [
+    {
+      "id": "5b38c91aa8c586e5",
+      "title": "Heiko Siemon verteilt sein \"Geburtstagsgeld\" an Vereine im Schlitzerland - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T13:07:46+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObkJDM21LT2JveVZwWF9MSmJRbFdiYjVwQnpyWEN0YUE2ZFFvUHVyS3k5ZVFodU84Rkx4VlVacGJnb01JbXZZTDYxeXpmWFNBS0huV2VDLXVMNmp4Z21PNjV3X2ZyQm1CRWFNTWtFWk9pc2xzcFhvVENpaXhUaUc5dkN3NmNIUGtJWkUxbDlBMVZGTVNjOHBjY3N5VXh2SGo4VHowdmQ2MnNqU1FiZUprdA?oc=5",
+      "via": "Google News",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "77c27f9ed93f287a",
+      "title": "Einbruch in Wohnhaus in Ulrichstein",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T12:12:05+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/21/einbruch-in-wohnhaus-in-ulrichstein/",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "a2a4b7e1cbf44871",
+      "title": "vhs: Studienfahrt nach Frankfurt ins Städel zur Ausstellung „Maria Magdalena Sin.Pray.Love“",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T11:42:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Studienfahrt-nach-Frankfurt-ins-Stdel-zur-Ausstellung-Maria-Magdalena-Sin-Pray-Love/boxid/1077028",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "cd4cc9370b7d8588",
+      "title": "Teamleitung Verwaltung (m/w/d) Rechnungswesen & Verwaltungsbereiche in Lauterbach | ON JOBS - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T10:23:03+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeXlFcWd6d1RySGE3Y1EwZVJDMUM2M0J5UFJTbUZ2cmJ3elpQSHJ4TWszX0E5SkM0cnRINlptdGRrb3BnQmF0OGQ3Q3V1dHZwczd5UTBkNmpTZVlUcFByMTdJeERYU29SejRoTDU5WWJqal9mNXlpdUpaeHN3THhwUDZiVWJTcml0UUZCZUpOblNDa1ZtTlBGZE1JeldXaXpGQmhEZ2pqeU5wbUZh?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "31756d614cb3f574",
+      "title": "Mit HessenForst den Herbstwald entdecken",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T09:54:44+00:00",
+      "category": "Natur & Umwelt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/21/mit-hessenforst-den-herbstwald-entdecken/",
+      "via": "RSS",
+      "topic": "Natur & Umwelt"
+    },
+    {
+      "id": "8d464fca0316644e",
+      "title": "Lauterbach saniert Dorfgemeinschaftshaus in Reuters mit „satter Finanzspritze“",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T08:34:00+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPQXBtODl3Z2xVbmlDVDR0ZDYyMmdhb0FfWVdfT09EdDROUUJNSFZzZmNOZjRfRldSVGJLNlBkRjVuV0Z2N25sb2YwbXVHcjlkT0hmVlQ4aktxa3dwcGdnVGtadlF4UDl2Y0VqbFBFRVZpSll6dVVieGhEWkd4Y19FYXUxSHAwanM2aXlwblpuTGtCR1VPU21Fc0ZuZ2pMbzBSVlNRV0NsWUZNSmc0ZU41TVF1MDl1dw?oc=5",
+      "via": "Google News",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "14257f53cd3187ad",
+      "title": "Dieseldiebstahl auf Baustelle am Flugplatz Schotten",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T08:08:32+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/21/dieseldiebstahl-auf-baustelle-am-flugplatz-schotten/",
+      "via": "RSS",
+      "topic": "Verkehr & Bauen"
+    },
     {
       "id": "d8e43eb97d7e90ed",
       "title": "Naturdruck bringt Heimat auf Leinen",
@@ -1166,34 +1264,6 @@
       "topic": "Familie & Soziales"
     },
     {
-      "id": "fcbb38c3bdc15291",
-      "title": "„Licht nach oben“",
-      "desc": "",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T18:12:17+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/13/licht-nach-oben/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "dc25fe813999407b",
-      "title": "„Demokratie – eine zerbrechliche Kostbarkeit“",
-      "desc": "",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T16:13:51+00:00",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/13/demokratie-eine-zerbrechliche-kostbarkeit/",
-      "via": "RSS",
-      "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
       "id": "f777b8c92bb6587d",
       "title": "vhs-Kurs: Omas Rezepte für die Winterzeit",
       "desc": "",
@@ -1248,20 +1318,6 @@
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Mediterran-genieen-Tapas-und-Desserts/boxid/1076182",
       "via": "RSS",
       "topic": "Vogelsberg"
-    },
-    {
-      "id": "e14d6e9c126c489b",
-      "title": "Eichhof-Stiftung Lauterbach zeigt auf der Alsfelder Herbstmesse die ganze Bandbreite",
-      "desc": "",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T14:00:47+00:00",
-      "category": "Natur & Umwelt",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/13/eichhof-stiftung-lauterbach-zeigt-auf-der-alsfelder-herbstmesse-die-ganze-bandbreite/",
-      "via": "RSS",
-      "topic": "Natur & Umwelt"
     },
     {
       "id": "056925c8eb0ccea7",
@@ -2335,20 +2391,6 @@
       "topic": "Familie & Soziales"
     },
     {
-      "id": "9fb0bc32e38159bf",
-      "title": "Wie funktioniert Jugendbeteiligung im Vogelsbergkreis?",
-      "desc": "",
-      "date": "2026-10-05",
-      "publishedAt": "2026-10-05T08:14:00+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Wie-funktioniert-Jugendbeteiligung-im-Vogelsbergkreis/boxid/1075133",
-      "via": "RSS",
-      "topic": "Familie & Soziales"
-    },
-    {
       "id": "bfa8818208f67caf",
       "title": "Vogelsbergkreis - Osthessen|News",
       "desc": "",
@@ -2590,20 +2632,6 @@
       "topic": "Familie & Soziales"
     },
     {
-      "id": "15da04678f1d561b",
-      "title": "Biker-Safety-Tour 2026: Gemeinsam sicher durch den Vogelsberg - OSTHESSEN|NEWS",
-      "desc": "",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T07:00:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNUlhWjJUSExzV0ppYm5xbkNVdEZUR3hldHNzNzJkS3R4Q0lhZUVfQTBQMFl6S0ZZSndTSVpuaURTR2JTTDBlTHhTRGE3YmJaWmZkMEZ6VWdZVVFGSnVyVWNLQUZGUm1xMENkeVBGLVRZbGhDRk9za1VxcVNoeXh0MTRVR2xqdEJLcHpYU3c0dnlvY29hMGxqcEhiMTNLWVIydVB0WGJ5Zw?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "0c49b4fb264cff7a",
       "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Fulda und Vogelsberg - Presseportal",
       "desc": "",
@@ -2721,20 +2749,6 @@
       "source": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNanVnMk80TThMUlVjVmNXbVN4cUZIc1hhMk5RSEU0dzdFemVvTWNoeEo1ZGN4VmNISDY5Z0lpLVFUTFV3UG1ETU84bGV4Y2hUN0ZUU1FEWHVpYmZzeHV4LXk3RFNuczA1ZFUxZW9Jck1DMXBCRFprZXhHTGhUQ09nekxubGUyMWo3djZYN3ZIQ1Izel9faUtkX0daOE50eFN6YmdLb3JHMV83T083dFdJa0xuLU9WeFQwRnNqRFJvR3N2WUV1MlY3TFpyTjUtVGdGa1J0aDFSLVA2VG5t?oc=5",
       "via": "Google News",
       "topic": "Kultur & Musik"
-    },
-    {
-      "id": "dec219834b14228a",
-      "title": "Mit Mut und neuer Kraft: Tamara Kaulich startet als Pfarrerin in Angersbach - OSTHESSEN|NEWS",
-      "desc": "",
-      "date": "2026-09-26",
-      "publishedAt": "2026-09-26T07:00:00+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Wartenberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxORDhtVWlNT1lwdUlZbDVKS3hjSUdhYmlIdF93bmlNMUhaekdhV3VtNzIxSTh4aF9ZYmlyZTJ5RGYtc1FqNzlzQnJGaHIwN0VVNHgtc1NPbkZ6d2lsRUphVXNMSkRpUzdaLUtiUnE5MmxRRlZmakhpeWxQOXhCN3ZGN2J4UUQtZDRCQVN4ZTBYQXgwSUxOblZDUkdQY1VLaUhjc01sYl9pdEFPd0tELXNMTWNhUjJlVmdDYUE?oc=5",
-      "via": "Google News",
-      "topic": "Familie & Soziales"
     },
     {
       "id": "e5e3073c87e093d8",
@@ -3600,7 +3614,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 17,
+      "count": 19,
       "note": "",
       "stored": 45
     },
@@ -3609,16 +3623,16 @@
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 6,
+      "count": 7,
       "note": "",
-      "stored": 20
+      "stored": 21
     },
     {
       "id": "la",
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 25,
+      "count": 26,
       "note": "",
       "stored": 54
     },
@@ -3642,12 +3656,12 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 71,
+  "localCount": 70,
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 10,
     "Gemeinschaft & Ehrenamt": 7,
-    "Familie & Soziales": 6,
+    "Familie & Soziales": 5,
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 3,
     "Blaulicht": 3,
@@ -3655,5 +3669,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-21T07:48:11.687562+00:00"
+  "officialCheckedAt": "2026-10-21T13:55:59.844906+00:00"
 }
