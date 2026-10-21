@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-21T18:44:51Z",
+  "updatedAt": "2026-10-21T23:26:20Z",
   "items": [
     {
       "id": "a219c5669a1222e4",
@@ -77,7 +77,7 @@
       "title": "Heiko Siemon verteilt sein \"Geburtstagsgeld\" an Vereine im Schlitzerland - Osthessen|News",
       "desc": "",
       "date": "2026-10-21",
-      "publishedAt": "2026-10-21T13:07:46+00:00",
+      "publishedAt": "2026-10-21T13:16:39+00:00",
       "category": "Gemeinschaft & Ehrenamt",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
@@ -438,7 +438,7 @@
     },
     {
       "id": "3f0195159da094c4",
-      "title": "Wohnraumhilfe Vogelsberg startet: Gemeinsam Wohnraum sichern - Osthessen|News",
+      "title": "Wohnraumhilfe Vogelsberg startet: Gemeinsam Wohnraum sichern - OSTHESSEN|NEWS",
       "desc": "",
       "date": "2026-10-20",
       "publishedAt": "2026-10-20T03:31:48+00:00",
@@ -1290,6 +1290,20 @@
       "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORGU3a0VpSnZ6RG9sVVRfNGYtZmlMWkJCVFYxQ2ZwNHN2VVBTTldyVGFNSGJZWlJYT3gwOHBFTGQ3MVB5d0RQQXdxSmIxVnhSSEpKUS1YajZvbEUyUFQ3SWdOREw1a0pGWkNBVDFGdnhCYVh6emE4RHNPbm1uOGVIUzRud2lEU1MyNUxIU3p5d3VPa0Z0X3NQREF5MXVORm8weDg3Qy0yLXpVcUZDTnZ1TE5Ec3BWSG5Wcml4V0haN1plcEJYbWdN?oc=5",
       "via": "Google News",
       "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "dd5f8396eec64a29",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-14",
+      "publishedAt": "2026-10-14T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9Ha0l6NjNBYkw3eFh1Q0VqMks2a3hHQ2s0R2NYRGU3TEl6M3B6UXdVY19WWU1BM3dtTzVBLURwdVBPUnpRdWtDNXRURS1JeXZwVjE3SS1kZ05fYWs?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "f777b8c92bb6587d",
@@ -2646,20 +2660,6 @@
       "topic": "Blaulicht"
     },
     {
-      "id": "43975ea4669afbab",
-      "title": "Schwere Vorwürfe gegen 34-jährigen Ex-Kita-Erzieher aus Grebenhain - OSTHESSEN|NEWS",
-      "desc": "",
-      "date": "2026-09-29",
-      "publishedAt": "2026-09-29T07:00:00+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUjZkUVFIWDh3aHoyb2Z4Vkp1UVB5bEstQmVrRWt2dmZiVXE5OWRROWw1Wi1LckQ0ODlJa2tsS1hXREpQYWRuUFZGYTJpdTVvOVNkemg1ZW81U3UwSEF2NmZhcm5WOS02cDhZclJaWjRKbjJ4M1dHRkxlRkMyYWwwVkp6MXhsZ3N5cE80VnpTZk1yQmlkWFRYX0w1NGJKNVV6MVM0d2lFYndBbkdFUUhRVA?oc=5",
-      "via": "Google News",
-      "topic": "Familie & Soziales"
-    },
-    {
       "id": "0c49b4fb264cff7a",
       "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Fulda und Vogelsberg - Presseportal",
       "desc": "",
@@ -3642,7 +3642,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 19,
+      "count": 20,
       "note": "",
       "stored": 45
     },
@@ -3697,5 +3697,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-21T18:45:08.532578+00:00"
+  "officialCheckedAt": "2026-10-21T23:26:37.846816+00:00"
 }
