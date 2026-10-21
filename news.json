@@ -1,13 +1,55 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-21T00:40:48Z",
+  "updatedAt": "2026-10-21T07:47:46Z",
   "items": [
+    {
+      "id": "d8e43eb97d7e90ed",
+      "title": "Naturdruck bringt Heimat auf Leinen",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T06:53:00+00:00",
+      "category": "Natur & Umwelt",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Naturdruck-bringt-Heimat-auf-Leinen/boxid/1076952",
+      "via": "RSS",
+      "topic": "Natur & Umwelt"
+    },
+    {
+      "id": "9d85dc20abd95ccc",
+      "title": "8.000 Euro für die Wiederbelebung von „Alsfeld Theater erleben“",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T04:11:39+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/21/8-000-euro-fuer-die-wiederbelebung-von-alsfeld-theater-erleben/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "4169df41d5f91d59",
+      "title": "CDU Alsfeld feiert Herbst- und Helferfest – prominente Gäste - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T03:48:45+00:00",
+      "category": "Natur & Umwelt",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOalN2djZMeGUzMnplVmF3NFhkUWFjS2FnRkJ0VVpvVFBXSnh0U1VueUYyU18zazNuOEx2TkFqT0tvaUdaaU1JUkt3UjZTM080N2NWZUhnaVRIdWlkbWx2cWdIRnJqN2I2dkhYQ2pTOHFHT1hQUklOano4X28xM0FoZXB0ek9zX0V2aFJldEJMM0JpbmNYV3NmTjhQaHR3LWc?oc=5",
+      "via": "Google News",
+      "topic": "Natur & Umwelt"
+    },
     {
       "id": "992d2c98375a9a8a",
       "title": "Feuerwehreinsatz mitten in Alsfelds Altstadt - Osthessen|News",
       "desc": "",
       "date": "2026-10-20",
-      "publishedAt": "2026-10-20T18:56:15+00:00",
+      "publishedAt": "2026-10-20T18:57:57+00:00",
       "category": "Blaulicht",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
@@ -1236,20 +1278,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "1c9783eaaee459b9",
-      "title": "„Klavier im Fokus“ – Werkstattkonzert mit Teilnehmenden des Meisterkurses",
-      "desc": "",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T11:54:43+00:00",
-      "category": "Kultur & Musik",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/13/klavier-im-fokus-werkstattkonzert-mit-teilnehmenden-des-meisterkurses/",
-      "via": "RSS",
-      "topic": "Kultur & Musik"
-    },
-    {
       "id": "87719f3e7bd475ec",
       "title": "Moderne Technik hält Einzug",
       "desc": "",
@@ -2405,20 +2433,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "68c35bda33c1fdde",
-      "title": "Schritt für Schritt zur besseren Erziehung",
-      "desc": "",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T12:02:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Schritt-fr-Schritt-zur-besseren-Erziehung/boxid/1075045",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "d4afd943c63b5f87",
       "title": "Druck auf die Politik wächst: Vogelsberger Mediziner kritisieren Reformpläne - OSTHESSEN|NEWS",
       "desc": "",
@@ -2791,20 +2805,6 @@
       "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNX1dBQURTUVhTczBfTUs3aUcyMUxTdXYyWTRwNklheVlmb1R6Z21zcWZTTUpJTTZRTnFmeXRnTHp3NDBDZ2RKaEVINmVXem56b1pNdmpMVE1hc2tnLTJiT252QVVDaVBtU3NzdmtGVDk1UVVmVmxZZXNxSDdkUnVELXFjcVVhNl9peGVwS01saU1JQWQ5d1k2S1hrdWY3dW5OVXNwY1lsWkNxTXFjYTlmV01ZbzRYQWNm?oc=5",
       "via": "Google News",
       "topic": "Sport"
-    },
-    {
-      "id": "ca65424a3b317f32",
-      "title": "Buntes Programm am Weltkindertag am Jugendhaus Schlitz - OSTHESSEN|NEWS",
-      "desc": "",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T07:00:00+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPLXF0OHhETTNsVjNtZnBabnhYV0JXVWxkVWRtVXZfdFFieXVBOWtldWZvTE1MODZrLWpXUXJLTHBFOXg5MzdtZlJGaC1jckN0M1RIcG9yT1ZCNzB2MUc3THhETDFFZi0tWDJSUkkzNTQ5d0l6YTBrWkhWRW4wdjFYSW9hb3EyRllNNnJleEt4WnRNUTFGTm9RMzJsZ3g1Mm8?oc=5",
-      "via": "Google News",
-      "topic": "Familie & Soziales"
     },
     {
       "id": "668cfc28425bde97",
@@ -3591,7 +3591,7 @@
       "name": "Oberhessen-live",
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
-      "count": 11,
+      "count": 10,
       "note": "",
       "stored": 45
     },
@@ -3600,7 +3600,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 19,
+      "count": 17,
       "note": "",
       "stored": 45
     },
@@ -3609,7 +3609,7 @@
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 7,
+      "count": 6,
       "note": "",
       "stored": 20
     },
@@ -3655,5 +3655,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-21T00:41:06.569854+00:00"
+  "officialCheckedAt": "2026-10-21T07:48:11.687562+00:00"
 }
