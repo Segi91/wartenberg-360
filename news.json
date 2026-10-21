@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-20T21:43:10Z",
+  "updatedAt": "2026-10-21T00:40:48Z",
   "items": [
     {
       "id": "992d2c98375a9a8a",
@@ -32,10 +32,10 @@
     },
     {
       "id": "859492166bef50dd",
-      "title": "Rauchentwicklung in Wohnhaus: Feuerwehr in Alsfelder Altstadt im Einsatz",
+      "title": "Rauchentwicklung in Alsfelder Altstadt ruft Feuerwehr auf den Plan",
       "desc": "",
       "date": "2026-10-20",
-      "publishedAt": "2026-10-20T16:20:02+00:00",
+      "publishedAt": "2026-10-20T16:54:00+00:00",
       "category": "Vogelsberg",
       "locality": "Vogelsberg",
       "sourceName": "Fuldaer Zeitung",
@@ -74,7 +74,7 @@
     },
     {
       "id": "96ee54d75bd4291d",
-      "title": "Feuer in der Alsfelder Altstadt - \"Türen und Fenster geschlossen halten\" - Osthessen|News",
+      "title": "Feuer in der Alsfelder Altstadt - \"Türen und Fenster geschlossen halten\" - OSTHESSEN|NEWS",
       "desc": "",
       "date": "2026-10-20",
       "publishedAt": "2026-10-20T15:38:07+00:00",
@@ -1318,6 +1318,20 @@
       "source": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRWNieXpoeFczWXFyb1pjMUctOXJfUUJ1WmxJUUFaNVpKTXNKNzhPMkdXaXZFOUhjZWtpTEdfMmw1TWxrclM5WEw1a3dtby1ad0lUV1ZIRExLOHJ2VmZ2S1Z6YXhiaWRwQUpMSWtmLUJJVW1NNjdqUmdpWmNQM1lIcTgwRjBfNHpYUjF3aW5xTG1haU5HaTNQY1NMdE9XZEktOXFBZ0JMV3RaQ0E2M0tEUXdyWkk?oc=5",
       "via": "Google News",
       "topic": "Kultur & Musik"
+    },
+    {
+      "id": "ca18e28da326af70",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-13",
+      "publishedAt": "2026-10-13T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9mcms1QXU3WVk0UVBNUW5oeWlybUZ5cGlBVTU3cUdDOUZCWWVycmhqTjNzeU9aWFMxdk9zb3NaajRybDNJLWZFS1ctejFQR1R6emdjMGljWXJtX1U?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "65fcd2e081eea133",
@@ -2793,20 +2807,6 @@
       "topic": "Familie & Soziales"
     },
     {
-      "id": "92f2cd841169c6a0",
-      "title": "Wieder ganz weit vorn: \"Alsfeld bewegt\" lockt knapp 900 Läufer an den Start - OSTHESSEN|NEWS",
-      "desc": "",
-      "date": "2026-09-21",
-      "publishedAt": "2026-09-21T07:00:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNZGp4Zkt0UnJpMFZhSFd2MEtnaFg2NnVIei1PMXBGWkVQRGQ0bmI0ZGxobk00VXktYUNkTThUYU0tM1Z3WXJ2czh2eUk4cDN6QlR0U2hTejcwZ0gwQW93SlNBazIxQWo3OVdPQ0xDNGxWOWNwVVc4cFNLSzVMZW95dDNVcEJzNXU5djNPTXlTUHY1RUdjVzJvYURTN0hpNmVDRUl3cVpSSGZLRmJYTVlsSnJhUkhGTG8?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "668cfc28425bde97",
       "title": "POL-OH: Verkehrsunfallmeldungen für den Landkreis Fulda, Vogelsberg und Hersfeld-Rotenburg - Presseportal",
       "desc": "",
@@ -3600,7 +3600,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 18,
+      "count": 19,
       "note": "",
       "stored": 45
     },
@@ -3655,5 +3655,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-20T21:43:37.953212+00:00"
+  "officialCheckedAt": "2026-10-21T00:41:06.569854+00:00"
 }
