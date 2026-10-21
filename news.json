@@ -1,7 +1,77 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-21T13:55:36Z",
+  "updatedAt": "2026-10-21T18:44:51Z",
   "items": [
+    {
+      "id": "a219c5669a1222e4",
+      "title": "Senioren Union lädt zum traditionellen Gänseessen im Alsfelder Rambachhaus ein",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T18:19:49+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/21/senioren-union-laedt-zum-traditionellen-gaenseessen-im-alsfelder-rambachhaus-ein/",
+      "via": "RSS",
+      "topic": "Familie & Soziales"
+    },
+    {
+      "id": "169ccd92753edcdc",
+      "title": "„Wir können das Angebot für den Sport spürbar erweitern“",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T16:16:07+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/21/wir-koennen-das-angebot-fuer-den-sport-spuerbar-erweitern/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "9c842818efa85ef0",
+      "title": "POL-OH: Brand in Wohnhaus - Zwei Personen verletzt",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T14:54:13+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6375655",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "0290113f991e6bb1",
+      "title": "SPD und CDU wollen Netz öffentlich zugänglicher Defibrillatoren im Vogelsbergkreis ausbauen",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T14:00:40+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/21/spd-und-cdu-wollen-netz-oeffentlich-zugaenglicher-defibrillatoren-im-vogelsbergkreis-ausbauen/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "e0eecc7280831277",
+      "title": "POL-OH: Diebstahl von Geldbörse - Diebstahl von Leergut - Brand in Wohnhaus",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T13:44:37+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6375618",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
     {
       "id": "5b38c91aa8c586e5",
       "title": "Heiko Siemon verteilt sein \"Geburtstagsgeld\" an Vereine im Schlitzerland - Osthessen|News",
@@ -1220,48 +1290,6 @@
       "source": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORGU3a0VpSnZ6RG9sVVRfNGYtZmlMWkJCVFYxQ2ZwNHN2VVBTTldyVGFNSGJZWlJYT3gwOHBFTGQ3MVB5d0RQQXdxSmIxVnhSSEpKUS1YajZvbEUyUFQ3SWdOREw1a0pGWkNBVDFGdnhCYVh6emE4RHNPbm1uOGVIUzRud2lEU1MyNUxIU3p5d3VPa0Z0X3NQREF5MXVORm8weDg3Qy0yLXpVcUZDTnZ1TE5Ec3BWSG5Wcml4V0haN1plcEJYbWdN?oc=5",
       "via": "Google News",
       "topic": "Verkehr & Bauen"
-    },
-    {
-      "id": "d7f515387a9c3231",
-      "title": "Von der Ringwallanlage zum Luftkurort",
-      "desc": "",
-      "date": "2026-10-14",
-      "publishedAt": "2026-10-14T06:11:07+00:00",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/14/von-der-ringwallanlage-zum-luftkurort-2/",
-      "via": "RSS",
-      "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
-      "id": "e392ca62fdee7a8e",
-      "title": "Sprachlich in eine neue Welt abtauchen",
-      "desc": "",
-      "date": "2026-10-14",
-      "publishedAt": "2026-10-14T04:11:08+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/14/sprachlich-in-eine-neue-welt-abtauchen/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "c5ddab604f42f671",
-      "title": "Den Alltag von Pflegebedürftigen besser machen",
-      "desc": "",
-      "date": "2026-10-13",
-      "publishedAt": "2026-10-13T19:12:11+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/13/den-alltag-von-pflegebeduerftigen-besser-machen/",
-      "via": "RSS",
-      "topic": "Familie & Soziales"
     },
     {
       "id": "f777b8c92bb6587d",
@@ -3596,9 +3624,9 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "RSS",
-      "count": 6,
+      "count": 7,
       "note": "",
-      "stored": 25
+      "stored": 27
     },
     {
       "id": "oberhessen",
@@ -3623,7 +3651,7 @@
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 7,
+      "count": 6,
       "note": "",
       "stored": 21
     },
@@ -3669,5 +3697,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-21T13:55:59.844906+00:00"
+  "officialCheckedAt": "2026-10-21T18:45:08.532578+00:00"
 }
