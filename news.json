@@ -1,7 +1,35 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-21T23:26:20Z",
+  "updatedAt": "2026-10-22T05:01:21Z",
   "items": [
+    {
+      "id": "f8e98d92dd451ef4",
+      "title": "Feuer in Alsfelder Fachwerkhaus schnell gelöscht",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T04:07:28+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/22/feuer-in-alsfelder-fachwerkhaus-schnell-geloescht/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "117dde2f7580ebff",
+      "title": "Förderung bewilligt: Sportplatz in Lauterbach wird für 1,2 Millionen Euro saniert",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T02:11:00+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPMlZJaW9SUG9XMGNHTHlxTzhiSVhIYlFsd2tBcWp5aW4wTDZleWFBdFJTbEJFY1JUZmF1ZVBHd2xmTzZRa3FNeG5UOGwtR0RQdmtsVjNDaEY3SzZFLUtlM2lyd2V0VjV3R1J4YUlGcnJTSHVROXdxaTZyTS00MXdsTV9LTWdKZFV3ZTJaSXpNOVg5dk5JRVFRc3RoeENIZ0E0cXMyUUhnY0VVRVNfV2VQVkJqQ190MjZPanc?oc=5",
+      "via": "Google News",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
     {
       "id": "a219c5669a1222e4",
       "title": "Senioren Union lädt zum traditionellen Gänseessen im Alsfelder Rambachhaus ein",
@@ -141,6 +169,20 @@
       "source": "https://www.oberhessen-live.de/2026/10/21/mit-hessenforst-den-herbstwald-entdecken/",
       "via": "RSS",
       "topic": "Natur & Umwelt"
+    },
+    {
+      "id": "a3a7c260fc2ad6dd",
+      "title": "Sachbearbeiter in der Auftragsbearbeitung (m/w/d) in Alsfeld | ON JOBS - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-21",
+      "publishedAt": "2026-10-21T09:31:41+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPMm5EN0cyUXFjaF83aGs4cms0TWdfbUkzd3BMTHZOTlV3RENTYWdZbUJEZ2tQRmZodHVweG5sT3dxRkJzMjJGWG5vWjV1NU9YRFgxcEM2ek9aUGVOZko0WWtjYUltcDJOdVZmZklZdTg4LV9KTWZQbWtXUE1SVlZJMFVmdVBsaUJocnZla1VvNDR0dDZHWGJj?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "8d464fca0316644e",
@@ -308,6 +350,20 @@
       "sourceId": "polizei",
       "source": "https://www.presseportal.de/blaulicht/pm/43558/6374892",
       "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "d2b73f2365c99434",
+      "title": "POL-OH: Verkehrsunfallmeldung für die Landkreise Vogelsberg und Hersfeld-Rotenburg - Presseportal",
+      "desc": "",
+      "date": "2026-10-20",
+      "publishedAt": "2026-10-20T13:42:59+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBINVF6clNGNkNfVS1OWXBQTXA1dy1zdl91UkE2UFJQNjBrQklGc0hlTDd2cTFrX245LXg1U3dkZk16Q1ZhbGY2QlVlNEhvSnJleWJUUGFMaE9rT1RKWDU3Z0hsNlc?oc=5",
+      "via": "Google News",
       "topic": "Blaulicht"
     },
     {
@@ -518,6 +574,20 @@
       "sourceId": "polizei",
       "source": "https://www.presseportal.de/blaulicht/pm/43558/6374153",
       "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "66a563275079619b",
+      "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Vogelsberg und Hersfeld-Rotenburg - Presseportal",
+      "desc": "",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T13:56:23+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5uVl9rclhGMXowRi1yMnBCeGI2Z3kxdlNva1dZSi1scmJMV3NaZjZMWkV0VDVPMzk5Z2lZWTEySGJvM3laVVhpN2I3SmNhMHVEZHJYOV9KV0JURWhuYkszU3VkSnk?oc=5",
+      "via": "Google News",
       "topic": "Blaulicht"
     },
     {
@@ -900,6 +970,20 @@
       "topic": "Blaulicht"
     },
     {
+      "id": "8a7b748a4ae29ad2",
+      "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Fulda und Vogelsberg - Presseportal",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T12:53:06+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9LdFYzYjNjQnRzY0lvUnQ0TkQ1RHhxV2I2bHhsT0dpVnZmSHhCTVBGYVcwODJpR0h6OV9WTXhUbzh0Sm9ERk1QcDBuVjlWUF9lWmJIT05XbkQwMm51M2ZlRzdtMjQ?oc=5",
+      "via": "Google News",
+      "topic": "Blaulicht"
+    },
+    {
       "id": "a7a8ae8378362d14",
       "title": "Gasalarm in Wallenrod: Feuerwehr gibt Entwarnung",
       "desc": "",
@@ -1264,20 +1348,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "65098d11f018f07b",
-      "title": "Lagerfeuergottesdienst für junge Leute",
-      "desc": "",
-      "date": "2026-10-14",
-      "publishedAt": "2026-10-14T07:55:42+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/14/lagerfeuergottesdienst-fuer-junge-leute/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "ce3942681a6dc5ac",
       "title": "Vollsperrung bis Dezember: Landesstraße bei Grebenhain wird in zwei Abschnitten saniert",
       "desc": "",
@@ -1584,6 +1654,20 @@
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94eGVoVGNzNVlWZUFpRWhMN2c4MFJJNF9IVE51X2RTRTlYbnpBNTVTV2IxSFlkdndkNjI3TllzbC1iYk50c1lueG5sVXlEWkdnR0dMWlFMVVE2aTQ?oc=5",
       "via": "Google News",
       "topic": "Vogelsberg"
+    },
+    {
+      "id": "87e62c07f6c396b4",
+      "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Vogelsberg und Hersfeld-Rotenburg - Presseportal",
+      "desc": "",
+      "date": "2026-10-12",
+      "publishedAt": "2026-10-12T07:00:00+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE91T2Z5WG9kQjM4RjVBY1BUMldjeVVUb1BPTVFSQ3ViUTg1OUF1eEJ2end0Mk9rVjlONjRmNlltVloxVXJQMlhtYlZMc2NkN1VOelFGWTlFd2ZlQ0JMdkdVN0pfZUQ?oc=5",
+      "via": "Google News",
+      "topic": "Blaulicht"
     },
     {
       "id": "86b2c49da4251131",
@@ -2513,20 +2597,6 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9adDFDa0w1ODlwMXNwejJLWWFFWVFiWWxlX3ZPcHJEd0diYlpGQ0RnWlFQX2JmUG9vWW9HRVpiNkNKTHRpcUppS3FQc2MwdHlNVEhOQ2g0QUo2V00?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "d4afd943c63b5f87",
-      "title": "Druck auf die Politik wächst: Vogelsberger Mediziner kritisieren Reformpläne - OSTHESSEN|NEWS",
-      "desc": "",
-      "date": "2026-10-02",
-      "publishedAt": "2026-10-02T07:00:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdE5uSXdzVGJrTFZWX2NPZ0FHSEFJV2JYb0pla2Q3Tl9UajQ4TnQ2RkZCTGsyWVU5SEc0QVFVdmlyY1hSUTRqRkR6cXluaTZrVV9BUjhsbkdkUVE4WHFMbU1LZnBTM1RiNFgxNXdUbXVDWkZpQ1V4aHNBaEdZckRsSUVkSXl6aGZOSFJnc3F0LWFKTzlfLTFKMWZEdGpicW9Jc3NBSEVXMExXNE1qcUJhUXMwR2tjUGkta2ZB?oc=5",
       "via": "Google News",
       "topic": "Vogelsberg"
     },
@@ -3623,10 +3693,10 @@
       "id": "polizei",
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
-      "mode": "RSS",
-      "count": 7,
+      "mode": "Google News",
+      "count": 6,
       "note": "",
-      "stored": 27
+      "stored": 31
     },
     {
       "id": "oberhessen",
@@ -3651,9 +3721,9 @@
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 6,
+      "count": 7,
       "note": "",
-      "stored": 21
+      "stored": 22
     },
     {
       "id": "la",
@@ -3697,5 +3767,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-21T23:26:37.846816+00:00"
+  "officialCheckedAt": "2026-10-22T05:01:46.424728+00:00"
 }
