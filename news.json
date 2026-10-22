@@ -1,7 +1,134 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-22T05:01:21Z",
+  "updatedAt": "2026-10-22T12:04:36Z",
   "items": [
+    {
+      "id": "gemeinde-offiziell-30",
+      "title": "Verkehrsbeeinträchtigungen - B254 - OT Angersbach",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Fahrbahninstandsetzungsarbeiten vom 22.10. bis 26.10.2026",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=30&cHash=858fd4ed9bcb86bf293257e6c525508e",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Verkehr & Bauen",
+      "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "e32f739bb58f36a4",
+      "title": "Studienfahrt der VHS nach Frankfurt ins Städel zur Ausstellung „Maria Magdalena Sin.Pray.Love“",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T11:42:30+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/22/studienfahrt-der-vhs-nach-frankfurt-ins-staedel-zur-ausstellung-maria-magdalena-sin-pray-love/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "d1b9f9d6172ac27c",
+      "title": "Vogelsbergkreis: Neue Ärztin verstärkt das MVZ in Grebenhain - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T11:32:28+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOUlhY2ZUQkI5ZG9Zd29fNzlDN1V1T09ZN3ZiV1pGa2laZFBhak1hNUFBanhFV3NqOHNURXlVNzJMTFZoaWpxd2Y5QlllUVdEd0l3bmFjdktCYXowdFZOZ05Fa2NKRHR3Z0JDMGc2Vm1fbTdGbFFuaURNWUFfUHd2VWowQ1BCMUdOU2hTT3VB?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "c008ab9580117caf",
+      "title": "Neue Ärztin am MVZ",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T11:10:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Neue-rztin-am-MVZ/boxid/1077148",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "ce87d301138b44bd",
+      "title": "Märchenhaus Alsfeld mit zwei Terminen an neuer Veranstaltungsreihe der Deutschen Märchenstraße beteiligt",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T10:12:16+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/22/maerchenhaus-alsfeld-mit-zwei-terminen-an-neuer-veranstaltungsreihe-der-deutschen-maerchenstrasse-beteiligt/",
+      "via": "RSS",
+      "topic": "Verkehr & Bauen"
+    },
+    {
+      "id": "5b6514fbd8d8ba0f",
+      "title": "Informationsangebot der Frühen Hilfen",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T09:28:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Informationsangebot-der-Frhen-Hilfen/boxid/1077123",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "6d4299f0752dd05f",
+      "title": "Jugendplatz Lauterbach kommt",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T08:13:12+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/22/jugendplatz-lauterbach-kommt/",
+      "via": "RSS",
+      "topic": "Familie & Soziales"
+    },
+    {
+      "id": "ade877fd0297b36a",
+      "title": "Inklusion als Chance",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T08:02:00+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Inklusion-als-Chance/boxid/1077089",
+      "via": "RSS",
+      "topic": "Familie & Soziales"
+    },
+    {
+      "id": "375dac0442961684",
+      "title": "Naturdruck bringt Heimat auf Leinen",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T05:43:56+00:00",
+      "category": "Natur & Umwelt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/22/naturdruck-bringt-heimat-auf-leinen/",
+      "via": "RSS",
+      "topic": "Natur & Umwelt"
+    },
     {
       "id": "f8e98d92dd451ef4",
       "title": "Feuer in Alsfelder Fachwerkhaus schnell gelöscht",
@@ -494,7 +621,7 @@
     },
     {
       "id": "3f0195159da094c4",
-      "title": "Wohnraumhilfe Vogelsberg startet: Gemeinsam Wohnraum sichern - OSTHESSEN|NEWS",
+      "title": "Wohnraumhilfe Vogelsberg startet: Gemeinsam Wohnraum sichern - Osthessen|News",
       "desc": "",
       "date": "2026-10-20",
       "publishedAt": "2026-10-20T03:31:48+00:00",
@@ -1054,6 +1181,20 @@
       "topic": "Sport"
     },
     {
+      "id": "9c8e37bebc5b6493",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-16",
+      "publishedAt": "2026-10-16T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1tOV9mWS00cE9mQ3FJdThhTzU1cEZOQWRNdUdQcVQtcnNnSjVMVG1CWXBSV2N0b3YtQW5sRXRHdjZoZ01fSlF5czFYV0MtSGw4SFlVNVJoUWNuazQ?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
       "id": "c9d7ba605eee5a6f",
       "title": "Talk und Musik in der Werkshalle, KI im Netz und ein Gottesdienst in Ermenrod",
       "desc": "",
@@ -1236,20 +1377,6 @@
       "topic": "Kultur & Musik"
     },
     {
-      "id": "233695e357df790d",
-      "title": "Wenn die Welt stillsteht, braucht es Menschen, die Halt geben",
-      "desc": "",
-      "date": "2026-10-15",
-      "publishedAt": "2026-10-15T04:07:36+00:00",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/15/wenn-die-welt-stillsteht-braucht-es-menschen-die-halt-geben/",
-      "via": "RSS",
-      "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
       "id": "8db0b3a99da763ce",
       "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
       "desc": "",
@@ -1278,20 +1405,6 @@
       "topic": "Sport"
     },
     {
-      "id": "3e127bba41ebef03",
-      "title": "Lichtblick im grauen Oktober",
-      "desc": "",
-      "date": "2026-10-14",
-      "publishedAt": "2026-10-14T18:22:35+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/14/lichtblick-im-grauen-oktober/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "05a8795415cded7b",
       "title": "Reifenstecher in Lauterbach: Unbekannte beschädigen drei Autos in derselben Straße",
       "desc": "",
@@ -1306,20 +1419,6 @@
       "topic": "Verkehr & Bauen"
     },
     {
-      "id": "5768820be7f838b9",
-      "title": "Moderne Technik hält Einzug",
-      "desc": "",
-      "date": "2026-10-14",
-      "publishedAt": "2026-10-14T14:06:28+00:00",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/14/moderne-technik-haelt-einzug/",
-      "via": "RSS",
-      "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
       "id": "b7e945d4c6ca450a",
       "title": "Wenn die Welt stillsteht, braucht es Menschen, die Halt geben",
       "desc": "",
@@ -1330,20 +1429,6 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Wenn-die-Welt-stillsteht-braucht-es-Menschen-die-Halt-geben/boxid/1076297",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "fdb1c4e22379d25c",
-      "title": "Starke Knie – gesunde Bewegung",
-      "desc": "",
-      "date": "2026-10-14",
-      "publishedAt": "2026-10-14T09:52:10+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/14/starke-knie-gesunde-bewegung/",
       "via": "RSS",
       "topic": "Vogelsberg"
     },
@@ -2475,48 +2560,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "42026fe7daeefb2b",
-      "title": "Erfolgreich qualifiziert: Sieben neue Tagesmütter",
-      "desc": "",
-      "date": "2026-10-05",
-      "publishedAt": "2026-10-05T08:50:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Erfolgreich-qualifiziert-Sieben-neue-Tagesmtter/boxid/1075156",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "e80bbf229aaf1a43",
-      "title": "vhs-Kurs: „Türkisch für die Reise (A1)“",
-      "desc": "",
-      "date": "2026-10-05",
-      "publishedAt": "2026-10-05T08:49:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Trkisch-fr-die-Reise-A1/boxid/1075155",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "28f5ba0f91b5759c",
-      "title": "Online-Vortrag: Wie ist das mit dem Pflegegrad?",
-      "desc": "",
-      "date": "2026-10-05",
-      "publishedAt": "2026-10-05T08:35:00+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Online-Vortrag-Wie-ist-das-mit-dem-Pflegegrad/boxid/1075146",
-      "via": "RSS",
-      "topic": "Familie & Soziales"
-    },
-    {
       "id": "bfa8818208f67caf",
       "title": "Vogelsbergkreis - Osthessen|News",
       "desc": "",
@@ -2571,34 +2614,6 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBwUVRENU93Qi0wbzRwclYweVhHT0pQUFpFWFFWWUR2SkhBVjNfODlvM1NSdW9QMzJrcHVTYnhoaTBjNXJ3bFVrWkpUV0FLQV8tSFFsZ1lzYkNXdHJObzhtM2pCRWs?oc=5",
       "via": "Google News",
       "topic": "Blaulicht"
-    },
-    {
-      "id": "247e72b99bed7f6b",
-      "title": "Vogelsbergkreis - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-04",
-      "publishedAt": "2026-10-04T07:00:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4tdkJSLWxXOW4zNGcwX3lXNGM2M1RxbVU3WXBPUEFxd0hkRDRNMmMzajZtTXMtNUhXY2FDQnVsTnFOMVA4WDk0UDdkNjZELThxVFljV2NqRHBNazA?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "c2f7a0738da83cc1",
-      "title": "Vogelsbergkreis - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-03",
-      "publishedAt": "2026-10-03T07:00:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9adDFDa0w1ODlwMXNwejJLWWFFWVFiWWxlX3ZPcHJEd0diYlpGQ0RnWlFQX2JmUG9vWW9HRVpiNkNKTHRpcUppS3FQc2MwdHlNVEhOQ2g0QUo2V00?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
     },
     {
       "id": "ed36c1016c75bc2b",
@@ -3693,8 +3708,8 @@
       "id": "polizei",
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
-      "mode": "Google News",
-      "count": 6,
+      "mode": "RSS",
+      "count": 7,
       "note": "",
       "stored": 31
     },
@@ -3703,7 +3718,7 @@
       "name": "Oberhessen-live",
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
-      "count": 10,
+      "count": 11,
       "note": "",
       "stored": 45
     },
@@ -3712,7 +3727,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 20,
+      "count": 19,
       "note": "",
       "stored": 45
     },
@@ -3730,7 +3745,7 @@
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 26,
+      "count": 25,
       "note": "",
       "stored": 54
     },
@@ -3754,7 +3769,7 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 70,
+  "localCount": 71,
   "localTopics": {
     "Rathaus & Politik": 11,
     "Kultur & Musik": 10,
@@ -3767,5 +3782,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-22T05:01:46.424728+00:00"
+  "officialCheckedAt": "2026-10-22T12:04:58.959444+00:00"
 }
