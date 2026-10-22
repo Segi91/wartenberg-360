@@ -1,7 +1,21 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-22T17:18:42Z",
+  "updatedAt": "2026-10-22T21:44:34Z",
   "items": [
+    {
+      "id": "3acf7303c31b1451",
+      "title": "Kartoffeln werden auch im Bett gar Und Butter lässt sich mit Wasser kühlen",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T18:11:15+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/22/kartoffeln-werden-auch-im-bett-gar-und-butter-laesst-sich-mit-wasser-kuehlen/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
     {
       "id": "f7f0f11d9ec558a0",
       "title": "Ein Zeichen für die Truppe: Schlitz bekommt die Gelbe Schleife - Osthessen|News",
@@ -31,6 +45,20 @@
       "topic": "Gemeinschaft & Ehrenamt"
     },
     {
+      "id": "b63705c2de6c5759",
+      "title": "Katzenklo löst Gasalarm aus: Feuerwehr rückt in Lauterbach aus",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T15:05:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSmFFRDJvWlRGdGg1eUxtZFk3a3lUb0FXM2t3eFRhOTJJZ25xNnNCbHMtM0hOMGV6aHRfMXdjbGJYeG56RzJoZVRZcVNJVVh5VldqNFpRb0Y3YldHNkFkamhzNFBYY3kzVlZoZUJaYWJFdklHdEx3U1VwczM2X1Fob3J4dWx4UmhQYUl0RjhjYkxrYjFXZG1LZDZsVnZEdWVoZklPTEZrTkp4QQ?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
       "id": "445168ead6d17de7",
       "title": "Im Dunkeln ist gut Runkeln",
       "desc": "",
@@ -43,6 +71,48 @@
       "source": "https://www.oberhessen-live.de/2026/10/22/im-dunkeln-ist-gut-runkeln/",
       "via": "RSS",
       "topic": "Vogelsberg"
+    },
+    {
+      "id": "16418bc85813c101",
+      "title": "POL-OH: Verkehrsunfallmeldungen für die Landkreise Hersfeld-Rotenburg und Vogelsberg",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T14:02:47+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6376146",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "aec3dcee78dada49",
+      "title": "POL-OH: Mit hoher Geschwindigkeit vor Polizei geflüchtet - mehrere Strafverfahren eingeleitet - Diebstahl aus Auto - Diebstahl von mobilem Heizgerät",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T13:58:16+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6376136",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "72ae6af082c09388",
+      "title": "Forstunfall bei Lauterbach: 22-Jähriger wird unter Baum eingeklemmt",
+      "desc": "",
+      "date": "2026-10-22",
+      "publishedAt": "2026-10-22T13:09:00+00:00",
+      "category": "Verkehr & Bauen",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTzRGYnlPY3AxUFBOenphd1dqSWYtd0FvNHZvSWN3a2pVRW94bzQwSjZkNWFGZUZQTTZFQVB6QzdTRkFuMlU3LV9vdTZ4QXh3QzRlNTNQYmROeldmaVpMcmxaY2ZSOFA4d1VlYWdQYVlaN1kyT2tBZlI0YmtkR1h5ejdDMFo1VnRmSlVWUzlFYzZpbl9XRXRja1BPOVhnejBWbTRMMWdZU1gyZ0lLUmNPbmdjdw?oc=5",
+      "via": "Google News",
+      "topic": "Verkehr & Bauen"
     },
     {
       "id": "gemeinde-offiziell-30",
@@ -1361,20 +1431,6 @@
       "source": "https://www.presseportal.de/blaulicht/pm/43558/6371999",
       "via": "RSS",
       "topic": "Blaulicht"
-    },
-    {
-      "id": "a7b81e2a322454d8",
-      "title": "Kochen mit Kontext: Mexiko zwischen Weltpolitik und Alltag",
-      "desc": "",
-      "date": "2026-10-15",
-      "publishedAt": "2026-10-15T11:58:50+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/15/kochen-mit-kontext-mexiko-zwischen-weltpolitik-und-alltag/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
     },
     {
       "id": "9922709cd68513ac",
@@ -3651,38 +3707,6 @@
       "source": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ2J2TXdiTmlqVHdMaExIakhxaXkyb3BuV2FjYnZ3TDhTOUNVUnE3M3pvYXRvenhJbjVEOHMyMWZ2dEk5WDdCbnNjWHZldlhLcjVwVmV6OS1MaWtVa2FIM0JEeHYtcVFFbmN2QS1mT1B4VU9ib1ZMbTY0dW9pX3pQVHljRmlheWpZRU9OaEZORTdGeEdCRFJqVTE0QVJiRFdtRHRLQ0hWUjNxVThVSWc0MmczMzNaQzdSOUlXaDhTZW91Y1VSbHNkdEtB?oc=5",
       "via": "Google News",
       "topic": "Verkehr & Bauen"
-    },
-    {
-      "id": "gemeinde-offiziell-53",
-      "title": "Wasser wird angestellt",
-      "date": "2026-04-13",
-      "publishedAt": "2026-04-13T12:00:00+02:00",
-      "desc": "",
-      "officialExcerpt": "Wasser an den Friedhöfen wird angestellt.",
-      "sourceName": "Gemeinde Wartenberg",
-      "sourceId": "gemeinde",
-      "source": "https://www.gemeinde-wartenberg.de/detailansicht.html?tx_news_pi1%5Baction%5D=detail&tx_news_pi1%5Bcontroller%5D=News&tx_news_pi1%5Bnews%5D=53&cHash=51401387c88c1db6b314f89b60ccb7aa",
-      "via": "Amtliche Website",
-      "locality": "Wartenberg",
-      "category": "Rathaus & Politik",
-      "topic": "Rathaus & Politik"
-    },
-    {
-      "id": "curated-v2-20",
-      "date": "2026-03-10",
-      "publishedAt": "2026-03-10T12:00:00+02:00",
-      "title": "50 Jahre Fördergemeinschaft Burgruine Wartenberg",
-      "topic": "Gemeinschaft & Ehrenamt",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/von-der-ruine-zum-wahrzeichen-die-foerdergemeinschaft-feiert-jubilaeum-94211267.html",
-      "via": "Quellengeprüfter Link",
-      "editorial": true,
-      "desc": "Die Fördergemeinschaft Burgruine Wartenberg blickte auf 50 Jahre Vereinsgeschichte zurück. Im Mittelpunkt steht das Engagement für den Erhalt der Burgruine.",
-      "body": "Der Bericht zeichnet nach, wie aus der Ruine ein prägendes örtliches Wahrzeichen werden konnte und welche Rolle das ehrenamtliche Engagement dabei spielte.",
-      "summaryType": "Redaktionelle Zusammenfassung"
     }
   ],
   "sources": [
@@ -3693,7 +3717,7 @@
       "mode": "Gepruefte Links / Archiv",
       "count": 0,
       "note": "Google News: keine aktuellen passenden Artikel",
-      "stored": 15
+      "stored": 14
     },
     {
       "id": "kreis",
@@ -3708,17 +3732,17 @@
       "id": "polizei",
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
-      "mode": "Google News",
-      "count": 4,
+      "mode": "RSS",
+      "count": 7,
       "note": "",
-      "stored": 31
+      "stored": 33
     },
     {
       "id": "oberhessen",
       "name": "Oberhessen-live",
       "url": "https://www.oberhessen-live.de/vogelsberg/",
       "mode": "RSS",
-      "count": 12,
+      "count": 11,
       "note": "",
       "stored": 45
     },
@@ -3727,7 +3751,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 19,
+      "count": 18,
       "note": "",
       "stored": 45
     },
@@ -3736,18 +3760,18 @@
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 7,
+      "count": 9,
       "note": "",
-      "stored": 22
+      "stored": 24
     },
     {
       "id": "la",
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 24,
+      "count": 25,
       "note": "",
-      "stored": 54
+      "stored": 53
     },
     {
       "id": "kulturverein",
@@ -3769,11 +3793,11 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 71,
+  "localCount": 69,
   "localTopics": {
-    "Rathaus & Politik": 11,
+    "Rathaus & Politik": 10,
     "Kultur & Musik": 10,
-    "Gemeinschaft & Ehrenamt": 7,
+    "Gemeinschaft & Ehrenamt": 6,
     "Familie & Soziales": 5,
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 4,
@@ -3782,5 +3806,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-22T17:19:03.019611+00:00"
+  "officialCheckedAt": "2026-10-22T21:44:58.393035+00:00"
 }
