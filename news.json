@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T13:34:38Z",
+  "updatedAt": "2026-10-23T18:28:20Z",
   "items": [
     {
       "id": "gemeinde-offiziell-aeadd173d2e1",
@@ -16,6 +16,48 @@
       "locality": "Wartenberg",
       "category": "Kultur & Musik",
       "topic": "Kultur & Musik"
+    },
+    {
+      "id": "37c19c0c023dd37f",
+      "title": "Schutz, Hilfe und die Aussicht auf ein besseres Morgen",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T18:11:27+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/23/schutz-hilfe-und-die-aussicht-auf-ein-besseres-morgen/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "23617f5eeee42bd4",
+      "title": "Ehrenstadtrat Karl Prang feiert 90. Geburtstag",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T16:22:12+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/23/ehrenstadtrat-karl-prang-feiert-90-geburtstag/",
+      "via": "RSS",
+      "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "0f1e33a8da8bc468",
+      "title": "Fachärztin für Allgemeinmedizin Shirin Nikkhoo zukünftig am MVZ-Standort in Grebenhain tätig",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T14:16:56+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/23/fachaerztin-fuer-allgemeinmedizin-shirin-nikkhoo-zukuenftig-am-mvz-standort-in-grebenhain-taetig/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "1ed15d49718b2e04",
@@ -114,20 +156,6 @@
       "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbGJxVk9BeHNyWGxsb3NQTktIZlZLdkk3Z1pOaXM4WnVtSU1rd3JJeGMyZ2RvVnpIMHpGMzVwUng4MmFLU1Q3TWV2XzN0T3FKdC16OGQ1OXJRRUhYTDJKM0ZxMlpJaGdQc1d4X0V3TExkTExYX2NNZ3k0amRfLWJMd1hsd2JHWEhRaDFpRmVGd0VsR012eW9pazZYbnI?oc=5",
       "via": "Google News",
       "topic": "Familie & Soziales"
-    },
-    {
-      "id": "36dbb0874125d71b",
-      "title": "Schutz, Hilfe und die Aussicht auf ein besseres Morgen",
-      "desc": "",
-      "date": "2026-10-23",
-      "publishedAt": "2026-10-23T06:39:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Schutz-Hilfe-und-die-Aussicht-auf-ein-besseres-Morgen/boxid/1077203",
-      "via": "RSS",
-      "topic": "Vogelsberg"
     },
     {
       "id": "5286069b486cc878",
@@ -1490,34 +1518,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "c9d7ba605eee5a6f",
-      "title": "Talk und Musik in der Werkshalle, KI im Netz und ein Gottesdienst in Ermenrod",
-      "desc": "",
-      "date": "2026-10-16",
-      "publishedAt": "2026-10-16T05:49:20+00:00",
-      "category": "Kultur & Musik",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/16/talk-und-musik-in-der-werkshalle-ki-im-netz-und-ein-gottesdienst-in-ermenrod/",
-      "via": "RSS",
-      "topic": "Kultur & Musik"
-    },
-    {
-      "id": "4af0e0b0f166047a",
-      "title": "Spezialtechnik aus Grebenhain für weltweiten Einsatz",
-      "desc": "",
-      "date": "2026-10-16",
-      "publishedAt": "2026-10-16T04:12:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/16/spezialtechnik-aus-grebenhain-fuer-weltweiten-einsatz/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "7ec877a18e5b1a6a",
       "title": "Fahrbahnsanierung zwischen Laubach und Schotten: Nächste Woche wieder frei - Osthessen|News",
       "desc": "",
@@ -1530,20 +1530,6 @@
       "source": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPanpKWkVtRFFqZGs3ZWtrR19janBPSnFNZ3ZaNnlzYWNYY21KaFBJNVhFT3k4N2pWTWlVNFpsSWM4dnViZmdKYzF1ekZXRy0tOXZWamp1UFZkU1pkdFhzQ0VHRUdBOW5yMzVYcklGaFJRbjRNczc2UW1SaVFfa0xQQUp6S1p5LTRSbUZrSU5TbEdpb1dXYjJlS2txN0lRZEQxd1JyM1ctNEhlV0xlUEw1TlNveU4?oc=5",
       "via": "Google News",
       "topic": "Natur & Umwelt"
-    },
-    {
-      "id": "f359026b6716c73b",
-      "title": "Online-Vortrag: Wie ist das mit dem Pflegegrad?",
-      "desc": "",
-      "date": "2026-10-15",
-      "publishedAt": "2026-10-15T20:02:25+00:00",
-      "category": "Familie & Soziales",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/15/online-vortrag-wie-ist-das-mit-dem-pflegegrad/",
-      "via": "RSS",
-      "topic": "Familie & Soziales"
     },
     {
       "id": "329c028e1e7542d3",
@@ -2701,6 +2687,20 @@
       "topic": "Vogelsberg"
     },
     {
+      "id": "71b889f04328f52e",
+      "title": "vhs-Kurs: „Textilmalerei – Gestalte dein eigenes T-Shirt“",
+      "desc": "",
+      "date": "2026-10-05",
+      "publishedAt": "2026-10-05T08:52:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Textilmalerei-Gestalte-dein-eigenes-T-Shirt/boxid/1075159",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
       "id": "7ee9dcb7c0619a02",
       "title": "SG Landenhausen gewinnt Auswärtsspiel – Verletzter von Krankenwagen geholt",
       "desc": "",
@@ -3746,7 +3746,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 15,
+      "count": 20,
       "note": "",
       "stored": 45
     },
@@ -3801,5 +3801,5 @@
     "Vogelsberg": 2
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-23T13:35:05.574035+00:00"
+  "officialCheckedAt": "2026-10-23T18:28:41.305486+00:00"
 }
