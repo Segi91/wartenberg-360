@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T00:43:33Z",
+  "updatedAt": "2026-10-23T07:41:11Z",
   "items": [
     {
       "id": "gemeinde-offiziell-aeadd173d2e1",
@@ -15,6 +15,76 @@
       "via": "Amtliche Website",
       "locality": "Wartenberg",
       "category": "Kultur & Musik",
+      "topic": "Kultur & Musik"
+    },
+    {
+      "id": "42ed8fb6339dc91c",
+      "title": "B. A. Soziale Arbeit (m/w/d) in der Eingliederungshilfe in Lauterbach | ON JOBS - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T07:03:18+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbGJxVk9BeHNyWGxsb3NQTktIZlZLdkk3Z1pOaXM4WnVtSU1rd3JJeGMyZ2RvVnpIMHpGMzVwUng4MmFLU1Q3TWV2XzN0T3FKdC16OGQ1OXJRRUhYTDJKM0ZxMlpJaGdQc1d4X0V3TExkTExYX2NNZ3k0amRfLWJMd1hsd2JHWEhRaDFpRmVGd0VsR012eW9pazZYbnI?oc=5",
+      "via": "Google News",
+      "topic": "Familie & Soziales"
+    },
+    {
+      "id": "36dbb0874125d71b",
+      "title": "Schutz, Hilfe und die Aussicht auf ein besseres Morgen",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T06:39:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Schutz-Hilfe-und-die-Aussicht-auf-ein-besseres-Morgen/boxid/1077203",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "5286069b486cc878",
+      "title": "SG Landenhausen hat neuen Trainer – und der sieht schon viel Potenzial",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T05:00:00+00:00",
+      "category": "Sport",
+      "locality": "Wartenberg",
+      "sourceName": "Lauterbacher Anzeiger",
+      "sourceId": "la",
+      "source": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNVmZwblc0UmpPVU9JdTNXUmJXSGNDN3RuZXZsSGhxTkdHc0w4NzFYalpQcWJTOWlvUjFYUkhYazNkc0NiTEhkVWRkVlhDVWphNkd2dDk1dXV4dWVLYmdORGpIWUs4NkJ4aU9EeXlkaXRQd3lIVVlfeWNNeGFtdkJNblcwdGx0eUZQVk9QMlJkV3B3QkhVaVRHNTd6c3hDTXViRnUyNWJ1UEN4UDVKQ3NoaUpOVUQ3aWJ0bmVtc1JBOWJkaGYtYWk4eGZheXlncDZBZ3c?oc=5",
+      "via": "Google News",
+      "topic": "Sport"
+    },
+    {
+      "id": "e25f8536ea9b8f9b",
+      "title": "Katzenklo löst Gasalarm aus: Feuerwehr rückt in Lauterbach aus",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T04:56:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWDBhUGNxb1VJMWpTMUZOb2RzVjZNS1NidUhQakRwRGFKc0JvTnpHUktJSElyc2NyMzAxaTNDcng0anFCQzI2MEoxU296blVwZ0t4am5KMENPNDhQZ2NrVFlJblgxcEU0UE5kZ3pDdS00RVRpaWNNOERMOEFnbkZtZDhKYnptY3phenhPYUlRQ3BtSUhXdzczUWtDWk5JOGdrc2RiM2FHcTJfNXpSSUUxU19ESTVlNFJv?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "f8f316d48280967c",
+      "title": "Kreativer Workshop der Kulturförderung des Vogelsbergkreises ein voller Erfolg - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T04:00:00+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWU0tdTZpMmRWR3BUeG50N1gwZkswd2t5X1NkRmNSaGxwUTdBU1loUUFDS0dXMEhIYmg5aHRSMlZFeU14RUFhUWs1WXY1OTl2VzBCZXJmRGdFOHRhdGpleHdwRlJJSnpsbE1jVl9JTnNjdzZfWllqVF80R2VkMjYzd3dFZURjWVQtM1oxZmJBY05oOXZRbmh1MEVtTzliTUphZFpzM0UzMXdQS2hSVWgxeWc2X1dfQlpoMy02OQ?oc=5",
+      "via": "Google News",
       "topic": "Kultur & Musik"
     },
     {
@@ -36,7 +106,7 @@
       "title": "Ein Zeichen für die Truppe: Schlitz bekommt die Gelbe Schleife - Osthessen|News",
       "desc": "",
       "date": "2026-10-22",
-      "publishedAt": "2026-10-22T16:27:46+00:00",
+      "publishedAt": "2026-10-22T16:37:43+00:00",
       "category": "Vogelsberg",
       "locality": "Vogelsberg",
       "sourceName": "Osthessen News",
@@ -510,7 +580,7 @@
     },
     {
       "id": "4169df41d5f91d59",
-      "title": "CDU Alsfeld feiert Herbst- und Helferfest – prominente Gäste - Osthessen|News",
+      "title": "CDU Alsfeld feiert Herbst- und Helferfest – prominente Gäste - OSTHESSEN|NEWS",
       "desc": "",
       "date": "2026-10-21",
       "publishedAt": "2026-10-21T03:48:45+00:00",
@@ -1472,6 +1542,20 @@
       "sourceName": "Osthessen News",
       "sourceId": "osthessen",
       "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONmRIRFU3S28zQ1BrT1laU2gxQXRhMENIZ2ZPaWY3QmpjT0ZiNTZsZE5aR21PX3dVMnRDT05mejY3YThwNjRSdHo4WWlDanZySjVIbldXY3lGUGJJWkNsZklNaDgxN3doWi1iNmRfdjlkNFFHbE1ZZXBlSDVIV295MklSSzRuRXhRc2hZbndDMDRNZ3VRaWxsTmFIVlUtTkJ6b1NMZG9kcXEzTGtM?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "b2c6591a7a950535",
+      "title": "Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-15",
+      "publishedAt": "2026-10-15T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1NbG96M1JRbjVTNFhDcVh2bGtKTVo5WE54UFd6RE44LWlGR0UtWndTTkp1cHZkRVpia1VZSHIzLVc1VUcwR1hrSXQwOXZWTklUNTRoZnJTT1FTeDA?oc=5",
       "via": "Google News",
       "topic": "Vogelsberg"
     },
@@ -2442,20 +2526,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "234f36924c09b700",
-      "title": "Gastank sorgt für Großeinsatz: Anwohner in Romrod evakuiert - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-06",
-      "publishedAt": "2026-10-06T09:11:18+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NUUtyblVvUHFWejBVUVI3b2dUazBGakRNaW1JOTZFcHNRbENsQ3J3blpZaUNXbjNqNVZGXzVHN3ZFRDhzTHVTenhoZC11alhKRkRqQ1NtRkZGZFhpRlREeFZyZW8?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "791964ed210e9545",
       "title": "POL-OH: Folgemeldung: Gemeldeter Gasaustritt in Romrod - Presseportal",
       "desc": "",
@@ -2496,34 +2566,6 @@
       "source": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5nc0VNeVdPZmFXTWdadXByN0dHNm5NNF9LZW9LN0dzZkdfV0FZeWtXRWZRdmIteDN4MklHNTRBdFU1RFFfSVVvSDZ0cHhadVdmYWRKU2gzV1FMeFhOT3ZLbUhJSE8?oc=5",
       "via": "Google News",
       "topic": "Blaulicht"
-    },
-    {
-      "id": "c7ebf7684b3deca3",
-      "title": "Vogelsbergkreis - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-06",
-      "publishedAt": "2026-10-06T07:00:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBmeHNVajZ4SDBGbUN4X3hzeE1Lcmp3MXZTV01TeldxdWIyclE2NnBHNm9JZ1J6Qy0tbXB1UVJFWWdYakszcXRQbnV0ZXUwQWhxRWVDbWFBY1dfUjA?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "2234c41ccfd2b52b",
-      "title": "Vortrag Dr. Mostafa Beizai - Wirbelsäulenbeschwerden - Wann hilft eine Operation?, Alsfeld - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-05",
-      "publishedAt": "2026-10-05T22:06:35+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWXJaV1ZDWGJqczRadlRraDYtQ0IzOXNSOWlMZmt6aHU1Y0ZnVnRvR0FRMFZDY3ZVYzN4Z3JLYTd3dE05dFFydDJoQnBkTEp6UTRibjlkYW01QUpYQzZxMC1OU0Q5WWE1QU83TkFVSkZKZFU1c2JoaHBhWXZlckY5V1ZVRnN2NjJkTE9Za2JFQ1Z1a0w2Y0RMc0s0Zjc4QkY5bmRlMXJsNWJIeERPZFZ2a1k0eEpHTjBIaW5jdw?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
     },
     {
       "id": "97d13737f3f0fd48",
@@ -2641,20 +2683,6 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Textilmalerei-Gestalte-dein-eigenes-T-Shirt/boxid/1075159",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "a6b06cad2514b234",
-      "title": "vhs-Kurs: „Italienisch – leicht und locker A1.2“",
-      "desc": "",
-      "date": "2026-10-05",
-      "publishedAt": "2026-10-05T08:51:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Italienisch-leicht-und-locker-A1-2/boxid/1075158",
       "via": "RSS",
       "topic": "Vogelsberg"
     },
@@ -3674,40 +3702,6 @@
       "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbXRkM3pzdVVOUzFsTWpRQXAyY3MtU3RHei1fRHdjd3d6MWpfSjlwbUJNUjNEamxQLW4zbGphSHIzaVdpN1VZNi1jM3FYeWRHVjFhUkRQY3NtNmJjVUhqdUw4TmxjUWluNjBTVjFQb2Itelk3aGhxdHZFVlVOcDRQbmJpSXhVc0MtZ1cyYjVabGliekQyRWNHVHpXZHY4ejNFZDVjZ1B2bjJfVnhGZ2lXeEhud2I5c09VT3YxNGRVRDRWWjJRLUxpQ1hTMm8wNEoxbkhDWjFB?oc=5",
       "via": "Google News",
       "topic": "Vogelsberg"
-    },
-    {
-      "id": "curated-v2-18",
-      "date": "2026-04-23",
-      "publishedAt": "2026-04-23T12:00:00+02:00",
-      "title": "Männergesangverein Landenhausen veranstaltet Chor-Workshop",
-      "topic": "Kultur & Musik",
-      "category": "Kultur & Musik",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/der-maennergesangverein-praesentiert-14-lieder-nach-drei-tagen-proben-94275895.html",
-      "via": "Quellengeprüfter Link",
-      "editorial": true,
-      "desc": "Der Männergesangverein Landenhausen veranstaltete einen mehrtägigen Chor-Workshop. Der anschließende Auftritt beziehungsweise die Präsentation war Teil des musikalischen Vereinsprogramms.",
-      "body": "Laut dem Artikel wurden nach den Probentagen 14 Lieder präsentiert. Der Workshop zeigt die kulturelle Arbeit des Vereins im Ort.",
-      "summaryType": "Redaktionelle Zusammenfassung"
-    },
-    {
-      "id": "curated-v2-19",
-      "date": "2026-04-23",
-      "publishedAt": "2026-04-23T12:00:00+02:00",
-      "title": "Förderantrag für Sporthalle Landenhausen abgelehnt",
-      "topic": "Verkehr & Bauen",
-      "category": "Verkehr & Bauen",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/keine-foerderung-fuer-die-sporthalle-in-landenhausen-94275832.html",
-      "via": "Quellengeprüfter Link",
-      "editorial": true,
-      "desc": "Ein Förderantrag für die Sporthalle in Landenhausen wurde abgelehnt. Der Artikel beschreibt die Entscheidung und ihre Bedeutung für die geplante Maßnahme.",
-      "body": "Die weitere Finanzierung und Zukunft der Halle sind kommunale Infrastrukturfragen. Aktuelle Beschlüsse sollte man ergänzend über die Gemeinde prüfen.",
-      "summaryType": "Redaktionelle Zusammenfassung"
     }
   ],
   "sources": [
@@ -3718,7 +3712,7 @@
       "mode": "Gepruefte Links / Archiv",
       "count": 0,
       "note": "Google News: keine aktuellen passenden Artikel",
-      "stored": 14
+      "stored": 15
     },
     {
       "id": "kreis",
@@ -3752,7 +3746,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 17,
+      "count": 21,
       "note": "",
       "stored": 45
     },
@@ -3763,16 +3757,16 @@
       "mode": "Google News",
       "count": 9,
       "note": "",
-      "stored": 24
+      "stored": 25
     },
     {
       "id": "la",
       "name": "Lauterbacher Anzeiger",
       "url": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/",
       "mode": "Google News",
-      "count": 25,
+      "count": 26,
       "note": "",
-      "stored": 53
+      "stored": 51
     },
     {
       "id": "kulturverein",
@@ -3794,18 +3788,18 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 69,
+  "localCount": 68,
   "localTopics": {
     "Rathaus & Politik": 10,
     "Kultur & Musik": 10,
     "Gemeinschaft & Ehrenamt": 6,
     "Familie & Soziales": 5,
     "Natur & Umwelt": 1,
-    "Verkehr & Bauen": 4,
+    "Verkehr & Bauen": 2,
     "Blaulicht": 3,
-    "Sport": 27,
+    "Sport": 28,
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-23T00:43:55.434589+00:00"
+  "officialCheckedAt": "2026-10-23T07:41:38.792802+00:00"
 }
