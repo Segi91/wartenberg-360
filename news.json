@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T18:28:20Z",
+  "updatedAt": "2026-10-23T23:13:08Z",
   "items": [
     {
       "id": "gemeinde-offiziell-aeadd173d2e1",
@@ -16,6 +16,34 @@
       "locality": "Wartenberg",
       "category": "Kultur & Musik",
       "topic": "Kultur & Musik"
+    },
+    {
+      "id": "09a446522527da28",
+      "title": "Basar Frischborn Kinderkleidung & Spielzeug, Lauterbach (Hessen) - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T22:05:41+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeGdsZzJBbFlUZ1VoSndXVlV0MEczeUhxZlVCNmFZa192aWhxMFk1b01kLXBXd1ltS3h5RDFnUDdqNUtZb3RIS0RCcWpQQVA3bkxiVG9aRkt6ajRYa1FuMWttLU92Qmp0RUZkbDVxVjlGNTY0bFdIS3djcmVPZk5sd0hEM21zdU5D?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "ffffcf01ee238597",
+      "title": "Kinoabend setzt Zeichen für Verständnis",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T20:13:49+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/23/kinoabend-setzt-zeichen-fuer-verstaendnis/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
     },
     {
       "id": "37c19c0c023dd37f",
@@ -776,7 +804,7 @@
     },
     {
       "id": "96ee54d75bd4291d",
-      "title": "Feuer in der Alsfelder Altstadt - \"Türen und Fenster geschlossen halten\" - OSTHESSEN|NEWS",
+      "title": "Feuer in der Alsfelder Altstadt - \"Türen und Fenster geschlossen halten\" - Osthessen|News",
       "desc": "",
       "date": "2026-10-20",
       "publishedAt": "2026-10-20T15:38:07+00:00",
@@ -1472,20 +1500,6 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Jetzt-hebt-der-Nach-Nachfolger-ab/boxid/1076567",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "5c6f5e11a768a1f7",
-      "title": "Werkzeugkästen aus Garage in Grebenhain gestohlen",
-      "desc": "",
-      "date": "2026-10-16",
-      "publishedAt": "2026-10-16T07:52:39+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/16/werkzeugkaesten-aus-garage-in-grebenhain-gestohlen/",
       "via": "RSS",
       "topic": "Vogelsberg"
     },
@@ -2482,20 +2496,6 @@
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Kommunale-Wrmeplanung-So-gestalten-Stdte-und-Gemeinden-die-Wrmeversorgung-der-Zukunft/boxid/1075429",
       "via": "RSS",
       "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
-      "id": "3c923ea3e0f38fb4",
-      "title": "Auf den Spuren Europas: Europa-Union Vogelsberg reist nach Maastricht - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T05:05:52+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMFM5VEJBMld6ZE5rUzRySVRCaTBfLWhHT2dGT0ZFQVFBdVZxdUxxMkkwbDRFbVRrZkNZU2dRaXJKN0VBQjdzVTNFTEJ1a1hQcGtVZl9yNndUNU5CWS05ODRRcWVhb0NjZlUtX1VCSk5mcWVXWDVBQ1FUNGZJdGV0Mm9sYnlRUU03REU3YTdwcFlPWkhEU3M4VWdjc05GNUlkUHR3UVRqMmlhM3hyRFE?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
     },
     {
       "id": "1080580b209afcf1",
@@ -3746,7 +3746,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 20,
+      "count": 18,
       "note": "",
       "stored": 45
     },
@@ -3801,5 +3801,5 @@
     "Vogelsberg": 2
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-23T18:28:41.305486+00:00"
+  "officialCheckedAt": "2026-10-23T23:13:27.147626+00:00"
 }
