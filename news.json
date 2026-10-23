@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T07:41:11Z",
+  "updatedAt": "2026-10-23T13:34:38Z",
   "items": [
     {
       "id": "gemeinde-offiziell-aeadd173d2e1",
@@ -16,6 +16,90 @@
       "locality": "Wartenberg",
       "category": "Kultur & Musik",
       "topic": "Kultur & Musik"
+    },
+    {
+      "id": "1ed15d49718b2e04",
+      "title": "Informationsangebot der Frühen Hilfen",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T12:12:17+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/23/informationsangebot-der-fruehen-hilfen/",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "8a0f0c7df44e1023",
+      "title": "POL-OH: Einbrüche in Betriebsgebäude",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T12:08:42+00:00",
+      "category": "Blaulicht",
+      "locality": "Vogelsberg",
+      "sourceName": "Polizeipräsidium Osthessen",
+      "sourceId": "polizei",
+      "source": "https://www.presseportal.de/blaulicht/pm/43558/6376873",
+      "via": "RSS",
+      "topic": "Blaulicht"
+    },
+    {
+      "id": "e34a671b542a19b8",
+      "title": "Klavierkonzert mit Star-Pianistin Claire Huangci bei Alsfeld Musik Art",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T10:07:12+00:00",
+      "category": "Kultur & Musik",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/23/klavierkonzert-mit-star-pianistin-claire-huangci-bei-alsfeld-musik-art-2/",
+      "via": "RSS",
+      "topic": "Kultur & Musik"
+    },
+    {
+      "id": "a9d45ed7270de1c5",
+      "title": "vhs-Kurs: Erfolgsrezepte von Hollywood bis zur Bestsellerliste – Was Geschichten unwiderstehlich macht",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T09:46:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Vogelsbergkreis",
+      "sourceId": "kreis",
+      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Erfolgsrezepte-von-Hollywood-bis-zur-Bestsellerliste-Was-Geschichten-unwiderstehlich-macht/boxid/1077247",
+      "via": "RSS",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "c77ee1f821a567d5",
+      "title": "Inklusion als Chance",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T07:56:40+00:00",
+      "category": "Familie & Soziales",
+      "locality": "Vogelsberg",
+      "sourceName": "Oberhessen-live",
+      "sourceId": "oberhessen",
+      "source": "https://www.oberhessen-live.de/2026/10/23/inklusion-als-chance/",
+      "via": "RSS",
+      "topic": "Familie & Soziales"
+    },
+    {
+      "id": "93f42a17e793414b",
+      "title": "Neues Frauenhaus bietet 20 Schutzplätze im Vogelsbergkreis - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T07:33:54+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWmdlZmRfTmoyLXotTTB2eGxPQXFCRWVHbGxLVnVST2RtTHlWeUttX0c1TS1IVG1CNlZraElxdWNKcTc0YVI1U0VpTFJnRUsyMGNkOUwxcjJXbjVDNm1yTXR6VDRiU2EwT2lxZjliZlJGYjNGMWVTVnRKUTY3VnlwWVI4bGNNWDFtdC1KLUxtRzJOR1FRY3V4SG9NcDdPTlRz?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "42ed8fb6339dc91c",
@@ -1462,48 +1546,6 @@
       "topic": "Familie & Soziales"
     },
     {
-      "id": "31b540a4a722353c",
-      "title": "Noch Plätze frei: Poetry-Slam-Workshop mit Johanna Schubert",
-      "desc": "",
-      "date": "2026-10-15",
-      "publishedAt": "2026-10-15T17:53:06+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/15/noch-plaetze-frei-poetry-slam-workshop-mit-johanna-schubert/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "97a76a68cd2798b4",
-      "title": "Annette Dytrt eröffnet Charity-Spiel der Lauterbacher Luchse",
-      "desc": "",
-      "date": "2026-10-15",
-      "publishedAt": "2026-10-15T15:58:24+00:00",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/15/annette-dytrt-eroeffnet-charity-spiel-der-lauterbacher-luchse/",
-      "via": "RSS",
-      "topic": "Gemeinschaft & Ehrenamt"
-    },
-    {
-      "id": "8497613f8e8f553a",
-      "title": "Show and Brass Band Alsfeld begeistert beim Oktoberfest in New Mills",
-      "desc": "",
-      "date": "2026-10-15",
-      "publishedAt": "2026-10-15T13:48:03+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Oberhessen-live",
-      "sourceId": "oberhessen",
-      "source": "https://www.oberhessen-live.de/2026/10/15/show-and-brass-band-alsfeld-begeistert-beim-oktoberfest-in-new-mills/",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "329c028e1e7542d3",
       "title": "POL-OH: Einbruch in Garage - Einbruch in Wohnhaus - Diebstahl von Werkzeugen aus Autos",
       "desc": "",
@@ -2470,20 +2512,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "07a5de434f6f7711",
-      "title": "Von Teerbrocken bis Gefahrgut: Polizei kontrolliert auf der B254 bei Lauterbach - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-06",
-      "publishedAt": "2026-10-06T16:10:53+00:00",
-      "category": "Blaulicht",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVmVLalk3NWRlVjk2X3B5QW1GMm1tMGZWYmNHdURaMlFlXzdDTHY5SnJpNU0tWjBpSTJpT2JTeEhJYU9Eb0FnTWU0ZC1zd2JwbGR4d3BQVlJ2cUlHaHk3dVR5Qjd1eGRadm81NFdZaktIcDFTUFpvY1Vzb3ZWN0pzWElOd3VmZWxGcmJOX3NsbXBiN0l0SDBrLWNQLXUyUndHejR0SVFaVQ?oc=5",
-      "via": "Google News",
-      "topic": "Blaulicht"
-    },
-    {
       "id": "1080580b209afcf1",
       "title": "Wertschätzung für pflegende Angehörige",
       "desc": "",
@@ -2669,20 +2697,6 @@
       "sourceName": "Vogelsbergkreis",
       "sourceId": "kreis",
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Liedbegleitung-mit-der-Gitarre/boxid/1075160",
-      "via": "RSS",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "71b889f04328f52e",
-      "title": "vhs-Kurs: „Textilmalerei – Gestalte dein eigenes T-Shirt“",
-      "desc": "",
-      "date": "2026-10-05",
-      "publishedAt": "2026-10-05T08:52:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Vogelsbergkreis",
-      "sourceId": "kreis",
-      "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/vhs-Kurs-Textilmalerei-Gestalte-dein-eigenes-T-Shirt/boxid/1075159",
       "via": "RSS",
       "topic": "Vogelsberg"
     },
@@ -3688,20 +3702,6 @@
       "desc": "In Angersbach verwandelte ein großer Dorfflohmarkt mit 98 Ausstellenden den Ort in einen Treffpunkt für Besucherinnen und Besucher. Der Beitrag berichtet über das lokale Veranstaltungsgeschehen.",
       "body": "Der Flohmarkt ist Teil des gemeinschaftlichen Lebens in Angersbach. Die Meldung wird als Rückblick im Archiv geführt.",
       "summaryType": "Redaktionelle Zusammenfassung"
-    },
-    {
-      "id": "49f1e1ff119ec7e1",
-      "title": "Die Burgruine Wartenberg lockt hunderte Besucher zur Maifeier",
-      "desc": "",
-      "date": "2026-05-01",
-      "publishedAt": "2026-05-01T07:00:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbXRkM3pzdVVOUzFsTWpRQXAyY3MtU3RHei1fRHdjd3d6MWpfSjlwbUJNUjNEamxQLW4zbGphSHIzaVdpN1VZNi1jM3FYeWRHVjFhUkRQY3NtNmJjVUhqdUw4TmxjUWluNjBTVjFQb2Itelk3aGhxdHZFVlVOcDRQbmJpSXhVc0MtZ1cyYjVabGliekQyRWNHVHpXZHY4ejNFZDVjZ1B2bjJfVnhGZ2lXeEhud2I5c09VT3YxNGRVRDRWWjJRLUxpQ1hTMm8wNEoxbkhDWjFB?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
     }
   ],
   "sources": [
@@ -3728,9 +3728,9 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "RSS",
-      "count": 7,
+      "count": 6,
       "note": "",
-      "stored": 33
+      "stored": 34
     },
     {
       "id": "oberhessen",
@@ -3746,7 +3746,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 21,
+      "count": 15,
       "note": "",
       "stored": 45
     },
@@ -3766,7 +3766,7 @@
       "mode": "Google News",
       "count": 26,
       "note": "",
-      "stored": 51
+      "stored": 50
     },
     {
       "id": "kulturverein",
@@ -3788,7 +3788,7 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 68,
+  "localCount": 67,
   "localTopics": {
     "Rathaus & Politik": 10,
     "Kultur & Musik": 10,
@@ -3798,8 +3798,8 @@
     "Verkehr & Bauen": 2,
     "Blaulicht": 3,
     "Sport": 28,
-    "Vogelsberg": 3
+    "Vogelsberg": 2
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-23T07:41:38.792802+00:00"
+  "officialCheckedAt": "2026-10-23T13:35:05.574035+00:00"
 }
