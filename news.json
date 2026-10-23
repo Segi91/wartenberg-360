@@ -1,7 +1,22 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-22T21:44:34Z",
+  "updatedAt": "2026-10-23T00:43:33Z",
   "items": [
+    {
+      "id": "gemeinde-offiziell-aeadd173d2e1",
+      "title": "24.10.2026 Männergesangsverein Landenhausen Liederabend 135-jähriges Bestehen MGV Landenhausen",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T12:00:00+02:00",
+      "desc": "",
+      "officialExcerpt": "Männergesangsverein Landenhausen Liederabend 135-jähriges Bestehen MGV Landenhausen",
+      "sourceName": "Gemeinde Wartenberg",
+      "sourceId": "gemeinde",
+      "source": "https://www.gemeinde-wartenberg.de/kalenderdaten/detailansicht.html?tx_calendarize_calendar%5Baction%5D=detail&tx_calendarize_calendar%5Bcontroller%5D=Calendar&tx_calendarize_calendar%5Bindex%5D=1986&cHash=f8dde0e9ab8f8d5004f67f6e0fb9c3b6",
+      "via": "Amtliche Website",
+      "locality": "Wartenberg",
+      "category": "Kultur & Musik",
+      "topic": "Kultur & Musik"
+    },
     {
       "id": "3acf7303c31b1451",
       "title": "Kartoffeln werden auch im Bett gar Und Butter lässt sich mit Wasser kühlen",
@@ -3693,20 +3708,6 @@
       "desc": "Ein Förderantrag für die Sporthalle in Landenhausen wurde abgelehnt. Der Artikel beschreibt die Entscheidung und ihre Bedeutung für die geplante Maßnahme.",
       "body": "Die weitere Finanzierung und Zukunft der Halle sind kommunale Infrastrukturfragen. Aktuelle Beschlüsse sollte man ergänzend über die Gemeinde prüfen.",
       "summaryType": "Redaktionelle Zusammenfassung"
-    },
-    {
-      "id": "cdbf2b63599bc205",
-      "title": "Keine Förderung für die Sporthalle in Landenhausen",
-      "desc": "",
-      "date": "2026-04-23",
-      "publishedAt": "2026-04-23T07:00:00+00:00",
-      "category": "Verkehr & Bauen",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQQ2J2TXdiTmlqVHdMaExIakhxaXkyb3BuV2FjYnZ3TDhTOUNVUnE3M3pvYXRvenhJbjVEOHMyMWZ2dEk5WDdCbnNjWHZldlhLcjVwVmV6OS1MaWtVa2FIM0JEeHYtcVFFbmN2QS1mT1B4VU9ib1ZMbTY0dW9pX3pQVHljRmlheWpZRU9OaEZORTdGeEdCRFJqVTE0QVJiRFdtRHRLQ0hWUjNxVThVSWc0MmczMzNaQzdSOUlXaDhTZW91Y1VSbHNkdEtB?oc=5",
-      "via": "Google News",
-      "topic": "Verkehr & Bauen"
     }
   ],
   "sources": [
@@ -3751,7 +3752,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 18,
+      "count": 17,
       "note": "",
       "stored": 45
     },
@@ -3806,5 +3807,5 @@
     "Vogelsberg": 3
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-22T21:44:58.393035+00:00"
+  "officialCheckedAt": "2026-10-23T00:43:55.434589+00:00"
 }
