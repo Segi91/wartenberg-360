@@ -1,7 +1,21 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-24T11:15:05Z",
+  "updatedAt": "2026-10-24T16:03:49Z",
   "items": [
+    {
+      "id": "772f3d95fb4c22db",
+      "title": "Land Hessen fördert sechs Projekte im Vogelsbergkreis mit über 33.000 Euro - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T14:35:37+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOHVxTUxTN0cxeDdMTVJHN1lMd0llcHdRbnNxcDVKUTZTQWJqd0o0U2RFYUZ0NnFLWDVWQTFXZWd5SU9SbUtVeHc1VVBIOHJ6dGhUc01QVXdjYTFFYVNQT1RxVjRKUlozaEtZWkRPQmhsMHBJNTNEZjRfMGR6SE4tSVVCS3k3X2xpNlNpUTU5cXZ4MkMyeFZBMnRDUHAweVZ5U0ZrSjNEbHgxbXBYcW9HeTZoandCR1dl?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
     {
       "id": "gemeinde-offiziell-aeadd173d2e1",
       "title": "24.10.2026 Männergesangsverein Landenhausen Liederabend 135-jähriges Bestehen MGV Landenhausen",
@@ -16,6 +30,20 @@
       "locality": "Wartenberg",
       "category": "Kultur & Musik",
       "topic": "Kultur & Musik"
+    },
+    {
+      "id": "067a9f5071fd97a1",
+      "title": "Lauterbacher Luchse holen 1:4 Auswärtssieg gegen Favoriten \"Real Stars\" - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T11:45:23+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQczhqeXl1aG5qQ2xxY2lkUmhJLV9za1QtekRhNVl0dTI5dUh5cm1naS1TcENxa3ZnSmtuTlZPRkVoN2p5MjhQY2FZeEhLTlFuSFNFUjY1d1Vfd2Vnd1N0d2JrUE5qVkIxTnJ5WURaLTZ2aHJoaUtTSGsyRkdGQzhjZ3B2X2ZfS2tVMGNhSE1lNG1UWGlZUlFfb2JvVzZlY2wwbi16UG84VFZHZ1FwcmdF?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "217ca0d0da5eaa53",
@@ -47,7 +75,7 @@
     },
     {
       "id": "f4d4c33cc58c46cd",
-      "title": "Volle Summe fürs Jubiläum: Land fördert Schlitzerländer TVK mit 8.000 Euro - OSTHESSEN|NEWS",
+      "title": "Volle Summe fürs Jubiläum: Land fördert Schlitzerländer TVK mit 8.000 Euro - Osthessen|News",
       "desc": "",
       "date": "2026-10-23",
       "publishedAt": "2026-10-23T22:17:47+00:00",
@@ -257,7 +285,7 @@
     },
     {
       "id": "f8f316d48280967c",
-      "title": "Kreativer Workshop der Kulturförderung des Vogelsbergkreises ein voller Erfolg - OSTHESSEN|NEWS",
+      "title": "Kreativer Workshop der Kulturförderung des Vogelsbergkreises ein voller Erfolg - Osthessen|News",
       "desc": "",
       "date": "2026-10-23",
       "publishedAt": "2026-10-23T04:00:00+00:00",
@@ -412,7 +440,7 @@
     },
     {
       "id": "d1b9f9d6172ac27c",
-      "title": "Vogelsbergkreis: Neue Ärztin verstärkt das MVZ in Grebenhain - Osthessen|News",
+      "title": "Neue Ärztin verstärkt das MVZ in Grebenhain - OSTHESSEN|NEWS",
       "desc": "",
       "date": "2026-10-22",
       "publishedAt": "2026-10-22T11:32:28+00:00",
@@ -2442,34 +2470,6 @@
       "topic": "Verkehr & Bauen"
     },
     {
-      "id": "1275e7ed2dbdb6db",
-      "title": "Vogelsbergkreis - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-08",
-      "publishedAt": "2026-10-08T07:00:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1IeENzSk9TQUhBWElPTkhLQVZtc3JxU0ZOUmFINTQyNzlQU2xvRGxhYWJ3QWtEQ0VQVnhsNENBVDRGcVJtM1NZS0Q5bnVtVkxUSGN2VWVvQzVVQnM?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
-      "id": "ae3297b9f616305d",
-      "title": "Valerie Riedesel liest: Vom Hitler-Bewunderer zum Widerstand, Schlitz - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T23:14:26+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVFpmazRRNXV6ZGQ5LWh5cHhzeXZoekx6b19zYVE5b3hfSURBdThQN0dqaExKVjUzZzhDLW9FVFd5d2VkNkF1U0d5OFc0eGlTR0xMS1RNN3plSU82REtRcDV1NU1HM1VybnFTaExCWjlJN1pVM0ZQc2M4M1lYQmwzUmFXNVZVWmJZZkI0djZyZnktalVkSnUxcU1vR09CUC10?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "df653e16528d98c0",
       "title": "SG Landenhausen hat neuen Trainer – und trifft bald auf Ex-Coach Güldner",
       "desc": "",
@@ -3743,7 +3743,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 19,
+      "count": 16,
       "note": "",
       "stored": 45
     },
@@ -3798,5 +3798,5 @@
     "Vogelsberg": 2
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-24T11:15:28.217536+00:00"
+  "officialCheckedAt": "2026-10-24T16:04:07.989010+00:00"
 }
