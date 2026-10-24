@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-23T23:13:08Z",
+  "updatedAt": "2026-10-24T04:47:12Z",
   "items": [
     {
       "id": "gemeinde-offiziell-aeadd173d2e1",
@@ -16,6 +16,48 @@
       "locality": "Wartenberg",
       "category": "Kultur & Musik",
       "topic": "Kultur & Musik"
+    },
+    {
+      "id": "217ca0d0da5eaa53",
+      "title": "Fördermittel für \"Alsfeld Theater erleben\": Kultreihe kehrt zurück - Osthessen|News",
+      "desc": "",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T04:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNM19IZ3NCQ0tEMVp5eGxLV05LWTMxOUp0ako0TlZIYUVEZjQwRmlmMVJVUVN3WVU5TzVpNVpGWG94QV9WYVJSOFgtVEprWVZYUGhudFVpTUwzOTlJdGNHR21oOHlyR0NyYlhwbk5hT1JvOENqc3V3amQ5azRqQUtsY0NEbjBMdnVxOHBlb2R4cmlSVXhhTXRlRmhWQ21zUG1tQ2l4eko3YzdMdkk?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "3e63eff50ae44c23",
+      "title": "Katzenklo löst Gasalarm aus: Feuerwehr rückt in Lauterbach aus",
+      "desc": "",
+      "date": "2026-10-24",
+      "publishedAt": "2026-10-24T02:42:43+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWjk2NzFEeE1pekRFNkd2bUVJaXV6bHF1NVBCX2FqMzh3MUJ2bXBuQjJ2MVdqRjgzQmtTMVJnWEpJNktPUm8xLU56TmlzbVp5UkVOdWxnOWhPLUFIbWVRSHp3dkw5RDF2cktwRE1iVG5DWl9UbDYtOEIxSVpIcXNSTmxuNzlnblI2UnNrVnEwcFFDbkRKX1BUdjRyLW8zWjlHdDU2ZWxmOE9pSVlXcW5vNktpYVJSbW1K?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
+    },
+    {
+      "id": "f4d4c33cc58c46cd",
+      "title": "Volle Summe fürs Jubiläum: Land fördert Schlitzerländer TVK mit 8.000 Euro - OSTHESSEN|NEWS",
+      "desc": "",
+      "date": "2026-10-23",
+      "publishedAt": "2026-10-23T22:17:47+00:00",
+      "category": "Gemeinschaft & Ehrenamt",
+      "locality": "Vogelsberg",
+      "sourceName": "Osthessen News",
+      "sourceId": "osthessen",
+      "source": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWXZKb1N4QzE4U1lSOTBSYS0yNHdyajNFNmtySndnREJYUHUtXzNHendmVmdZYjJNaGJobTJRampXWnhKSkJOZEhVWUVpdHJpSVVuakpWWHdoMi0zb1FaUHZnM2liX1UxZmE2dmdpRW1tMzhEeTY1NnlMd1ZaekdlbHFaUnpqb3ZrX0dyYldaa2FhMTVzRS1ZaDlrUXdhNmlpNHZwVFNpTnRQSjYxeUhtWUJBSXd3bGs?oc=5",
+      "via": "Google News",
+      "topic": "Gemeinschaft & Ehrenamt"
     },
     {
       "id": "09a446522527da28",
@@ -1013,20 +1055,6 @@
       "topic": "Kultur & Musik"
     },
     {
-      "id": "6661231df24b12bc",
-      "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
-      "desc": "",
-      "date": "2026-10-19",
-      "publishedAt": "2026-10-19T16:27:34+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Fuldaer Zeitung",
-      "sourceId": "fulda",
-      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTUVvZjF1RGhVQkZPVWFVZGdqUGRlNjc4R3RReXlfWXhEemtPYWRDa05JRUdFUUJmSi12RkJ2RzJqZTJMMEcyVVN3ajctTlVTTjNQdnhYZmlkcXRZQzd4ZUpOWHBkR05QQlJ5VXZ0Y2xvTWtocFozT21IcnNTVW1zbW5oS0hwSHBqSkZsM0RhY2V1b2JpY0hUMm9iWnBSZVY3ejBnUGhVM2NMVDFYNWZ5d1NB?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
-    },
-    {
       "id": "af05beb73c7bef88",
       "title": "3000 Euro für neue Instrumente der Homberger Jungbläser",
       "desc": "",
@@ -1123,6 +1151,20 @@
       "source": "https://www.lifepr.de/pressemitteilung/kreisausschuss-des-vogelsbergkreises/Sehr-erfolgreiche-Nachwuchsarbeit/boxid/1076727",
       "via": "RSS",
       "topic": "Gemeinschaft & Ehrenamt"
+    },
+    {
+      "id": "6661231df24b12bc",
+      "title": "Top im Kfz-Handwerk: Schüler aus Lauterbach wird Dritter bei Landeswettbewerb",
+      "desc": "",
+      "date": "2026-10-19",
+      "publishedAt": "2026-10-19T07:00:00+00:00",
+      "category": "Vogelsberg",
+      "locality": "Vogelsberg",
+      "sourceName": "Fuldaer Zeitung",
+      "sourceId": "fulda",
+      "source": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTUVvZjF1RGhVQkZPVWFVZGdqUGRlNjc4R3RReXlfWXhEemtPYWRDa05JRUdFUUJmSi12RkJ2RzJqZTJMMEcyVVN3ajctTlVTTjNQdnhYZmlkcXRZQzd4ZUpOWHBkR05QQlJ5VXZ0Y2xvTWtocFozT21IcnNTVW1zbW5oS0hwSHBqSkZsM0RhY2V1b2JpY0hUMm9iWnBSZVY3ejBnUGhVM2NMVDFYNWZ5d1NB?oc=5",
+      "via": "Google News",
+      "topic": "Vogelsberg"
     },
     {
       "id": "62ee671663d58a7d",
@@ -2428,20 +2470,6 @@
       "topic": "Vogelsberg"
     },
     {
-      "id": "c147bbd6b36bdaa8",
-      "title": "OHNE GIEßEN – Wie Gärten wieder mit der Natur statt gegen sie arbeiten, Lauterbach (Hessen) - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T09:34:34+00:00",
-      "category": "Natur & Umwelt",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUTBoRnpiQkpHeVRuclY4RmJXUHIzbklia2t4MFZwanJPR3g3b0tDSlNRVGNla2RwdFN1VFNpemdrWkl3VVVPaWxEZXVpT1hGaEYwV1VrSm5renNrdFhscl84ZXhiVjA5Mm51aWdxWlZjNUdKUXlwa3AxWEFFaWo2dXVlVzd4eVdxdk9hNXZRS2kwWDRCZlhNckEzNloybTZ3Q3hidVF0MTh4NmtT?oc=5",
-      "via": "Google News",
-      "topic": "Natur & Umwelt"
-    },
-    {
       "id": "df653e16528d98c0",
       "title": "SG Landenhausen hat neuen Trainer – und trifft bald auf Ex-Coach Güldner",
       "desc": "",
@@ -2454,20 +2482,6 @@
       "source": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQRS1oVXM5Zks4cmFENlRYb2xXVWdRbm1oVWZJU1U0Y28yYW9YQ1dBdEd3YWlNQWJQaE5DWXM0N1M0NldZS3B4YWl1NWRlX2lpYXQwYkRzYUp5d2trRWJnUTkwVFBzTzhUUC1lMndtb2hxWUpiSGxOTFNEdVNHUzJEbXdvYlhaZGVTY1BTSWQ5VVhqUW5wMDU5a1JEbGtuNS1zbEpnVzhIbldxYzNabEIydF9xczFqR1QxaV8yTzJrZWFNXzZacTZDMV9sVGU5bzFfd25RZy1n?oc=5",
       "via": "Google News",
       "topic": "Sport"
-    },
-    {
-      "id": "066c19cb54c699c5",
-      "title": "Vogelsbergkreis - Osthessen|News",
-      "desc": "",
-      "date": "2026-10-07",
-      "publishedAt": "2026-10-07T07:00:00+00:00",
-      "category": "Vogelsberg",
-      "locality": "Vogelsberg",
-      "sourceName": "Osthessen News",
-      "sourceId": "osthessen",
-      "source": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1kR2N1dlNlYUdPRDJ4NFVOaGVHNmQxTTJFUFVQcm4yT0FPVXdldUtXZy1XcG52Tzh4NlB0LXd3bUhaTzNfc21DdHA0RkZ1Ym1wRDNvV1diM2ZUTlk?oc=5",
-      "via": "Google News",
-      "topic": "Vogelsberg"
     },
     {
       "id": "ba8a251f973ad3bf",
@@ -3685,23 +3699,6 @@
       "locality": "Wartenberg",
       "category": "Rathaus & Politik",
       "topic": "Rathaus & Politik"
-    },
-    {
-      "id": "curated-v2-17",
-      "date": "2026-05-04",
-      "publishedAt": "2026-05-04T12:00:00+02:00",
-      "title": "XXL-Flohmarkt in Angersbach: 98 Aussteller",
-      "topic": "Gemeinschaft & Ehrenamt",
-      "category": "Gemeinschaft & Ehrenamt",
-      "locality": "Wartenberg",
-      "sourceName": "Lauterbacher Anzeiger",
-      "sourceId": "la",
-      "source": "https://www.lauterbacher-anzeiger.de/vogelsbergkreis/wartenberg/98-aussteller-verwandeln-das-dorf-in-einen-riesigen-flohmarkt-94291039.html",
-      "via": "Quellengeprüfter Link",
-      "editorial": true,
-      "desc": "In Angersbach verwandelte ein großer Dorfflohmarkt mit 98 Ausstellenden den Ort in einen Treffpunkt für Besucherinnen und Besucher. Der Beitrag berichtet über das lokale Veranstaltungsgeschehen.",
-      "body": "Der Flohmarkt ist Teil des gemeinschaftlichen Lebens in Angersbach. Die Meldung wird als Rückblick im Archiv geführt.",
-      "summaryType": "Redaktionelle Zusammenfassung"
     }
   ],
   "sources": [
@@ -3728,7 +3725,7 @@
       "name": "Polizeipräsidium Osthessen",
       "url": "https://www.presseportal.de/blaulicht/nr/43558",
       "mode": "RSS",
-      "count": 6,
+      "count": 5,
       "note": "",
       "stored": 34
     },
@@ -3746,7 +3743,7 @@
       "name": "Osthessen News",
       "url": "https://osthessen-news.de/",
       "mode": "Google News",
-      "count": 18,
+      "count": 19,
       "note": "",
       "stored": 45
     },
@@ -3757,7 +3754,7 @@
       "mode": "Google News",
       "count": 9,
       "note": "",
-      "stored": 25
+      "stored": 26
     },
     {
       "id": "la",
@@ -3766,7 +3763,7 @@
       "mode": "Google News",
       "count": 26,
       "note": "",
-      "stored": 50
+      "stored": 49
     },
     {
       "id": "kulturverein",
@@ -3788,11 +3785,11 @@
     }
   ],
   "feedCount": 8,
-  "localCount": 67,
+  "localCount": 66,
   "localTopics": {
     "Rathaus & Politik": 10,
     "Kultur & Musik": 10,
-    "Gemeinschaft & Ehrenamt": 6,
+    "Gemeinschaft & Ehrenamt": 5,
     "Familie & Soziales": 5,
     "Natur & Umwelt": 1,
     "Verkehr & Bauen": 2,
@@ -3801,5 +3798,5 @@
     "Vogelsberg": 2
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-23T23:13:27.147626+00:00"
+  "officialCheckedAt": "2026-10-24T04:47:36.953715+00:00"
 }
