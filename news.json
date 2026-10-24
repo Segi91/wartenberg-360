@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updatedAt": "2026-10-24T04:47:12Z",
+  "updatedAt": "2026-10-24T11:15:05Z",
   "items": [
     {
       "id": "gemeinde-offiziell-aeadd173d2e1",
@@ -3752,7 +3752,7 @@
       "name": "Fuldaer Zeitung",
       "url": "https://www.fuldaerzeitung.de/vogelsberg/",
       "mode": "Google News",
-      "count": 9,
+      "count": 7,
       "note": "",
       "stored": 26
     },
@@ -3798,5 +3798,5 @@
     "Vogelsberg": 2
   },
   "note": "Automatischer Feed plus quellengepruefte, datierte Artikelverweise. Keine fremden Volltexte oder Bilder.",
-  "officialCheckedAt": "2026-10-24T04:47:36.953715+00:00"
+  "officialCheckedAt": "2026-10-24T11:15:28.217536+00:00"
 }
